@@ -1,0 +1,42 @@
+[
+    {
+        "name": "QuoteVsBossRailoph",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Novala",
+                    "Right",
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Recule, soldat.|Le vide de ton existence me d\u00e9sole."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "La vie d'un homme qui prot\u00e8ge ses terres et ses amis n'est, et ne sera, jamais vide."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Novala",
+                    "Railoph"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

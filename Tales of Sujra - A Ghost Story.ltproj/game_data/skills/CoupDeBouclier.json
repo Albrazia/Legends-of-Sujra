@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CoupDeBouclier",
+        "name": "Coup De Bouclier",
+        "desc": "-Active Lance Co\u00fbt : 2-\nAdopte une posture d\u00e9fensive et frappe de son bouclier. Inflige et subit 25% de d\u00e9g\u00e2ts.\nEtourdit la cible pendant un tour.\n-Etourdit-\nL'unit\u00e9 affect\u00e9 passe son prochain tour",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            6
+        ],
+        "components": [
+            [
+                "combat_art",
+                "CoupDeBouclierArt"
+            ],
+            [
+                "allowed_weapons",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Lance'"
+            ],
+            [
+                "cost_mana",
+                2
+            ]
+        ]
+    }
+]

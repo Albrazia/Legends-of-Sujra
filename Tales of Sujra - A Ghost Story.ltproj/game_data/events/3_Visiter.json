@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Visiter",
+        "trigger": "Visiter",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "region.nid=='Maison1'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man1",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man1",
+                    "Vous \u00eates ici aux Montagnes des Wyverns.|Ces animaux d\u00e9testent l'odeur de l'acier, alors sortez de chez moi !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Maison2'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Old Woman1",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Old Woman1",
+                    "La vie aux cot\u00e9 des Wyvernes n'est pas simple, c'est s\u00fbr.|Mais lorsque je pense \u00e0 ces pauvres gens qui vivent aux abords de la for\u00eat N\u00e9cromant...|Ma situation devient tout de suite beaucoup plus simple en comparaison avec la leur."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Maison3'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man3",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man3",
+                    "D\u00e9m\u00e9nager ? Mais pour aller o\u00f9 ?|Je suis \u00e9leveur de Wyvern, et j'ai un contract avec le Sanctuaire !|Je n'ai aucune raison de vouloir partir d'ici."
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

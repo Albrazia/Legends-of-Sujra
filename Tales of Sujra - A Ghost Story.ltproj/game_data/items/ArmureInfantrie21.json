@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "ArmureInfantrie21",
+        "name": "ArmureInfantrie2.1",
+        "desc": "-Armure-\n-Infantrie Seulement-\n+2 vitesse",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "ArmureInfantrie2.1"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Infantrie"
+                ]
+            ],
+            [
+                "value",
+                600
+            ]
+        ]
+    }
+]

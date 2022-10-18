@@ -1,0 +1,64 @@
+[
+    {
+        "name": "BattleQuoteVsRevenant",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "unit2.klass=='Revenant'",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "BattleQuoteVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "BattleQuoteAxel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Ridril'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "BattleQuoteRidril"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Shumbus'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "BattleQuoteShumbus"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

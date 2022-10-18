@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CritHisky",
+        "name": "Art : Ikari",
+        "desc": "-Passive-\nL'unit\u00e9 a 10 Crit supp\u00e9lementaire.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            27
+        ],
+        "components": [
+            [
+                "crit",
+                10
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ]
+        ]
+    }
+]

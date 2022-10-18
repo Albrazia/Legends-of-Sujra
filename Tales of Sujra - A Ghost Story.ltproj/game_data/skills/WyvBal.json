@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "WyvBal",
+        "name": "Arc de Si\u00e8ge",
+        "desc": "-Active 3 Charges-\nPermet aux archers \u00e0 proximit\u00e9 de tirer avec un Arc de Si\u00e8ge pendant un tour.\n-Arc de Si\u00e8ge-\nMt : 8, Hit : 60, crit : 0, range : 3-10, Wt : 20",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "ability",
+                "WyvBal"
+            ]
+        ]
+    }
+]

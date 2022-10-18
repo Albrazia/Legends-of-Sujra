@@ -1,0 +1,40 @@
+[
+    {
+        "name": "BattleQuoteONeilRailoph",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"O'Neil\" or unit2.nid == \"O'Neil\") and (unit.nid==\"Railoph\" or unit2.nid==\"Railoph\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Parviendras tu \u00e0 m'amuser autant que ton sup\u00e9rieur ?|Approche."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tu connaitras la justice, O'Neil !|Le coeur de Rubis n'oublie pas."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

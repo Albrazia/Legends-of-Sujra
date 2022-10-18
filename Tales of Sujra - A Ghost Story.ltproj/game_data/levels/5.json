@@ -1,0 +1,900 @@
+[
+    {
+        "nid": "5",
+        "name": "Chapitre 5 : Aventurier d'eau douce",
+        "tilemap": "Chapitre 5",
+        "bg_tilemap": null,
+        "party": "Ghost",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "\u00c9limination : {eval:len(game.get_enemy_units())}",
+            "win": "\u00c9liminer tout les pirates : {eval:len(game.get_enemy_units())}",
+            "loss": "Volta, Railoph, Axel, Shumbus ou Ridril tombe au combat"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "PirateBoss",
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    28,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Oliver",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    25,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    27,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    23,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    23,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    22,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 5,
+                "klass": "Mercenary",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    19,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 5,
+                "klass": "Mercenary",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    19,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 5,
+                "klass": "Mercenary",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    20,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 5,
+                "klass": "Knight",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    24,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 5,
+                "klass": "Knight",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    24,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    17,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 5,
+                "klass": "Cavalier",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Volta",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    2,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Railoph",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Axel",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ridril",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ],
+                    [
+                        "Torch",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Belzir",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Darsenn",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    29,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    30,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 5,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Shumbus",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Magasin",
+                "region_type": "event",
+                "position": [
+                    9,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Magasin",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune1",
+                "region_type": "event",
+                "position": [
+                    11,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Vister",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune1D",
+                "region_type": "event",
+                "position": [
+                    11,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune2",
+                "region_type": "event",
+                "position": [
+                    14,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Vister",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune2D",
+                "region_type": "event",
+                "position": [
+                    14,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge1D",
+                "region_type": "event",
+                "position": [
+                    18,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SpawnPirate",
+                "region_type": "event",
+                "position": [
+                    17,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Bloquer",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation1",
+                "region_type": "formation",
+                "position": [
+                    0,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation2",
+                "region_type": "formation",
+                "position": [
+                    0,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation3",
+                "region_type": "formation",
+                "position": [
+                    1,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation4",
+                "region_type": "formation",
+                "position": [
+                    1,
+                    7
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation5",
+                "region_type": "formation",
+                "position": [
+                    2,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation6",
+                "region_type": "formation",
+                "position": [
+                    2,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation7",
+                "region_type": "formation",
+                "position": [
+                    1,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation8",
+                "region_type": "formation",
+                "position": [
+                    0,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "FaireCoulerLeBateau",
+                "region_type": "normal",
+                "position": [
+                    20,
+                    0
+                ],
+                "size": [
+                    12,
+                    17
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "StartEnemy",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "PirateBoss"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "Cin\u00e9matiqueFin",
+                "units": [
+                    "Volta",
+                    "Railoph",
+                    "Axel",
+                    "Shumbus",
+                    "Ridril"
+                ],
+                "positions": {
+                    "Volta": [
+                        27,
+                        4
+                    ],
+                    "Railoph": [
+                        28,
+                        4
+                    ],
+                    "Axel": [
+                        29,
+                        3
+                    ],
+                    "Ridril": [
+                        26,
+                        3
+                    ],
+                    "Shumbus": [
+                        27,
+                        2
+                    ]
+                }
+            }
+        ]
+    }
+]

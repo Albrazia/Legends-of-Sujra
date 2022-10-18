@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Porte",
+        "trigger": "D\u00e9v\u00e9rouiller",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "region.nid=='PorteEntr\u00e9e'"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Porte"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "PorteDentre"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='PorteSalle1'"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Salle1"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "PorteBoss"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='PorteSalle2'"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Salle2"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Renfort derri\u00e8re la porte",
+                    "Renfort derri\u00e8re la porte",
+                    "fade"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='PorteSalle3'"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Salle3"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='PorteSalle4'"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Salle4"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

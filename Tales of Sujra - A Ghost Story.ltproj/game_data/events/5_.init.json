@@ -1,0 +1,33 @@
+[
+    {
+        "name": ".init",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "Pirate",
+                    "True"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Belzir",
+                    "Darsenn"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Darsenn",
+                    "Belzir"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

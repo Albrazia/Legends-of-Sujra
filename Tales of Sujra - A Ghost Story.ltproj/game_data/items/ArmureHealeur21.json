@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "ArmureHealeur21",
+        "name": "ArmureHealeur2.1",
+        "desc": "-Armure-\n-Soigneur Seulement-\n+3mag",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            21
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "ArmureHealeur2.1"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Healeur"
+                ]
+            ],
+            [
+                "value",
+                600
+            ]
+        ]
+    }
+]

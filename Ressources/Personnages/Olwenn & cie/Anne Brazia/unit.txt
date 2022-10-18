@@ -1,0 +1,18 @@
+Anne
+Deuxième héritière de la famille Brazia.
+Une mage aux pouvoirs terrorisants.
+40 20 10 25 15 10 20 15 45  6
+   20 10 05 05 20 25 10 140 
+Archsage palette : 00026E0C57047C040A4E567BFF7FA514D4291F4B2E19975E903D0B2957046E0C
+skill
+personel : Adept A
+255 : Deviant Avoid E3
+255 : Miracle 25
+255 : Anathema 5E
+255 : Charisma 94
+Archsage
+Un mage qui a poussé sa maîtrise
+des arcanes au delà du possible.
+
+0 base
+   20 10 25 15 10 20 10 45 

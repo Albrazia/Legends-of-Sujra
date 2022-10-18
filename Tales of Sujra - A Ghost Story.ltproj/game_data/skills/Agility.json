@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Agility",
+        "name": "Agility",
+        "desc": "L'unit\u00e9 s'est vu conf\u00e9r\u00e9 5 esquive de plus par Shumbus.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            25
+        ],
+        "components": [
+            [
+                "avoid",
+                5
+            ]
+        ]
+    }
+]

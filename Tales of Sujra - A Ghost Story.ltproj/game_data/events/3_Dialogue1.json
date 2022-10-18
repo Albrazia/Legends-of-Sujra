@@ -1,0 +1,256 @@
+[
+    {
+        "name": "Dialogue1",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "Railoph",
+                    "MidLeft",
+                    "Ridril",
+                    "MidRight",
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Dit Ridril, c'est quoi cette histoire de rang C, S et de prime priv\u00e9e ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Au Sanctuaire tout les employ\u00e9s ou \u00e9quipes sont class\u00e9 en fonction de leurs prouesses,|les rangs vont de C \u00e0 A, puis S. Apr\u00e8s \u00e7a, il y a 2 autres grades, double S et triple S.|Il n'y a qu'un seul groupe dans ces grades l\u00e0."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est d\u00e9cid\u00e9 comment toute ces histoires ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ca d\u00e9pend dans quelle branche tu es, mais d'une fa\u00e7on ou d'une autre c'est un tournoi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Donc plus tu montes en grade, plus tu prouves que tu es dou\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cela me para\u00eet logique pour une organisation tel que celle ci."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais du coup Ridril, toi t'es toute en bas !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Avec cette mission, je devrais pouvoir me qualifier pour passer B !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et quelles sont les avantages \u00e0 monter en grade ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Encore une fois, \u00e7a d\u00e9pend de ta branche. G\u00e9n\u00e9ralement, la paye augmente.|Et pour les Chasseurs et Trotte-Rumeurs, on a acc\u00e9s \u00e0 d'autres prime, mieux r\u00e9num\u00e9r\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Le tournoi des Chasseurs et des Trotte-Rumeurs doit \u00eatre un tournoi martial ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Absolument."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Se battre en \u00e9quipe est un avantage substanciel dans ce cas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ca l'est, et la plupart des Chasseurs le sont.|Ce travail est toujours un travail d'\u00e9quipe de toute fa\u00e7on."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pas les Trotte-Rumeurs ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Non, on est beaucoup plus solo, c'est plus simple de rester discret."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais attend, ce Zobral l\u00e0, il est rang S c'est \u00e7a ?|Il a gagn\u00e9 ses match tout seul ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il n'est pas que rang S, il occupe le rang de chasseur double S du Sanctuaire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Aucun groupe de Chasseur rang S n'arrive \u00e0 le d\u00e9troner ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Non, et ce n'est pas faute d'avoir essay\u00e9.|A chaque tournoi les gradins sont noir de monde pour un jour esp\u00e9rer le voir tomber."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais cette petite qui l'accompagne, qui c'est ?|Pour un chasseur solo \u00e7a fait mauvais genre quand m\u00eame."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "On ne sait pas vraiment. Tout ce que je sais c'est qu'elle est inscrite en tant que familier.|Une cr\u00e9ature sauvage qui a \u00e9t\u00e9 dompt\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Me dit pas que c'est une esclave ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ce serait une disgr\u00e2ce sans nom! Les Anc\u00eatres nous l'ont interdit!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Elle a l'air de bonne humeur et assez frivole pour une esclave.|C'est peut \u00eatre sa fille ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ou m\u00eame sa soeur ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Traiter sa soeur ou sa fille de familier ? M\u00eame pour lui j'ai du mal \u00e0 l'imaginer..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah ! Voila !|M\u00eame toi tu dis que c'est un connard pompeux !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ne me fait pas dire ce que j'ai pas dis !|Mais son mauvais caract\u00e8re est de notori\u00e9t\u00e9 publique, et il l'affiche ostantatoirement..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et les Prime Priv\u00e9e dans tout \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ce sont des prime donn\u00e9 directement pas Le Chef.|C'est le nom que s'est donn\u00e9 le fondateur du Sanctuaire.|C'est une grande autorit\u00e9, et il est invaincu au combat jusqu'\u00e0 ce jour."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Se faire choisir personnelement doit \u00eatre un sacr\u00e9 \u00e9venement dans ce cas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est le moins qu'on puisse dire."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

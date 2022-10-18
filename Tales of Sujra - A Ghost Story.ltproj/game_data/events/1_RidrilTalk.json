@@ -1,0 +1,185 @@
+[
+    {
+        "name": "RidrilTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "(unit.nid=='Volta' OR unit.nid=='Railoph' OR unit.nid=='Axel' OR unit.nid=='Ridril') AND  (unit2.nid=='Volta' OR unit2.nid=='Railoph' OR unit2.nid=='Axel' OR unit2.nid=='Ridril')",
+        "commands": [
+            [
+                "remove_talk",
+                [
+                    "Ridril",
+                    "Volta"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Ridril",
+                    "Axel"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Ridril",
+                    "Railoph"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Volta",
+                    "Ridril"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Railoph",
+                    "Ridril"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Axel",
+                    "Ridril"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Village"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "Ridril",
+                    "MidLeft",
+                    "Railoph",
+                    "MidRight",
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oh qu'est ce que je suis contente de vous voir !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "On allait quand m\u00eame pas vous laisser toi et le village dans la panade !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et ce probl\u00e8me nous concerne autant que tout le monde ici, partir n'\u00e9tait pas moral."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est pas c'qui nous a empech\u00e9 de le faire hier \u00e7a."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Allons Volta, tu sais qu'hier \u00e9tait une situation particuli\u00e8rement dangereuse."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "O\u00f9 est ce que c'est pas dangereux l\u00e0 ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Passons les d\u00e9tails."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quelle est la situation Ridril ?|Tu \u00e9tais en mission ici, tu devrais savoir ce qui se passe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est le second d'O'Neil qui a reprit les reines.|Mais, manifestement, il n'a pas r\u00e9unis grand monde."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il n'est pas encore l\u00e9gitime, et les autres ont du mal \u00e0 le suivre ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est \u00e7a.|Et il essaye de tuer ceux qui ont battu leur Boss pour prouver qu'il est encore meilleur."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et \u00e0 ce moment l\u00e0 les autres commenceront \u00e0 le suivre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est une strat\u00e9gie desesp\u00e9r\u00e9e, mais si elle fonctionne...|La situation avec les bandits retournera \u00e0 la case d\u00e9part et nous serons mort en prime."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'aime pas \u00eatre un marche-pied pour ce genre de macho.|On va lui faire sa f\u00eate \u00e0 lui et tout ses potes !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "N'\u00e9tais tu pas la moins motiv\u00e9e d'entre nous, Volta ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Passons les d\u00e9tails."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 21
+    }
+]

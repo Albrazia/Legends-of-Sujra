@@ -1,0 +1,70 @@
+[
+    {
+        "name": "NidDeWyvern",
+        "trigger": "Fouiller",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{unit.nid}!=Axel"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit.nid}",
+                    "On dirait un nid de Wyvern.|Axel est un chasseur, il saura peut \u00eatre en faire quelque chose."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Voici donc un nid de Wyvern.|Les plus jeunes sont ceux qu'on apprivoire, ils sont les moins d\u00e9gout\u00e9 par l'odeur de l'acier,|et ce faisant ils s'y habituent en grandissant.|...|Essayons."
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "RuineFerm\u00e9",
+                    "fade"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "WyvernRein",
+                    "west",
+                    "WyvernRein",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "Flag1",
+                    "True"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Temple"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

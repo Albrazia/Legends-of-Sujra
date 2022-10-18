@@ -1,0 +1,11 @@
+Axelle
+Un chasseur du Domaine Brazia.
+La vie n'a pas, et ne sera pas tendre 
+avec lui
+1
+  60 40 60 55 30 25 45
+
+skill :
+personnel : Opportunist 55
+20 : Imbue 91
+40 ArcaneBlade 7E

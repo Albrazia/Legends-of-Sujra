@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Ballista",
+        "name": "Arc de Si\u00e8ge",
+        "desc": "",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weight",
+                20
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                4
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "prf_class",
+                [
+                    "Archer",
+                    "Sniper",
+                    "Chasseur",
+                    "PourfendeurRuine"
+                ]
+            ],
+            [
+                "effective",
+                16
+            ],
+            [
+                "effective_tag",
+                [
+                    "Flying"
+                ]
+            ]
+        ]
+    }
+]

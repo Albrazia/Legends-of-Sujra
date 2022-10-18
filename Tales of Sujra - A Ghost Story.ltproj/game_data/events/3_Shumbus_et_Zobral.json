@@ -1,0 +1,232 @@
+[
+    {
+        "name": "Shumbus et Zobral",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Shumbus et Zobral'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Zobral",
+                    "Left",
+                    "Shumbus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tout se passe bien Shumbus ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Au poil Formoil, te fais pas de bile \u00c9mile !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu racontes toujours autant n'importe quoi, c'est que \u00e7a doit aller."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Dit, on pourra les revoir ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Qui \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Les copains qui nous accompagnent l\u00e0."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tout d\u00e9pend d'eux.|Si ils acceptent mon offre, on sera amen\u00e9 \u00e0 les revoir assez souvent oui."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais !|Tu sais quoi ? Ridril m'a laiss\u00e9 mont\u00e9 sur son p\u00e9gase pendant le chemin !|Elle est vraiment trop gentille, et son p\u00e9gase \u00e9tait tout doux !|Et c'\u00e9tait vraiment trop bien de voler !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Comme si tu avais besoin de \u00e7a."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "La prochaine fois j'demanderais \u00e0 Railoph de me porter sur ses \u00e9paules !|Vu comme il est grand, \u00e7a doit \u00eatre incroyable aussi !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est clair que vu sa carrure il aura pas de mal \u00e0 porter un poids plume comme toi.|Tu sais o\u00f9 on va, n'est ce pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bien s\u00fbr, pas difficile \u00e0 deviner."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Si tu veux, je peux te laisser les accompagner pendant leur mission,|\u00e7a t'apprendras \u00e0 esquiver et \u00e0 mieux g\u00e9rer les champs de bataille."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "Smile"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "JE PEUX ?!"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "OH J'OSAIS PAS DEMANDER !"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'EST LE MEILLEUR JOUR DE TOUTE MA VIE !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Aller aller, exag\u00e8re pas non plus."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "JVAIS PREVENIR VOLTA !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "FarRight"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Il suffit de pas grand chose parfois..."
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Doutes et M\u00e9lancolie"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Chasseur et Rumeur"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Je peux venir !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Shumbus et Zobral"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

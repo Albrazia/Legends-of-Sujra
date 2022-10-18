@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Destructible",
+        "trigger": "Destructible",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:region.nid=='Jaune1D'}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Jaune1D"
+                ]
+            ],
+            [
+                "region_condition",
+                [
+                    "Jaune1",
+                    "False"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:region.nid=='Jaune2D'}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Jaune2D"
+                ]
+            ],
+            [
+                "region_condition",
+                [
+                    "Jaune2",
+                    "False"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:region.nid=='Rouge1D'}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Rouge1D"
+                ]
+            ],
+            [
+                "region_condition",
+                [
+                    "Rouge1",
+                    "False"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

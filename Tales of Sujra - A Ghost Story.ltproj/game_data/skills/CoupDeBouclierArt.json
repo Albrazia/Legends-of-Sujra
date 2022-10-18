@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "CoupDeBouclierArt",
+        "name": "Coup de Bouclier",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            6
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Stunned"
+            ],
+            [
+                "damage_multiplier",
+                0.25
+            ],
+            [
+                "resist_multiplier",
+                0.25
+            ],
+            [
+                "cost_mana",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,161 @@
+[
+    {
+        "name": ".intro",
+        "trigger": "level_start",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "chapter_title",
+                [
+                    "Konosuba Eyecatch 2",
+                    "Chapitre 2 : Boite de Pandore"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    ".init"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "0,17"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "Groupe",
+                    "south",
+                    "Groupe",
+                    "normal",
+                    "stack"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1500"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Railoph",
+                    "FarLeft",
+                    "Axel",
+                    "MidLeft",
+                    "Volta",
+                    "MidRight",
+                    "Ridril",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Voici donc l'entr\u00e9e la moins gard\u00e9 du fort."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ferm\u00e9e, \u00e9videment..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et comment est ce qu'on entre ? On va quand m\u00eame pas toquer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "H\u00e9 h\u00e9.|J'ai une id\u00e9e.|Attendez moi l\u00e0, je reviens tout de suite !"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Railoph",
+                    "Axel",
+                    "Volta",
+                    "Ridril"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Volta",
+                    "0,20",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Volta",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Critical Kill"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "VoltaStart",
+                    "west",
+                    "VoltaStart",
+                    "normal",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Comme sur des roulettes !|Et maintenant, plus qu'\u00e0 trouver un moyen d'ouvrir cette porte."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "D\u00e9charge du Vide",
+        "name": "D\u00e9charge du Vide",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            9
+        ],
+        "components": [
+            [
+                "damage_multiplier",
+                2.0
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "alternate_battle_anim",
+                "Critical"
+            ]
+        ]
+    }
+]

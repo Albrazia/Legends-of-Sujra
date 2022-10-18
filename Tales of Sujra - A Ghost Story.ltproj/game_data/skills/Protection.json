@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Protection",
+        "name": "Reste derri\u00e8re Railoph !",
+        "desc": "-Active Co\u00fbt : 2-\nRailoph \u00e9change de place avec un alli\u00e9 et gagne Endurance.\n-Endurance-\nL'unit\u00e9 subit 2 points de d\u00e9g\u00e2ts de moins par coup durant le tour suivant.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "Protection"
+            ]
+        ]
+    }
+]

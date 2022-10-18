@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "FissureAbyssaleItem",
+        "name": "Fissure Abyssale",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            5
+        ],
+        "components": [
+            [
+                "map_hit_sub_blend",
+                [
+                    20,
+                    200,
+                    200
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Rally"
+            ],
+            [
+                "map_cast_anim",
+                "BlueDot"
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "Cardinal_aoe",
+                3
+            ],
+            [
+                "mana_cost",
+                5
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ]
+        ]
+    }
+]

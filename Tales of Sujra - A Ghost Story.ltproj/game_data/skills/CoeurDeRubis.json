@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CoeurDeRubis",
+        "name": "Coeur de Rubis",
+        "desc": "-Active Lance Co\u00fbt : 5-\nAucun d\u00e9g\u00e2t subit lors de l'attaque. \nConf\u00e8re une aura qui r\u00e9duit les d\u00e9g\u00e2ts subit par les alli\u00e9 de 4 points et conf\u00e8re 2 mov \u00e0 2 cases ou moins.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            11,
+            5
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Eclat de Rubis"
+            ],
+            [
+                "cost_mana",
+                5
+            ],
+            [
+                "allowed_weapons",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Lance'"
+            ]
+        ]
+    }
+]

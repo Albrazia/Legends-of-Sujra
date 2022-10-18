@@ -1,0 +1,26 @@
+[
+    {
+        "name": "GameOver",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "game.game_vars.get('FlagMortGlobal')",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:any(tag == 'Lord' for tag in unit.tags)}"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

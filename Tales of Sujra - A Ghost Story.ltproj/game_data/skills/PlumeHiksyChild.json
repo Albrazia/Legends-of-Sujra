@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "PlumeHiksyChild",
+        "name": "Joko",
+        "desc": "-Passive-\nL'unit\u00e9 perd 1 Mov pendant 1 tour.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            10
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

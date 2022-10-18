@@ -1,0 +1,49 @@
+[
+    {
+        "name": "QuoteVsBossShumbus",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Novala",
+                    "Right",
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Que...|Qu'es tu, petite ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Une p'tite fille sans d\u00e9fense, \u00e7a se voit pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Non. Tu es bien plus que ce que tu pr\u00e9tends.|Et tu le sais."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Novala",
+                    "Shumbus"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

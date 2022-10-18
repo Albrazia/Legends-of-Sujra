@@ -1,0 +1,1000 @@
+[
+    {
+        "name": "BaseConvo",
+        "trigger": "on_base_convo",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:'{eval:unit}'=='De retour au pays'}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Castle1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Belzir",
+                    "Right",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ah, Belzir. Je vous cherchais justement."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Belzir"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Salut Railoph. Je peux t'aider ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "J'ai cru comprendre que vous \u00eates originaire de ce Domaine.|Je me demandais si nous allions rencontrer le probl\u00e8me que vous avez cit\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Les pirates ?|Nan t'inqui\u00e8tes pas, je vous aurais d\u00e9j\u00e0 pr\u00e9venu si \u00e7a pouvait arriver.|Non, non, ceux que je cherche ne trainent pas autour de la capitale."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Si ce n'est pas trop indiscret,|pourquoi est ce que vous comptez affronter ces pirates en particulier ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "L'\u00e9quipage Wako tient mon p\u00e8re en otage et le force \u00e0 faire leurs sale boulot avec eux.|On \u00e9tait des marchands honn\u00eate lui et moi,|mais comme beaucoup d'autres on s'est fait avoir.|Ces sales raclures ont fini par laisser un choix \u00e0 mon p\u00e8re : la piraterie ou la mort.|J'\u00e9tais dans l'\u00e9quipage \u00e0 ce moment l\u00e0, et il a fini par accepter leur proposition.|Mon p\u00e8re m'a aid\u00e9 \u00e0 m'enfuir,|et il faut absolument que je m'occupe de ces pirates,|surtout avant que les forces de l'ordre ou d'autres mercenaires ne le fassent."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Car dans ce cas, la vie de votre p\u00e8re serait en dang\u00e9..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Alors qu'il a jamais voulu de tout \u00e7a.|C'est aussi pour \u00e7a que j'ai rejoint le Sanctuaire,|pour surveiller si une prime sur cet \u00e9quipage allait tomber.|Il faut absolument que je devienne plus fort avant que \u00e7a arrive."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Dans ce cas, j'ai une nouvelle qui devrait vous int\u00e9resser.|Sir Hisky, deuxi\u00e8me succ\u00e9sseur, nous a propos\u00e9 de nous entrainer personellement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Le chef de l'\u00e9cole ?! S\u00e9rieusement ?|Mais comment vous avez jou\u00e9 votre coup ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous sommes peut \u00eatre nouveau,|mais nous avons d\u00e9j\u00e0 un r\u00e9seau de connaissance qui nous avantage.|Allons pr\u00e9venir Reymi et nous pr\u00e9parer,|Volta est all\u00e9 cherch\u00e9 les Alice et Darsenn."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "S'entrainer avec un ma\u00eetre Hisky...|C'est une aubaine ! Je savais que la chance me souriait quand je vous ai rejoint !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "De retour au pays"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Un style int\u00e9ressant"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Un style int\u00e9ressant'}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Castle1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Darsenn",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Le festival du Fer Crois\u00e9...|Je savais que le style Hisky \u00e9tait impressionnant, mais pas \u00e0 ce point...|Si je m'en inspire, peut \u00eatre que cette fois..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Alice",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Oh !|Salutation Darsenn !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Darsenn",
+                    "Right",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Alice",
+                    "Left"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Darsenn"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Ah, Alice.|Que faites vous ici ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "La m\u00eame chose que vous, je pr\u00e9sume.|Observer les duels du festival."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Pourquoi feriez vous cela ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Pourquoi ne le ferais-je pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Vous \u00eates une mage, n'est ce pas ?|En quoi observer deux brutes se battre en duel pourrait vous int\u00e9resser ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Je ne pense pas qu'ils soient brutal comme vous les d\u00e9crivez,|ce que je vois est une forme d'art.|Des mouvements pr\u00e9cis, contr\u00f4l\u00e9, entrain\u00e9.|Comment ne pas \u00eatre impressionn\u00e9 par un tel travail ?|Le duel a une forme de gr\u00e2ce qui lui est propre,|les Arts Hisky plus particuli\u00e8rement encore."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Je dois dire que vous m'\u00e9tonn\u00e9.|Avec vos airs de demoiselle raffin\u00e9,|je n'aurais jamais pens\u00e9 que vous \u00eatiez capable de distinguer ce genres de choses."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Demoiselle raffin\u00e9 vous dites ?|Je vous rappel que je suis mercenaire aussi !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "C'est pas faux..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah ! J'vous trouve enfin !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Alice",
+                    "FarLeft",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Darsenn",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Darsenn"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Volta ?|Attend, ne me dit pas qu'on repart d\u00e9j\u00e0 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ha ha ! Mieux que \u00e7a !|Vous avez l'air int\u00e9ress\u00e9 par ces duels hein ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Je comptais les observer pour le reste de l'apr\u00e8s midi, oui..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'ai une sacr\u00e9 nouvelle pour vous..."
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Un style int\u00e9ressant"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Le Deuxi\u00e8me Succ\u00e9sseur"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Le Deuxi\u00e8me Succ\u00e9sseur'}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Castle1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors comme \u00e7a Zobral aurait r\u00e9\u00e7u l'entra\u00eenement de Hardan...|Mais pourquoi ? Ca ne fait aucun sens.|Pourquoi est ce qu'un Succ\u00e9sseur entrainerait un simple mercenaire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'sais p\u00f4.|C'que je sais c'est qu'il l'a entrain\u00e9 avec qu'il devienne mercenaire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quoi.|Mais avec une \u00e9ducation pareil... Pourquoi devenir mercenaire ?|C'est absurde, les gardes H\u00e9riti\u00e8re se le serait arrach\u00e9 !|Mais sa place de Chasseur double S ne m'\u00e9tonne plus...|Avec un style tel que celui de l'Agile, sa force ne fait plus aucun doute."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah, pour \u00eatre honn\u00eate,|la derni\u00e8re fois qu'on est venu ici j'ai pu voir comment les \u00e9l\u00e8ves se battaient.|J'te garantis que le style de Zobral est compl\u00e9tement diff\u00e9rent que celui d'ici."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il aurait abandonn\u00e9 son Art Hisky ?!|Mais jusqu'o\u00f9 est ce qu'il compte insulter l'Empire et son Histoire ?!|Pourquoi a t'il fait une chose pareil !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'sais pas moi, j'suis une p'tite fille orange qui me ballade, c'est tout."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quoi que...|D'apr\u00e8s ce que tu m'as dit, il n'a perdu aucun duel...|Il aurait perfectionn\u00e9 sa technique et cr\u00e9\u00e9 un autre Art ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tu l'as pas encore vu se battre, n'est ce pas ?|C'est difficile d'appeler ce qu'il fait \"un Art\"."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il faut absolument que j'en discute avec le Succ\u00e9sseur.|Cette energum\u00e8ne me tape sur les nerfs et je ne supporte pas \u00e7a."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais, fait donc \u00e7a, ouais.|...|Attend, j'ai l'impression d'oublier quelque chose..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Allons nous pr\u00e9parer Shumbus, il ne faudrait pas arriver en retard \u00e0 l'entra\u00eenement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "OH PUNAISE MAIS OUI !|J'SUIS EN RETARD !"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "En retard pour quoi ?.."
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Le Deuxi\u00e8me Succ\u00e9sseur"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Marchand dans un port"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Le Saviez Vous ? Machisky"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Marchand dans un port'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Reymi",
+                    "FarLeft",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Ce sont donc les prix pratiqu\u00e9 ici...|Oui, je vois..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'est donc ici que tu \u00e9tais."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Reymi"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Ah !|Axel, Railoph... Tout le monde !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "On t'as cherch\u00e9 partout, tu n'as pas id\u00e9e de dispara\u00eetre comme \u00e7a...|Mais Belzir a eu raison de venir voir au port."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Oui !|Dans ma d\u00e9marche de devenir le meilleur marchand du Sanctuaire,|je prends notes des sp\u00e9cialit\u00e9 locales et de leurs prix !|Mais... Pourquoi me cherchiez vous ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous allons participer \u00e0 un entra\u00eenement avec Sir Hisky,|nous avons besoin de notre \u00e9quipement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Tout est dans le carrosse. Je vous y emm\u00e8ne.|\u00c0 ce propos, voudriez vous me laisser me battre avec vous ?|Je ne pourrais pas me battre \u00e0 proprement parler,|mais mes autres comp\u00e9tences vous seront certainement utile."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'est un entrainement, donc on verra si c'est possible ou pas.|Autant essayer maintenant que te mettre sous la lame d'un pirate directement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Je prouverais ma place, vous pouvez en \u00eatre s\u00fbr !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Le Saviez Vous ? Machisky'}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Town"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "5,7"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "",
+                    ".|..|...|....|.....|......|......."
+                ]
+            ],
+            [
+                "end_skip",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Huf..."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Puf..."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Oh saperlipopette de saprisbord...|J'suis pas trop en retard hein ?"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouah... Ca fait longtemps que j'ai plus couru comme \u00e7a...|C'est dans ces moments l\u00e0 qu'on aimerait savoir voler hein ?"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Enfin bref."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "Smile"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Blue sky"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bonjour, bonsoir !|Monsieur Madame !|Messieurs Mesdames !|Aujourd'hui commence une nouvelle \u00e9mission elle aussi anim\u00e9 par votre agrume pr\u00e9f\u00e9r\u00e9,|Shumbus,|Le Saviez Vous !|Eh, regardez ce que je sais faire."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Plop",
+                    "J'peux vous forcer \u00e0 poser des questions :D",
+                    "Comment est ce que \u00e7a va se passer ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Merci d'avoir demand\u00e9, vous \u00eates trop mignon.|C'est tr\u00e8s simple.|Vous cliquez sur \"Le Saviez Vous ? Machin\" et vous m'\u00e9coutez parler.|Ici je vais vous expliquer l'origines de certaines choses et pointer des clins d'oeil."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Et sans plus attendre : Machisky !|D'abord : un peu de g\u00e9ographie et d'histoire.|Le Domaine Hisky est celui qui se trouve le plus au Sud d'entre tous,|il est enti\u00e8rement soulign\u00e9 par l'oc\u00e9an m\u00e9ridonial.|D\u00e9crire le climat de ce Domaine est vraiment simple.|Il pleut beaucoup.|Et quand il pleut pas ?|Y'a un soleil de plomb.|J'en veux pour preuve le bronzage de Hardan.|Ces deux facteurs font que la production de riz est tr\u00e8s efficace dans ce domaine.|Ensuite, l'acc\u00e8s direct \u00e0 l'oc\u00e9an a deux cons\u00e9quences :|d'abord, la grande sp\u00e9cialit\u00e9 du domaine est la p\u00e8che.|Ensuite, c'est le commerce \u00e0 l'internationnal.|Si politiquement l'empire n'est pas tr\u00e8s bavard avec ses voisins,|le commerce avec eux l'est beaucoup plus.|De la soie et des habits des Avians jusqu'aux oeuvre des elfes,|le domaine Hisky n'est frileux sur aucun front pour faire fortune.|Autre grande particuliarit\u00e9 de ce domaine : le comportement de sa famille H\u00e9riti\u00e8re.|Les Hisky sont certainement ceux qui int\u00e9ragissent le plus avec leur peuple.|Tous g\u00e8rent le Dojo de la capitale qui forme \u00e0 qui veut les apprendre les Arts Hisky.|Ceux ci sont un h\u00e9ritage de l'Agile, le surnom de l'Anc\u00eatre Hisky.|Du\u00e9liste hors pair,|il s'est employ\u00e9 apr\u00e8s la guerre \u00e0 ma\u00eetriser toute les armes \u00e0 sa disposition.|Son talent \u00e9tait tel que ses techniques sont encore utilis\u00e9 et apprise aujourd'hui.|Malgr\u00e9 tout, l'\u00e9p\u00e9e reste son arme de pr\u00e9dilection,|et l'Art de l'\u00e9p\u00e9e est le plus connus et|celui qui existe sous le plus de d\u00e9clinaison dans son h\u00e9ritage.|Ses techniques sont tellement compl\u00e8tes et compl\u00e8xes|que certains doivent les \u00e9tudier toute une vie pour les comprendre et les ma\u00eetriser.|Cependant il n'est pas rare que les Hisky, g\u00e9rant l'\u00e9cole de combat toute leur vie,|ma\u00eetrisent plusieurs Arts \u00e0 un niveau assez avanc\u00e9 pour se vanter d'\u00eatre expert.|Maintenant, un petit point culture.|Comme certains l'auront certainement d\u00e9j\u00e0 remarqu\u00e9,|le Domaine Hisky puise une bonne partie de sa culture dans la culture Nippone.|Ce qui saute aux yeux est bien s\u00fbr la nourriture et ces histoire d'Art de Combat,|l'\u00e9cole est m\u00eame parfois appel\u00e9 Dojo dans nos dialogues,|mais l'auteur a fait deux trois efforts de plus.|Le nom de la capitale, vous l'aurez peut \u00eatre retenu, est Machisky.|En plus de contenir le nom de la famille H\u00e9riti\u00e8re locale,|elle contient le mot \"Machi\" traduit en \"Ville\" ou \"Village\" depuis le japonnais.|Une autre r\u00e9f\u00e9rence est le nom du groupe de pirate que Belzir antagonise.|\"Wako\" d\u00e9signe une des grandes vagues de piraterie qui a frapp\u00e9 autour du Japon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Il y aura d'autres r\u00e9f\u00e9rences de faite et qui seront faite,|gardez les yeux ouvert,|mais je vais m'arr\u00eater ici pour aujourd'hui."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Plop",
+                    "Mais pourquoi Shumbus ?",
+                    "On veut continuer \u00e0 t'entendre parler !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'adorerais rester avec vous mais on m'attend pour autre chose.|\u00c0 plus pour un autre \"Le Saviez Vous\" !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Le Saviez Vous ? Machisky"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Tutoriel : La Magie"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Tutoriel : La Magie'}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMagie"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, sister"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Coucou les copains !|J'vous ai pas trop manqu\u00e9 ?|Aujourd'hui on se retrouve, pendant nos vacances au ski,|pour parler encore un petit peu de m\u00e9canique de jeu !|Comme les lecteurs attentifs que vous \u00eates,|vous savez que ce tutoriel va vous pr\u00e9senter le syst\u00e8me de magie du jeu.|Et qui de mieux que la premi\u00e8re mage de l'\u00e9quipe pour en parler avec nous ?|...|Bah j'sais pas trop.|Donc c'est elle que j'ai invit\u00e9 !|Applaudissez : Alice !"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Alice",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Salutation !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bonjour bonjour !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "C'est un plaisir pour moi d'\u00eatre ici et pouvoir vous parler de la magie."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "En m\u00eame temps, en tant que rare mage qui ma\u00eetrise deux \u00c9coles,|tu dois vraiment en connaitre un rayon.|Alors allons y pour les informations les plus importante !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMagie1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Certainement l'objet le plus important d'un mage : son T\u00f4me !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "C'est gr\u00e2ce \u00e0 celui ci que nous, mage, pouvous lancer nos sorts.|Lors de mon \u00e9ducations, on m'a fait comprendre que le perdre \u00e9tait tr\u00e8s grave,|donc j'y fais toujours tr\u00e8s attention...|Mais je connais mes sorts par coeur,|je n'ai jamais vraiment compris le r\u00f4le de ce bouquin..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah c'est assez simple.|Y'a aucun moyen de donner des sorts \u00e0 quelqu'un sans lui donner ce livre.|Et la raison pour laquelle il est si important est la suivante :|Si tu le l\u00e2ches et que d'une fa\u00e7on ou d'une autre tu montes de niveau ensuite...|Il y a une chance non nulle que tu brises l'espace temps.|Ca serait une sacr\u00e9 poisse que \u00e7a arrive,|mais vaut mieux le garder au cas o\u00f9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Je vois..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Mais passons,|on est pas l\u00e0 pour pointer les failles dans le code du jeu."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Absolument !|Comme vous pouvez le remarquer,|la totalit\u00e9 des sorts appris par un mage sont acc\u00e9ssible en \u00e9tendant son T\u00f4me.|Et voyez que mon sort \"Vent\" est suivit d'un petit deux,|c'est son co\u00fbt en mana.|Un mage pour lancer un sort utilise sa mana \u00e0 chaque sort,|il faut g\u00e9rer cette ressources pour ne pas tomber \u00e0 court au mauvais moment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "\u00c0 savoir que cette r\u00e8gle ne s'applique pas \u00e0 vos ennemis.|Eux n'ont pas de mana,|et ont une version des sorts qui a un nombre d'utilisation limit\u00e9 \u00e0 la place.|Mais dit moi, Alice, comment \u00e7a s'utilise tes sorts ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "C'est extr\u00eamement simple."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMagie2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Dans l'onglet d'attaque va se trouver tout mes sorts offensif,|et dans l'onglet des sorts va se trouver tout mes sorts de soutient.|Pour l'instant cela se limite \u00e0 Vent et \u00e0 Soin,|mais \u00e0 force de monter au niveau j'apprendrais d'autres sorts qui se rajouteront \u00e0 la liste.|Chaque onglet ne sera disponible que lorsqu'un sort correspondant sera utilisable."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Pratique."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMagie"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Alice",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Mais dit moi Shumbus,|apr\u00e8s avoir v\u00e9rifi\u00e9 ton status j'ai remarqu\u00e9 que tu \u00e9tais aussi une mage.|O\u00f9 est ton t\u00f4me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Euh...|Eh, filez moi un coup de main les copains !"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Plop",
+                    "DEBUG",
+                    "remove_portrait:Alice"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Alice"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Merci les amis !|Ces mages l\u00e0, toujours \u00e0 poser des questions g\u00e9nante.|R\u00e9parez votre syst\u00e8me compl\u00e9tement d\u00e9fonc\u00e9 avant de me parler.|Ce tutoriel risque d'\u00eatre r\u00e9\u00e9cris avant la prochaine version.|Faut savoir que le syst\u00e8me de magie change tout les mercredi de la semaine.|M'enfin, merci \u00e0 tous d'avoir suivit ce tutoriel!|Et \u00e0 une prochaine fois, dans un autre contexte al\u00e9aloire, pour un autre tutoriel !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Tutoriel : La Magie"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "The Ability that I want to Obtain"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

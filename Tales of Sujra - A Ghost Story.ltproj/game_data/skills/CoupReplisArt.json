@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CoupReplisArt",
+        "name": "Coup Replis",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            3,
+            0
+        ],
+        "components": [
+            [
+                "backstep",
+                1
+            ],
+            [
+                "cost_mana",
+                2
+            ],
+            [
+                "give_status_after_combat",
+                "Faille"
+            ]
+        ]
+    }
+]

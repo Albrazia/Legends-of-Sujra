@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pr\u00e9cisionHisky",
+        "name": "Art : Seikaku",
+        "desc": "-Passive-\nConf\u00e8re Hit+10",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            23
+        ],
+        "components": [
+            [
+                "hit",
+                10
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ]
+        ]
+    }
+]

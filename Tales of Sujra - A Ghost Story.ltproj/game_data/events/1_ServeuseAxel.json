@@ -1,0 +1,175 @@
+[
+    {
+        "name": "ServeuseAxel",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Serveuse",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Excusez moi, les bruits, dehors,  ce sont des bandits, n'est ce pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oui, les restes de la bande de O'Neil, vous devriez rester \u00e0 l'int\u00e9rieur."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Savez vous apr\u00e8s quoi ils sont apr\u00e8s ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Ils veulent r\u00e9duire le village en cendre  et la peau de ceux qui ont tu\u00e9 leur chef."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je vois...| ..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Vous pensez \u00e0 quelque chose ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'est possible oui. On peut sortir ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oui, bien s\u00fbr, mais pourquoi voudriez vous faire \u00e7a ?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oui ! Pourquoi ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pour nous occuper d'eux, \u00e9videment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais...|T'as craqu\u00e9 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Non, je ne sais pas o\u00f9 est Ridril et je m'inqui\u00e8te pour elle.|M\u00eame une voleuse comme toi devrait le comprendre j'esp\u00e8re."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah mince.|Ridril.|Vous avez la cl\u00e9 pour sortir, madame ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oh, oui, tenez.|Et bonne chance l\u00e0 dehors !"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Volta",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Allez Axel, tu tra\u00eenes !"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Volta",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Axel",
+                    "Serveuse"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

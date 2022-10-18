@@ -1,0 +1,40 @@
+[
+    {
+        "name": "LockpickBris\u00e9",
+        "trigger": "combat_end",
+        "level_nid": "2",
+        "condition": "game.check_dead(\"104\")",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:not any(item.nid == 'Lockpick' for item in game.get_unit('Volta').items)}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah... J'ai cass\u00e9 les outils..."
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

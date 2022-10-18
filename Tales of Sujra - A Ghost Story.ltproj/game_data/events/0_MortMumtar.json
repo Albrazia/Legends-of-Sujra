@@ -1,0 +1,300 @@
+[
+    {
+        "name": "MortMumtar",
+        "trigger": "unit_death",
+        "level_nid": "0",
+        "condition": "unit.nid==\"Mumtar\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Mumtar",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mumtar",
+                    "Non... Ca ne peut pas se finir comme \u00e7a...|Boss... Au secours..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Mumtar"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Assault"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "J'ai entendu ton appel, mon ami."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "O'Neil"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "RenfortOneil",
+                    "west",
+                    "RenfortOneil",
+                    "normal"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Maintenant que je suis de retour, finissons ce que nous avons commenc\u00e9."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "O'Neil"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oh non... Pas lui..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "CenterRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah ! C'est lui qui nous chassait !|...|C'est qui d\u00e9j\u00e0 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il s'appelle O'Neil..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est un ancien g\u00e9n\u00e9ral de troupes devenu ren\u00e9gat.|Il s\u00e8me la terreur sur le Domaine depuis le d\u00e9but de la guerre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il a crach\u00e9 au visage des H\u00e9ritiers et salit maintenant le territoire des Anc\u00eatres.|Ma mission \u00e9tait de le localiser, c'est pour cela que je suis ici."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "CenterRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il semblerait que ta mission est un succ\u00e9s alors."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Eh bien...|Rester discret faisait partie des consignes, il est trop dangereux de l'engager au combat."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je ne suis pas de ton avis."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Sais tu seulement de quoi il est capable ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Regarde mieux."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Ridril",
+                    "Axel",
+                    "Railoph"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "O'Neil (O'Neil)",
+                    "15"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "O'Neil (O'Neil)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Axel",
+                    "FarLeft",
+                    "Volta",
+                    "MidLeft",
+                    "Ridril",
+                    "MidRight",
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il est bless\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Pas \u00e9tonnant.|Le colonel de ma compagnie l'a affront\u00e9. Et il n'est pas \u00e0 prendre \u00e0 la l\u00e9g\u00e8re."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Alors allons finir le travail !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est vrai que le laisser s'\u00e9chapper serait perdre une grande occasion..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Et puis, ce village se prot\u00e9gera pas tout seul !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Vous avez raison !"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est d\u00e9cid\u00e9, nous menerons cette mission jusqu'au bout !"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "shove",
+        "name": "Coup Renversant",
+        "desc": "",
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "shove",
+                2
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "truedamage",
+                2
+            ]
+        ]
+    }
+]

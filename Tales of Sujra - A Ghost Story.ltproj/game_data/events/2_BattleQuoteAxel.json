@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BattleQuoteAxel",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors comme \u00e7a il y en a ici aussi..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

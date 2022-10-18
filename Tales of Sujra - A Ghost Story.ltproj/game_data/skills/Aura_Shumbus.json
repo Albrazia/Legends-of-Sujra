@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Aura Shumbus",
+        "name": "Joyeuse et Sucr\u00e9e",
+        "desc": "L'unit\u00e9 se sent plus en forme.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            13
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "SPD",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        1
+                    ],
+                    [
+                        "RES",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "growth_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ],
+                    [
+                        "SKL",
+                        5
+                    ],
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "DEF",
+                        5
+                    ],
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

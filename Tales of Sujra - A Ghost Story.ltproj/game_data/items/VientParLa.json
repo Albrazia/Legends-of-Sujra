@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "VientParLa",
+        "name": "Vient Par La",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "Come Over Here",
+                null
+            ],
+            [
+                "event_after_use",
+                "Global OlwennCorde"
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "Cardinal Range",
+                3
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                5
+            ]
+        ]
+    }
+]

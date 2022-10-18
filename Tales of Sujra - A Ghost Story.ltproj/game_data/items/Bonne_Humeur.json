@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "Bonne Humeur",
+        "name": "Bonne Humeur",
+        "desc": "",
+        "icon_nid": "{J-Treecko} Icon 159",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hit",
+                "Bonne humeur Child"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    119,
+                    0
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Mend"
+            ]
+        ]
+    }
+]

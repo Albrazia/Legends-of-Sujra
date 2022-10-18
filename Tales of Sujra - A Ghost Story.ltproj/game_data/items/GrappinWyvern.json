@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "GrappinWyvern",
+        "name": "Grappin \u00e0 Wyvern",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "status_on_hit",
+                "GrappinWyvernChild"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,133 @@
+[
+    {
+        "nid": "Alice",
+        "name": "Alice",
+        "desc": "Une mage du Domaine Bromsworth. Elle est attentionn\u00e9e et timide et elle maitrise deux le\u00e7ons de gu\u00e9rison diff\u00e9rente.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "MageVS",
+        "tags": [],
+        "bases": {
+            "HP": 17,
+            "STR": 3,
+            "MAG": 6,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 8,
+            "DEF": 3,
+            "RES": 5,
+            "CON": 5,
+            "MOV": 5,
+            "MaxM": 8
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 10,
+            "MAG": 45,
+            "SKL": 50,
+            "SPD": 45,
+            "LCK": 45,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 30
+        },
+        "starting_items": [
+            [
+                "TomeAlice",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Voeur d'Alice(skill)"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                true,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                124
+            ],
+            "Feu (1)": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                1
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Vent": [
+                false,
+                1
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Alice",
+        "affinity": "Light",
+        "fields": [
+            [
+                "2magic",
+                "HeatRay|Feu,Elfire|Super Feu"
+            ],
+            [
+                "DeathQuote",
+                "Moi qui pensait que \u00e7a ne serait pas trop difficile...|Il vaut mieux que je batte en retraite maintenant."
+            ]
+        ]
+    }
+]

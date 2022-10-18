@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "+5hit",
+        "name": "Amulette d'acuit\u00e9",
+        "desc": "-Accessoire-\nConf\u00e8re +5Hit quand tenu dans l'inventaire",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "hit",
+                5
+            ]
+        ]
+    }
+]

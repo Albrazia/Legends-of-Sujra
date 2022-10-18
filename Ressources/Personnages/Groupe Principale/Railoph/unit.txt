@@ -1,0 +1,14 @@
+2F
+
+Railoph
+Une fraiche recrue de la garde Brazia.
+Cherche toujours à protéger sa patrie.
+
+1  04 05 05 05 00 02 03 00 0
+   80 50 55 35 60 15 30 15
+Chevalier palette : 344FFF7FF65AEC495C57DA3AD319B02909194A29E71CFF7FDE7BBD773967A514
+General palette : 344FFF7F7D3F5D4B5C57DA3AD319B029FF7F4A29E71CFF7FDE7BBD773967A514
+Skill :
+personel : Knight Aspirant CB
+20 : RightfulKing 80
+40 : Aegis 18

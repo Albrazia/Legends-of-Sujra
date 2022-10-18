@@ -1,0 +1,152 @@
+[
+    {
+        "name": "RenfortBrigand",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount==4",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Bandit (113)",
+                    "0,21",
+                    "fade"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "Bandit (113)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "113"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "..."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Ridril",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "!!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Ridril",
+                    "Right"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Ridril",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft",
+                    "left",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Que les Anc\u00eatres nous garde, il ne manquait plus que \u00e7a !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Qu'est ce qu'il y a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Tu as d'aussi bon yeux que nous Volta, observe donc cet homme qui vient d'arriver."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il a...|Une \u00e9p\u00e9e ?..|...|Oh !|Une torche !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Exactement petite. Et il ne va pas l'utiliser pour \u00e9clairer les environs."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il faut l'arr\u00eater !"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Railoph",
+                    "Ridril"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Les villages sont sensibles aux attaques de certains bandits et les visiter les en prot\u00e9geront pour le chapitre. En g\u00e9n\u00e9ral, les toits jaune vous donneront des informations sur le monde, et les toits rouges vous donneront des objets ou de l'argent.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

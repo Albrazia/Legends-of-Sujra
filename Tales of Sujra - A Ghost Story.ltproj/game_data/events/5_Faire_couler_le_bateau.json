@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Faire couler le bateau",
+        "trigger": "unit_wait",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:game.get_region('FaireCoulerLeBateau').contains({eval:unit.position}) and unit.nid=='Shumbus'}"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "2"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

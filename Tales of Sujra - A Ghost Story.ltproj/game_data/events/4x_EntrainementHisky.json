@@ -1,0 +1,166 @@
+[
+    {
+        "name": "EntrainementHisky",
+        "trigger": null,
+        "level_nid": "4x",
+        "condition": "False",
+        "commands": [
+            [
+                "table",
+                [
+                    "CompDescription",
+                    "{d:MachiskySkillDesc.{v:Competence_choice_hover}}",
+                    "",
+                    "(1, 1)",
+                    "250",
+                    "bottom",
+                    "menu_bg_parchment (menu_bg_parchment)",
+                    "",
+                    "center",
+                    "FLAG(expression)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:'{1}'=='Volta'}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Competence",
+                    "Que va apprendre Volta ?",
+                    "PostureHisky,Agilit\u00e9Hisky,CritHisky",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_skill",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{1}'=='Railoph'}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Competence",
+                    "Que va apprendre Railoph ?",
+                    "Pr\u00e9cisionHisky,GardeHisky,CritHisky",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_skill",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{1}'=='Axel'}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Competence",
+                    "Que va apprendre Axel ?",
+                    "CantoHisky,Pr\u00e9cisionHisky,CritHisky",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_skill",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{1}'=='Ridril'}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Competence",
+                    "Que va apprendre Ridril ?",
+                    "CantoHisky,PostureHisky,PlumeHisky",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_skill",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{1}'=='Shumbus'}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "Competence",
+                    "Que va apprendre Shumbus ?",
+                    "CantoHisky,GardeHisky,Agilit\u00e9Hisky",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_skill",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "remove_table",
+                [
+                    "CompDescription"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:\"{v:Competence}\"!='BACK'}"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "{1}",
+                    "{v:Competence}"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "Flag1",
+                    "False"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

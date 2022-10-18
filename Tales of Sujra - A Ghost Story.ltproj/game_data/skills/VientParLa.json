@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "VientParLa",
+        "name": "Vient par l\u00e0",
+        "desc": "-Active-\nL'unit\u00e9 attire sa cible jusqu'\u00e0 lui et engage le combat avec si c'est un ennemis.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "ability",
+                "VientParLa"
+            ]
+        ]
+    }
+]

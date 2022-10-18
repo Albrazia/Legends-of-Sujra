@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Wyvern",
+        "trigger": "Wyvern",
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script_with_args",
+                [
+                    "ChangementTableau",
+                    "{eval:region.nid}"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#setupUnitDansWyvern"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#setupRegionDansWyvern"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

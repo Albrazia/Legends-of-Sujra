@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ProvocationRailoph",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Retournez d'o\u00f9 vous venez.|Ou votre vie de bandit de durera pas."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

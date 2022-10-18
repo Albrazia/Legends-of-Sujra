@@ -1,0 +1,147 @@
+[
+    {
+        "nid": "PourfendeurRuine",
+        "name": "Pourfendeur de la Ruine",
+        "desc": "Un archer devenu expert pour occire tout ce qu'il consid\u00e8re comme n\u00e9faste. Le temps des monstres est compt\u00e9.",
+        "tier": 2,
+        "movement_group": "Light Foot",
+        "promotes_from": "Archer",
+        "turns_into": [],
+        "tags": [
+            "Archer"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 21,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 6,
+            "MaxM": 0
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 30,
+            "DEF": 15,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 2,
+            "SPD": 2,
+            "LCK": 0,
+            "DEF": 2,
+            "RES": 3,
+            "CON": 1,
+            "MOV": -99,
+            "MaxM": 2
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 25,
+            "MAG": 20,
+            "SKL": 30,
+            "SPD": 29,
+            "LCK": 30,
+            "DEF": 25,
+            "RES": 24,
+            "CON": 20,
+            "MOV": 30,
+            "MaxM": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                true,
+                40
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Sniper",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "PourfendeurRuine",
+        "combat_anim_nid": "PourfendeurRuine",
+        "fields": []
+    }
+]

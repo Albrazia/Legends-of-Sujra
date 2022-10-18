@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "+1 damage",
+        "name": "Amulette de force",
+        "desc": "-Accessoire-\nConf\u00e8re +1 dommage inflig\u00e9 quand tenu dans l'inventaire",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "damage",
+                1
+            ]
+        ]
+    }
+]

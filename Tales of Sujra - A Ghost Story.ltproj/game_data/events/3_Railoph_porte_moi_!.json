@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Railoph porte moi !",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Railoph porte moi !'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right",
+                    "right",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Railoph tu m'portes sur tes \u00e9paules pendant le trajet apr\u00e8s ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Mais d'o\u00f9 sort cette demande..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Aller dit oui !|Tout ces trajets en claquette, c'est pas facile..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ma foi, pourquoi pas...|Mais je suis d'avis que changer de chausses serait plus simple comme solution."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'peux pas.|Si \u00e7a fait pas \"flip flap\" quand je marche, il manque un truc."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Oui, mais elles t'emp\u00eaches de marcher et de rester discr\u00e8te."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tu peux parler avec ton armure qui fait \"Klonk Klonk\" \u00e0 chaque pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Il est vrai.|Dit moi, jeune fille, je me posais une question."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais quoi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Quel genre de magie utilises tu pour nous soigner ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J't'ai d\u00e9j\u00e0 dit, le baton est fait maison par Wagnius."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Oui, et il te permet d'\u00e9muler la magie de Gu\u00e9rison.|Mais quelle est ta magie avant celle du b\u00e2ton ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "A moi ?|Moi c'est l'Alt\u00e9ration Noire mon truc !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "...|Excuses moi, j'ai mal entendu.|Tu as bien dit alt\u00e9ration noire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est ph\u00e9nom\u00e9nal...|Tu pourrais me faire une d\u00e9monstration ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Si tu veux."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Nosferatu3"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tada !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je ne sens presque plus le poids de mon armure...|C'est donc la nature de ton pouvoir ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est \u00e7a !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tu es vraiment pleine de surprise...|Cela ne m'\u00e9tonne plus que tu te balades avec un mercenaire de la trempe de Zobral..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Il veut pas le dire, mais l'\u00e9l\u00e9ment principale de notre \u00e9quipe c'est moi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "...|Je... Je me sens mal tout \u00e0 coup...|Que se passe t'il ? C'est comme une sensation de brul\u00fbre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "!!",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Railoph porte moi !"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

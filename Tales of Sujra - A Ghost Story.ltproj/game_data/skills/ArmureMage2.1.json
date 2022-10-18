@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "ArmureMage2.1",
+        "name": "ArmureMage2.1",
+        "desc": "-Armure-\n-Mage Seulement-\n+2skl",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

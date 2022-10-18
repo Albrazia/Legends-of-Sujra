@@ -1,0 +1,160 @@
+[
+    {
+        "name": "Tour1",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount==1",
+        "commands": [
+            [
+                "music",
+                [
+                    "Give Blessings to Us on the Road"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hardan",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je vois que tout le monde est pr\u00eat \u00e0 temps.|Eh bien, commen\u00e7ons ce combat sans plus attendre !|Mais, puisque cela reste un combat d'entrainement,|laissez moi vous donner quelques conseils.|Les \u00e9l\u00e8ves de l'\u00e9cole Hisky, ont tous leurs forces.|Je vous invite \u00e0 ne pas les sous estimer, et \u00e0 v\u00e9rifer de quoi ils sont capable.|Et plus encore, faite attention \u00e0 leur \u00e9quipement.|Foncer t\u00eate baiss\u00e9 pourrait vous co\u00fbter la victoire.|En ce qui concerne les r\u00e8gles : nous nous arr\u00eaterons \u00e0 la premi\u00e8re goutte de sang,|il est absolument interdit de tuer ou blesser gravement son adversaire.|Si l'un des deux camps venaient \u00e0 enfreindre cette r\u00e8gle,|le coupable serait traduit en justice pour homicide ou aggression aggrav\u00e9.|Il n'y a aucune raison que cela arrive, mais il est capitale que je le rappel.|Ne vous laissez pas refroidir par \u00e7a.|La seule autre r\u00e8gles \u00e0 celle ci est la suivante :|Le combat sera arr\u00eat\u00e9 si tout les membres de l'\u00e9quipe Ghost tombe au combat,|ou si un membre de l'\u00e9quipe Ghost parvient \u00e0 me contraindre \u00e0 l'abandon.|Tirez le meilleur de cette situation,|c'est s\u00fbrement la seule que vous rencontrerez o\u00f9 votre vie ne sera pas en danger.|Et que le combat...|Commence !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ouais, j'ai pas quitt\u00e9 le monde du vol pour finir assassin, on va pas d\u00e9conner."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors t\u00e2chons de ne blesser personne.|Pour quelqu'un avec autant de doigt\u00e9 que toi,|\u00e7a ne devrait pas \u00eatre un probl\u00e8me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est trop gentil de me complimenter comme \u00e7a Axel."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ce doigt\u00e9 fait r\u00e9f\u00e9rence \u00e0 ton pass\u00e9 de voleuse,|tu ne devrais pas en \u00eatre aussi fi\u00e8re."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "OffscreenRight",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Et toi fait attention \u00e0 pas d\u00e9pecer ces pauvres \u00e9l\u00e8ves~~"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "MidRight",
+                    "right",
+                    "Smile,HalfCloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Axel : D\u00e9truit."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tsk."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "",
+                    "Comme expliqu\u00e9 plus t\u00f4t par Hardan, le sang ne coulera pas pendant ce chapitre.|Vos unit\u00e9 tomb\u00e9 au combat reviendront au prochain sans faute, et les personnages principaux peuvent \u00eatre vaincu sans encourir de Game Over.|Il est aussi impossible de perdre sur cette carte. Si tout vos personnages tombent au combat, le chapitre sera termin\u00e9 et vous continuerez vers le prochain.|Faites en sorte de vaincre Hardan pour recevoir des r\u00e9compenses suppl\u00e9mentaire.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

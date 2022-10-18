@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "ArmureInfantrie3.1",
+        "name": "ArmureInfantrie3.1",
+        "desc": "-Armure-\n-Infantrie Seulement-\n+1atq +2def -1vit",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

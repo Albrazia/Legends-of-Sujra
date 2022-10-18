@@ -1,0 +1,87 @@
+[
+    {
+        "name": ".Init",
+        "trigger": "level_start",
+        "level_nid": "4x",
+        "condition": "True",
+        "commands": [
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Hardan"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Axel"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Railoph"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Reymi"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Ridril"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Belzir"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Alice"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "t"
+                ]
+            ],
+            [
+                "change_roaming_unit",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "Flag1",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

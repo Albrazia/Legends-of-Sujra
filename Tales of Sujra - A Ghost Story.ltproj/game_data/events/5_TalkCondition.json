@@ -1,0 +1,67 @@
+[
+    {
+        "name": "TalkCondition",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:(unit1.nid=='Belzir' and unit2.nid=='Darsenn')or(unit1.nid=='Darsenn' and unit2.nid=='Belzir')}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Belzir",
+                    "Right",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Darsenn",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "On va pas les laisser faire.|Ne retiens pas tes coups, ils ne manqueront \u00e0 personne."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Tu peux en \u00eatre certain.|Abattons les ensemble, pour que vos mers soient plus s\u00fbr."
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Belzir",
+                    "BuffAtkDef"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Darsenn",
+                    "BuffAtkDef"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

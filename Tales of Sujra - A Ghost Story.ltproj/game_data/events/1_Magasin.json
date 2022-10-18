@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Magasin",
+        "trigger": "Magasin",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "shop",
+                [
+                    "{unit}",
+                    "Vulnerary",
+                    "vendor"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

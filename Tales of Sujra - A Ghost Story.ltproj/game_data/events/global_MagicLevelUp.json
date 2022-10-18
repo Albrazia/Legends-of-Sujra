@@ -1,0 +1,39 @@
+[
+    {
+        "name": "MagicLevelUp",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:unit.get_field('{eval:'{eval:unit.level}'+'magic'}')!=None}"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "plop",
+                    "Choisissez un sort \u00e0 apprendre",
+                    "{eval:unit.get_field('{eval:'{eval:unit.level}'+'magic'}')}"
+                ]
+            ],
+            [
+                "add_item_to_multiitem",
+                [
+                    "{eval:unit.name}",
+                    "{eval:'Tome' + unit.name}",
+                    "{eval:game.game_vars.get('_last_choice')}",
+                    "FLAG(no_duplicate)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

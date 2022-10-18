@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Flag1",
+        "desc": "Various uses"
+    },
+    {
+        "nid": "Sanct",
+        "desc": ""
+    },
+    {
+        "nid": "Wyvern",
+        "desc": null
+    },
+    {
+        "nid": "Atelier",
+        "desc": null
+    },
+    {
+        "nid": "Aurora",
+        "desc": null
+    },
+    {
+        "nid": "Roamy",
+        "desc": null
+    },
+    {
+        "nid": "ParlerAurora",
+        "desc": null
+    },
+    {
+        "nid": "FlagMortGlobal",
+        "desc": null
+    }
+]

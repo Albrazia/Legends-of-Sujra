@@ -1,0 +1,30 @@
+[
+    {
+        "name": "vdRouge1",
+        "trigger": "Destructible",
+        "level_nid": "1",
+        "condition": "region.nid==\"Rouged1\"",
+        "commands": [
+            [
+                "flicker_cursor",
+                [
+                    "1,12"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Rouged1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

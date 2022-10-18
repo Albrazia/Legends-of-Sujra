@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Roamy",
+        "trigger": "Roamy",
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script_with_args",
+                [
+                    "ChangementTableau",
+                    "{eval:region.nid}"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#setupUnitDansRoamy"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#setupRegionDansRoamy"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

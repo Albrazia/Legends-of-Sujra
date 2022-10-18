@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Tuto : Les comp\u00e9tences Active",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Tuto : Les comp\u00e9tences Active'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "TutoActive1"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, sister"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Coucou les copains !|Comme je l'ai demand\u00e9, notre developpeur a chang\u00e9 de fond !|Maintenant on est juste un tout petit peu moins au milieu de nul part !|Aujourd'hui, pour ce tuto, j'ai un invit\u00e9 de marque !|Laissez moi vous pr\u00e9senter..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tada ! Railoph ! Bonjour Railoph !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Bonjour Shumbus, merci de m'avoir invit\u00e9, c'est toujours un plaisir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est r\u00e9ciproque mon grand gaillard.|Aujourd'hui le tutoriel porte sur les comp\u00e9tence active.|Je me suis dit qu'un v\u00e9t\u00e9ran comme toi aurait certainement beaucoup \u00e0 nous dire !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et ton intuition est bonne."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Sans plus attendre, passons au coeur du sujet !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoActive2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Une \"Active\" est le terme raccourcis pour d\u00e9signer \"toute les comp\u00e9tence \u00e0 utiliser\".|Si vous vous souvenez bien, je vous ai d\u00e9j\u00e0 pr\u00e9sent\u00e9 la mienne !|C'est une Passive en m\u00eame temps qu'une Active,|avec un peu de logique pour pourrez d\u00e9chiffrer ce que \u00e7a veut dire.|Aujourd'hui les comp\u00e9tences que je vous pr\u00e9sente ont cependant|une grande diff\u00e9rence par rapport \u00e0 la mienne !|Railoph, fait nous le plaisir de nous pointer la subitilit\u00e9..."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoActive3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "La diff\u00e9rence, ou plutot les diff\u00e9rences, sont tr\u00e8s simple mais absolument vital.|La plupart des Active ont soit un Co\u00fbt, soit une limitation, voir les deux."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Exactement !|Dit nous en plus."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Le co\u00fbt se r\u00e9f\u00e8re au prix en mana \u00e0 payer pour utiliser la comp\u00e9tence.|Si vous n'avez pas de mana, vous ne pourrez pas lancer votre comp\u00e9tence.|Ensuite, la limitation :|Comme vous pouvez le remarquer, dans l'intitul\u00e9 de ma comp\u00e9tence se trouve le mot \"Lance\".|Cette pr\u00e9cision a deux sens diff\u00e9rent mais ins\u00e9parable.|Ma comp\u00e9tence n'est utilisable qu'avec une lance,|et seulement sur les cibles que sont capable d'attaquer une lance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh beh, donner un coup de bouclier c'est pas facile..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est tout un art, Shumbus. Tout un art."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoActive1"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Railoph",
+                    "Right",
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Merci beaucoup pour ton intervention aujourd'hui Railoph !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'\u00e9tait avec plaisir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "A une prochaine fois pour un autre tuto et un autre invit\u00e9 de marque !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Tuto : Les comp\u00e9tences Active"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

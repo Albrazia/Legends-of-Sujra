@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "RescueM",
+        "name": "Agilit\u00e9 A\u00e9rienne",
+        "desc": "-Passive-\nL'unit\u00e9 peut se d\u00e9placer sur les cases adjacentes aux alli\u00e9s dont les hp sont <=50%",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            10
+        ],
+        "components": [
+            [
+                "witch_hp",
+                50
+            ]
+        ]
+    }
+]

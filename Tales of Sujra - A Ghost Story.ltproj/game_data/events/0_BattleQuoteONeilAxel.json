@@ -1,0 +1,40 @@
+[
+    {
+        "name": "BattleQuoteONeilAxel",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"O'Neil\" or unit2.nid == \"O'Neil\") and (unit.nid==\"Axel\" or unit2.nid==\"Axel\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Hors de mon chemin, enfant des bois.|Tu n'es pas digne de ma hache."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'est pas comme si tu allais avoir l'occasion de m'approche de toute fa\u00e7on."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

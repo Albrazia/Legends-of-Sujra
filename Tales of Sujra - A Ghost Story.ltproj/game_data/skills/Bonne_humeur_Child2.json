@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Bonne humeur Child2",
+        "name": "Bonne humeur",
+        "desc": "L'unit\u00e9 se sent plus en forme.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            13
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

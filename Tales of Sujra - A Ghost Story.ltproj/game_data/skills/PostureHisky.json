@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "PostureHisky",
+        "name": "Art : Shisei",
+        "desc": "-Passive-\n+15 pr\u00e9cision lorsque l'unit\u00e9 initie le combat\n+15 esquive lorsque l'ennemis initie le combat",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            48
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "15 if mode == 'attack' else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "0 if mode == 'attack' else 15"
+            ],
+            [
+                "proc_rate",
+                "ALWAYS"
+            ],
+            [
+                "defense_pre_proc",
+                "Avoid"
+            ],
+            [
+                "attack_pre_proc",
+                "Hit"
+            ]
+        ]
+    }
+]

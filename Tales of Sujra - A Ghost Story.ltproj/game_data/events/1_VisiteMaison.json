@@ -1,0 +1,76 @@
+[
+    {
+        "name": "VisiteMaison",
+        "trigger": "Visiter",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "region.nid=='Rouge1'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "vRouge1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Rouge2'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "vRouge2"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Rouge3'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "vRouge3"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Jaune1'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "vJaune1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Jaune2'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "vJaune2"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

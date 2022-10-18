@@ -1,0 +1,73 @@
+[
+    {
+        "name": "QuoteVsBossRidril",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "BanditSousChef",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Toi... Si tu as pu founier, ce n'est que gr\u00e2ce \u00e0 moi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Comment \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Tu \u00e9tais discr\u00e8te, oui, mais sans exp\u00e9rience.|Je comptais sur le Sanctuaire pour tuer O'Neil|mais tu t'en es occup\u00e9 toi m\u00eame !|Tu me facilites la t\u00e2che, il ne te reste plus qu'\u00e0 mourir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Tout comme pour O'Neil, tout ne se passera pas selon tes plans !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "BanditSousChef"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Sous Chef des Bandits (SousBandits)",
+                    "Attack"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

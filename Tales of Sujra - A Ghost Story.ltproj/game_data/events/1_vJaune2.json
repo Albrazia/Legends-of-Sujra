@@ -1,0 +1,46 @@
+[
+    {
+        "name": "vJaune2",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "true",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Village"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gamin1",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gamin1",
+                    "Mon papa est chasseur !|Il a eu le droit de le devenir de la part de Sieur Brazia en personne, vous savez ?|La chasse est tr\u00e8s r\u00e9glementer, c'est parce que c'est une des principales richesse d'ici."
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Jaune2"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

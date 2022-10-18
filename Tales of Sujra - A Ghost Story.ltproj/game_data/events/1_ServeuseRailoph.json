@@ -1,0 +1,89 @@
+[
+    {
+        "name": "ServeuseRailoph",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Serveuse",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Madame ? Mes amis ci pr\u00e9sent ont cru entendre du bruit \u00e0 l'exterieur.|S'est il pass\u00e9 quelque chose d'alarmant ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oh, oui... Une autre trag\u00e9die... |Le groupe de O'Neil revient \u00e0 la charge."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Mais, j'ai pourtant cru comprendre que leur chef avait \u00e9t\u00e9 d\u00e9fait.|Pour quelle raison reviendraient ils ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Eh bien justement, ils veulent le venger."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Hm. La situation est grave.|Permettez moi de vous d\u00e9ranger une  nouvelle fois, madame.|Auriez vous vu une cavali\u00e8re p\u00e9gase du nom de Ridril se lever ce matin ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Absolument, oui. Elle m'a d'ailleurs demand\u00e9  de vous faire passer un message.|Elle est all\u00e9 faire une rapide reconnaissance  avant de prendre le petit d\u00e9jeuner."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Un sens du devoir admirrable.|Et bien. Pr\u00e9parez donc ce petit d\u00e9jeuner.|Nous reviendrons vite."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Si vous souhaitez sortir vous aurez besoin  de cette cl\u00e9. Bonne chance \u00e0 vous tous !"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Railoph",
+                    "Serveuse"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

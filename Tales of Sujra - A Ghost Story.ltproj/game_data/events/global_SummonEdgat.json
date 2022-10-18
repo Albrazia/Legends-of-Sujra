@@ -1,0 +1,78 @@
+[
+    {
+        "name": "SummonEdgat",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "alert",
+                [
+                    "summon edgat"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.get_unit('Edgat')"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Edgat existe"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "Edgat"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Edgat",
+                    "warp"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "alert",
+                [
+                    "Edgat n'existe pas"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Edgat"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "add_unit",
+                [
+                    "Edgat",
+                    "{position}",
+                    "warp",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Faille",
+        "name": "Faille",
+        "desc": "Cette unit\u00e9 subit 4 points de d\u00e9g\u00e2ts suppl\u00e9mentaire\npar attaque par cumule de la comp\u00e9tence \npendant un tour",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            1
+        ],
+        "components": [
+            [
+                "resist",
+                -4
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "stack",
+                999
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

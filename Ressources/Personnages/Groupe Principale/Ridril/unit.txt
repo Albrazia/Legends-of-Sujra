@@ -1,0 +1,10 @@
+Citrus
+Une Trotte-Rumeur du Sanctuaire.
+Elle ne se laisse pas marcher sur les pieds.
+
+1 00 02 03 02 00 01 02 01 0
+  80 40 40 50 25 20 40 10
+
+skill :
+Personel : Forager B0
+20 : Resourceful 58

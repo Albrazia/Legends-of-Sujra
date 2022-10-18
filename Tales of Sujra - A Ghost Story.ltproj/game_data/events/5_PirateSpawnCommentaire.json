@@ -1,0 +1,81 @@
+[
+    {
+        "name": "PirateSpawnCommentaire",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "14,7",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'ai le sentiement qu'il n'y en a pas qu'un seul l\u00e0 dedans."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et ils ne vont pas tarder \u00e0 sortir en masse."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Si on ne ferme pas cette porte, on risque d'\u00eatre tr\u00e8s vite submerg\u00e9."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "FarRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Et je sens qu'ils vont vite \u00eatre chiant avec leurs \"Yah Har\".|Alors d\u00e9p\u00e9chez vous de fermer cette porte !"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

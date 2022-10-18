@@ -1,0 +1,53 @@
+[
+    {
+        "name": "vRouge1",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "true",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Village"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Moins fort ! Vous allez la reveiller !|Comment ? Des bandits ?|Oh, vous \u00eates assez grand pour vous en occuper vous m\u00eame, non ?|...|...|Bon, d'accord. Prenez... euh... \u00e7a. Une amie \u00e0 moi l'a trouv\u00e9 par terre.|Et bonne chance."
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Cailloux"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Rouge1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

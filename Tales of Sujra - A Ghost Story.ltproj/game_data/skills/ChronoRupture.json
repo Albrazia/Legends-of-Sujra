@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ChronoRupture",
+        "name": "ChronoRupture",
+        "desc": "-Active \u00c9p\u00e9e Co\u00fbt : 4-\nConf\u00e8re Hit/Dodge +30, emp\u00eache de subir un coups critique, permet \u00e0 l'unit\u00e9 de frapper deux fois avant son adversaire et de bouger apr\u00e8s le combat pendant un tour.\n",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "ChronoRompu"
+            ],
+            [
+                "cost_mana",
+                4
+            ],
+            [
+                "allowed_weapons",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Sword'"
+            ]
+        ]
+    }
+]

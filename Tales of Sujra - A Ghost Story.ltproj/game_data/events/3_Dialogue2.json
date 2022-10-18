@@ -1,0 +1,451 @@
+[
+    {
+        "name": "Dialogue2",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Zobral",
+                    "MidLeft",
+                    "Shumbus",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "On a bien faillit attendre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On est pas non plus \u00e0 ton service."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ce mage, c'est ici que vous l'avez affront\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "En effet oui. Dites moi, quelles \u00e9taient ces choses qu'il a invoqu\u00e9 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "T'auras pas de r\u00e9ponse de ma part."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ce que vous venez de voir, c'est pas quelque chose qui aurait du arriver.|Vous avez mit les pieds dans quelque chose qui vous d\u00e9passe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vous comptez donc nous r\u00e9duire au silence ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Je pourrais, oui.|Facilement, m\u00eame."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Zobral, ils sont pas m\u00e9chant..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "T'en fais pas Shumbus. Tuer de sang froid n'est pas dans mes habitudes.|Je compte pas vous \u00e9liminer sauf si vous essayer de le faire.|Mais il va falloir que je vous emm\u00e8ne tout les trois au Sanctuaire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Et tu crois qu'on va gentillement accepter ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Et tu crois que je te laisse le choix ?|Ce mage noir, il agit pas de son cot\u00e9.|Ces cr\u00e9atures, y'en a pas que deux qui se baladent.|Et vous ? Vous savez des choses qui vous mettent en danger.|Votre vie est en danger juste pour les avoir vu,|le Sanctuaire sera pour vous une protection.|Et tout ce que je dis l\u00e0 s'applique aussi pour toi, Ridril."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'\u00e9tait une prime priv\u00e9e, n'est ce pas ?|Ca et le fait que c'est vous, monsieur Zobral, qui vous vous en occupez...|Montre que tout ce qui se passe ici n'est public.|Le Sanctuaire essaye d'emp\u00eacher la nouvelle de se prot\u00e9ger."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu d\u00e9duis beaucoup de chose \u00e0 partir de rien, Trotte-Rumeur."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Je n'en serais pas si s\u00fbr.|C'est ma premi\u00e8re mission depuis un sacr\u00e9 bout de temps.|J'\u00e9tais bless\u00e9 jusqu'\u00e0 il y a quelques semaines, et je vous ai vu.|Vous n'accomplissez plus de prime publique,|et les plus grand Trotte Rumeurs ne rapportent plus rien.|Tout le monde trouverai \u00e7a bizarre, moi y compris.|Apr\u00e8s m'\u00eatre renseign\u00e9e, j'ai d\u00e9couvert qu'ils travaillent toujours,|Mais ils passent tous par le bureau du Chef avant de repartir aussi t\u00f4t."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Donc ce qu'il veut, c'est nous emp\u00eacher de partager ces infos ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "On peut r\u00e9sumer la situation comme \u00e7a, oui."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "A tel point que monsieur double S est pr\u00eat \u00e0 utiliser la mani\u00e8re forte ?|Je me demande ce qui se passerait si je devais commencer \u00e0 courir ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu y perdrais ton talon d'Achille."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tu ne me rattrapperas pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est un d\u00e9fi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Volta, c'est trop dangereux, arr\u00eate..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu ferais mieux d'\u00e9couter ton amie. |Je n'ai aucune envie de le faire non plus."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tss."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Vous dites que le Sancutaire nous prot\u00e8gera, qu'entendez vous par l\u00e0 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Le Sanctuaire n'est pas qu'une guilde de Mercenaires.|Il y a tout ce qu'on pourrait imaginer l\u00e0 bas, il vous fournira un abris, des vivres--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'vous pr\u00e9senterais un aubergiste, son rago\u00fbt est \u00e0 tomber !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Et un m\u00e9tier."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "L'offre est all\u00e9chante pour s\u00fbr, mais...|Pourquoi aller si loin ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Te r\u00e9pondre ne changera rien.|Ce n'est pas une proposition, c'est un ordre de toute fa\u00e7on."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quoi qu'il soit en train d'arriver, je veux en conna\u00eetre le d\u00e9noument."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "\u00c0 t'\u00e9couter, on croirait que c'est personnel, Axel."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Peu importe. Si des mages se baladent en reveillant les morts,|Ce probl\u00e8me concerne le continent. Impossible de rester l\u00e0 les bras croiser !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "...|Je vous attend dehors."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Zobral",
+                    "Shumbus",
+                    "Axel",
+                    "Ridril"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Zobral",
+                    "5,11",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Shumbus",
+                    "MidLeft",
+                    "Ridril",
+                    "FarLeft",
+                    "Volta",
+                    "MidRight",
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Si vous voulez partir, je lui dirais pas, promis."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Je pense que \u00e7a reste une mauvaise id\u00e9e d'essayer de le faire quand m\u00eame...|Mais je ne vous en emp\u00eacherais pas non plus.|Apr\u00e8s tout, c'est ma faute si vous vous \u00eates retrouv\u00e9 dans cette situation."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "La proposition est tr\u00e8s gentille, mais..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Si on fait \u00e7a, on se fera trop d'ennemis."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Volta ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ce mage nous l'a dit. Qu'il nous retrouverais et nous ferait payer.|Et ce Zobral a pas l'air de plaisanter quand il dit qu'il nous forcera \u00e0 venir.|Se mettre ce mage ET le Sanctuaire \u00e0 dos...|Ca serait compl\u00e9tement idiot."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je suis bien d'accord !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Une voleuse raisonnable et sens\u00e9e ?|On aura tout vue."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Axel, pourquoi est ce que tu--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Aller les copains, faut qu'on y aille, la nuit tombe !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Oui, ce serait plus prudent.|"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

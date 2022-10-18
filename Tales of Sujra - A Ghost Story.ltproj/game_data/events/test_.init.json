@@ -1,0 +1,40 @@
+[
+    {
+        "name": ".init",
+        "trigger": "level_start",
+        "level_nid": "test",
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "Sanct",
+                    "True"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "Roamy",
+                    "False"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "Wyvern",
+                    "False"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "Aurora",
+                    "False"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

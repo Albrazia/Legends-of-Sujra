@@ -1,0 +1,52 @@
+[
+    {
+        "name": "VisiteMaison2",
+        "trigger": "Visiter",
+        "level_nid": "0",
+        "condition": "region.nid==\"Maison2\"",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man1",
+                    "Right",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man1",
+                    "Ici, on est au domaine Brazia.|Un des deux domaines qui se situent dans la partie Sud de l'empire.|\u00c0 cause de cette distance \u00e0 la capitale, les forces de l'Empire sont moins pr\u00e9sente ici.|Chacun des Domaines est dirig\u00e9 par une des 6 familles d'H\u00e9ritier.|Mais cette autorit\u00e9 n'emp\u00eache pas certains de devenir hors la loi..."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

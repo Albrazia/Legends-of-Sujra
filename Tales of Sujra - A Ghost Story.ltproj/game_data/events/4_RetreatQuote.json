@@ -1,0 +1,177 @@
+[
+    {
+        "name": "RetreatQuote",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:unit.team=='player'}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:len(game.get_player_units()) != 0}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:unit.name=='Volta'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oulah, il est pas pass\u00e9 loin celui la !|...|Eh merde j'me suis fait salement amoch\u00e9 en fait.|Courage les amis, continuez sans moi !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Railoph'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Quelle imprudence...|Avancez avec prudence et nous avons toujours une chance !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Axel'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Comment est ce que j'ai pu laisser \u00e7a arrive.|Le reste sera sans moi."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Ridril'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oh non...|Bon, les r\u00e8gles sont les r\u00e8gles, je me retire !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Shumbus'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Je R\u00caVE ou tiens vient de me BLESSER ?!|T'auras des nouvelles de mes avocats."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Belzir'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Bonjour la premi\u00e8re impression...|Courage, je sais que vous en \u00eates capable !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Darsenn'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Ce n'est rien, et je pourrais aisement continuer mais...|Il faut suivre les r\u00e8gles je suppose."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Alice'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Oh flute.|Bon et bien, au moins je n'ai que quelques \u00e9gratinures..."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Reymi'}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Je me rend !|Arr\u00eater ou les co\u00fbts de r\u00e9paration seront trop grand s'il vous plait !"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".outro",
+                    "False"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "elif",
+                [
+                    "{eval:unit.name=='Hardan'}"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".outro",
+                    "True"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

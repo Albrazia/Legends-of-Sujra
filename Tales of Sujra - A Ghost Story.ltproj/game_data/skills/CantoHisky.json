@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CantoHisky",
+        "name": "Art : Ugoki",
+        "desc": "-Passive-\nL'unit\u00e9 peut se d\u00e9placer de deux cases apr\u00e8s avoir attaqu\u00e9.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            11
+        ],
+        "components": [
+            [
+                "canto_Static",
+                2
+            ]
+        ]
+    }
+]

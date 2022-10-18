@@ -1,0 +1,96 @@
+[
+    {
+        "name": ".intro",
+        "trigger": "level_start",
+        "level_nid": "6",
+        "condition": "False",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    ".init"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "base"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Cin\u00e9matique"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "14,4",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "Cin\u00e9matique"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "base"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "15,5",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Cin\u00e9matiqueBateau",
+                    "Cin\u00e9matiqueBateau",
+                    "immediate"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "2"
+                ]
+            ],
+            [
+                "base",
+                [
+                    "ShipDeck"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

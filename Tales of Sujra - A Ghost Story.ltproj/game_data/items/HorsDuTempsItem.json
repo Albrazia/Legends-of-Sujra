@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "HorsDuTempsItem",
+        "name": "Hors Du Temps",
+        "desc": "Volta tord le temps pour se d\u00e9placer instantan\u00e9ment o\u00f9 elle veut.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            16
+        ],
+        "components": [
+            [
+                "sequence_item",
+                [
+                    "HorsDuTempsItem1",
+                    "HorsDuTempsItem2"
+                ]
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_after_use",
+                "Global RefreshUnit"
+            ],
+            [
+                "status_on_hit",
+                "ChronoLag"
+            ],
+            [
+                "mana_cost",
+                2
+            ]
+        ]
+    }
+]

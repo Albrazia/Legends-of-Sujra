@@ -1,0 +1,301 @@
+[
+    {
+        "nid": "Sword",
+        "name": "Sword",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Lance",
+        "name": "Lance",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Axe",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Axe",
+        "name": "Axe",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lance",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Sword",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            2
+        ]
+    },
+    {
+        "nid": "Bow",
+        "name": "Bow",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            3
+        ]
+    },
+    {
+        "nid": "Claw",
+        "name": "Claw",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Feu",
+        "name": "Feu",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [
+            {
+                "weapon_type": "Lumi\u00e8re",
+                "weapon_rank": "All",
+                "damage": "1",
+                "resist": "0",
+                "accuracy": "15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Arcane",
+                "weapon_rank": "All",
+                "damage": "-1",
+                "resist": "0",
+                "accuracy": "-15",
+                "avoid": "0",
+                "crit": "0",
+                "dodge": "0",
+                "attack_speed": "0",
+                "defense_speed": "0"
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Glace",
+        "name": "Destruction : Glace",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
+        "nid": "Vent",
+        "name": "Destruction : Vent",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Foudre",
+        "name": "Destruction : Foudre",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Arcane",
+        "name": "Conjuration : Arcane",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Lumi\u00e8re",
+        "name": "Gu\u00e9rison : Lumi\u00e8re",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            6
+        ]
+    },
+    {
+        "nid": "Soin",
+        "name": "Gu\u00e9rison : Soin",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            2
+        ]
+    },
+    {
+        "nid": "Incantation",
+        "name": "Conjuration : Incantation",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Default",
+        "name": "Consumable",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            8
+        ]
+    },
+    {
+        "nid": "Buff",
+        "name": "Alt\u00e9ration Noire",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            4
+        ]
+    }
+]

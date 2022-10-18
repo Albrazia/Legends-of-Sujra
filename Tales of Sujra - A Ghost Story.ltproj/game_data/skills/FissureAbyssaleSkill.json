@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "FissureAbyssaleSkill",
+        "name": "Fissure Abyssale",
+        "desc": "-Active Co\u00fbt 6-\nInflige Str+4 points de d\u00e9gats physique dans une direction cardinale. Port\u00e9 = 3",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            5
+        ],
+        "components": [
+            [
+                "ability",
+                "FissureAbyssaleItem"
+            ]
+        ]
+    }
+]

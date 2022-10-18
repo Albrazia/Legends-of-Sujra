@@ -1,0 +1,157 @@
+[
+    {
+        "name": "L'entretien d'Axel",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit==\"L'entretien d'Axel\"",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Coucou Axel !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ah.|La voleuse.|Qu'est ce que tu viens faire ici ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'te demande de tes nouvelles.|Tu fais quoi de beau ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je compte mes fl\u00e8ches et j'entretiens mon arc.|Vu de la direction dans laquelle on va, il vaut mieux que je prenne mes pr\u00e9cautions."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tu sais o\u00f9 on va ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Environ.|Disons que nos ennemis risquent d'avoir le cuir \u00e9pais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je vois...|Dit, toute cette situation l\u00e0, \u00e7a te va toi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quoi donc ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Village qui br\u00fble, monstres, O'Neil, Zobral, patati patata."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Si je peux avoir r\u00e9ponse \u00e0 mes questions, tout me va."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ca te d\u00e9range pas de te faire mener \u00e0 la baguette ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Non, pas du tout.|Ils se servent de moi autant que je me sers d'eux.|On ressort tous gagnant."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Comment \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ils ont besoin de moi pour les informations que j'ai.|En \u00e9change ils me fournissent un toit et une protection.|Je n'ai pas \u00e0 me plaindre.|Et je peux te garantir qu'il n'y a pas beaucoup d'endroits plus s\u00fbr que ce camp :|Ce Zobral est une pointure et demi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je vois...|Merci Axel, \u00e0 plus tard!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "\"Merci\" ? Pourquoi ?"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "L'entretien d'Axel"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

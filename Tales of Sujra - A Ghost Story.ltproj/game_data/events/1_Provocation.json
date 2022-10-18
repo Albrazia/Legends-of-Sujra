@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Provocation",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ProvocationVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ProvocationAxel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Railoph'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ProvocationRailoph"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

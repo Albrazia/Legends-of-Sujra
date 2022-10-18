@@ -1,0 +1,19 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "level_start",
+        "level_nid": "Plop",
+        "condition": "True",
+        "commands": [
+            [
+                "give_skill",
+                [
+                    "Recon",
+                    "GrappinWyvern"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

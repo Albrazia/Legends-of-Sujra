@@ -1,0 +1,91 @@
+[
+    {
+        "name": "ServeuseTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "unit2.nid == 'Serveuse'",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ServeuseVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ServeuseAxel"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "trigger_script",
+                [
+                    "ServeuseRailoph"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "remove_talk",
+                [
+                    "Volta",
+                    "Serveuse"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Axel",
+                    "Serveuse"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Railoph",
+                    "Serveuse"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Door Key"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{unit}",
+                    "20"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Serveuse"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

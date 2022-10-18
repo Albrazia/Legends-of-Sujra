@@ -1,0 +1,64 @@
+[
+    {
+        "name": "QuoteVsBoss",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "unit2.nid=='SousBandits'",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossAxel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Railoph'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossRailoph"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Ridril'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossRidril"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

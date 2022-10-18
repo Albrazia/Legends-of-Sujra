@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/No%20Game%2C%20No%20Life%20-%20OST/Disc%201/04%20Blue%20sky.mp3</location>
+			<title>Blue sky</title>
+			<creator>No Game, No Life</creator>
+			<album>No Game, No Life - Bonus CD vol. 02 : OST vol. 01</album>
+			<trackNum>4</trackNum>
+			<annotation>visit hikarinoakariost.info [The messege is comming ^^]</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/No%20Game%2C%20No%20Life/No%20Game%2C%20No%20Life%20-%20Bonus%20CD%20vol.%2002%20_%20OST%20vol.%2001/art.jpg</image>
+			<duration>155666</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/No%20Game%2C%20No%20Life%20-%20OST/Disc%201/06%20Rainbow%20sky.mp3</location>
+			<title>Rainbow sky</title>
+			<creator>No Game, No Life</creator>
+			<album>No Game, No Life - Bonus CD vol. 02 : OST vol. 01</album>
+			<trackNum>6</trackNum>
+			<annotation>visit hikarinoakariost.info [The messege is comming ^^]</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/No%20Game%2C%20No%20Life/No%20Game%2C%20No%20Life%20-%20Bonus%20CD%20vol.%2002%20_%20OST%20vol.%2001/art.jpg</image>
+			<duration>135186</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/No%20Game%2C%20No%20Life%20-%20OST/Disc%201/12%20Criminal%20connection.mp3</location>
+			<title>Criminal connection</title>
+			<creator>No Game, No Life</creator>
+			<album>No Game, No Life - Bonus CD vol. 02 : OST vol. 01</album>
+			<trackNum>12</trackNum>
+			<annotation>visit hikarinoakariost.info [The messege is comming ^^]</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/No%20Game%2C%20No%20Life/No%20Game%2C%20No%20Life%20-%20Bonus%20CD%20vol.%2002%20_%20OST%20vol.%2001/art.jpg</image>
+			<duration>246207</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/No%20Game%2C%20No%20Life%20-%20OST/Disc%201/16%20God%20of%20GAME.mp3</location>
+			<title>God of GAME</title>
+			<creator>No Game, No Life</creator>
+			<album>No Game, No Life - Bonus CD vol. 02 : OST vol. 01</album>
+			<trackNum>16</trackNum>
+			<annotation>visit hikarinoakariost.info [The messege is comming ^^]</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/No%20Game%2C%20No%20Life/No%20Game%2C%20No%20Life%20-%20Bonus%20CD%20vol.%2002%20_%20OST%20vol.%2001/art.jpg</image>
+			<duration>183460</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/No%20Game%2C%20No%20Life%20-%20OST/Disc%202/02%20Hey%2C%20brother.mp3</location>
+			<title>Hey,brother</title>
+			<creator>No Game, No Life</creator>
+			<album>No Game, No Life - Bonus cd vol. 04 : OST vol. 02</album>
+			<trackNum>2</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/No%20Game%2C%20No%20Life/No%20Game%2C%20No%20Life%20-%20Bonus%20cd%20vol.%2004%20_%20OST%20vol.%2002/art.jpg</image>
+			<duration>96003</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Charlotte%20-%20OST/Disc%201/25.%20Dark%20cloud.mp3</location>
+			<title>Dark Cloud</title>
+			<creator>ANANT-GARDE EYES, 麻枝准</creator>
+			<album>TVアニメ「Charlotte」Original Soundtrack [Disc 1]</album>
+			<trackNum>25</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/ANANT-GARDE%20EYES%2C%20%E9%BA%BB%E6%9E%9D%E5%87%86/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8CCharlotte%E3%80%8DOriginal%20Soundtrack%20%5BDisc%201%5D/art</image>
+			<duration>158802</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Charlotte%20-%20OST/Disc%201/26.%20Control.mp3</location>
+			<title>Control</title>
+			<creator>ANANT-GARDE EYES, 麻枝准</creator>
+			<album>TVアニメ「Charlotte」Original Soundtrack [Disc 1]</album>
+			<trackNum>26</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/ANANT-GARDE%20EYES%2C%20%E9%BA%BB%E6%9E%9D%E5%87%86/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8CCharlotte%E3%80%8DOriginal%20Soundtrack%20%5BDisc%201%5D/art</image>
+			<duration>121760</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Charlotte%20-%20OST/Disc%202/06.%20Bad%20premonition.mp3</location>
+			<title>Bad Premonition</title>
+			<creator>ANANT-GARDE EYES, 麻枝准</creator>
+			<album>TVアニメ「Charlotte」Original Soundtrack [Disc 2]</album>
+			<trackNum>6</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/ANANT-GARDE%20EYES%2C%20%E9%BA%BB%E6%9E%9D%E5%87%86/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8CCharlotte%E3%80%8DOriginal%20Soundtrack%20%5BDisc%202%5D/art</image>
+			<duration>166403</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Charlotte%20-%20OST/Disc%202/07.%20Tinnitus.mp3</location>
+			<title>Tinnitus</title>
+			<creator>ANANT-GARDE EYES, 麻枝准</creator>
+			<album>TVアニメ「Charlotte」Original Soundtrack [Disc 2]</album>
+			<trackNum>7</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/ANANT-GARDE%20EYES%2C%20%E9%BA%BB%E6%9E%9D%E5%87%86/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8CCharlotte%E3%80%8DOriginal%20Soundtrack%20%5BDisc%202%5D/art</image>
+			<duration>189757</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Charlotte%20-%20OST/Disc%202/22.%20Reaper.mp3</location>
+			<title>Reaper</title>
+			<creator>ANANT-GARDE EYES, 麻枝准</creator>
+			<album>TVアニメ「Charlotte」Original Soundtrack [Disc 2]</album>
+			<trackNum>22</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/ANANT-GARDE%20EYES%2C%20%E9%BA%BB%E6%9E%9D%E5%87%86/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8CCharlotte%E3%80%8DOriginal%20Soundtrack%20%5BDisc%202%5D/art</image>
+			<duration>218126</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Angel%20Beats/DISC1/11%20operation%20start.mp3</location>
+			<title>operation start</title>
+			<album>Angel Beats! Original Soundtrack</album>
+			<trackNum>11</trackNum>
+			<annotation>Madjapon.frbb.net</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/arturl/d427ccc3a3b473d66ae167023b23d398/art.jpg</image>
+			<duration>139157</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Angel%20Beats/DISC1/22%20burial.mp3</location>
+			<title>burial</title>
+			<album>Angel Beats! Original Soundtrack</album>
+			<trackNum>22</trackNum>
+			<annotation>Madjapon.frbb.net</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/arturl/6689d7912a4e45cda1e7de7a889550b9/art.jpg</image>
+			<duration>168701</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Angel%20Beats/DISC2/02%20my%20heart.mp3</location>
+			<title>my heart</title>
+			<album>Angel Beats! Original Soundtrack</album>
+			<trackNum>2</trackNum>
+			<annotation>Madjapon.frbb.net</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/arturl/ae88982981e0d7a2d9c8596aacd21bdb/art.jpg</image>
+			<duration>169825</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Angel%20Beats/DISC2/07%20unjust%20life.mp3</location>
+			<title>unjust life</title>
+			<album>Angel Beats! Original Soundtrack</album>
+			<trackNum>7</trackNum>
+			<annotation>Madjapon.frbb.net</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/arturl/eccb3201cac36a315d9e8002b6c6c003/art.jpg</image>
+			<duration>165880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Angel%20Beats/DISC2/09%20anxiety.mp3</location>
+			<title>anxiety</title>
+			<album>Angel Beats! Original Soundtrack</album>
+			<trackNum>9</trackNum>
+			<annotation>Madjapon.frbb.net</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/arturl/c49ccabbc5506f9bbd730396923f1534/art.jpg</image>
+			<duration>109560</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Akame%20ga%20Kill%20-%20OST/CD%201/15%20Shisei%20Chousa.mp3</location>
+			<title>Shisei Chousa</title>
+			<creator>岩崎 琢</creator>
+			<album>アカメが斬る! オリジナルサウンドトラックVol.1</album>
+			<trackNum>15</trackNum>
+			<annotation>hikarinoakariost.info @tsuba20</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E5%B2%A9%E5%B4%8E%20%E7%90%A2/%E3%82%A2%E3%82%AB%E3%83%A1%E3%81%8C%E6%96%AC%E3%82%8B%21%20%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AFVol.1/art.jpg</image>
+			<duration>156400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Akame%20ga%20Kill%20-%20OST/CD%202/07%20Susanoo.mp3</location>
+			<title>Susanoo</title>
+			<creator>岩崎 琢</creator>
+			<album>アカメが斬る! オリジナルサウンドトラックVol.1</album>
+			<trackNum>7</trackNum>
+			<annotation>hikarinoakariost.info @tsuba20</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E5%B2%A9%E5%B4%8E%20%E7%90%A2/%E3%82%A2%E3%82%AB%E3%83%A1%E3%81%8C%E6%96%AC%E3%82%8B%21%20%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AFVol.1/art.jpg</image>
+			<duration>193627</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Akame%20ga%20Kill%20-%20OST/CD%202/10%20Inakamono.mp3</location>
+			<title>Inakomono</title>
+			<creator>岩崎 琢</creator>
+			<album>アカメが斬る! オリジナルサウンドトラックVol.1</album>
+			<trackNum>10</trackNum>
+			<annotation>hikarinoakariost.info @tsuba20</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E5%B2%A9%E5%B4%8E%20%E7%90%A2/%E3%82%A2%E3%82%AB%E3%83%A1%E3%81%8C%E6%96%AC%E3%82%8B%21%20%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AFVol.1/art.jpg</image>
+			<duration>143028</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/05.%20The%20Ability%20that%20I%20want%20to%20Obtain.mp3</location>
+			<title>The ability that I want to obtain</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>5</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>64839</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/06.%20Threatened%20Daily%20Life.mp3</location>
+			<title>Threatened Daily Life</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>6</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>70638</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/10.%20The%20Town%20of%20Beginnings.mp3</location>
+			<title>The town of beggining</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>10</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>64003</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/13.%20Dead%20Broke.mp3</location>
+			<title>Dead Broke</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>13</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>62409</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/15.%20Give%20Blessings%20to%20Us%20on%20the%20Road.mp3</location>
+			<title>Give Blessings to Us on the Road !</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>15</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>102324</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/29.%20Crusading%20for%20a%20Living.mp3</location>
+			<title>Crusading for a Living</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>29</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>115777</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/37.%20Skill.mp3</location>
+			<title>Skill</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>37</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>93521</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/48.%20The%20Town%20of%20Sleeps.mp3</location>
+			<title>The Town of Sleeps</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>48</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>74556</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Konosuba/%5BCOKM-33215%5D%20Kono%20Subarashii%20Sekai%20ni%20Syukufuku%20wo%21%20Original%20Soundtrack/56.%20What%20will%20be%20waiting%20Tomorrow.mp3</location>
+			<title>What will be waiting Tomorrow?</title>
+			<creator>甲田雅人</creator>
+			<album>TVアニメ「この素晴らしい世界に祝福を！」オリジナルサウンドトラック</album>
+			<trackNum>56</trackNum>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E7%94%B2%E7%94%B0%E9%9B%85%E4%BA%BA/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%81%93%E3%81%AE%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%84%E4%B8%96%E7%95%8C%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%82%92%EF%BC%81%E3%80%8D%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF/art.jpg</image>
+			<duration>87043</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/ONE%20PUNCH%20MAN%20ORIGINAL%20SOUND%20TRACK%20ONE%20TAKE%20MAN/06.%20Kai.mp3</location>
+			<title>Kai</title>
+			<creator>宮崎 誠</creator>
+			<album>TVアニメ『ワンパンマン』オリジナルサウンドトラック ONE TAKE MAN</album>
+			<trackNum>6</trackNum>
+			<annotation>www.hikarinoakariost.info</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E5%AE%AE%E5%B4%8E%20%E8%AA%A0/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%AF%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3%E3%80%8F%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%20ONE%20TAKE%20MAN/art.jpg</image>
+			<duration>112169</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/ONE%20PUNCH%20MAN%20ORIGINAL%20SOUND%20TRACK%20ONE%20TAKE%20MAN/10.%20Theme%20of%20ONE%20PUNCH%20MAN%20~one%20day~.mp3</location>
+			<title>One Day</title>
+			<creator>宮崎 誠</creator>
+			<album>TVアニメ『ワンパンマン』オリジナルサウンドトラック ONE TAKE MAN</album>
+			<trackNum>10</trackNum>
+			<annotation>www.hikarinoakariost.info</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/%E5%AE%AE%E5%B4%8E%20%E8%AA%A0/TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%AF%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3%E3%80%8F%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%20ONE%20TAKE%20MAN/art.jpg</image>
+			<duration>102896</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%201/05%20I%20wonder%20what%20_%20Momonga%20sama%20_.mp3</location>
+			<title>I wonder what</title>
+			<creator>Shuji Katayama (Term-MAX)</creator>
+			<album>Overlord Special Sound Track CD Vol.1</album>
+			<trackNum>5</trackNum>
+			<annotation> 000000EA 000000C7 00000D92 00001090 00019818 000197B8 00004C38 0000562E 00018678 000197B8</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/Shuji%20Katayama%20%28Term-MAX%29/Overlord%20Special%20Sound%20Track%20CD%20Vol.1/art</image>
+			<duration>123891</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%201/13%20Getting%20information%20first.mp3</location>
+			<title>Getting informations first</title>
+			<creator>Shuji Katayama (Term-MAX)</creator>
+			<album>Overlord Special Sound Track CD Vol.1</album>
+			<trackNum>13</trackNum>
+			<annotation> 00000284 0000023D 00001CD3 00001AFC 0000D8F0 000067E0 000079F2 00007DC3 00009720 00005550</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/Shuji%20Katayama%20%28Term-MAX%29/Overlord%20Special%20Sound%20Track%20CD%20Vol.1/art</image>
+			<duration>112803</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%201/18%20The%20law%20of%20this%20world.mp3</location>
+			<title>The law of this world</title>
+			<creator>Shuji Katayama (Term-MAX)</creator>
+			<album>Overlord Special Sound Track CD Vol.1</album>
+			<trackNum>18</trackNum>
+			<annotation> 000000D3 000000B0 000004F5 00000419 000198F0 00007F68 00004FBA 000047CA 00007F38 00015A80</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/Shuji%20Katayama%20%28Term-MAX%29/Overlord%20Special%20Sound%20Track%20CD%20Vol.1/art</image>
+			<duration>130131</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%201/19%20Marching.mp3</location>
+			<title>Marching</title>
+			<creator>Shuji Katayama (Term-MAX)</creator>
+			<album>Overlord Special Sound Track CD Vol.1</album>
+			<trackNum>19</trackNum>
+			<annotation> 00000508 000004D5 00002281 000024FE 0001F248 0001F260 000080B0 00007F09 00017280 00017280</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/Shuji%20Katayama%20%28Term-MAX%29/Overlord%20Special%20Sound%20Track%20CD%20Vol.1/art</image>
+			<duration>138939</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%201/20%20crashes.mp3</location>
+			<title>Crashes</title>
+			<creator>Shuji Katayama (Term-MAX)</creator>
+			<album>Overlord Special Sound Track CD Vol.1</album>
+			<trackNum>20</trackNum>
+			<annotation> 00000C24 00000CBD 00006C8A 0000489F 0001AEB0 0000F2E8 00008685 000086D5 00005070 00010BA8</annotation>
+			<image>file:///C:/Users/Albra/AppData/Roaming/vlc/art/artistalbum/Shuji%20Katayama%20%28Term-MAX%29/Overlord%20Special%20Sound%20Track%20CD%20Vol.1/art</image>
+			<duration>123027</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/01%20King%20of%20the%20Immortality.mp3</location>
+			<title>King of the Immortality</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>1</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>150233</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/02%20Fortified%20city%20E-Rantel.mp3</location>
+			<title>Fortified city E-Rantel</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>2</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>123928</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/03%20_%20True%20healing%20potion%20indicates%20God%27s%20blood%20_.mp3</location>
+			<title>True Healing potion indicates God&#39;s Blood</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>3</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>129361</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/06%20Journey.mp3</location>
+			<title>Journey</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>6</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>100861</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/07%20Dual%20sword%20that%20cuts%20through%20death.mp3</location>
+			<title>Dual sword that cut trough death</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>7</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>146654</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/16%20NPC%20Battle.mp3</location>
+			<title>NPC Battle</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>16</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>101593</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/23%20High%20Magic%20vs%20High%20Magic.mp3</location>
+			<title>High magic vs High Magic</title>
+			<creator>片山修志</creator>
+			<album>オーバーロード スペシャルサウンドトラックCD vol.2</album>
+			<trackNum>23</trackNum>
+			<annotation>0</annotation>
+			<image>file:///C:/Users/Albra/Desktop/AlbraDesktop/AlbraMusique/OST/Anime/Overlord%20-%20OST/Disc%202/cover.jpg</image>
+			<duration>128733</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
+		<vlc:item tid="26"/>
+		<vlc:item tid="27"/>
+		<vlc:item tid="28"/>
+		<vlc:item tid="29"/>
+		<vlc:item tid="30"/>
+		<vlc:item tid="31"/>
+		<vlc:item tid="32"/>
+		<vlc:item tid="33"/>
+		<vlc:item tid="34"/>
+		<vlc:item tid="35"/>
+		<vlc:item tid="36"/>
+		<vlc:item tid="37"/>
+		<vlc:item tid="38"/>
+		<vlc:item tid="39"/>
+		<vlc:item tid="40"/>
+	</extension>
+</playlist>

@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "Power",
+        "name": "Power",
+        "desc": "L'unit\u00e9 s'est vu conf\u00e9r\u00e9 2STR de plus par Shumbus.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

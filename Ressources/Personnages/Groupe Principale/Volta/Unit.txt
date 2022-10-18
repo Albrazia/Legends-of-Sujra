@@ -1,0 +1,22 @@
+2D
+
+Volta
+Une racaille du domaine Brazia.
+Son destin est mouvementé et impitoyable.
+
+1 17 04 04 10 03 00 02 05 4
+  75 40 40 65 25 20 45 30 || 340
+  sw1
+  8 40 0 0
+  affinité light
+
+palette voleur : 
+3363FF7B7F5BBE320B315F3A193E5131FF7F786B6F4E5131B539D91DD91DA514
+
+palette assassin :
+1F35B015EB18B5398F4C7932193E7125D325F531A5143F3FD865193EFF53FF7F
+
+Skill :
+Personel : Infiltrator C8
+20 : Locktouch 52
+Lvl 40 : Assassinate F9

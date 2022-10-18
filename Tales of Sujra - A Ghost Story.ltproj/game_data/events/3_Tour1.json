@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Tour1",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount==1",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft",
+                    "Axel",
+                    "MidRight",
+                    "Volta",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'ai jamais affront\u00e9 de wyverns.|On fait comment ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je dois bien avouer que mon exp\u00e9rience avec elles est plutot limit\u00e9.|Cependant, mes yeux de guerriers ne mentent pas.|Leur cuir est \u00e9pais et leurs griffes ac\u00e9r\u00e9s."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'est exact. Mais nous avons un avantage sur elles.|Les animaux volants, comme les Wyvernes et les P\u00e9gases, sont sensible aux fl\u00e8ches.|Gardons cependant \u00e0 l'esprit qu'elles ne sont pas sensible au triangles des armes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Elles ne sont pas nombreuses, mais elles sont ind\u00e9niablement f\u00e9roce.|Aujourd'hui est certainement la mission la plus dangereuse depuis notre recontre.|Gardons nos force \u00e0 l'esprit, r\u00e9flechissons calmement, et nous vaincrons."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

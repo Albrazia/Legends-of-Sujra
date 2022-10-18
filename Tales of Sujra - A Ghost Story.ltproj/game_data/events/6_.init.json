@@ -1,0 +1,46 @@
+[
+    {
+        "name": ".init",
+        "trigger": "level_start",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "add_base_convo",
+                [
+                    "Les noeuds marins"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PirateBG",
+                    "200"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PirateHG",
+                    "200"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PirateHD",
+                    "200"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PirateBD",
+                    "200"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

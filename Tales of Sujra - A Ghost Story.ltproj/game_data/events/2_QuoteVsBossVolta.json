@@ -1,0 +1,42 @@
+[
+    {
+        "name": "QuoteVsBossVolta",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Novala",
+                    "Right",
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "T'es vachement p\u00e2le.|Tu sors assez ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Silence, jeune s\u00f4te.|Ou ton sors n'en sera que plus violent."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Novala",
+                    "Volta"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

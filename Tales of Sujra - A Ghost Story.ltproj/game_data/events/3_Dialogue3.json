@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Dialogue3",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "FarRight",
+                    "left",
+                    "FLAG(no_block)",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "MidRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est l'endroit parfait pour poser un camp."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'suis bien d'accord."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Un camp ?|Vous plaisantez ?|Il n'est m\u00eame pas encore milieu d'apr\u00e8s midi."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Un camp ?|Vous plaisantez ?|Ca fait 3 jours que j'attends \u00e7a ! J'en peux plus de marcher !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "\u00c9coute ta copine, archer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Si elle pouvait passer sa vie allonger elle le ferait.|Ce n'est vraiment pas le meilleur exemple."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Reste qu'elle a raison, \u00e7a fait longtemps qu'on marche sans se reposer pour de vrai.|Aller hop hop hop, au boulot maintenant.|Tout le monde y met du sien ou pas de soupe."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je d\u00e9t\u00e8ste le fait que cette menace soit effective...|Sa soupe est vraiment sympa \u00e0 ce con..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Shumbus",
+                    "Axel"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Les camps : Avant la majorit\u00e9 des missions, nos h\u00e9ro auront le droit \u00e0 un peu de repos. La fa\u00e7on dont ils occupent leur temps est enti\u00e8rement de leur responsabilit\u00e9,|mais vous aurez la possibilit\u00e9 de voir des interactions entre eux et un peu plus.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

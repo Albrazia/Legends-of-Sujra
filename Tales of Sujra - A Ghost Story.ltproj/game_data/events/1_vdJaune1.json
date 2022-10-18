@@ -1,0 +1,30 @@
+[
+    {
+        "name": "vdJaune1",
+        "trigger": "Destructible",
+        "level_nid": "1",
+        "condition": "region.nid==\"Jauned1\"",
+        "commands": [
+            [
+                "flicker_cursor",
+                [
+                    "1,12"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Jauned1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,150 @@
+[
+    {
+        "name": "NovalaMort",
+        "trigger": "combat_end",
+        "level_nid": "2",
+        "condition": "game.check_dead(\"Novala\")",
+        "commands": [
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "Novala"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Novala",
+                    "2,0",
+                    "warp"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Novala",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Je vous retrouverais, Sujarien...|Et \u00e0 ce moment l\u00e0 vous payerez pour votre affront et regretterez vos actes."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Novala",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Novala",
+                    "warp"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On va quand m\u00eame pas le laisser s'enfuir comme \u00e7a ?!"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Ridril",
+                    "MidLeft",
+                    "Axel",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Impossible de savoir o\u00f9 est ce qu'il est partie..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Nous l'avons bless\u00e9. Si il doit revenir, ce ne sera pas aujourd'hui."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Axel a certainement raison. Et il faut que je fasse un rapport sur ces choses qu'on a vu..."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "\"Les yeux et les oreilles du Sanctuaire\", hein ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Finissons d'explorer cette forteresse et retrouvons nous ici ensuite."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Axel",
+                    "Ridril"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "2,1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Les objectifs de Capture sont accomplis sur des tr\u00f4nes et autres portes de fort.  Utilisez Volta, Railoph ou Axel pour les capturer et ainsi finir le chapitre",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

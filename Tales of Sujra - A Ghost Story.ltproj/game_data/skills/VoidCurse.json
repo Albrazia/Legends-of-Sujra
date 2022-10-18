@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "VoidCurse",
+        "name": "Renfort",
+        "desc": "Aucune exp\u00e9rience gagn\u00e9 en vainquant cet ennemis.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "enemy_exp_multiplier",
+                0
+            ]
+        ]
+    }
+]

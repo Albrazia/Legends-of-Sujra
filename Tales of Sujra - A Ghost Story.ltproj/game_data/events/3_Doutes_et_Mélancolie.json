@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Doutes et M\u00e9lancolie",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Doutes et M\u00e9lancolie'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Eh bien, dit moi Volta, tu n'as pas l'air dans ton assiette."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh, Railoph...|Ouais, y'a pleins de choses qui se bousculent dans ma t\u00eate l\u00e0..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Si en parler pourrait t'aider, je serais toujours oreille attentive."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'me disais... Ca va quand m\u00eame vachement vite ce qu'il se passe l\u00e0.|Hier mon village br\u00fblait,|aujourd'hui on rencontre un mec qui peut invoquer des monstres|et \u00e0 cause de \u00e7a on se fait kidnapper...|D'abord O'Neil et maintenant Zobral, je fais plus rien moi m\u00eame en ce moment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous n'avons pas beaucoup eu de choix avec tout ce qu'il s'est pass\u00e9, c'est certain.|Je me demande moi m\u00eame ce qu'il nous attend au bout de ce chemin.|Il est bien connus que quiconque se retrouve m\u00e9l\u00e9 \u00e0 une affaire du Sanctuaire|n'en ressort pas compl\u00e9tement indemne.|Cependant !|Tu es une jeune fille tr\u00e8s forte, tu sauras t'en sortir, je n'en doute pas une seconde.|Et puis, tu en as encore sous la botte, n'est ce pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "...|C'est vrai oui.|Peut \u00eatre que j'devrais m'y mettre pour de vrai si on veut survivre"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cela me parait \u00eatre une bonne id\u00e9e, oui."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Bon ! On arr\u00eate ces pens\u00e9es n\u00e9gative et on s'bouge !|J'vais voir comment va tout le monde."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Bonne id\u00e9e ! \u00c0 plus tard.|Et je vais moi m\u00eame redoubler d'effort."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Doutes et M\u00e9lancolie"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "L'entretien d'Axel"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Tuto : Les comp\u00e9tences Active"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Tuto : La Mana"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

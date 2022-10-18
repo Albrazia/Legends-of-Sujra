@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "WyvBalChild1",
+        "name": "WyvBalChild1",
+        "desc": "Les archers \u00e0 proximit\u00e9 peuvent utiliser l'Arc de Si\u00e8ge pendant un tour.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "aura",
+                "WyvBalChild2"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

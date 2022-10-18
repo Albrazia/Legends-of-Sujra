@@ -1,0 +1,29 @@
+[
+    {
+        "name": ".init",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "game_var",
+                [
+                    "FlagMortGlobal",
+                    "False"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "De retour au pays"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

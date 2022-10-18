@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "The army of Grado, the largest nation on the entire continent",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cutthroat",
+        "name": "Cutthroat",
+        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "Un homme qui fait payer le prix de sa pauvret\u00e9 au Domaine Brazia.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Pirate",
+        "name": "Pirate",
+        "desc": "Un homme qui se bat pour l'or et l'alcool",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Monster",
+        "name": "Monster",
+        "desc": "A grotesque creature created by magic and born in darkness.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Sauvage",
+        "name": "Sauvage",
+        "desc": "Des cr\u00e9atures sauvage et hostile.",
+        "icon_nid": "SavageEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Sanctuaire",
+        "name": "Sanctuaire",
+        "desc": "Membre d'une guilde se trouvant dans une r\u00e9gion montagneuse du Domaine Brazia.",
+        "icon_nid": "SanctuaireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Hisky",
+        "name": "\u00c9l\u00e8ve Hisky",
+        "desc": "Membre de la pr\u00e9stigieuse \u00e9cole Hiksy.",
+        "icon_nid": "SanctuaireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

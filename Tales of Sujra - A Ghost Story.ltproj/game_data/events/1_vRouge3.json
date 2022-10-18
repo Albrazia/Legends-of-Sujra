@@ -1,0 +1,53 @@
+[
+    {
+        "name": "vRouge3",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "true",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Femme1",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Femme1",
+                    "Avez vous rencontr\u00e9 ce mercenaire, qui s\u00e9journe dans le village ?|Il a vraiment mauvais caract\u00e8re mais il a l'air de faire \u00e9quipe avec une jeune fille.|Mais l'hospitalit\u00e9 de ce village ne saurait se ternir \u00e0 cause d'un seul individus !|Tenez, prenez \u00e7a, et courage !"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Javelin (Javelin)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Rouge3"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "BattleQuoteONeilVolta",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"O'Neil\" or unit2.nid == \"O'Neil\") and (unit.nid==\"Volta\" or unit2.nid==\"Volta\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Petite fouine.|Je me souviens de toi. Tu ne t'\u00e9chapperas pas cette fois."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oulah... Je ferais mieux de d\u00e9guerpir moi en fait."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

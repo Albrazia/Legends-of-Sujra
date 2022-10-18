@@ -1,0 +1,121 @@
+[
+    {
+        "name": "PirateBloque",
+        "trigger": "Bloquer",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "Pirate",
+                    "False"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{unit.nid=='Volta'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On pourrait mettre le feu \u00e0 l'alcool aussi, non ?..|Ouais non, le village prendrais ch\u00e8re..."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{unit.nid=='Axel'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "*Soupir*|Enfin un peu de silence..."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{unit.nid=='Railoph'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Voila qui devrait tenir un petit moment.|Ils ne devraient plus nous d\u00e9ranger."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{unit.nid=='Shumbus'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Yar har."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "La porte est bloqu\u00e9."
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,124 @@
+[
+    {
+        "nid": "Shumbus",
+        "name": "Shumbus",
+        "desc": "Une jeune fille qui suit Zobral Partout. Toujours pleine d'entrain... et franche.",
+        "variant": "female",
+        "level": 1,
+        "klass": "Jeune Fille",
+        "tags": [
+            "Lord",
+            "Required"
+        ],
+        "bases": {
+            "HP": 18,
+            "STR": 2,
+            "MAG": 2,
+            "SKL": 4,
+            "SPD": 8,
+            "LCK": 6,
+            "DEF": 2,
+            "RES": 6,
+            "CON": 2,
+            "MOV": 5,
+            "MaxM": 13
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 20,
+            "MAG": 60,
+            "SKL": 25,
+            "SPD": 40,
+            "LCK": 60,
+            "DEF": 15,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 75
+        },
+        "starting_items": [
+            [
+                "HealBuff",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "PersoShumbus"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                true,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Buff": [
+                false,
+                1
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Shumbus",
+        "affinity": "Anima",
+        "fields": [
+            [
+                "DeathQuote",
+                "J'ai...{br}Tellement froid..."
+            ]
+        ]
+    }
+]

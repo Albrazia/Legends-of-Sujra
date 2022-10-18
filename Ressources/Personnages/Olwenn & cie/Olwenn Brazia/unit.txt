@@ -1,0 +1,14 @@
+30
+Olwenn
+Héritié de la famille Brazia.
+Un mercenaire impitoyable.
+
+21 34 14  8  8  6  8 10  7 0
+   70 65 40 40 35 45 30 25
+
+Hero palette : 5553FF7FFF6B1F4B2E1D132E8F210B159877F36E4E5ABA28BA20B614372EA514
+Skill :
+personel : Resolve DB
+255 : Wrath 22
+255 : Vengeance 90
+40 : Hero CE

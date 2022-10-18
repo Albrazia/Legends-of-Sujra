@@ -1,0 +1,121 @@
+[
+    {
+        "nid": "Belzir",
+        "name": "Belzir",
+        "desc": "Un fils de marchand dont le p\u00e8re est devenu pirate. T\u00e9m\u00e9raire et joueur \u00e0 outrance.",
+        "variant": "",
+        "level": 3,
+        "klass": "Marin",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 7,
+            "LCK": 10,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 10,
+            "MOV": 5,
+            "MaxM": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 40,
+            "LCK": 60,
+            "DEF": 30,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "starting_items": [
+            [
+                "Iron Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Lucky7"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                true,
+                31
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Belzir",
+        "affinity": "Ice",
+        "fields": [
+            [
+                "DeathQuote",
+                "Ma chance... A tourn\u00e9..."
+            ]
+        ]
+    }
+]

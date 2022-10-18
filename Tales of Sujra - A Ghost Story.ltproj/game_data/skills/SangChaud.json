@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SangChaud",
+        "name": "Sang Chaud",
+        "desc": "-Passive-\nSi PV < 100% : +4 d\u00e9g\u00e2ts inflig\u00e9",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.get_hp()<unit.get_max_hp()"
+            ],
+            [
+                "damage",
+                4
+            ]
+        ]
+    }
+]

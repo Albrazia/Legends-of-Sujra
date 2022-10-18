@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Reymi MultiExp",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#alert;{eval:any('VoidCurse' == skill.nid for skill in game.get_unit('{eval:unit.name}').skills)}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:unit.team=='enemy' or unit.team=='enemy2'}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:any(unit.nid=='Reymi' for unit in game.get_player_units())}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Reymi",
+                    "LevelUpRight"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "Reymi",
+                    "10"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Reymi"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

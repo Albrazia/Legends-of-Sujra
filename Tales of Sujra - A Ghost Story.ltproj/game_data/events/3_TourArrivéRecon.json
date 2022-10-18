@@ -1,0 +1,157 @@
+[
+    {
+        "name": "TourArriv\u00e9Recon",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "Flag1==True",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Recon",
+                    "17,12",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Recon",
+                    "18,13",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Axel",
+                    "MidRight",
+                    "Railoph",
+                    "MidLeft",
+                    "Shumbus",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Axel... Est ce que c'est ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Wouah mais c'est trop cool !"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Recon",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Recon",
+                    "Screeeeee"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il devrait m'\u00e9couter au doigt et \u00e0 l'oeil."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tout cela me parait tr\u00e8s dangereux..."
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'peux lui monter sur les dos ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Non, il a pas l'air d'aimer trop \u00e7a malheureusement..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "NoSmile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Nul.|Il s'appelle comment ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Hm...|Recon ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Un nom aussi mauvais que l'animal qui le porte. Bien jou\u00e9."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Railoph",
+                    "Axel",
+                    "Shumbus",
+                    "Recon"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Recon a \u00e9t\u00e9 apprivois\u00e9 par Axel, et se battera maintenant aux cot\u00e9 du groupe.|En tant que Wyvern, Recon se bat \u00e0 l'aide de ses griffes, mais il est trop jeune pour qu'elles soient d'un quelconque danger.|Recon se battera donc avec des protection plac\u00e9 sur ses griffes, qui seront donc cassable mais rempla\u00e7able comme n'importe quelle autre arme.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

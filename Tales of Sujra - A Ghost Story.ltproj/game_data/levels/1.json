@@ -1,0 +1,804 @@
+[
+    {
+        "nid": "1",
+        "name": "Chapitre 1 : Cons\u00e9quences",
+        "tilemap": "Chapitre1",
+        "bg_tilemap": null,
+        "party": "Ghost",
+        "music": {
+            "player_phase": "Distant Roads",
+            "enemy_phase": "Shadow of the Enemy",
+            "other_phase": "Distant Roads",
+            "enemy2_phase": null,
+            "player_battle": "Attack",
+            "enemy_battle": "Defense",
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "Vaincre les Bandits",
+            "win": "Vaincres tout les Bandits",
+            "loss": "Un membre d\u00e9c\u00e8de"
+        },
+        "roam": false,
+        "roam_unit": "Ridril",
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Villageois",
+                "team": "other",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Villageoise",
+                "team": "other",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gamine",
+                "team": "other",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Gamin",
+                "team": "other",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Serveuse",
+                "team": "other",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "SousBandits",
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Defend",
+                "ai_group": null,
+                "starting_position": [
+                    7,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "GuardNoMove",
+                "ai_group": null,
+                "starting_position": [
+                    1,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Volta",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Railoph",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Axel",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ridril",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    3,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ],
+                    [
+                        "Torch",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "PursueVillage",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Rouge2",
+                "region_type": "event",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouged2",
+                "region_type": "event",
+                "position": [
+                    7,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouged1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge3",
+                "region_type": "event",
+                "position": [
+                    13,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouged3",
+                "region_type": "event",
+                "position": [
+                    13,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jauned1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jaune2",
+                "region_type": "event",
+                "position": [
+                    12,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Jauned2",
+                "region_type": "event",
+                "position": [
+                    12,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Destructible",
+                "condition": "unit.team == 'enemy'",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Armurerie",
+                "region_type": "event",
+                "position": [
+                    2,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Armurerie",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Marchand",
+                "region_type": "event",
+                "position": [
+                    7,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Magasin",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Porte",
+                "region_type": "event",
+                "position": [
+                    14,
+                    5
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "D\u00e9v\u00e9rouiller",
+                "condition": "unit.can_unlock(region)",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "FinirMission",
+                "region_type": "event",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    17,
+                    23
+                ],
+                "sub_nid": "Finir Chapitre",
+                "condition": "False",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Villageois",
+                "units": [
+                    "Villageois",
+                    "Villageoise",
+                    "Gamine",
+                    "Gamin",
+                    "Serveuse"
+                ],
+                "positions": {
+                    "Serveuse": [
+                        12,
+                        5
+                    ],
+                    "Gamine": [
+                        4,
+                        2
+                    ],
+                    "Villageois": [
+                        14,
+                        9
+                    ],
+                    "Villageoise": [
+                        10,
+                        8
+                    ],
+                    "Gamin": [
+                        16,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "GroupeChef",
+                "units": [
+                    "SousBandits",
+                    "101",
+                    "102"
+                ],
+                "positions": {
+                    "SousBandits": [
+                        6,
+                        21
+                    ],
+                    "101": [
+                        5,
+                        21
+                    ],
+                    "102": [
+                        7,
+                        21
+                    ]
+                }
+            },
+            {
+                "nid": "Bandit1",
+                "units": [
+                    "103",
+                    "104",
+                    "105",
+                    "109",
+                    "106",
+                    "108",
+                    "107"
+                ],
+                "positions": {
+                    "103": [
+                        1,
+                        18
+                    ],
+                    "104": [
+                        4,
+                        17
+                    ],
+                    "105": [
+                        9,
+                        16
+                    ],
+                    "106": [
+                        4,
+                        14
+                    ],
+                    "107": [
+                        6,
+                        16
+                    ],
+                    "108": [
+                        5,
+                        19
+                    ],
+                    "109": [
+                        12,
+                        20
+                    ]
+                }
+            },
+            {
+                "nid": "Bandit2",
+                "units": [
+                    "110",
+                    "111",
+                    "112"
+                ],
+                "positions": {
+                    "110": [
+                        4,
+                        2
+                    ],
+                    "111": [
+                        4,
+                        5
+                    ],
+                    "112": [
+                        1,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "Groupe",
+                "units": [
+                    "Volta",
+                    "Railoph",
+                    "Axel"
+                ],
+                "positions": {
+                    "Railoph": [
+                        13,
+                        3
+                    ],
+                    "Axel": [
+                        12,
+                        2
+                    ],
+                    "Volta": [
+                        13,
+                        1
+                    ]
+                }
+            }
+        ]
+    }
+]

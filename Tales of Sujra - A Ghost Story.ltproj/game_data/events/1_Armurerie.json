@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Armurerie",
+        "trigger": "Armurerie",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "shop",
+                [
+                    "{unit}",
+                    "Iron Sword,Slim Sword,Iron Lance,Slim Lance,Iron Axe,Iron Bow",
+                    "armory"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

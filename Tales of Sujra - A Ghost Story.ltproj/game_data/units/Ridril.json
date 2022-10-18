@@ -1,0 +1,114 @@
+[
+    {
+        "nid": "Ridril",
+        "name": "Ridril",
+        "desc": "Une Trotte-Rumeur du Sanctuaire. Elle ne se laisse pas marcher sur les pieds.",
+        "variant": "female",
+        "level": 1,
+        "klass": "Pegasus_Knight",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "HP": 14,
+            "STR": 7,
+            "MAG": 2,
+            "SKL": 8,
+            "SPD": 9,
+            "LCK": 2,
+            "DEF": 5,
+            "CON": 5,
+            "MOV": 7,
+            "RES": 3,
+            "MaxM": 3
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 40,
+            "MAG": 10,
+            "SKL": 40,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 35,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20,
+            "MaxM": 20
+        },
+        "starting_items": [
+            [
+                "Iron Lance",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                true,
+                1
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Ridril",
+        "affinity": "Wind",
+        "fields": [
+            [
+                "DeathQuote",
+                "Pas comme \u00e7a...|Pas ici...."
+            ]
+        ]
+    }
+]

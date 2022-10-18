@@ -1,0 +1,143 @@
+[
+    {
+        "name": "PorteBoss",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Novala",
+                    "Novala",
+                    "fade"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Novala",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Hm. Un H\u00e9ritier se met en travers de ma route et voici maintenant ces rats.|Ce n'est d\u00e9finitivement pas ma journ\u00e9e.|D\u00e9barrassons nous d'eux rapidement."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est qui ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Je n'en ai aucune id\u00e9e...|Il ne ressemble pas \u00e0 un bandit."
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:Shumbus.team=='player'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est le moins qu'on puisse dire."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Ridril",
+                    "Novala"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "NovalaRevenant",
+                    "NovalaRevenant",
+                    "warp"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Ridril",
+                    "FarLeft",
+                    "Volta",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Que..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Right",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Bouclier en avant, mes amies !|Je ne resterais pas l\u00e0 \u00e0 attendre que l'Agile me sorte de ce p\u00e9trin.|Faisons face et abattons ces ennemis de nos lances !"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "name": "QuoteVsBossRailoph",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "BanditSousChef",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tu n'imaginais qu'on arriverais jusqu'ici hein ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Vous devriez \u00eatre mort...|Combien en avez vous emport\u00e9 ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "J'ai arr\u00eat\u00e9 de compter apr\u00e8s le sixi\u00e8me !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Peu importe.|Votre vie s'ach\u00e8ve ici."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "BanditSousChef"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Chargeons tous ensemble mes amis! Voila la cl\u00e9 de la victoire !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Sous Chef des Bandits (SousBandits)",
+                    "Attack"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

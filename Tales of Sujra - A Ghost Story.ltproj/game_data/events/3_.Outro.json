@@ -1,0 +1,438 @@
+[
+    {
+        "name": ".Outro",
+        "trigger": "level_end",
+        "level_nid": "3",
+        "condition": "game.turncount==5",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Plains"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Zobral",
+                    "MidLeft",
+                    "Railoph",
+                    "FarRight",
+                    "Volta",
+                    "MidRight",
+                    "Shumbus",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tout s'est bien pass\u00e9 \u00e0 ce que je vois."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Voice les quatres cr\u00e2nes que vous avez demand\u00e9.|Mais je ne comprends toujours pas pourquoi est ce que nous|avons d\u00fb chasser ces wyverns..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu le sauras en temps voulus, t'en fais pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ca t'amuses de garder des secrets comme \u00e7a ?|De nous faire tourner en bourrique ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Honn\u00eatement ?|C'est ce que j'ai fait de plus amusant depuis un sacr\u00e9 bout de temps."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "T'es la pire personne que j'ai rencontr\u00e9 depuis un sacr\u00e9 bout de temps."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Oh aller, vous avez pas fait tout \u00e7a pour rien, je te rassure.|J'acc\u00e9l\u00e8re la proc\u00e9dure, c'est tout."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Quelle proc\u00e9dure ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Bien essay\u00e9. Mais tu le sauras en temps voulu, t'en fais pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais il m'enerve !|Ridril !|Tu sais toi !|Dit moi !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "J'aimerais beaucoup... Mais..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Bon.|On va te faire r\u00e9flechir un peu, la rousse."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Volta."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Exactement, toi.|Je vais te poser 3 questions.|Si d'ici l\u00e0 t'as pas devin\u00e9 pourquoi vous avez fait tout \u00e7a,|je pourrais plus rien pour toi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Dit nous le directement, \u00e7a sera plus simple et moins long."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est vrai, \u00e7a serait plus simple.|Mais j'ai d\u00e9cid\u00e9 qu'aujourd'hui \u00e9tait un jour de vacance pour moi,|donc j'ai envie de me distraire un peu.|Aller, premi\u00e8re question : Mais qu'est ce que vous allez faire au Sanctuaire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On va rester enferm\u00e9 ?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il est hors de question que je reste \u00e0 me tourner les pouces alors que|ces sorciers sont encore en libert\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Deuxi\u00e8me question :|Vu que m\u00eame si je te demande de faire le contraire tu sortiras en douce du Sanctuaire,|quel est le meilleur moyen pour \u00e9viter d'enerver tout le monde ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Le faire discr\u00e8tement."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Devenir Chasseur ou Trotte Rumeur nous permetterais de continuer \u00e0|enqu\u00eater, le tout sans enfreindre un quelconque r\u00e8glement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Et derni\u00e8re question :|Est ce que tu crois qu'on laisse entrer n'importe qui au Sanctuaire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Bon d'accord.|Je vais r\u00e9pondre s\u00e9rieusement cette fois.|Le Sanctuaire a une sacr\u00e9 notori\u00e9t\u00e9, c'est un nom qui doit attirer du monde.|Plus ou moins bien intentionn\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "L'intention des gens n'est pas notre probl\u00e8me tant que les r\u00e8gles sont respect\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Sauf que cette r\u00e9putation, pour la garder,|vous pouvez pas faire Chasseur le premier p\u00e9on venu.|M\u00eame dans mon entourage, qui insultait copieusement cette guilde, je ne les ai|jamais entendu les traiter d'amateur.|Ca veut dire que m\u00eame les Chasseurs et les Trotte-Rumeurs de rang C en ont \u00e0 revendre.|Donc l'examen d'entr\u00e9e est muscl\u00e9 pour filtrer tout ceux qui ne sont pas \u00e0 la hauteur."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Moi qui croyait que tu \u00e9tait b\u00eate comme tes chaussettes Volta...|Je suis choqu\u00e9 pour la journ\u00e9e."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ce que tu dis l\u00e0 est majoritairement vrai.|Mais tu oublies une partie de la r\u00e9putation.|Le Sanctuaire refuse \u00e9normement de gens. Et tout le monde le sait."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Vous donnez des tests impossible \u00e0 ceux qui ne pourront de toute fa\u00e7on pas entrer,|et le bouche \u00e0 oreille donne sa r\u00e9putation d'innacc\u00e9ssibilit\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Bingo.|Maintenant, pour r\u00e9pondre \u00e0 votre question :|Il y en a quelques uns des tests,|et le plus difficile des \"faisable\" est certainement celui du cr\u00e2ne de Wyvern."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cette chasse \u00e9tait donc notre cl\u00e9 pour devenir Chasseur au Sanctuaire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Exactement.|Je vous ai \u00e9pargn\u00e9 l'all\u00e9 retour entre le Sanctuaire et ici, remerciez moi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais, t'as dit qu'il y avait plusieurs tests, non ?|Si on ne re\u00e7oit pas cette \u00e9preuve, on aura fait \u00e7a pour rien !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu oublies qui je suis. Aller, assez bavass\u00e9. En route."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Go ! Go !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il parle de son poste de Chasseur double S je suppose.|Mais qu'est ce qu'il va faire ? Falsifier l'\u00e9preuve ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Non, \u00e7a irait contre le reglement.|M\u00eame lui ne peut pas se le permettre sans tout risquer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors il va certainement viser plus haut."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Comment \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Pour entrer dans l'arm\u00e9e, il y a deux fa\u00e7ons de faire.|S'inscrire comme n'importe qui et commencer en bas de l'\u00e9chelle."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ou aller voir un tr\u00e8s haut grad\u00e9 et commencer avec une longueur d'avance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais comment il ferait \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Le Chef.|Zobral s'entend particuli\u00e8rement bien avec lui..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais pourquoi est ce qu'il irait aussi loin ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Au vu de son comportement, il doit avoir ses raisons."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et nous devrions bient\u00f4t les conna\u00eetres."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

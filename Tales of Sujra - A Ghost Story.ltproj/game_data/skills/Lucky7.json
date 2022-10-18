@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Lucky7",
+        "name": "Lucky Seven",
+        "desc": "Conf\u00e8re +10 Esquive/Hit pendant les 7 premiers tours.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            16
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "10 if game.turncount<=7 else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "10 if game.turncount<=7 else 0"
+            ]
+        ]
+    }
+]

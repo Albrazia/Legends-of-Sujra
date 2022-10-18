@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PassePasseArt",
+        "name": "Tour de passe Passe",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            14
+        ],
+        "components": [
+            [
+                "cost_mana",
+                2
+            ],
+            [
+                "battleswap",
+                null
+            ],
+            [
+                "give_status_after_attack",
+                "Faille"
+            ]
+        ]
+    }
+]

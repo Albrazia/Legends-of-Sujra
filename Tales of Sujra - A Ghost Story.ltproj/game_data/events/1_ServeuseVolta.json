@@ -1,0 +1,157 @@
+[
+    {
+        "name": "ServeuseVolta",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Serveuse",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Dites, j'crois avoir entendu du bruit par la  fen\u00eatre. Vous sauriez ce qui se passe ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oh ! Madame ! Ce sont ces bandits,  ils attaquent \u00e0 nouveau !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais Ridril avait dit qu'ils attaqueraient  plus pourtant..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Ils veulent incendier le village et tuer les  mercenaires qui ont prit la vie de leur chef."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh.|G\u00e9nant.|Vous avez une porte de derri\u00e8re ?"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "FarRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ne raconte pas n'importe quoi Volta !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Hein ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous allons faire face ! Ces gens ne souffriront pas de notre faute."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J-Je--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Madame, pourriez vous  nous indiquer la sortie ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Serveuse",
+                    "Oh oui, bien s\u00fbr... Tenez, prenez cette cl\u00e9, elle ouvre la porte."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Merci bien. Et \u00e0 pr\u00e9sent, en avant ! Ridril est certainement d\u00e9j\u00e0 au front !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Railoph",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Railoph"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "...|J'avais oubli\u00e9 Ridril...|C'est pas le moment de se d\u00e9gonfler, en avant !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Serveuse"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

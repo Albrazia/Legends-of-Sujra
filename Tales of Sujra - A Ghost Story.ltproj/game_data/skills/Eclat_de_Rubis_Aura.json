@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Eclat de Rubis Aura",
+        "name": "Eclat de Rubis",
+        "desc": "Chargez sans crainte. Les Brazia veillent sur vous.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            10,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "resist",
+                4
+            ]
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+Olivier : Ah ! Bienvenue messieurs dame !
+Railoph : Bonjour monsieur. La présence de Ridril me laisse penser que vous êtes notre client.
+Olivier : C'est bien moi, en effet. Mais... Excusez moi, vous n'êtes que trois ?
+Axel : Non, nous nous sommes dit que tous venir en même temps ne pourrait que créer des problèmes,
+vous comprennez.
+Olivier : Oh ! Je vois. Oui bien sûr, je comprends. Bien, parlons affaire si vous le voulez bien.
+Railoph : Bien sûr, je vous en prie.
+Olivier : Mon navire doit sortir du port dans une semaine, pour commercer avec les hommes oiseaux,
+l'empire de l'Est comme vous le savez. Mais les mers sont malheureusement infesté de pirate. J'ai besoin
+que vous nous escortiez, juste au cas où, jusqu'à ce que nous soyez sortie de ces eaux maudites.
+Axel : Devrons nous faire le voyage jusqu'au continent Avian avec vous ?
+Olivier : Non, bien sûr que non. J'ai prévu de vous déposer au Domaine Bromsworth, juste avant de
+sortir des eaux Sujarienne. J'espère que cela ne vous cause pas de problème ?
+Railoph : Aucun, rassurez vous. Et en ce qui concerne notre paye ?
+Olivier : Trois mille, comme prévu lorsque j'ai déposé la demande au Sanctuaire.
+Axel : Tout me semble en ordre. Nous partons dans une semaine alors ?
+Olivier : C'est bien ça ! Mais, pourrais-je vous demander d'être présent deux jours avant
+l'embarquement si vous le voulez bien ?
+Railoph : Vous voulez que l'on vous aide à charger votre navire ?
+Olivier : Oh, loin de là. Ces pirates ne vont pas qu'en mer, vous savez...
+Axel : Qu'est ce que--
+Railoph : Ne vous en faite pas, nous serons là deux jours avant le départ. Jusque là, au
+revoir monsieur Olivier.
+Olivier : Oui, au revoir !
+
+ 
+Axel : Pourquoi est ce que tu m'as coupé ?
+Railoph : Axel, tu as la mauvaise manie de toujours pointé du doigts les problèmes que tu trouves.
+Et bien souvent, tu vas trop vite.
+Ridril : Railoph a raison. Je trouve sa crainte des pirates assez suspecte aussi, mais peut être
+est il un peu paranoiaque ?
+Axel : Oui, mais peut être qu'il se moque de nous et sait qu'il est menacé et que cette escorte n'est pas
+"juste au cas où".
+Railoph : Nous le comprennons. Mais il sert à rien d'effrayer notre client. Pour négocier, il faut laisser
+les portes ouvertes. En particulier quand nous n'avons aucun pouvoir sur cet homme.
+Axel : Si on ne l'escorte pas il ne sortira jamais du port.
+Ridril : Si il ne sort pas du port ce sera la faute du Sanctuaire.
+Axel : ... C'est vrai.
+Ridril : Où sont Volta et Shumbus au fait ?
+Railoph : Shumbus avait faim, alors Volta s'est porté volontaire pour lui trouver quelque chose.
+Axel : Et puis on s'est dit que sans ces deux là, les discution seront plus calme.
+Ridril : Hahaha ! Vous avez certainement raison !
+

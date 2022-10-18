@@ -1,0 +1,46 @@
+[
+    {
+        "name": "vJaune1",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "true",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "OldMan1",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "OldMan1",
+                    "Vivement que Sieur Brazia revienne de ses obligations.|Loin de vouloir entendre que Dame Brazia est incapable de tenir le domaine, \u00e9videment...|Mais, malheureusement, Monsieur a emmen\u00e9 le gros de ses troupes,|alors m\u00eame qu'ils n'\u00e9taient pas assez nombreux sans cette guerre...|M\u00eame si la guerre a lieu dans le Nord, c'est tout l'empire qui en paye les frais...|Il faudrait calmer le temp\u00e9rament b\u00e9liqueux de ces Nains une fois pour toute !"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Jaune1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ProtectionChild",
+        "name": "ProtectionChild",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "resist",
+                2
+            ],
+            [
+                "combined_time",
+                0
+            ]
+        ]
+    }
+]

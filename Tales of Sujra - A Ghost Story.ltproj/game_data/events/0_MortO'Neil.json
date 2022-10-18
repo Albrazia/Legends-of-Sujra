@@ -1,0 +1,40 @@
+[
+    {
+        "name": "MortO'Neil",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "game.check_dead(\"O'Neil\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Alors c'est ici que tout se fini ?|Qu'il en soit ainsi. F\u00e9liciation jeunes gens.|Vous venez de vaincre le grand O'Neil !|Soyez en fier."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "O'Neil"
+                ]
+            ],
+            [
+                "victory_screen",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

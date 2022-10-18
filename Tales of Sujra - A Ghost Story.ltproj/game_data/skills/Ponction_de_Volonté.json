@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Ponction de Volont\u00e9",
+        "name": "Ponction de Magie",
+        "desc": "-Passive-\nRestore 1 Mana \u00e0 chaque coup inflig\u00e9\nRestore 1 Mana \u00e0 chaque unit\u00e9 tu\u00e9",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "mana_on_hit",
+                1
+            ],
+            [
+                "mana_on_kill",
+                1
+            ]
+        ]
+    }
+]

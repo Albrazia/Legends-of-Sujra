@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "TomeShumbus",
+        "name": "Alt\u00e9ration Noire",
+        "desc": "Contient les sorts utilisable par Shumbus.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "Power",
+                    "Speed",
+                    "Agility"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ]
+        ]
+    }
+]

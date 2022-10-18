@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Je peux venir !",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Je peux venir !'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "WOUAH VOLTA TU SAIS QUOI ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Hey hey, du calme Shumbus !|Qu'est ce qui t'arrives"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Inspire"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Expire"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pourquoi tu le dis plutot que le faire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'vais pouvoir me balader avec vous encore un peu !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah bon ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais ! On va faire un truc un peu plus tard, et j'pourrais vous accompagner !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Sympa !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "T'AS VU CA ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais pourquoi est ce que tu es aussi excit\u00e9 exactement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah. Vous \u00eates mes copains et vous \u00eates marrant.|Evidement que je suis contente qu'on puisse se balader ensemble.|Ah moins que...|Je suis pas te copine ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Euhm... euh...|Si si, bien s\u00fbr qu'on est copine, t'en fait pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh. J'le savais.|J'vais demander \u00e0 Railoph de me porter sur ses \u00e9paules, \u00e0 plus tard !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Est ce qu'elle serait pas aussi en train de nous mener \u00e0 la baguette ?..|Bof, elle est mignonne alors peu importe."
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Je peux venir !"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Railoph porte moi !"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

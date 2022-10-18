@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Protection",
+        "name": "Protection",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "swap",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_sfx",
+                "Weapon Swing"
+            ],
+            [
+                "status_on_use",
+                "ProtectionChild"
+            ]
+        ]
+    }
+]

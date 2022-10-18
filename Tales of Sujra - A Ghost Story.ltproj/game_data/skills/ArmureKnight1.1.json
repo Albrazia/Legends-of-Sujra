@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "ArmureKnight1.1",
+        "name": "ArmureKnight1.1",
+        "desc": "-Armure-\n-Chevalier Seulement-\n+1atq",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

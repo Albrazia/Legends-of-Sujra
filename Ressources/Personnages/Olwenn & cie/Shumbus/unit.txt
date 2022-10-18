@@ -1,0 +1,7 @@
+Shumbus
+Une jeune fille qui suit Olwenn partout.
+Toujours pleine d'entrain.
+
+1 00 00 00 00 00 00 00 04 03
+  45 25 40 40 25 30 50 60
+cleric palette : 7863FF7FFF6B1F4B2E193F1E1F12DB11FC46363290193F1EDB11DB11DB11A514

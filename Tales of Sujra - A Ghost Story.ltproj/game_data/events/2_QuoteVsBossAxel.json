@@ -1,0 +1,42 @@
+[
+    {
+        "name": "QuoteVsBossAxel",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Novala",
+                    "Right",
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Un sorcier qui invoque des ghouls.|C'est donc toi derri\u00e8re tout \u00e7a."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Novala",
+                    "Toi...|Je te reconnais, chasseur. Toujours \u00e0 fouiner l\u00e0 o\u00f9 il ne faut pas \u00e0 ce que je vois."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Novala",
+                    "Axel"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

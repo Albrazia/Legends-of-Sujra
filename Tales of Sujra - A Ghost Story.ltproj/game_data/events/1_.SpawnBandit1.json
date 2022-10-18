@@ -1,0 +1,84 @@
+[
+    {
+        "name": ".SpawnBandit1",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "103",
+                    "5,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "104",
+                    "5,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "105",
+                    "6,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "106",
+                    "6,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "107",
+                    "7,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "108",
+                    "7,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "109",
+                    "8,22",
+                    "fade",
+                    "stack"
+                ]
+            ],
+            [
+                "move_group",
+                [
+                    "Bandit1",
+                    "Bandit1",
+                    "normal",
+                    "FLAG(no_follow)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

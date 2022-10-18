@@ -1,0 +1,114 @@
+[
+    {
+        "nid": "O'Neil",
+        "name": "O'Neil",
+        "desc": "Ancien g\u00e9n\u00e9ral de la garde Brazia. \nS'est retourn\u00e9 contre ses terres natales.",
+        "variant": "",
+        "level": 4,
+        "klass": "Berserker",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 27,
+            "STR": 8,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 10,
+            "LCK": 0,
+            "DEF": 6,
+            "RES": 0,
+            "CON": 13,
+            "MOV": 6,
+            "MaxM": 0
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 50,
+            "MAG": 0,
+            "SKL": 35,
+            "SPD": 25,
+            "LCK": 15,
+            "DEF": 10,
+            "RES": 13,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "starting_items": [
+            [
+                "Steel Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Strength +5"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                71
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "O'Neil",
+        "affinity": "None",
+        "fields": []
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "TomeAlice",
+        "name": "Vent & Soin",
+        "desc": "Contient tout les sorts qu'Alice \u00e0 appris.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "multi_item",
+                [
+                    "WindMana",
+                    "HealMana"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "BattleQuoteONeilRidril",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "(unit.nid == \"O'Neil\" or unit2.nid == \"O'Neil\") and (unit.nid==\"Ridril\" or unit2.nid==\"Ridril\")",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "O'Neil",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "O'Neil",
+                    "Une Trotte-Rumeur ? On dit que le Sanctuaire est g\u00e9n\u00e9reux avec ses employ\u00e9.|Tu feras une parfaite otage, petite."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

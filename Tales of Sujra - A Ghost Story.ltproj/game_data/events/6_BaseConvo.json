@@ -1,0 +1,750 @@
+[
+    {
+        "name": "BaseConvo",
+        "trigger": "on_base_convo",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:'{eval:unit}'=='Les noeuds marins'}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Belzir",
+                    "MidRight",
+                    "FLAG(immediate)",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Reymi",
+                    "FarRight",
+                    "FLAG(immediate)",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Ensuite, en faisant passer la corde ici, on est certain que le cordage tiendra."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "T'apprends vite, c'est exactement \u00e7a.|Bon, prochaine \u00e9tape : les voiles."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Oliver",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Belzir"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Reymi"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous vous occupez de la maintenance du navire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Oh, Oliver.|Non bien s\u00fbr, vos marins l'ont d\u00e9j\u00e0 fait.|Je montre simplement \u00e0 Reymi comment \u00e7a fonctionne."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Oui, j'\u00e9tais curieux de savoir comment fonctionnait un navire.|J'esp\u00e8re que nous ne d\u00e9rangeons pas..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Ah non, pas du tout.|J'\u00e9tais simplement inquiet que mes marins n'\u00e9taient pas assez comp\u00e9tent \u00e0 votre go\u00fbt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "J'oserais pas les juger, \u00e7a fait trop longtemps que j'ai pas pris la mer !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous \u00eatiez marin ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Ouais, mais les Wako ont march\u00e9 sur nos plates-bandes.|Je vais leur botter les fesses un de ces jours.|Mon p\u00e8re est toujours sous leur sabre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Wako ?!|Mais c'est l'un des plus grand groupe de pirate de la mer..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Que \u00e7a soit le cas o\u00f9 non, ma seule famille est en danger."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Si ils venaient \u00e0 dispara\u00eetre...|Cela aiderait tout le monde...|\u00c9coutez, si cette exp\u00e9dition se passe sans encombre,|peut \u00eatre pourrions nous collaborer en ce qui concerne les Wako."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Ha !|Un navire pour attaquer des pirates c'est clairement n\u00e9c\u00e9ssaire.|J'vais redoubler d'effort et vous verrez que je m\u00e9rite votre confiance !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Reymi",
+                    "Esp\u00e9rons quand m\u00eame que nous nous ne ferons pas attaquer..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "Oui.|Oui, bien s\u00fbr.|\u00c9videment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Autrement, vous parliez des voiles, n'est ce pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "C'est \u00e7a.|Le plus important avec les voiles..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Les noeuds marins"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "L'air marin"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='L'air marin'}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Darsenn",
+                    "MidRight",
+                    "Alice",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "J'ai la t\u00eate qui tourne..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "J'ai la naus\u00e9..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Oliver",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous... Euh... Vous allez bien ?|Vous avez le ton un peu verd\u00e2tre..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Tout va pour le mieux, sir.|Ne vous en faites pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous avez l'air en pleine crise de mal de mer \u00e0 fixer l'horizon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "Si nous fixons l'horizon ce n'est que pour guetter l'arriv\u00e9 de potentiels pirate..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Je... Je vois...|J'ai des rem\u00eade contre les mal de mer, vous int\u00e9ressent ils ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Alice",
+                    "\u00c0 des fins d'\u00e9tude nous souhaiterions vous en emprunter quelques uns."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Je vous amm\u00e8ne \u00e7a.|\u00c9videment je ne vous les remanderais pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Merci."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Alice",
+                    "Darsenn",
+                    "Oliver"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Dans la cale"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Dans la cale'}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Axel",
+                    "Left",
+                    "Recon",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Bon. Ici j'pourrais \u00eatre tranquille un minimum.|T'es bien install\u00e9 Recon ?"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tu as l'air.|Maintenant excuse moi, je vais juste v\u00e9rifier ton harnachement."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je sais qu'il y a anguille sous roche dans cette histoire.|Ce marchand a pas l'air d'\u00eatre forc\u00e9ment malhonn\u00eate, mais il nous cache des choses.|Railoph met tout sa sur le dos de sa prudence, mais Volta l'a sentis aussi.|Il y a autre chose, et on va certainement le d\u00e9couvrir pendant ce combat contre les pirates.|Ou alors il sait tr\u00e8s bien tenir son secret et on en saura rien m\u00eame ensuite."
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Tape contre du bois"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Qu'est ce que c'\u00e9tait que \u00e7a ?"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Tape contre du bois"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Axel",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ca venait d'ici...|Une caisse du chargement ?..|..."
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Ouverture Boite"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Qu'est ce que..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Axel",
+                    "Recon"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Dans la cale"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "C'est assez."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='C'est assez.'}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "Ridril",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Volta, pourquoi est ce que tu m'as train\u00e9 jusqu'ici ?|Ne me dis pas que c'est juste pour regarder l'horizon s'il te plait..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Nan, c'est bien plus important que \u00e7a.|Si on vois une baleine...|Tu pourras m'emmener la voir ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Pardon ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Les baleines !|Ces gros animaux marin !|On dit qu'ils sont aussi grand qu'un port et|qu'ils pourraient t'avaler tout rond sans le remarquer !|Quand elles sautent hors de l'eau, elles cr\u00e9ent des raz-de-mar\u00e9e en att\u00e9rissant !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oui, je vois ce qu'est une baleine, mais"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Parait qu'il y en a des bleues et des blanches.|J'me demande quelle couleur je vais voir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Volta \u00e9coute m--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Combien de fois et qu'est ce qu'ils mangent tout les jours n'emp\u00eache ?|Vu leur taille \u00e7a doit \u00eatre un sacr\u00e9 festin !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il n'y a pas de baleine ici."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "...|Quoi ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "On est trop proche du rivage, et ce n'est pas la bonne saison.|Il n'y a pas de baleine ici.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah..."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "V-Volta ?.."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Ridril",
+                    "Volta"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "C'est assez."
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Barrage"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Barrage'}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Shumbus",
+                    "Left",
+                    "Railoph",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Non Shumbus, je ne pense pas qu'une armure sucr\u00e9 serait utile contre les insectes,|m\u00eame en temps de pluie."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bon, si \u00e7a \u00e7a fonctionne pas, on peut imaginer un pi\u00e8ge au miel !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et quel genre de pi\u00e8ge affecteraient des insectes ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Une bombe ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "On a pas encore r\u00e9ussi \u00e0 r\u00e9pliquer la poudre \u00e0 canon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ca va venir.|Qu'est ce qu'il se passe si on rencontre des requins l\u00e0 maintenant ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous sommes \u00e0 l'abris sur le bateau, donc pas grand chose je dirais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais mais imagine ils sont assez gros pour faire des troues dans la coque !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous serions dans de beaux draps."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ou une attaque de mouette.|Elles passent \u00e0 travers les voiles et les rendent innutilisable..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "En repliant les voiles nous devrions pouvoir \u00e9viter le pire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ou alors on d\u00e9couvre que nos vivres sont infect\u00e9 par une maladie|et on se retrouve sans rien au milieu de l'oc\u00e9an !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous ne sommes pas tellement loin de la terre ferme.|En une journ\u00e9e de navigation nous pourrions nous ravitailler."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ou alors !|...|J'ai plus rien...|Hmpf."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tu... Tu boudes ?|Pourquoi si soudainement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est la premi\u00e8re fois que j'suis \u00e0 court d'id\u00e9e.|Pourquoi ?|C'est comme si il manquait juste un truc.|Un tout petit truc et \u00e7a repartirait, mais il est pas l\u00e0...|Et plus j'y r\u00e9fl\u00e9chis, plus j'suis triste."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Quelque chose qui te manque et qui te rend triste ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais, mais j'sais pas c'que c'est.|Bon, \u00e7a m'\u00e9nerve.|Volta a l'air d\u00e9prim\u00e9 donc j'vais l'emb\u00e9ter un peu."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Quelque chose qui lui manque, mais impossible \u00e0 identifier.|Ca ne peut \u00eatre que Zobral, n'est ce pas ?"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

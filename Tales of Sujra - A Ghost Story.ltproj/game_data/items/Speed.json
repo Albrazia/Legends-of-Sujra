@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Speed",
+        "name": "Speed",
+        "desc": "-Co\u00fbt 2-\nConf\u00e8re 2VIT de plus pour le reste du chapitre \u00e0 une unit\u00e9.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "weapon_type",
+                "Buff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Speed"
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "map_hit_sfx",
+                "Nosferatu3"
+            ],
+            [
+                "truedamage",
+                5
+            ]
+        ]
+    }
+]

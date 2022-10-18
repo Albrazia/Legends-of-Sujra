@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Mort Sous Chef",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid==\"SousBandits\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "BanditSousChef",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Je.. N'ai pas dis... Mon dernier mot..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "BanditSousChef",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "BanditSousChef"
+                ]
+            ],
+            [
+                "region_condition",
+                [
+                    "FinirMission",
+                    "True"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Les missions d'\u00e9limination ne se termineront pas d'elles m\u00eame. Apr\u00e8s la mort du boss, un commande vous sera disponible pour finir le chapitre.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

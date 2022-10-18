@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CoupRenversant",
+        "name": "Coup Renversant",
+        "desc": "-Active Co\u00fbt : 2-\nInflige 2 d\u00e9g\u00e2ts et repousse la cible de 2 cases.\n",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            15
+        ],
+        "components": [
+            [
+                "ability",
+                "shove"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Changement",
+        "trigger": "Changement",
+        "level_nid": "3x",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script_with_args",
+                [
+                    "ChangementTableau",
+                    "{eval:region.nid}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

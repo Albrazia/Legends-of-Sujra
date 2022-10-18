@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Steel Claw",
+        "name": "Griffes d'Acier",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                180
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Claw"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ]
+        ]
+    }
+]

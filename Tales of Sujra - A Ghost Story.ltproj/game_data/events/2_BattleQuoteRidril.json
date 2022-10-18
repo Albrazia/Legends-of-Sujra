@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BattleQuoteRidril",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Je suis une Trotte-Rumeur du Sanctuaire !|Je ne reculerais pas devant cette chose...|Cet amas... Gluant... Lent... Naus\u00e9abond... Difforme.. Laid...|Je- Je crois que j'ai la naus\u00e9e."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

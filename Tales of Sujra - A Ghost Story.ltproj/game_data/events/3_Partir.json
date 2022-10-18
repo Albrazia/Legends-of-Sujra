@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Partir",
+        "trigger": "Partir",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:game.get_enemy_units()==0}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Bon et bien...|Je suppose que les vacances sont fini."
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "elif",
+                [
+                    "{unit.nid==\"Shumbus\"}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Coucou Zobral !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ah tiens, Shumbus. Tu t'amuses bien ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Oui ! Beaucoup !|Bon, j'y retourne, \u00e0 plus tard !"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tut tut. Demi tour. Il reste des Wyverns."
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

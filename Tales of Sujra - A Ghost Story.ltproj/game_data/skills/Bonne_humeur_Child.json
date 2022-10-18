@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Bonne humeur Child",
+        "name": "Joyeuse et Sucr\u00e9e",
+        "desc": "Shumbus donne de l'energie !",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            13
+        ],
+        "components": [
+            [
+                "aura",
+                "Bonne humeur Child2"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

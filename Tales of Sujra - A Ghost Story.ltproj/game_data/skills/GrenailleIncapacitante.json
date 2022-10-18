@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GrenailleIncapacitante",
+        "name": "Grenaille Incapacitante",
+        "desc": "-Active-\nRailoph charge le canon de sa lance et fait feu. Tout les ennemis touch\u00e9 se voit inflig\u00e9 -Incapacit\u00e9- et Str-4 d\u00e9g\u00e2ts physique\n-Incapacit\u00e9-\nJ'inflige 3 d\u00e9g\u00e2ts de moins et mov-3",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            3,
+            6
+        ],
+        "components": [
+            [
+                "ability",
+                "GrenailleIncapacitante"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

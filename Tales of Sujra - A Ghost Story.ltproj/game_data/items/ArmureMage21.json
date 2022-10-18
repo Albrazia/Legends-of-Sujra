@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "ArmureMage21",
+        "name": "ArmureMage2.1",
+        "desc": "-Armure-\n-Mage Seulement-\n+2skl",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "ArmureMage2.1"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Mage"
+                ]
+            ],
+            [
+                "value",
+                600
+            ]
+        ]
+    }
+]

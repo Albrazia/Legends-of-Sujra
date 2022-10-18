@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Charge du Vide",
+        "name": "Charge du Vide",
+        "desc": "-Active Arc Co\u00fbt : 8-\nDoublez les d\u00e9g\u00e2ts de votre prochain coup (D\u00e9fense appliqu\u00e9 avant le calcul). Emp\u00eache la double attaque.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            9
+        ],
+        "components": [
+            [
+                "combat_art",
+                "D\u00e9charge du Vide"
+            ],
+            [
+                "cost_mana",
+                8
+            ],
+            [
+                "allowed_weapons",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
+            ]
+        ]
+    }
+]

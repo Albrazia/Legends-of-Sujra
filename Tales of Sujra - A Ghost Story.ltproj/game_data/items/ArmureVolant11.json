@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "ArmureVolant11",
+        "name": "ArmureVolant1.1",
+        "desc": "-Armure-\n-Volant Seulement-\n+1mov",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "ArmureVolant1.1"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "value",
+                600
+            ]
+        ]
+    }
+]

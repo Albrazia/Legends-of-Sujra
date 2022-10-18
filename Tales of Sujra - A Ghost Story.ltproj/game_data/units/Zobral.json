@@ -1,0 +1,122 @@
+[
+    {
+        "nid": "Zobral",
+        "name": "Zobral",
+        "desc": "Un Chassseur de Haut Rang. Mercenaire impassible, impitoyable.",
+        "variant": "",
+        "level": 1,
+        "klass": "Hero",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "HP": 34,
+            "STR": 14,
+            "MAG": 7,
+            "SKL": 18,
+            "SPD": 15,
+            "LCK": 10,
+            "DEF": 12,
+            "RES": 9,
+            "CON": 13,
+            "MOV": 6,
+            "MaxM": 10
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 65,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 40,
+            "LCK": 30,
+            "DEF": 35,
+            "RES": 45,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 50
+        },
+        "starting_items": [
+            [
+                "Silver Blade",
+                false
+            ],
+            [
+                "Steel Sword",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251
+            ],
+            "Lance": [
+                true,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                1
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Olwenn",
+        "affinity": "Fire",
+        "fields": [
+            [
+                "DeathQuote",
+                "D\u00e9sol\u00e9 Anne.|Finalement, j'ai pas tenu ma promesse."
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PharmacieChild",
+        "name": "PharmacieChild",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "regeneration",
+                0.2
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,3 @@
+à faire : ajouter musique pendant cinématiques
+Ajouter les ennemis et les faire bouger
+ecrire la cinématique de fin

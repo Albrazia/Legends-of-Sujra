@@ -1,0 +1,1132 @@
+[
+    {
+        "nid": "3x",
+        "name": "Le Sanctuaire",
+        "tilemap": "Sanctuaire",
+        "bg_tilemap": null,
+        "party": "Ghost",
+        "music": {
+            "player_phase": "Astera Day Theme",
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "Retrouvez Ridril au Roamy",
+            "win": "Retrouvez Ridril au Roamy",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Volta",
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Volta",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Wagnius",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Railoph",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Axel",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ridril",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Zobral",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shumbus",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "AnneVillageois",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Recon",
+                "team": "player",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Alice",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Belzir",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Darsenn",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Reymi",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "11",
+                "variant": null,
+                "level": 1,
+                "klass": "General",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "12",
+                "variant": null,
+                "level": 1,
+                "klass": "General",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "13",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "14",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "15",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "16",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "17",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "18",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AllerWyvern",
+                "variant": null,
+                "level": 1,
+                "klass": "Villageois",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AllerRoamy",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "22",
+                "variant": null,
+                "level": 1,
+                "klass": "Villageois",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Alchimiste",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "23",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "24",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "25",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "26",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "27",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "28",
+                "variant": null,
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Shizuka",
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "29",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporteur",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "30",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporteur",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "31",
+                "variant": null,
+                "level": 1,
+                "klass": "Transporteur",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "AllerAurora",
+                "variant": null,
+                "level": 1,
+                "klass": "High Magus",
+                "faction": "Sanctuaire",
+                "starting_items": [],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "32",
+                "variant": null,
+                "level": 1,
+                "klass": "Wall10",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "other",
+                "ai": "None",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Aurora",
+                "region_type": "event",
+                "position": [
+                    22,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Sanct') and game.game_vars.get('ParlerAurora')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SanctuaireA",
+                "region_type": "event",
+                "position": [
+                    11,
+                    29
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Aurora')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Wyvern",
+                "region_type": "event",
+                "position": [
+                    0,
+                    1
+                ],
+                "size": [
+                    1,
+                    5
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SanctuaireW",
+                "region_type": "event",
+                "position": [
+                    22,
+                    0
+                ],
+                "size": [
+                    4,
+                    10
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Wyvern')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Roamy",
+                "region_type": "event",
+                "position": [
+                    8,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SanctuaireR",
+                "region_type": "event",
+                "position": [
+                    11,
+                    14
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Roamy')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "SanctuaireAt",
+                "region_type": "event",
+                "position": [
+                    11,
+                    14
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Atelier')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Atelier",
+                "region_type": "event",
+                "position": [
+                    24,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Changement",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite2",
+                "region_type": "event",
+                "position": [
+                    2,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite3",
+                "region_type": "event",
+                "position": [
+                    2,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite4",
+                "region_type": "event",
+                "position": [
+                    9,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite5",
+                "region_type": "event",
+                "position": [
+                    13,
+                    21
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite6",
+                "region_type": "event",
+                "position": [
+                    14,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite7",
+                "region_type": "event",
+                "position": [
+                    17,
+                    13
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Visite8",
+                "region_type": "event",
+                "position": [
+                    24,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MagasinAccessoire",
+                "region_type": "event",
+                "position": [
+                    13,
+                    7
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Atelier')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MagasinArme",
+                "region_type": "event",
+                "position": [
+                    16,
+                    7
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Atelier')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MagasinArmure",
+                "region_type": "event",
+                "position": [
+                    19,
+                    7
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Atelier')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Ar\u00e8ne",
+                "region_type": "event",
+                "position": [
+                    12,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visite",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "MagasinWyvern",
+                "region_type": "event",
+                "position": [
+                    11,
+                    6
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Wyvern')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Shizuka",
+                "region_type": "event",
+                "position": [
+                    16,
+                    7
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Roamy')",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Magasin",
+                "region_type": "event",
+                "position": [
+                    18,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Magasin",
+                "condition": "game.game_vars.get('Sanct')",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Sanctuaire",
+                "units": [
+                    "Darsenn",
+                    "Alice",
+                    "Belzir",
+                    "Reymi",
+                    "Zobral",
+                    "AnneVillageois",
+                    "Railoph",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "AllerWyvern",
+                    "AllerRoamy",
+                    "AllerAurora"
+                ],
+                "positions": {
+                    "Alice": [
+                        10,
+                        14
+                    ],
+                    "Reymi": [
+                        16,
+                        9
+                    ],
+                    "Belzir": [
+                        10,
+                        24
+                    ],
+                    "Zobral": [
+                        6,
+                        29
+                    ],
+                    "AnneVillageois": [
+                        8,
+                        29
+                    ],
+                    "Railoph": [
+                        9,
+                        29
+                    ],
+                    "Wagnius": [
+                        22,
+                        6
+                    ],
+                    "11": [
+                        9,
+                        32
+                    ],
+                    "12": [
+                        12,
+                        32
+                    ],
+                    "13": [
+                        3,
+                        32
+                    ],
+                    "14": [
+                        21,
+                        29
+                    ],
+                    "15": [
+                        7,
+                        7
+                    ],
+                    "16": [
+                        10,
+                        7
+                    ],
+                    "17": [
+                        4,
+                        17
+                    ],
+                    "18": [
+                        17,
+                        19
+                    ],
+                    "22": [
+                        12,
+                        32
+                    ],
+                    "23": [
+                        20,
+                        28
+                    ],
+                    "24": [
+                        2,
+                        31
+                    ],
+                    "Darsenn": [
+                        25,
+                        18
+                    ],
+                    "AllerWyvern": [
+                        1,
+                        8
+                    ],
+                    "AllerRoamy": [
+                        6,
+                        24
+                    ],
+                    "AllerAurora": [
+                        22,
+                        6
+                    ],
+                    "Alchimiste": [
+                        9,
+                        32
+                    ]
+                }
+            },
+            {
+                "nid": "Aurora",
+                "units": [
+                    "Wagnius",
+                    "Shumbus",
+                    "Alchimiste",
+                    "32"
+                ],
+                "positions": {
+                    "Wagnius": [
+                        12,
+                        6
+                    ],
+                    "Shumbus": [
+                        21,
+                        6
+                    ],
+                    "Alchimiste": [
+                        0,
+                        7
+                    ],
+                    "32": [
+                        5,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "Wyvern",
+                "units": [
+                    "Axel",
+                    "22",
+                    "23",
+                    "24",
+                    "25",
+                    "Recon",
+                    "26",
+                    "27",
+                    "28"
+                ],
+                "positions": {
+                    "Axel": [
+                        15,
+                        2
+                    ],
+                    "22": [
+                        11,
+                        7
+                    ],
+                    "23": [
+                        2,
+                        2
+                    ],
+                    "24": [
+                        2,
+                        8
+                    ],
+                    "25": [
+                        2,
+                        6
+                    ],
+                    "Recon": [
+                        2,
+                        4
+                    ],
+                    "26": [
+                        21,
+                        3
+                    ],
+                    "27": [
+                        21,
+                        6
+                    ],
+                    "28": [
+                        16,
+                        6
+                    ]
+                }
+            },
+            {
+                "nid": "Roamy",
+                "units": [
+                    "Shizuka",
+                    "Ridril"
+                ],
+                "positions": {
+                    "Shizuka": [
+                        16,
+                        7
+                    ],
+                    "Ridril": [
+                        13,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "Atelier",
+                "units": [
+                    "29",
+                    "30",
+                    "31"
+                ],
+                "positions": {
+                    "29": [
+                        13,
+                        7
+                    ],
+                    "30": [
+                        16,
+                        7
+                    ],
+                    "31": [
+                        19,
+                        7
+                    ]
+                }
+            }
+        ]
+    }
+]

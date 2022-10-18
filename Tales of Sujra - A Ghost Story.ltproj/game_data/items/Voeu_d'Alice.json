@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Voeu d'Alice",
+        "name": "Voeu d'Alice",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            16
+        ],
+        "components": [
+            [
+                "heal",
+                20
+            ],
+            [
+                "ally_blast_aoe",
+                5
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    }
+]

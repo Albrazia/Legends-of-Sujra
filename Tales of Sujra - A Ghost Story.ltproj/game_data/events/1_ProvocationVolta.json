@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ProvocationVolta",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On vous a d\u00e9j\u00e0 bott\u00e9 les fesses une fois.|Ca vous suffit pas ?!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

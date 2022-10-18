@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Magasin",
+        "trigger": "Magasin",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "shop",
+                [
+                    "{unit}",
+                    "Vulnerary,VulneraryPS",
+                    "vendor"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

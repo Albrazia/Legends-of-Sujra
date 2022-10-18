@@ -1,0 +1,492 @@
+[
+    {
+        "name": ".Outro",
+        "trigger": "level_end",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "music",
+                [
+                    "Grasp at Victory"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "On... On l'a eu ?.."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "J'en ai bien l'impression."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'\u00e9tait pas d'la tarte en tout cas..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Mon Colonel l'avait bien fatigu\u00e9.|J'esp\u00e8re qu'il nous regarde, cette victoire est pour lui aussi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Maintenant qu'il est mort, la r\u00e9gion est officielement pacifi\u00e9e!|Les pillages devraient perdre de leur ampleur sans une figure de commandement."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Ridril",
+                    "Railoph",
+                    "Axel"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Reunion"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Village"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Passons la nuit au village !"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "MidRight",
+                    "Axel",
+                    "FarLeft",
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On a pas un sous pour l'auberge malheureusement..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oh, vous en faites pas pour \u00e7a !|Pour remercier de l'aide que vous m'avez apport\u00e9, c'est ma tourn\u00e9e!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je ne bois pas, d\u00e9sol\u00e9e."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Moi non plus."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Oh, \u00e9coutez les ces gros rabat-joie !|Et puis c'\u00e9tait juste pour l'excitation d'enfin pouvoir dire \u00e7a apr\u00e8s une victoire...|J'ai pas assez non plus pour faire la f\u00eate.|Ah!|Je m'appelle Ridril au fait !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Enchant\u00e9e !|Moi, c'est Volta !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Axel."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je suis Railoph, heureux de  faire ta connaissance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Merci encore pour tout ce que vous avez fait aujourd'hui.|Tenez, c'est pour passer la nuit.|On se retrouve demain matin \u00e0 l'aube !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Brave petite."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Railoph",
+                    "Axel",
+                    "Volta"
+                ]
+            ],
+            [
+                "give_money",
+                [
+                    "900"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "music_clear",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Advance"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tavern1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "Left",
+                    "Axel",
+                    "MidRight",
+                    "Railoph",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Bon ! Du coup, parce qu'il faut bien poser la question...|Vous \u00eates qui ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je crois que je me suis d\u00e9j\u00e0 pr\u00e9sent\u00e9 plus t\u00f4t."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oui, oui, je suis pas sourde.|Mais j'veux dire, vous faisiez quoi dans  la vie avant qu'on se fasse chasser ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "J'\u00e9tais soldat dans la garde local."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "\u00c9tait ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Oui, mon colonel m'a donn\u00e9 comme dernier ordre de vous prot\u00e9ger.|Que les Anc\u00eatres en soient t\u00e9moin, je ne vous lacherais pas d'une semelle !|Pas avant que vous soyez tout les deux en s\u00e9curit\u00e9 en tout cas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "T'as pas mieux \u00e0 faire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tout a br\u00fbl\u00e9 en m\u00eame temps que le village..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah.|Et toi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "J'\u00e9tais un chasseur certifi\u00e9 du domaine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "\u00c9tait ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Oui, ces bandits ont pill\u00e9 mes outils, br\u00fbl\u00e9 ma cabane et vol\u00e9 mon or.|Je risque pas de rouvrir boutique tout de suite."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah.|...|Je peux faire une blague ? C'est que c'est lourd par ici."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Dit nous plut\u00f4t ce que tu faisais, jeune fille."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je suis une voleuse !|Moi, j'ai rien perdu parce que j'avais rien \u00e0 perdre!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Fa\u00e7on int\u00e9ressante de pr\u00e9senter les choses."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tu ne faisais quand m\u00eame pas partie du groupe de O'Neil, si ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Non, non, bien s\u00fbr que non.|Mais j'\u00e9tais peut \u00eatre end\u00e9tt\u00e9e aupr\u00e8s d'un gars qui lui ressemblait..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ne me dit pas que tout \u00e7a est arriv\u00e9 parce qu'il te cherchait ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Non !|Non.|Aucune chance. Je me suis fait la malle y'a d\u00e9j\u00e0 un baille."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et on doit prendre les paroles d'une voleuse pour argent comptant ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Eh ! J'suis peut \u00eatre une voleuse, mais je suis pas une menteuse !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je te crois sur parole, petite.|Rien ne m'a encore pouss\u00e9 \u00e0 douter de ta parole."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ah oui ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je n'ai jamais entendu parl\u00e9 d'elle, alors oui, je lui ferais confiance !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "...|Merci"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cette journ\u00e9e a \u00e9t\u00e9 longue mes amis !|Allons nous coucher et retrouvons nous ici demain matin."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Oui, et nous verrons ce que Ridril a \u00e0 nous dire \u00e0 ce moment l\u00e0."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

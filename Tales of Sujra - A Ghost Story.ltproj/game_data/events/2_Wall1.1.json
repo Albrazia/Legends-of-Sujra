@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Wall1.1",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == '101'",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{position}"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "102",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Mur1"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

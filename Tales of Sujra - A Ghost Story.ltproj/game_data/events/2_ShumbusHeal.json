@@ -1,0 +1,124 @@
+[
+    {
+        "name": "ShumbusHeal",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "v:Flag1",
+        "commands": [
+            [
+                "music",
+                [
+                    "Hey, brother"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh, vous avez pas l'air en forme."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah bon ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah ouais, regarde, t'es toute bless\u00e9 l\u00e0."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh c'est rien, t'en fais donc pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'peux le soigner si tu veux !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Jeune fille, tu ma\u00eetrise l'\u00e9cole de la gu\u00e9rison ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Non !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Mais dans ce cas... Comment ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Avec ce p'tit b\u00e2ton l\u00e0 !|C'est Wagnius qui me l'a fait !|Avec lui, j'peux faire semblant de savoir soigner et vous soigner pour de vrai !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais est ce que tu fais vraiment semblant dans ce cas ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Te bile pas va.|Ca fonctionne, c'est le plus important.|Par contre la pierre se d\u00e9charge et se brise \u00e0 force.|Alors doucement sur les bobo hein !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Si je m'attendais \u00e0 \u00e7a..."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

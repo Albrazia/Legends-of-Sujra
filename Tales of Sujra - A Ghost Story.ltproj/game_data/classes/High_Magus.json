@@ -1,0 +1,155 @@
+[
+    {
+        "nid": "High Magus",
+        "name": "High Magus",
+        "desc": "Un homme qui comprend les fondement m\u00eame de la magie. Son esprit est un puit de connaissance.",
+        "tier": 2,
+        "movement_group": "Mages",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Mage"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 5,
+            "LCK": 0,
+            "DEF": 5,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 6,
+            "MaxM": 15
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 75,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 35,
+            "DEF": 60,
+            "RES": 60,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 70
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "STR": 0,
+            "MAG": 1,
+            "SKL": 1,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 3,
+            "CON": 1,
+            "MOV": -99,
+            "MaxM": 0
+        },
+        "max_stats": {
+            "HP": 60,
+            "STR": 20,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 26,
+            "LCK": 30,
+            "DEF": 21,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 15,
+            "MaxM": 30
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                true,
+                31
+            ],
+            "Light": [
+                true,
+                31
+            ],
+            "Anima": [
+                true,
+                124
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                true,
+                124
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Foudre": [
+                true,
+                251
+            ],
+            "Incantation": [
+                true,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Sage",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "High Magus",
+        "combat_anim_nid": "Sage",
+        "fields": []
+    }
+]

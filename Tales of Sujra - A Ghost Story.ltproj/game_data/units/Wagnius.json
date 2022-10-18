@@ -1,0 +1,102 @@
+[
+    {
+        "nid": "Wagnius",
+        "name": "Wagnius",
+        "desc": "Un mage qui ne quitte jamais son armuree. Polie et pr\u00eat \u00e0 partager son savoir \u00e0 qui veut \u00e9couter.",
+        "variant": null,
+        "level": 20,
+        "klass": "High Magus",
+        "tags": [],
+        "bases": {
+            "HP": 31,
+            "STR": 6,
+            "MAG": 19,
+            "SKL": 15,
+            "SPD": 13,
+            "LCK": 7,
+            "DEF": 16,
+            "RES": 17,
+            "MaxM": 25,
+            "CON": 7,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 30,
+            "MAG": 75,
+            "SKL": 45,
+            "SPD": 40,
+            "LCK": 35,
+            "DEF": 60,
+            "RES": 60,
+            "MaxM": 70,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Claw": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Glace": [
+                false,
+                0
+            ],
+            "Vent": [
+                false,
+                0
+            ],
+            "Foudre": [
+                false,
+                251
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Incantation": [
+                false,
+                251
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Wagnius",
+        "affinity": "None",
+        "fields": []
+    }
+]

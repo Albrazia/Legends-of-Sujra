@@ -1,0 +1,38 @@
+[
+    {
+        "name": "QuoteVsBossAxel",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "BanditSousChef",
+                    "Right"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "BanditSousChef"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

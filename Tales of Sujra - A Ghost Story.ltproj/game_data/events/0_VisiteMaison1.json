@@ -1,0 +1,52 @@
+[
+    {
+        "name": "VisiteMaison1",
+        "trigger": "Visiter",
+        "level_nid": "0",
+        "condition": "region.nid==\"Maison1\"",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Old Woman1",
+                    "Right",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Old Woman1",
+                    "La r\u00e9gion est souvent sous le coup des bandits depuis que Sieur Brazia n'est plus l\u00e0.|Il est partie sur le front au nord ! Combattre les Nains.|D'ailleurs, cet homme qui nous attaque... Comment est ce qu'il s'appelait d\u00e9j\u00e0 ?|Je crois qu'il avait le nom d'un fleuve.{br}Ou d'un clou.|Boh, \u00e7a n'a pas d'importance. Ce qu'il faut savoir c'est qu'il ne faut pas l'approcher.|C'est un redoutable combattant, sa puissance est colossal !|Faites bien attention \u00e0 vous surtout."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

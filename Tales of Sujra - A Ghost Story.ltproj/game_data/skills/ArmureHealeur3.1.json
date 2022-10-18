@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "ArmureHealeur3.1",
+        "name": "ArmureHealeur3.1",
+        "desc": "-Armure-\n-Soigneur Seulement-\n+2def +2res",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

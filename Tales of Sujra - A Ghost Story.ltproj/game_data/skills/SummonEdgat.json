@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SummonEdgat",
+        "name": "SummonEdgat",
+        "desc": "",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "ability",
+                "SummonEdgat"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "name": "Tour3",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount==3",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hardan",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Shumbus.|C'est contre moi que ton \u00e9quipe se bat.|Penses tu sinc\u00e8rement qu'ils ont le luxe de te voir te retenir ?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Elle se retient ?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Mais Hardan...|Ils peuvent pas le supporter comme Zobral..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "J'ai d\u00e9j\u00e0 subit les affres de ton pouvoir.|C'est peut \u00eatre douloureux, mais tes alli\u00e9es m\u00e9ritent de pouvoir choisir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Il fait r\u00e9f\u00e9rence \u00e0 ta magie, n'est ce pas ?|L'Alt\u00e9ration Noire...|J'ai moi aussi subit cela Shumbus, et je suis toujours debout.|Ne t'en fais pas pour nous et d\u00e9ploie toute tes options."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais ouais, t'en fais pas !|On est pas en sucre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Je ferais de mon mieux !"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Volta",
+                    "Shumbus",
+                    "Railoph"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Shumbus",
+                    "TomeShumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "",
+                    "Shumbus vient de d\u00e9bloquer l'option d'utiliser quelques sorts qu'elle ma\u00eetrise.|Sa ma\u00eetrise est tr\u00e8s avanc\u00e9, trop avanc\u00e9, et aucun de ses alli\u00e9s ne serait capable de subir les effets de sa magie.|L'Alt\u00e9ration Noire de Shumbus est \u00e0 double tranchant, mais une utilisation intelligente vous ouvrira les portes de la victoire.|Au contraire des autres mages, les sorts de Shumbus se d\u00e9bloqueront et s'am\u00e9lioreront \u00e0 mesure que l'aventure progresse.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pharmacie",
+        "name": "Pharmacie Ambulante",
+        "desc": "-Passive-\nRend 20%hp aux alli\u00e9s \u00e0 2 cases ou moins au d\u00e9but de chaque tour.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "aura",
+                "PharmacieChild"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

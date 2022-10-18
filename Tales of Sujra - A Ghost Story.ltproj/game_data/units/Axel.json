@@ -1,0 +1,119 @@
+[
+    {
+        "nid": "Axel",
+        "name": "Axel",
+        "desc": "Un chasseur du Domaine Brazia. Ses intention ne sont pas toujours claire.",
+        "variant": "",
+        "level": 1,
+        "klass": "Chasseur",
+        "tags": [
+            "Lord",
+            "Required"
+        ],
+        "bases": {
+            "HP": 18,
+            "STR": 7,
+            "MAG": 3,
+            "SKL": 10,
+            "SPD": 6,
+            "LCK": 4,
+            "DEF": 5,
+            "CON": 7,
+            "MOV": 5,
+            "RES": 2,
+            "MaxM": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 15,
+            "SKL": 55,
+            "SPD": 55,
+            "LCK": 45,
+            "DEF": 30,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 40,
+            "MaxM": 40
+        },
+        "starting_items": [
+            [
+                "Iron Bow",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0
+            ],
+            "Lance": [
+                true,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                1
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Axel",
+        "affinity": "Light",
+        "fields": [
+            [
+                "DeathQuote",
+                "La route s'arr\u00eate ici.|J'aurais aim\u00e9...{br}Qu'elle continue un peu."
+            ]
+        ]
+    }
+]

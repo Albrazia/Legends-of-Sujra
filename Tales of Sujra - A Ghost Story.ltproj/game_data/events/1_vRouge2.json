@@ -1,0 +1,52 @@
+[
+    {
+        "name": "vRouge2",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "true",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Village"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man3",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man3",
+                    "S'il vous plait ?!|Vous \u00eates mercenaire, n'est ce pas ?|Tenez, prenez cet argent, et d\u00e9fendez moi et ma cargaison. C'est tr\u00e8s important !"
+                ]
+            ],
+            [
+                "give_money",
+                [
+                    "1500"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Rouge2"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

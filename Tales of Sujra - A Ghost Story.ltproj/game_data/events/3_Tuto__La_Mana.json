@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Tuto : La Mana",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Tuto : La Mana'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Starlight"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, sister"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Salut les--|..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Shumbus. O\u00f9 est ce qu'on est ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'en ai strictement aucune id\u00e9e, c'est quoi \u00e7a ?|Le fond est m\u00eame pas entier ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Nous devrions nous concentrer sur le sujet..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ouais. Oublions le bordel derri\u00e8re nous et regardons plutot en avant.|Aujourd'hui ce tuto porte sur la mana !|Et puisque je sais que mes tr\u00e8s ch\u00e8re \u00e9l\u00e8ves savent exactement ce qu'est la mana,|-sauf peut \u00eatre le cancre au fond de la salle qui oublie le sens du triangle des armes-|je ne vais pas vous expliquer ce que c'est, mais me limiter \u00e0 sa fonction !|Et j'ai aujourd'hui avec moi...|Monsieur \"Je-Fais-Rien-Comme-Les-Autres\" !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Qu'est ce que c'est que ce surnom..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Plus d'informations l\u00e0 dessus plus tard !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMana1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Deux informations tr\u00e8s importante sur cet \u00e9cran... Mana et MaxM !|La premi\u00e8re vous indique la quantit\u00e9 de mana que vous avez \u00e0 votre disposition,|la deuxi\u00e8me vous indique le maximum de mana que vous pouvez avoir d'un coup !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Cette ressource est tr\u00e8s importante pour tout ceux qui utilisent des sorts,|ainsi que tout ceux qui d\u00e9passent leurs limite physique pendant un instant.|Tomber \u00e0 court n'est en aucun cas dangereux,|une personne normal r\u00e9g\u00e9n\u00e8re un point de mana par tour environ."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Et c'est L\u00c0 que \u00e7a p\u00e8che !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoMana2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "\"Une personne normal se r\u00e9g\u00e9n\u00e8re\" et \"gneugneugneu\".|Pointez le du doigts !|Discriminez le !|J'le veux pas dans les m\u00eame toilette que moi !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ce qu'essaye de vous faire comprendre Shumbus c'est que je ne suis pas cette r\u00e8gle.|Pour r\u00e9g\u00e9n\u00e9rer mon mana, je dois le voler \u00e0 quelqu'un obligatoirement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ca fait que tu peux g\u00e9n\u00e9rer plus de mana que n'importe qui \u00e0 chaque tour."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Mais \u00e7a fait aussi que tout mes sorts sont plus ch\u00e8re,|et que un tour pass\u00e9 \u00e0 ne pas attaquer est plus punitif que pour les autres."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Starlight"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Shumbus",
+                    "Left",
+                    "Axel",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tout est question d'\u00e9quilibre finalement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Exactement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh bah, merci beaucoup de m'avoir accompagn\u00e9 dans cette randonn\u00e9...|au fin fond du cosmos...|de la Mana !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et merci de m'y avoir emmen\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "\u00c0 une prochaine fois les copains !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Tuto : La Mana"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

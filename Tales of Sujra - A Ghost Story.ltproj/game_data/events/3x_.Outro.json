@@ -1,0 +1,263 @@
+[
+    {
+        "name": ".Outro",
+        "trigger": "level_end",
+        "level_nid": "3x",
+        "condition": "True",
+        "commands": [
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "Ridril",
+                    "FarLeft",
+                    "Railoph",
+                    "MidRight",
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Qu'est ce qu'on fait du coup ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Plusieurs choix s'offrent \u00e0 nous...|Vraiment beaucoup.|On ne risque pas de manquer de travail, le tableau est quasiment plein."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Railoph aimerait certainement continuer \u00e0 prot\u00e9ger le Domaine Brazia je suppose."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ce Domaine est celui que j'ai servit durant de longues ann\u00e9es, il est vrai.|mais je ne pense pas que nous seront encore d'une grande aide l\u00e0 bas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pourquoi pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Avec la menace d'O'Neil d'\u00e9cart\u00e9, Dame Am\u00e9lie devrait r\u00e9ussir \u00e0 g\u00e9rer ses terres."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il parait qu'elle manque d'autorit\u00e9 en ce moment, est ce que tout ira vraiment bien ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Dame Am\u00e9lie est une femme tr\u00e8s gentille...|Tout ce qu'elle subit doit grandement lui peser.|Son mari partie \u00e0 la guerre,|son fils disparus,|deux tentative d'assassinat contre sa fille,|le tout suivit de sa disparition dans un terrible incendie..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Esp\u00e9rons qu'elle ne d\u00e9cide pas de jeter l'\u00e9ponge hein...|"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Je vais demander \u00e0 des amis Trotte-Rumeur de me rapporter des nouvelles du Domaine Brazia.|Comme \u00e7a, si quelque chose devait arriver, nous pourrons intervenir !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cette id\u00e9e me satisfait amplement Ridril, merci."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Revenons \u00e0 la probl\u00e9matique de base dans ce cas.|Que choisissons nous ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'aimerais bien aller au Domaine Hisky."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pour rejoindre des pirates et piller les marchands en mer ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Non banane, l'exact contraire tiens.|En plus il parait qu'il fait beau l\u00e0 bas en ce moment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je sais qu'en cette saison leur dojo est ouvert au public."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tu penses que c'est maintenu avec la guerre ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Il est possible que l'\u00e9venement ait \u00e9t\u00e9 annul\u00e9, en effet.|Surtout que les g\u00e9rant de l'\u00e9tablissement sont les succ\u00e9sseurs Hisky."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On pourra toujours y faire un tour pour voir, \u00e7a co\u00fbte rien."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Une qu\u00eate au Sud ?|J'ai exactement ce qu'il vous faut."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Qu'est ce que tu veux encore toi ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors comme \u00e7a les Chasseurs double S \u00e9coutent au porte."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Aller aller, arr\u00e9tez de vous plaindre.|J'ai la qu\u00eate parfaite pour votre premi\u00e8re mission,|avec juste ce qu'il faut d'impr\u00e9vus.|Tiens Ridril, j'te laisse leur expliquer."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Zobral",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "D'apr\u00e8s la prime que m'a donn\u00e9 Zobral...|C'est une mission d'escorte.|Un marchand maritime nous demande une protection contre des pirates."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ca me fait mal de le dire, mais..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ouais... C'est pile ce qu'on voulait..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nos pr\u00e9paratifs sont termin\u00e9, alors en route !"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Bon voyage~~"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il m'enerve."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

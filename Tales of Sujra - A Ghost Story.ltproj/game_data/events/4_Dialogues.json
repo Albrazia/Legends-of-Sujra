@@ -1,0 +1,1476 @@
+[
+    {
+        "name": "Dialogues",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:{1}==1}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "VillageGate"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidRight",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Voici donc la ville o\u00f9 notre client nous attends.|Comme il fallait s'y attendre, elle semble \u00eatre un port d'envergure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je sens que \u00e7a va puer le poisson."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "C'\u00e9tait ton souhait de venir ici Volta.|Je ne te laisserais m\u00eame pas le droit de te plaindre."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Vous croyais qu'ils vendent du Tonkatsu ?|J'ai un peu faim."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Axel",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Volta",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Qu'est ce que c'est ?{br}Une sp\u00e9cialit\u00e9 locale ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est \u00e7a.|C'est grosso modo des cotelettes de porc grill\u00e9 !|C'est la sp\u00e9cialit\u00e9 de la f\u00eate du Fer Crois\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est l'\u00e9venement dont je vous parlais.|La famille Hisky ouvre les portes de son dojo au publique durant quelques semaines."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Mhm !|Zobral et moi on y est d\u00e9j\u00e0 all\u00e9 une fois.|On \u00e9tait dans le coin apr\u00e8s une de ses missions, donc on a fait un saut.|Pire erreur de sa vie, le pauvre...|Il s'est fait abord\u00e9 par absolument tout les \u00e9l\u00e8ves de l'\u00e9cole !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "RailopH",
+                    "Cela n'a pas d\u00fb \u00eatre tr\u00e8s amusant pour lui, en effet..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Devoir apprendre \u00e0 des \u00e9l\u00e8ves doit demander une patience qu'il a pas !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "C'est pas tellement qu'il devait leur apprendre des trucs qui \u00e9tait compliqu\u00e9,|c'est que ces gars l\u00e0 rigolent pas !|Les d\u00e9butants ont m\u00eame pas os\u00e9 lui dire \"bonjour\",|c'est les plus grand qui l'ont d\u00e9fi\u00e9 sans arr\u00eat !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Connaissant la r\u00e9putation de l'\u00e9cole,|un guerrier exp\u00e9rimenter d'ici serait un probl\u00e8me pour n'importe qui."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'te raconte pas les frayeurs qu'il s'est tap\u00e9 !|Ce gars est trop fier pour accepter la d\u00e9faite.|Il a pass\u00e9 deux journ\u00e9es \u00e0 se battre en duel sans c\u00e9der aucune d\u00e9faite !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est impressionnant..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Il a fini par tricher et me demander de l'aide, donc bof."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Toi ? Te battre ? Allons Shumbus, c'est dur \u00e0 croire..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'ai d'autres fa\u00e7on de l'aider, t'en fais pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tout de m\u00eame... Tricher \u00e0 ce genre d'\u00e9venements..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "D'un autre cot\u00e9, se battre toute la journ\u00e9e deux jours de suites,|tu peux pas esp\u00e9rer \u00eatre \u00e0 fond tout le long."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pas faux."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Bon, avan\u00e7ons.|Nous devons discuter avec notre client en arrivant dans la ville.|Normalement Ridril devrait d\u00e9j\u00e0 y \u00eatre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Elle aime bien partir toute seule en avant, hein ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Elle nous facilite la t\u00e2che, alors je n'y vois aucun inconv\u00e9nient !"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "elif",
+                [
+                    "{eval:{1}==2}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Oliver",
+                    "MidRight",
+                    "Ridril",
+                    "FarRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Ah ! Bienvenue messieurs !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Bonjour monsieur.|La pr\u00e9sence de Ridril me laisse penser que vous \u00eates notre client ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "C'est bien moi, en effet.|Mais... Excusez moi, vous n'\u00eates que trois ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Non, nous sommes un groupe plus grand.|Mais nous pr\u00e9senter \u00e0 plus que \u00e7a nous a paru inconvenent."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Je comprends, oui.|Bien. Parlons affaire si vous le voulez bien."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je vous en prie."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Mon navire doit sortir du port dans trois semaines.|Notre destination est le continent \u00e0 l'Est.|Malheureusement les mers sont infest\u00e9 de pirates,|et j'ai besoin que vous nous escortire, juste au cas o\u00f9,|jusqu'\u00e0 ce que nous soyons sortie de ces eaux maudites."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Devrons nous faire le voyage jusqu'au contient Avian avec vous ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Oh, non. J'ai pr\u00e9vu de vous d\u00e9poser au Domaine Bromsworth, \u00e0 la limite de l'Empire.|J'esp\u00e8re que \u00e7a ne vous pose pas de probl\u00e8mes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Aucun, rassurez vous.|Et en ce qui concerne notre paye ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Trois milles, comme pr\u00e9vu lorsque j'ai d\u00e9pos\u00e9 la demande au Sanctuaire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tout me semble en ordre.|Nous partons dans trois semaines alors ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "C'est bien \u00e7a !|Mais, pourrais-je vous demander une faveur ?|Serait il possible que vous soyez l\u00e0 deux jours avant l'embarquement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est certainement faisable, oui.|Voulez vous que l'on vous aide au chargement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Non, pas du tout.|Mais ces pirates n'attaquent pas qu'en mer, vous savez..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous serons l\u00e0 deux jours avant le d\u00e9part dans ce cas.|Jusque l\u00e0, au revoir monsieur."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Oui, au revoir !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Oliver"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "10,1",
+                    "normal",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Oliver",
+                    "fade"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Deux jours avant le d\u00e9part, pourquoi pas.|Des pirates qui attaquent sur terre ? Ce serait curieux."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Il sait peut \u00eatre quelque chose que nous ne savons pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il n'a pas int\u00e9r\u00eat \u00e0 se moquer de nous."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Que ce soit le cas ou non, nous avons \u00e9t\u00e9 engag\u00e9 pour repousser des pirates.|Qu'ils soient en mer ou sur terre, cela ne change rien pour nous."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Certes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "O\u00f9 sont Volta et Shumbus au fait ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Shumbus avait faim, alors Volta s'est port\u00e9e volontaire pour s'occuper d'elle."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Axel",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et puis on s'est dit que sans ces deux l\u00e0 on aurait l'air plus cr\u00e9dible.|Une petite fille et une voleuse pour prot\u00e9ger un navire ?"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Ridril",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Hahaha ! Vous avec certainement raison."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:{1}==3}"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Shumbus",
+                    "FarLeft",
+                    "Volta",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "MidRight",
+                    "right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah tiens, vous avez fini ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Absolument !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "La mission commence dans un peu moins de trois semaines.|Le marchand a l'air particuli\u00e8rement soucieux d'une attaque de pirate."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'comprend, on est jamais \u00e0 l'abris."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Trois semaines \u00e0 tuer ?|Eh, \u00e7a vous dit qu'on fasse un tour \u00e0 Machisky pour la f\u00eate ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est effectivement une possibilit\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi pas.|Autant utiliser notre temps pour faire autre chose que rien."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est d\u00e9cid\u00e9 ! Direction Machisky !"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Shumbus",
+                    "Volta",
+                    "Ridril",
+                    "Axel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:{1}==4}"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Castle1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft",
+                    "left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tu vois Railoph, c'est ouvert !|Y'avait pas besoin de s'en faire comme \u00e7a pendant tout le trajet."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Oui, tu as raison..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hardan",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Bonjour messieurs dame.|Vous venez participer au festival du Fer Crois\u00e9 ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "C'est bien \u00e7a. Je suis Railoph, et voici Volta.|Vous \u00eates l'un des g\u00e9rants ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Absolument, oui.|Je suis--"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "Smile"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Hardan !"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "NormalBlink"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Shumbus",
+                    "Smile"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Hardan",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Shumbus !|Mais qu'est ce que tu fais ici ?|Je croyais que Lord Zobral ne remetterait plus jamais les pieds ici."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Oh bah tu peux me croire, il compte bien tenir parole.|Il est \u00e0 des lieux d'ici !"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Je suis venu avec ces copains !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je vois, je vois.|Eh bien, puisque l'enthousiasme de Shumbus m'a coup\u00e9 dans mon \u00e9lan,|permettez moi de reprendre depuis le d\u00e9but.|Je suis Hardan Hisky, deuxi\u00e8me succ\u00e9sseur Hisky et directeur de cette \u00e9cole.|Je vous souhaite la bienvenue \u00e0 tous."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Merci beaucoup Sir Hisky, votre hospitalit\u00e9 nous fait chaud au coeur."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il fait d\u00e9j\u00e0 assez chaud comme \u00e7a.|Y'avait pas besoin d'en rajouter."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Zobral vous a donc laiss\u00e9 la garde de Shumbus,|vous devez \u00eatre de grands mercenaire !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah pas vraiment en fait.|Ils ont m\u00eame pas encore remplis leur premi\u00e8re mission !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "T'aurais pu nous laisser mentir un coup, Shumbus."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ils sont venu pour en apprendre plus sur le combat,|histoire de monter de grade le plus vite possible."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Pourquoi tant de h\u00e2te ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Ils se sont emp\u00e9tr\u00e9 dans l'histoire de ces sorciers."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Sh-Shumbus ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Zobral nous a demand\u00e9 de ne rien dire \u00e0 personne !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Ne vous en faites pas.|J'\u00e9tais pr\u00e9sent lorsqu'il a d\u00e9couvert l'existence de ce groupe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh punaise...|J'\u00e9tais en train de r\u00e9fl\u00e9chir \u00e0 comment quitter le pays."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Ha ha ha !|Oh ne vous en faites pas.|Quitter le pays n'aurait pas beaucoup chang\u00e9 votre sort."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ah ouais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je peux confirmer tout ce qu'\u00e0 dit Shumbus.|Nous voulons devenir plus fort afin d'aider Zobral au plus t\u00f4t."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Dans ce cas, je vous entrainerais personnellement."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi feriez vous \u00e7a ?|Nous ne sommes que des mercenaires de bas \u00e9tage, \u00e7a me parait excessif."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Cette histoire me pr\u00e9occupe autant que n'importe qui.|Mais je ne peux intervenir autant que je le souhaiterais \u00e0 cause de ma position.|Chef de l'\u00e9cole et deuxi\u00e8me succ\u00e9sseur... Je ne suis pas libre de mes mouvements.|Alors si je peux m'assurer que ceux qui se battent \u00e0 ma place soient comp\u00e9tent,|je ne vois pas pourquoi est ce que je laisserais l'occasion passer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi ne pas envoyer vos \u00e9l\u00e8ves alors ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Zobral m'a demand\u00e9 de ne pas le faire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vous lui ob\u00e9issez ?|Un succ\u00e9sseur qui se laisse marcher sur les pieds par un mercenaire.|Je ne pensais pas \u00e7a possible."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "..|Pourquoi toute ces questions exactement ?|M'accuseriez vous de quelque chose ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je n'accorde pas facilement ma confiance aux H\u00e9riters et leurs familles.|Encore moins \u00e0 ceux qui respectent cet \u00e9go\u00efste de Zobral."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "D'o\u00f9 venez vous exactement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous sommes originaire du Domaine Brazia, sir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je connais Sieur et Dame Brazia personnelement,|et je sais que ce sont des gens tr\u00e8s attentif au peuple.|Pourquoi cette aversion ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "D'abord ma question. Pourquoi vous laissez vous marcher sur les pieds ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Zobral ne me marche pas sur les pieds.|Cette d\u00e9cision est une faveur qu'il m'a demand\u00e9.|D'\u00c9l\u00e8ve \u00e0 Ma\u00eetre."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vous avez instruit Zobral ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Oui, et c'est d'ailleurs l'un de mes meilleurs \u00e9l\u00e8ves.|\u00c0 votre tour maintenant."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Mon aversion n'est que le fruit de ma prudence."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Entre prudence et parano\u00efa il n'y a qu'un pas, croyez moi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vous ne savez rien de mes circonstances, gardez vos le\u00e7ons pour vos \u00e9l\u00e8ves."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Axel, il suffit.|Sir Hisky est assez aimable pour nous proposer de nous entrainer,|tu ne devrais pas l'insulter de la sorte."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "...|Tu as certainement raison.|Veuillez pardonner mon impertinence, sir Hisky."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Nul besoin de vous excusez.|Mais contr\u00f4lez votre franc parl\u00e9, tout les nobles ne sont pas aussi ouvert que moi.|Je suis un guerrier avant d'\u00eatre un noble,|et je suis de toute fa\u00e7on derri\u00e8re Jake dans la ligne de succession.|Cet idiot ne mourra jamais, alors je suis condamn\u00e9 \u00e0 rester \u00e0 la t\u00eate de cette \u00e9cole.|Je vous propose de r\u00e9gler nos diff\u00e9rents en laissant parler nos lames,|comme le veux la tradition du fetival du Fer Crois\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Cela me convient parfaitement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Vous allez tellement souffrir les copains!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tu te bats autant que nous, jeune fille."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Je me bats pas, je soigne !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'vais te porter et te mettre en face des ennemis,|tu peux me faire confiance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bonne chance avec Zobral !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Elle est maline."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je vais pr\u00e9parer un petit quelque chose.|Permettez moi de vous faire patienter une heure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Prennez tout le temps qu'il vous faut, sir."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il est beaucoup plus sympa que ce que je pensais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Pourquoi il le serait pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "J'ai toujours cru que les H\u00e9ritiers avaient un gros melon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Poil au menton."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Les H\u00e9ritiers Brazia sont des gens respectable, tu sais ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Poil au nez."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Vu que tu as servit dans leur arm\u00e9e pendant plusieurs ann\u00e9es,|j'ai jamais vraiment pris ton avis au s\u00e9rieux."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je peux comprendre \u00e7a.|Mais pourquoi cet \u00e0 priori en g\u00e9n\u00e9ral ?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pour une hors-la-loi comme elle ?|D\u00e9tester l'autorit\u00e9 sans raison est parfaitement normal je pense."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Poil \u00e0 la pance !|Et c'est riche venant de toi \u00e7a Axel."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Alors d\u00e9j\u00e0, je suis plus une hors-la-loi,|r\u00e9orientation professionnelle, tu connais ?|Et ensuite \u00e0 chaque fois que j'ai entendu parler des H\u00e9ritier,|les gens les glorifiaient eux et leurs fils."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Poil au !..|au..!|...|Je suis \u00e0 court de blagues, on va se pr\u00e9parer ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "T'as juste \u00e0 arr\u00eater Shumbus..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Non !|Tout mon personnage se base sur \u00eatre mignon !|J'essaye d'\u00e9tendre le genre \u00e0 \"Comic Relief\" aussi !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Change d'approche."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cependant, elle a un bon point.|Allons pr\u00e9venir les autres et nous pr\u00e9parer !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:{1}==5}"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "0,0"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "add_group",
+                [
+                    "StartEnemy",
+                    "starting",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Hardan",
+                    "immediate"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Volta",
+                    "0,0",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Axel",
+                    "0,0",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Railoph",
+                    "0,0",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Shumbus",
+                    "0,0",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Hardan",
+                    "0,0",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Volta",
+                    "1,1",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Railoph",
+                    "2,1",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Axel",
+                    "3,1",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Hardan",
+                    "2,3",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Shumbus",
+                    "2,0"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Hardan",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Voici le th\u00e9atre qui verra notre affrontement prendre place."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Y'a beaucoup de monde pour un entra\u00eenement quand m\u00eame..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Vous devez certainement vous en douter,|les Art Hisky ne sont pas quelque chose que quelqu'un peut apprendre en quelques semaines.|Aussi j'ai alors pr\u00e9f\u00e9r\u00e9 vous mettre au d\u00e9fi dans une simulation d'affrontement.|Vous entrainer au un contre un alors que vous \u00eates des mercenaires serait...|Du gaspillage."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Je suis de votre avis.|Qui plus est, nous ne sommes pas forcement habitu\u00e9 \u00e0 fonctionner en \u00e9quipe.|Pouvoir essayer de le faire pour la premi\u00e8re fois dans un contexte s\u00fbre est une exp\u00e9rience qui nous sera forc\u00e9ment favorable."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tu vas te battre toi Hardan ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Naturellement.|Je vous attendrais plus au sud.|Si vous voulez m'affronter, il faudra le m\u00e9riter."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pouvons nous vraiment esp\u00e9rer pouvoir rivaliser avec vous ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je me batterais avec une arme que je ne ma\u00eetrise pas."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ca sera pas trop facile pour nous ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Je vous attendrais de pied ferme, Volta.|Vous verrez qu'un Hisky sait se d\u00e9fendre en toute circonstances."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "C'est... euh...|C'\u00e9tait pas une provocation hein..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Le combat commencera dans dix minutes.|Tachez d'\u00eatre pr\u00eat avant ce d\u00e9lais,|o\u00f9 vous risquez de subir une d\u00e9faite cuisante sans avoir pu vous battre."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Hardan",
+                    "10,13",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Un affrontement avec tout le groupe ?|Int\u00e9ressant, logique m\u00eame.|Mettons au points notre strat\u00e9gie."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et montrons leur de quoi nous sommes capable."
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

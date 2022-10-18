@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Agilit\u00e9Hisky",
+        "name": "Art : Kibin",
+        "desc": "-Passive-\nConf\u00e8re 10 esquive \u00e0 l'unit\u00e9.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            25
+        ],
+        "components": [
+            [
+                "avoid",
+                10
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "name": ".Tour1",
+        "trigger": "unit_select",
+        "level_nid": "2",
+        "condition": "unit.nid=='Volta'",
+        "commands": [
+            [
+                "flicker_cursor",
+                [
+                    "109"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ce gars l\u00e0 a un trousseur de cl\u00e9 sur lui.|C'est l'heure de montrer \u00e0 tout le monde de quoi une voleuse est capable !"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Les voleurs sont capable de voler les objets non \u00e9quipable \u00e0 leurs ennemis. Cela ne fonctionne donc pas sur les armes !",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

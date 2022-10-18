@@ -1,0 +1,66 @@
+[
+    {
+        "name": "QuoteVsBossVolta",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "BanditSousChef",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Pourquoi resistez vous autant ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Tu crois vraiment qu'on va se laisser faire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "BanditSousChef",
+                    "Peut importe. Je vous tuerais moi m\u00eame."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Volta"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "BanditSousChef"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Sous Chef des Bandits (SousBandits)",
+                    "Attack"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

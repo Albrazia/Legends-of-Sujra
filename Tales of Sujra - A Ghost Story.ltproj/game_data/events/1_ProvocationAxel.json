@@ -1,0 +1,32 @@
+[
+    {
+        "name": "ProvocationAxel",
+        "trigger": null,
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vous avez pas mieux \u00e0 faire ?|...|Remarque, moi non plus."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Axel"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

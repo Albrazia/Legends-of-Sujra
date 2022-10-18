@@ -1,0 +1,29 @@
+[
+    {
+        "name": "New Event (2)",
+        "trigger": "unit_select",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:unit.nid=='Shumbus'}"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "Volta",
+                    "100"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

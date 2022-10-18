@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "Hook Claw",
+        "name": "Griffes Crochets",
+        "desc": "Efficace contre la cavalerie",
+        "icon_nid": "Griffe Crochet",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Claw"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "effective",
+                22
+            ],
+            [
+                "effective_tag",
+                [
+                    "Horse"
+                ]
+            ]
+        ]
+    }
+]

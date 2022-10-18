@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "ChronoRompu",
+        "name": "ChronoRompu",
+        "desc": "L'unit\u00e9 \u00e0 fendu le temps, le ralentissant de son point de vue.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                30
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "crit_avoid",
+                1000
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "alternate_battle_anim",
+                "Critical"
+            ],
+            [
+                "canto_plus",
+                null
+            ]
+        ]
+    }
+]

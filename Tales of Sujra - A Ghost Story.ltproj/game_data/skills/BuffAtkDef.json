@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "BuffAtkDef",
+        "name": "La force de prot\u00e9ger",
+        "desc": "-Passive-\nL'unit\u00e9 a +4 atq/def jusqu'\u00e0 la fin du chapitre.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            1
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        4
+                    ],
+                    [
+                        "DEF",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

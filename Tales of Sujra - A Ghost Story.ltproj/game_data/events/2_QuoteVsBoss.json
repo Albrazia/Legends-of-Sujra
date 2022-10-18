@@ -1,0 +1,64 @@
+[
+    {
+        "name": "QuoteVsBoss",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "unit2.nid=='Novala'",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossAxel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Railoph'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossRailoph"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.nid=='Shumbus'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "QuoteVsBossShumbus"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

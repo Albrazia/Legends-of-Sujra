@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "WyvBalChild2",
+        "name": "WyvBalChild2",
+        "desc": "L'unit\u00e9 peut tirer avec un Arc de Si\u00e8ge",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "ability",
+                "Ballista"
+            ]
+        ]
+    }
+]

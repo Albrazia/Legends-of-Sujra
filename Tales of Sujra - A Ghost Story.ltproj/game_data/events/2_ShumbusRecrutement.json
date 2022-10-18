@@ -1,0 +1,230 @@
+[
+    {
+        "name": "ShumbusRecrutement",
+        "trigger": "on_talk",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{eval:any(item.nid == 'Cailloux' for item in unit.items)}"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, brother"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{eval:unit.nid}",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "M-M-M-Mais... C'est mon cailloux ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "Qu'est ce que tu fais ici toute seule ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "On s'en fiche !{br}Donne moi mon cailloux !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "Ton cailloux ?..|Eh bien, je peux te le rendre si \u00e7a te tiens tellement \u00e0 coeur..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Oh merci !"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tiens, je te l'\u00e9change contre un autre cailloux !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "Oh. Merci."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "J'ai mon cailloux !|Maintenant...|Il me reste plus qu'\u00e0 le lui faire manger pour me venger..."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "En attendant, j'vais vous filer un coup de main !|Il devrait pas \u00eatre loin de toute fa\u00e7on."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "Qui \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Tu verras si on le trouve. Allez, en avant !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Shumbus",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "Quelle curieuse petite fille..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "{eval:unit.nid}"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Red Gem"
+                ]
+            ],
+            [
+                "remove_item",
+                [
+                    "{unit}",
+                    "Cailloux"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Shumbus",
+                    "player"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "Flag1",
+                    "True"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "music",
+                [
+                    "Hey, brother"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bonjour !|Pas besoin d'aide !|Au revoir !"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

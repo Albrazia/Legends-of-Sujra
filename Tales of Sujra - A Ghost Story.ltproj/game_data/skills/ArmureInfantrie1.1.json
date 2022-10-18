@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "ArmureInfantrie1.1",
+        "name": "ArmureInfantrie1.1",
+        "desc": "-Armure-\n-Infantrie Seulement-\n+1 MOV",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

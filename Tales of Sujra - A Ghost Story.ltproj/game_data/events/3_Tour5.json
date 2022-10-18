@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tour5",
+        "trigger": "enemy_turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount==5",
+        "commands": [
+            [
+                "change_ai",
+                [
+                    "103",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "104",
+                    "Pursue"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "ArmureArcher21",
+        "name": "ArmureArcher2.1",
+        "desc": "-Armure-\n-Archer Seulement-\n+2skl",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_equip",
+                "ArmureArcher2.1"
+            ],
+            [
+                "prf_tags",
+                [
+                    "Archer"
+                ]
+            ],
+            [
+                "value",
+                600
+            ]
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Un retour de la part de Ridril",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Un retour de la part de Ridril'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Forest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Right",
+                    "right",
+                    "Smile"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Ah Railoph ! Je te trouve enfin, je te cherchais partout !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Salutations Ridril.|Je ne pensais pas \u00eatre compliqu\u00e9 \u00e0 trouver avec mon armure pourtant."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "C'est \u00e0 propos de cette discution qu'on a eu, sur les informations des Guerres Naines."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Ah oui, je m'en souviens. Qu'en est il ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "J'ai fini de consigner les informations comme promit ! Tiens, tout est l\u00e0 dedans !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Oh ! Merci beaucoup Ridril, mais...|Comment as tu trouv\u00e9 le temps d'\u00e9crire tout \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "A force d'\u00eatre Trotte Rumeur !|On apprend \u00e0 \u00e9crire ses rapports en volant, \u00e7a rend les voyages plus efficace.|Tout le monde fait \u00e7a.|Bon, je te laisse Railoph, \u00e0 plus tard !"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Ridril",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "J'en ai connus des chevaliers p\u00e9gases,|et tous me disaient que l\u00e2cher les deux mains des rennes \u00e9tait imposible...|Voila une jeune fille talentueuse."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Railoph",
+                    "Ridril"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Le codex : Une option acc\u00e9ssible seulement dans un camp, le petit livre recueille des informations obtenus et compil\u00e9 par plusieurs sources.|Parler bien \u00e0 tout ceux que vous rencontrez pour le remplir et mieux comprendre le monde o\u00f9 vous vous trouvez.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "Noble"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "Territoires"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Codex : Informations sur le Continent"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "NainG"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Codex : Guerre Naine 1&2"
+                ]
+            ],
+            [
+                "add_lore",
+                [
+                    "NainG3"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Codex : Guerre Naine 3"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Un retour de la part de Ridril"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

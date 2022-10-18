@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Cailloux",
+        "name": "Un Cailloux",
+        "desc": "Comme tant d'autres. Vous vous sentez attach\u00e9.",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "locked",
+                null
+            ]
+        ]
+    }
+]

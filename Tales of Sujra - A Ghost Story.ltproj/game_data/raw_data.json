@@ -1,0 +1,352 @@
+[
+    {
+        "nid": "WyvernSkill1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "WyvBal",
+                "name": "Arc de Si\u00e8ge",
+                "cost": "1500",
+                "description": "L'unite peut mettre \u00e0 disposition un arc de Si\u00e8ge \u00e0 ses alli\u00e9s archer."
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "WyvernItem1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "Iron Claw",
+                "name": "E Griffes Fer",
+                "description": "Mt : 8, Hit : 75, Crit : 0, Wt : 8"
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "Armure1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "ArmureInfantrie11",
+                "name": "ArmureEpeiste1.1",
+                "description": "+1mov"
+            },
+            {
+                "nid": "ArmureInfantrie21",
+                "name": "ArmureEpeiste2.1",
+                "description": "+2spd"
+            },
+            {
+                "nid": "ArmureInfantrie31",
+                "name": "ArmureEpeiste3.1",
+                "description": "+1atq +2def -1vit"
+            },
+            {
+                "nid": "ArmureKnight11",
+                "name": "ArmureChevalier1.1",
+                "description": "+1atq"
+            },
+            {
+                "nid": "ArmureKnight21",
+                "name": "ArmureChevalier2.1",
+                "description": "+2def -1vit"
+            },
+            {
+                "nid": "ArmureKnight31",
+                "name": "ArmureChevalier3.1",
+                "description": "+1atq +2def -2vit -1skl"
+            },
+            {
+                "nid": "ArmureArcher11",
+                "name": "ArmureArcher1.1",
+                "description": "+2atq"
+            },
+            {
+                "nid": "ArmureArcher21",
+                "name": "ArmureArcher2.1",
+                "description": "+2skl"
+            },
+            {
+                "nid": "ArmureArcher31",
+                "name": "ArmureArcher3.1",
+                "description": "+1atq +1skl"
+            },
+            {
+                "nid": "ArmureMage11",
+                "name": "ArmureMage1.1",
+                "description": "+1mag"
+            },
+            {
+                "nid": "ArmureMage21",
+                "name": "ArmureMage2.1",
+                "description": "+2skl"
+            },
+            {
+                "nid": "ArmureMage31",
+                "name": "ArmureMage3.1",
+                "description": "+1Mana regen -2mag"
+            },
+            {
+                "nid": "ArmureHealeur11",
+                "name": "ArmureSoigneur1.1",
+                "description": "+1mov"
+            },
+            {
+                "nid": "ArmureHealeur21",
+                "name": "ArmureSoigneur2.1",
+                "description": "+2skl"
+            },
+            {
+                "nid": "ArmureHealeur31",
+                "name": "ArmureSoigneur3.1",
+                "description": "+2def +2res"
+            },
+            {
+                "nid": "ArmureVolant11",
+                "name": "ArmureVolant1.1",
+                "description": "+1mov"
+            },
+            {
+                "nid": "ArmureVolant21",
+                "name": "ArmureVolant2.1",
+                "description": "+2skl"
+            },
+            {
+                "nid": "ArmureVolant31",
+                "name": "ArmureVolant3.1",
+                "description": "+1atq +1spd"
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "Arme1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "Iron Sword",
+                "name": "E Ep\u00e9e en Fer",
+                "description": "Mt : 5, Hit : 90, Crit : 0, Wt : 5"
+            },
+            {
+                "nid": "Slim Sword",
+                "name": "E Ep\u00e9e en Fine",
+                "description": "Mt : 3, Hit : 100, Crit : 5, Wt : 2"
+            },
+            {
+                "nid": "Steel Sword",
+                "name": "D Ep\u00e9e en Acier",
+                "description": "Mt : 8, Hit : 75, Crit : 0, Wt : 10"
+            },
+            {
+                "nid": "Iron Axe",
+                "name": "E Hache en Fer",
+                "description": "Mt : 8, Hit : 75, Crit : 0, Wt : 10"
+            },
+            {
+                "nid": "Steel Axe",
+                "name": "D Hache en Acier",
+                "description": "Mt : 11, Hit : 65, Crit : 0, Wt : 15"
+            },
+            {
+                "nid": "Iron Lance",
+                "name": "E Lance en Fer",
+                "description": "Mt : 7, Hit : 80, Crit : 0, Wt : 8"
+            },
+            {
+                "nid": "Slim Lance",
+                "name": "E Lance fine",
+                "description": "Mt : 4, Hit : 85, Crit : 5, Wt : 4"
+            },
+            {
+                "nid": "Steel Lance",
+                "name": "D Lance en Acier",
+                "description": "Mt : 10, Hit : 70, Crit : 0, Wt : 13"
+            },
+            {
+                "nid": "Iron Bow",
+                "name": "E Arc en Fer",
+                "description": "Mt : 6, Hit : 85, Crit : 0, Wt : 5"
+            },
+            {
+                "nid": "Steel Bow",
+                "name": "D Arc en Acier",
+                "description": "Mt : 9, Hit : 70, Crit : 0, Wt : 9"
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "Accessoire1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "+3HP",
+                "name": "Am. de long\u00e9vit\u00e9",
+                "description": "Conf\u00e8re +3Hp",
+                "Description": ""
+            },
+            {
+                "nid": "+3avoid",
+                "name": "Am. d'agilit\u00e9",
+                "description": "Conf\u00e8re +3 esquive",
+                "Description": ""
+            },
+            {
+                "nid": "+5hit",
+                "name": "Am. d'acuit\u00e9",
+                "description": "Conf\u00e8re +5 Hit",
+                "Description": ""
+            },
+            {
+                "nid": "+1damage",
+                "name": "Am. de force",
+                "description": "Conf\u00e8re +1 dommage inflig\u00e9",
+                "Description": ""
+            },
+            {
+                "nid": "+1resist",
+                "name": "Am. de R\u00e9silience",
+                "description": "Conf\u00e8re +1 dommage subit",
+                "Description": ""
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "WagniusBaton1",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "HealBuff",
+                "name": "Soin",
+                "description": "Soigne Mag+10 HP",
+                "Description": ""
+            },
+            {
+                "nid": "MendBuff",
+                "name": "Mend",
+                "description": "Soigne Mag+20 HP",
+                "Description": ""
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "name",
+            "description"
+        ]
+    },
+    {
+        "nid": "MachiskySkillDesc",
+        "dtype": "kv",
+        "svalue": "",
+        "kvvalue": [
+            [
+                "PostureHisky",
+                "Conf\u00e8re +15 hit en attaque ou +15dodge en d\u00e9fense"
+            ],
+            [
+                "Agilit\u00e9Hisky",
+                "Conf\u00e8re +10 dodge"
+            ],
+            [
+                "CritHisky",
+                "Conf\u00e8re +10 Crit"
+            ],
+            [
+                "CantoHisky",
+                "L'unit\u00e9 se d\u00e9place de 2 cases apr\u00e8s n'importe quelle action"
+            ],
+            [
+                "Pr\u00e9cisionHisky",
+                "Conf\u00e8re +10 pr\u00e9cision"
+            ],
+            [
+                "GardeHisky",
+                "Subit 4 points de d\u00e9g\u00e2ts en moins chaque premier combat de chaque phase"
+            ],
+            [
+                "PlumeHisky",
+                "La cible se d\u00e9place d'une case en moins apr\u00e8s le combat"
+            ]
+        ],
+        "lovalue": [],
+        "oattrs": [
+            "nid"
+        ]
+    },
+    {
+        "nid": "Volta3",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "ChronoRupture"
+            },
+            {
+                "nid": "HorsDuTempsSkill"
+            }
+        ],
+        "oattrs": [
+            "nid"
+        ]
+    },
+    {
+        "nid": "Volta5",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "ChronoRupture"
+            },
+            {
+                "nid": "HorsDuTempsSkill"
+            },
+            {
+                "nid": "PerceD\u00e9fense"
+            },
+            {
+                "nid": "CoeurDeRubis"
+            }
+        ],
+        "oattrs": [
+            "nid"
+        ]
+    }
+]

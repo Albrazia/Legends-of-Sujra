@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BattleQuoteShumbus",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Woah ! T'es pas du matin toi !|Ni m\u00eame de l'apr\u00e8s midi j'ai l'impr\u00e9ssion..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Shumbus"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

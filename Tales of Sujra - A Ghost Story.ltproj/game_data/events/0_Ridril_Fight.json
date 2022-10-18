@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Ridril Fight",
+        "trigger": "enemy_turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount==1",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "102",
+                    "2,8"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "102",
+                    "Ridril",
+                    "hit1,hit2,hit2",
+                    "Iron Axe (Iron Axe)"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "102",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Ridril",
+                    "2,8"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "J'ai peut \u00eatre un peu sur-estim\u00e9 ce dont j'\u00e9tais capable..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Ridril"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "2,7"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Tutoriel",
+                    "Vous pouvez visiter les villages avec n'importe quel personnage. Ils seront alors prot\u00e9g\u00e9 des attaques de bandits pour le reste du chapitre.",
+                    "center",
+                    "250",
+                    "hint"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "8,7"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Volta",
+                    "MidRight",
+                    "Railoph",
+                    "FarLeft",
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je pense pas que ce gars nous laissera passer sans rien dire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Avec mon arc, je ne pourrais pas riposter si il m'atteint."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Laissez moi passer devant. Avec mon armure, je pourrais lui faire face."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Tuto : Joyeuse et Sucr\u00e9",
+        "trigger": "on_base_convo",
+        "level_nid": "3",
+        "condition": "unit=='Tuto : Joyeuse et Sucr\u00e9'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "TutoShumbus"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, sister"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Coucou c'est moi ! Shumbus !|\u00c0 partir d'aujourd'hui, c'est moi qui vais vous apprendre des trucs !|Bon, je sais pas trop o\u00f9 on est l\u00e0...|J'esp\u00e8re que le d\u00e9veloppeur va trouver autre chose parce que \u00e7a craint un peu.|Le but de ces petites conversation \u00e7a sera de vous apprendre des trucs,|le tout sur fond de musique qui bop !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Alors entrons dans le vif du sujet !|Aujourd'hui, pour le tout premier tuto, je vais vous apprendre pourquoi je suis g\u00e9nial !|Si \u00e7a ne saute pas encore aux yeux, il faut que je vous l'explique !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutupShumbus1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Mon p'tit truc \u00e0 moi c'est de donner des stats en plus \u00e0 mes copains.|Remarquez la zone bleu autour de moi, c'est la port\u00e9 de mon aura !|Tout les copains qui sont dedans seront alors un peu plus fort !"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tutoshumbus2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Mais j'vous entends d\u00e9j\u00e0 !|\"Oui mais Shumbus, tu donnes vraiment des bonus minuscule, \u00e7a aura jamais d'impact\"|Premi\u00e8rement : Si tu refais un commentaire comme \u00e7a,|c'est moi qui vais t'impacter dans le menton.|Deuxi\u00e8mement : Je suis g\u00e9nial, je vous le rappel.|Ces bonus l\u00e0 mes copains l'ont juste parce que je me tiens debout \u00e0 cot\u00e9 d'eux.|IMAGINEZ si je commence \u00e0 y mettre du miens?"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoShumbus3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bam, voila le r\u00e9sultat. Si \u00e7a \u00e7a a pas un peu plus d'impact, je sais pas ce qu'il vous faut.|Et vous savez quoi ?|Y'a un bonus qui est m\u00eame pas list\u00e9 dans la description de ma comp\u00e9tence.|Tout les copains qui sont dans ma zone ont plus de chance de monter leurs stats.|Si \u00e7a c'est pas game breaker, je sais pas ce que c'est."
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "TutoShumbus"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Sur ce, \u00e0 une prochaine fois pour un nouveau tutoriel de la grande Shumbus !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Tuto : Joyeuse et Sucr\u00e9"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

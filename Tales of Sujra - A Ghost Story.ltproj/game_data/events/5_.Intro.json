@@ -1,0 +1,48 @@
+[
+    {
+        "name": ".Intro",
+        "trigger": "level_start",
+        "level_nid": "5",
+        "condition": "False",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    ".init"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "1"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "add_group",
+                [
+                    "StartEnemy",
+                    "starting",
+                    "immediate"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

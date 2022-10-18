@@ -1,0 +1,118 @@
+[
+    {
+        "nid": "Octavia",
+        "name": "Octavia",
+        "desc": "Premi\u00e8re Succ\u00e9sseure Hyler. Motiv\u00e9e et ind\u00e9pendante.",
+        "variant": "female",
+        "level": 15,
+        "klass": "Mercenary",
+        "tags": [
+            "Lord"
+        ],
+        "bases": {
+            "HP": 23,
+            "STR": 10,
+            "MAG": 2,
+            "SKL": 19,
+            "SPD": 14,
+            "LCK": 13,
+            "DEF": 5,
+            "RES": 7,
+            "CON": 9,
+            "MOV": 5,
+            "MaxM": 0
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 50,
+            "MAG": 10,
+            "SKL": 45,
+            "SPD": 45,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "MaxM": 0
+        },
+        "starting_items": [
+            [
+                "Steel Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                true,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "plop": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Octavia",
+        "affinity": "Dark",
+        "fields": [
+            [
+                "DeathQuote",
+                "New Value"
+            ]
+        ]
+    }
+]

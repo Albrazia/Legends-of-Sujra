@@ -1,0 +1,59 @@
+[
+    {
+        "name": ".init",
+        "trigger": null,
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "add_talk",
+                [
+                    "Ridril",
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Railoph",
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Axel",
+                    "Shumbus"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Setup",
+                    "Setup",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "game_var",
+                [
+                    "Flag1",
+                    "False"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

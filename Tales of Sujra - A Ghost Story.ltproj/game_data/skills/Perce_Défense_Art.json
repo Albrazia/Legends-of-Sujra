@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Perce D\u00e9fense Art",
+        "name": "Perce D\u00e9fense",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "give_status_after_hit",
+                "Faille"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "hit",
+                25
+            ]
+        ]
+    }
+]
