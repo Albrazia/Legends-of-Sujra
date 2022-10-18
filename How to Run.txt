@@ -1,0 +1,6 @@
+1. se placer dans le dossier Python3.7 (anaconda)
+2. ouvrir le terminal dans ce dossier et :
+	- taper la commande "condabin\conda.bat activate python3.7.9"
+	- changer de dossier pour aller là où se trouver les fichiers de LT
+	- verifier la version de python avec "python --version" (pas py parce que ça fonctionne pas)
+	- lancer l'éditeur normalement (avec python et pas py pour les mêmes raisons que précédement)
