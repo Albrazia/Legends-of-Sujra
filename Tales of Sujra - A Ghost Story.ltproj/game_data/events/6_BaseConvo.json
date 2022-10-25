@@ -472,7 +472,7 @@
                 "speak",
                 [
                     "Volta",
-                    "Nan, c'est bien plus important que \u00e7a.|Si on vois une baleine...|Tu pourras m'emmener la voir ?!"
+                    "Nan, c'est bien plus important que \u00e7a.|Si on apper\u00e7ois une baleine...|Tu pourras m'emmener la voir ?!"
                 ]
             ],
             [
@@ -493,7 +493,7 @@
                 "speak",
                 [
                     "Ridril",
-                    "Oui, je vois ce qu'est une baleine, mais"
+                    "Oui, je vois ce qu'est une baleine, mais-"
                 ]
             ],
             [
@@ -736,7 +736,7 @@
                 "speak",
                 [
                     "Railoph",
-                    "Quelque chose qui lui manque, mais impossible \u00e0 identifier.|Ca ne peut \u00eatre que Zobral, n'est ce pas ?"
+                    "Quelque chose qui lui manque, mais impossible \u00e0 identifier ?|C'est vraiment une jeune fille sensible."
                 ]
             ],
             [

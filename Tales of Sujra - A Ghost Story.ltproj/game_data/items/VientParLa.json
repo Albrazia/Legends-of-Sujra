@@ -10,20 +10,12 @@
         ],
         "components": [
             [
-                "Come Over Here",
-                null
-            ],
-            [
                 "event_after_use",
                 "Global OlwennCorde"
             ],
             [
                 "target_unit",
                 null
-            ],
-            [
-                "Cardinal Range",
-                3
             ],
             [
                 "min_range",

@@ -66,10 +66,6 @@
             [
                 "map_hit_sfx",
                 "Nosferatu3"
-            ],
-            [
-                "truedamage",
-                5
             ]
         ]
     }

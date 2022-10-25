@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern",
         "name": "Wyvern",
-        "desc": "Un reptile sauvage au temp\u00e9rament territorial. Attaque avec ses griffes.",
+        "desc": "Un reptile au temp\u00e9rament territorial. Attaque avec ses griffes.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,
@@ -105,6 +105,10 @@
                 false,
                 0
             ],
+            "Claw": [
+                true,
+                1
+            ],
             "Feu": [
                 false,
                 0
@@ -141,9 +145,9 @@
                 false,
                 0
             ],
-            "Claw": [
-                true,
-                1
+            "Buff": [
+                false,
+                0
             ]
         },
         "icon_nid": "Wyvern Wild {Faeriefruit}",

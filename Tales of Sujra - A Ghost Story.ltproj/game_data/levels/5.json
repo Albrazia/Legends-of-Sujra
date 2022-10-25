@@ -28,6 +28,7 @@
                 "nid": "PirateBoss",
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     28,
@@ -40,6 +41,7 @@
                 "nid": "Oliver",
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -57,8 +59,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     25,
@@ -79,8 +83,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     27,
@@ -101,8 +107,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     14,
@@ -123,8 +131,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     15,
@@ -145,8 +155,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     23,
@@ -167,8 +179,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     23,
@@ -189,8 +203,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     22,
@@ -211,8 +227,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     19,
@@ -233,8 +251,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     19,
@@ -255,8 +275,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     20,
@@ -277,8 +299,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     24,
@@ -299,8 +323,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     24,
@@ -321,8 +347,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     17,
@@ -343,8 +371,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     16,
@@ -365,8 +395,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     16,
@@ -387,8 +419,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     13,
@@ -401,6 +435,7 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -413,6 +448,7 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -425,6 +461,7 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -437,6 +474,7 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -461,8 +499,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -472,6 +512,7 @@
                 "nid": "Belzir",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -481,6 +522,7 @@
                 "nid": "Darsenn",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -498,8 +540,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     29,
@@ -520,8 +564,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     30,
@@ -542,8 +588,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     16,
@@ -556,6 +604,7 @@
                 "nid": "Shumbus",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,

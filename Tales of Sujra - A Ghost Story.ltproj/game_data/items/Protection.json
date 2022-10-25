@@ -28,10 +28,6 @@
             [
                 "map_hit_sfx",
                 "Weapon Swing"
-            ],
-            [
-                "status_on_use",
-                "ProtectionChild"
             ]
         ]
     }

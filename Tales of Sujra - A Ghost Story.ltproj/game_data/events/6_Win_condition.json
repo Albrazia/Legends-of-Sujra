@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Win condition",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#si tout les ennemis sont mort mais qu'il reste encore des bateaux \u00e0 couler"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:len(game.get_enemy_units()) == 0 and game.turncount<game.level_var(\"PirateBG\")}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pfiou, enfin un peu de temps pour reprendre son souffle..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Reste sur tes gardes Volta, nous n'en avons pas encore termin\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oui oui, je fais gaffe, t'en fais pas..."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "#si tout les bateaux ont coul\u00e9 mais qu'il reste encore au moins un ennemis"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:game.turncount<game.level_var(\"PirateBG\") and len(game.get_enemy_units())>0}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Un dernier effort mes amis, il n'en reste plus qu'une poign\u00e9e !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Abattons les et finissons-en."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Et on sera peut \u00eatre \u00e0 l'heure pour le go\u00fbter !"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "#si tout les ennemis sont mort et que le dernier bateau \u00e0 coul\u00e9"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:len(game.get_enemy_units()) == 0 and game.turncount>=game.level_var(\"PirateBG\")}"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -871,7 +871,7 @@
             [
                 "give_money",
                 [
-                    "5000"
+                    "10000"
                 ]
             ],
             [
@@ -911,6 +911,12 @@
                 [
                     "Konosuba Eyecatch 2",
                     "Le Sanctuaire"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Astera Day Theme"
                 ]
             ],
             [

@@ -2,7 +2,7 @@
     {
         "nid": "Alice",
         "name": "Alice",
-        "desc": "Une mage du Domaine Bromsworth. Elle est attentionn\u00e9e et timide et elle maitrise deux le\u00e7ons de gu\u00e9rison diff\u00e9rente.",
+        "desc": "Une mage du Domaine Bromsworth. Elle est attentionn\u00e9e et timide et maitrise deux \u00c9coles diff\u00e9rente.",
         "variant": "Female",
         "level": 1,
         "klass": "MageVS",

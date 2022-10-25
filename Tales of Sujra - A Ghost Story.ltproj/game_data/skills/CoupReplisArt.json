@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "backstep",
-                1
-            ],
-            [
                 "cost_mana",
                 2
             ],

@@ -8,11 +8,6 @@
             1,
             10
         ],
-        "components": [
-            [
-                "witch_hp",
-                50
-            ]
-        ]
+        "components": []
     }
 ]

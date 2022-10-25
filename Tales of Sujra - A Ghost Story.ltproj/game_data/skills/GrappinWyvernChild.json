@@ -8,13 +8,6 @@
             9,
             3
         ],
-        "components": [
-            [
-                "specific_witch_warp_2_tiles",
-                [
-                    "Recon"
-                ]
-            ]
-        ]
+        "components": []
     }
 ]

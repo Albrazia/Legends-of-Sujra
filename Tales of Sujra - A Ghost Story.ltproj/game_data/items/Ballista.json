@@ -75,6 +75,10 @@
                 [
                     "Flying"
                 ]
+            ],
+            [
+                "effective_multiplier",
+                1
             ]
         ]
     }

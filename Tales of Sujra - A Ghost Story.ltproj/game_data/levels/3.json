@@ -28,6 +28,7 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -40,6 +41,7 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     3,
@@ -52,6 +54,7 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -64,6 +67,7 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -76,6 +80,7 @@
                 "nid": "Zobral",
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -85,6 +90,7 @@
                 "nid": "Shumbus",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -105,8 +111,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     9,
@@ -127,8 +135,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     19,
@@ -149,8 +159,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     18,
@@ -171,8 +183,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     19,
@@ -193,8 +207,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     19,
@@ -215,8 +231,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     18,
@@ -237,8 +255,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -259,8 +279,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -281,8 +303,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -295,6 +319,7 @@
                 "nid": "Recon",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,

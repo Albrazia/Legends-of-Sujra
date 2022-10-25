@@ -111,6 +111,50 @@
                 false,
                 0
             ],
+            "Claw": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                0
+            ],
+            "Glace": [
+                false,
+                0
+            ],
+            "Vent": [
+                false,
+                0
+            ],
+            "Foudre": [
+                false,
+                0
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                false,
+                0
+            ],
+            "Soin": [
+                false,
+                0
+            ],
+            "Incantation": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "Buff": [
+                false,
+                0
+            ],
             "Staff": [
                 false,
                 0
@@ -127,27 +171,7 @@
                 false,
                 0
             ],
-            "Default": [
-                false,
-                0
-            ],
             "plop": [
-                false,
-                0
-            ],
-            "Soin": [
-                false,
-                0
-            ],
-            "Lumi\u00e8re": [
-                false,
-                0
-            ],
-            "Feu": [
-                false,
-                0
-            ],
-            "Arcane": [
                 false,
                 0
             ]

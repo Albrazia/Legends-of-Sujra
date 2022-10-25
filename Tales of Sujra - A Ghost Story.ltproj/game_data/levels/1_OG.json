@@ -28,6 +28,7 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     12,
@@ -40,6 +41,7 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     13,
@@ -52,6 +54,7 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     6,
@@ -64,6 +67,7 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     5,
@@ -84,8 +88,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -106,8 +112,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     3,
@@ -128,8 +136,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -150,8 +160,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     4,
@@ -172,8 +184,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     9,
@@ -194,8 +208,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     8,
@@ -216,8 +232,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -235,8 +253,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -254,8 +274,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -268,8 +290,10 @@
                 "klass": "Cavalier",
                 "faction": "Soldier",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -287,8 +311,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,

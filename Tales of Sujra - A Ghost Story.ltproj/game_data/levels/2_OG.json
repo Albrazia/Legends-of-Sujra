@@ -28,6 +28,7 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -40,6 +41,7 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -52,6 +54,7 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -64,6 +67,7 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -76,6 +80,7 @@
                 "nid": "Zobral",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     6,
@@ -88,6 +93,7 @@
                 "nid": "Shumbus",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     3,
@@ -100,6 +106,7 @@
                 "nid": "Octavia",
                 "team": "other",
                 "ai": "GuardNoMove",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     10,
@@ -112,6 +119,7 @@
                 "nid": "Hardan",
                 "team": "other",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     10,
@@ -132,8 +140,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     12,
@@ -154,8 +164,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     10,
@@ -176,8 +188,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "PursueVillage",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     7,
@@ -202,8 +216,10 @@
                         true
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     6,
@@ -224,8 +240,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     14,
@@ -246,8 +264,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "PursueVillage",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -268,8 +288,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "PursueVillage",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,

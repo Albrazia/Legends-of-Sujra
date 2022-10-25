@@ -88,6 +88,34 @@
                 [
                     "ShipDeck"
                 ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "3"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "4"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "5"
+                ]
             ]
         ],
         "only_once": false,

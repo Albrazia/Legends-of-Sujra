@@ -28,6 +28,7 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -40,6 +41,7 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -52,6 +54,7 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     0,
@@ -64,6 +67,7 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -76,6 +80,7 @@
                 "nid": "Zobral",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -88,6 +93,7 @@
                 "nid": "Shumbus",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     3,
@@ -100,6 +106,7 @@
                 "nid": "Octavia",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     3,
@@ -112,6 +119,7 @@
                 "nid": "Hardan",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     2,
@@ -124,6 +132,7 @@
                 "nid": "Alice",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
@@ -136,6 +145,7 @@
                 "nid": "Belzir",
                 "team": "other",
                 "ai": "Thief",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
@@ -153,8 +163,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     7,
@@ -175,8 +187,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     9,
@@ -197,8 +211,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     14,
@@ -223,8 +239,10 @@
                         true
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     5,
@@ -249,8 +267,10 @@
                         true
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     7,
@@ -275,8 +295,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     14,
@@ -301,8 +323,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     15,
@@ -323,8 +347,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     12,
@@ -345,8 +371,10 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "SimpleThief",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     9,
@@ -362,8 +390,10 @@
                 "klass": "Wall25",
                 "faction": "Wall",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     4,
@@ -379,8 +409,10 @@
                 "klass": "Wall25",
                 "faction": "Wall",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     4,
@@ -396,8 +428,10 @@
                 "klass": "Wall25",
                 "faction": "Wall",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     8,
@@ -413,8 +447,10 @@
                 "klass": "Villageois",
                 "faction": "Soldier",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,

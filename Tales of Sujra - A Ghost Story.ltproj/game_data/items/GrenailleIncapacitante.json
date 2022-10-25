@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "Conic_3_aoe",
-                null
-            ],
-            [
                 "min_range",
                 1
             ],

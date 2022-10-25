@@ -3,7 +3,7 @@
         "nid": "Edgat",
         "name": "Edgat",
         "desc": "Une invocation, j'veux voir si \u00e7a foncitonne ce que je fais",
-        "variant": null,
+        "variant": "",
         "level": 5,
         "klass": "Soldier",
         "tags": [],

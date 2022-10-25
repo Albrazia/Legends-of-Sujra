@@ -3,7 +3,7 @@
         "nid": "SousBandits",
         "name": "Sous Chef des Bandits",
         "desc": "Un homme qui fait payer le prix de sa pauvret\u00e9 au Domaine Brazia.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Hero",
         "tags": [

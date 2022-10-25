@@ -1,0 +1,72 @@
+[
+    {
+        "name": ".Deroulement",
+        "trigger": null,
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#premier bateau \u00e0 apparaitre : Bas droite tour 1"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#deuxieme bateau \u00e0 apparaitre : haut droite tour 4"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#troisieme bateau \u00e0 apparaitre : haut gauche tour 7"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#quatrieme bateau \u00e0 apparaitre : bas gauche tour 10"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#sur les bateaux apparaissent des unit\u00e9s, les renforts apparaissent trois tours apr\u00e8s l'arriv\u00e9 du"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#bateau correspondant jusqu'\u00e0 ce que ceux ci soient coul\u00e9."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#renfort bateau 1 : pirate hache + lancier"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#renfort bateau 2 : lancier + myrmidon"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#renfort bateau 3 : myrmidon + cavalier"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#renfort bateau 4 : chevaucheurs de wyvern"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

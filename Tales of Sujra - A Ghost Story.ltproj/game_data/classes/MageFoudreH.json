@@ -102,6 +102,50 @@
                 false,
                 0
             ],
+            "Claw": [
+                false,
+                0
+            ],
+            "Feu": [
+                false,
+                1
+            ],
+            "Glace": [
+                false,
+                0
+            ],
+            "Vent": [
+                false,
+                0
+            ],
+            "Foudre": [
+                true,
+                1
+            ],
+            "Arcane": [
+                false,
+                0
+            ],
+            "Lumi\u00e8re": [
+                true,
+                1
+            ],
+            "Soin": [
+                true,
+                1
+            ],
+            "Incantation": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ],
+            "Buff": [
+                false,
+                0
+            ],
             "Staff": [
                 false,
                 0
@@ -118,33 +162,9 @@
                 false,
                 0
             ],
-            "Default": [
-                false,
-                0
-            ],
             "plop": [
                 true,
                 124
-            ],
-            "Feu": [
-                false,
-                1
-            ],
-            "Soin": [
-                true,
-                1
-            ],
-            "Lumi\u00e8re": [
-                true,
-                1
-            ],
-            "Arcane": [
-                false,
-                0
-            ],
-            "Foudre": [
-                true,
-                1
             ]
         },
         "icon_nid": "Generic_Portrait_Mage (1)",

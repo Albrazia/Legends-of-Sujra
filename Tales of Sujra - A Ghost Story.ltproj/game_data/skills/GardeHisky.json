@@ -12,10 +12,6 @@
             [
                 "resist",
                 4
-            ],
-            [
-                "Get_status_after_combat",
-                "GardeHiskyChild"
             ]
         ]
     }

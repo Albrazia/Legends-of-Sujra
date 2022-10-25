@@ -133,6 +133,10 @@
             "Default": [
                 false,
                 0
+            ],
+            "Buff": [
+                false,
+                0
             ]
         },
         "icon_nid": "",

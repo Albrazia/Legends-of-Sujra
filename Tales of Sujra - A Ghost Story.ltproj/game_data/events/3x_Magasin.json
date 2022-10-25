@@ -35,7 +35,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;1"
+                    "#trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;1"
                 ]
             ],
             [
@@ -72,7 +72,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;2"
+                    "#trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;2"
                 ]
             ],
             [
@@ -109,7 +109,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;3"
+                    "#trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;3"
                 ]
             ],
             [
@@ -145,7 +145,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;Recon;1;4"
+                    "#trigger_script_with_args;Global Magasin;Recon;1;4"
                 ]
             ],
             [
@@ -155,7 +155,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;Recon;1;6"
+                    "#trigger_script_with_args;Global Magasin;Recon;1;6"
                 ]
             ],
             [
@@ -403,7 +403,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;5"
+                    "#trigger_script_with_args;Global Magasin;{eval:game.game_vars.get('_last_choice')};1;5"
                 ]
             ],
             [

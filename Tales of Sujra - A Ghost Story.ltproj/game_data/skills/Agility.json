@@ -12,6 +12,10 @@
             [
                 "avoid",
                 5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

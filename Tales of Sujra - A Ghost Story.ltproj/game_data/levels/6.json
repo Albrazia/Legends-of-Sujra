@@ -1,7 +1,7 @@
 [
     {
         "nid": "6",
-        "name": "Chapter 6",
+        "name": "Chapitre 6 : Tsunami \u00e0 l'horizon",
         "tilemap": "Chapitre 6",
         "bg_tilemap": null,
         "party": "Ghost",
@@ -28,11 +28,9 @@
                 "nid": "Volta",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    25,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -40,11 +38,9 @@
                 "nid": "Railoph",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    25,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -52,11 +48,9 @@
                 "nid": "Axel",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    4,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -64,11 +58,9 @@
                 "nid": "Ridril",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    4,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -76,11 +68,9 @@
                 "nid": "Shumbus",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    8,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -88,11 +78,9 @@
                 "nid": "Oliver",
                 "team": "other",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    15,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -103,13 +91,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    2,
-                    19
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -120,13 +107,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    2,
-                    24
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -137,13 +123,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    4,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -154,13 +139,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    4,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -171,13 +155,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    24,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -188,13 +171,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    24,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -205,13 +187,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    23,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -222,13 +203,12 @@
                 "klass": "Wall100",
                 "faction": "Pirate",
                 "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    23,
-                    23
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -236,11 +216,9 @@
                 "nid": "Belzir",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    2,
-                    20
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -248,11 +226,428 @@
                 "nid": "Darsenn",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    3,
-                    24
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "BD_1",
+                "variant": null,
+                "level": 1,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
                 ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BD_2",
+                "variant": null,
+                "level": 1,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BD_3",
+                "variant": null,
+                "level": 1,
+                "klass": "Myrmidon",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BD_4",
+                "variant": null,
+                "level": 1,
+                "klass": "Myrmidon",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BD_5",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HG_1",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HG_2",
+                "variant": null,
+                "level": 1,
+                "klass": "Knight",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HG_3",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HG_4",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HG_5",
+                "variant": null,
+                "level": 1,
+                "klass": "Lancier",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HD_1",
+                "variant": null,
+                "level": 1,
+                "klass": "Cavalier",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HD_2",
+                "variant": null,
+                "level": 1,
+                "klass": "Cavalier",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HD_3",
+                "variant": null,
+                "level": 1,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HD_4",
+                "variant": null,
+                "level": 1,
+                "klass": "Marin",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "HD_5",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Dragon Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BG_1",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BG_2",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern_Rider_Axe",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BG_3",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Rider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "BG_4",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern_Rider_Axe",
+                "faction": "Pirate",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Zobral",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Alice",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }
@@ -545,6 +940,210 @@
                     "Belzir": [
                         14,
                         5
+                    ]
+                }
+            },
+            {
+                "nid": "BD",
+                "units": [
+                    "BDH",
+                    "BDB",
+                    "BD_1",
+                    "BD_2",
+                    "BD_3",
+                    "BD_4",
+                    "BD_5"
+                ],
+                "positions": {
+                    "BDH": [
+                        23,
+                        18
+                    ],
+                    "BDB": [
+                        23,
+                        23
+                    ],
+                    "BD_1": [
+                        25,
+                        20
+                    ],
+                    "BD_2": [
+                        22,
+                        21
+                    ],
+                    "BD_4": [
+                        23,
+                        22
+                    ],
+                    "BD_5": [
+                        20,
+                        18
+                    ],
+                    "BD_3": [
+                        24,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "HG",
+                "units": [
+                    "HGH",
+                    "HGB",
+                    "HG_1",
+                    "HG_2",
+                    "HG_3",
+                    "HG_4",
+                    "HG_5"
+                ],
+                "positions": {
+                    "HGH": [
+                        4,
+                        3
+                    ],
+                    "HGB": [
+                        4,
+                        8
+                    ],
+                    "HG_1": [
+                        6,
+                        7
+                    ],
+                    "HG_2": [
+                        4,
+                        9
+                    ],
+                    "HG_3": [
+                        6,
+                        4
+                    ],
+                    "HG_4": [
+                        3,
+                        7
+                    ],
+                    "HG_5": [
+                        7,
+                        9
+                    ]
+                }
+            },
+            {
+                "nid": "HD",
+                "units": [
+                    "HDH",
+                    "HDB",
+                    "HD_1",
+                    "HD_2",
+                    "HD_3",
+                    "HD_4",
+                    "HD_5"
+                ],
+                "positions": {
+                    "HDH": [
+                        24,
+                        4
+                    ],
+                    "HDB": [
+                        24,
+                        10
+                    ],
+                    "HD_1": [
+                        26,
+                        5
+                    ],
+                    "HD_2": [
+                        26,
+                        9
+                    ],
+                    "HD_3": [
+                        23,
+                        7
+                    ],
+                    "HD_4": [
+                        23,
+                        9
+                    ],
+                    "HD_5": [
+                        24,
+                        8
+                    ]
+                }
+            },
+            {
+                "nid": "BG",
+                "units": [
+                    "BGH",
+                    "BGB",
+                    "BG_1",
+                    "BG_2",
+                    "BG_3",
+                    "BG_4"
+                ],
+                "positions": {
+                    "BDH": [
+                        2,
+                        19
+                    ],
+                    "BDB": [
+                        2,
+                        24
+                    ],
+                    "BGH": [
+                        2,
+                        19
+                    ],
+                    "BGB": [
+                        2,
+                        24
+                    ],
+                    "BG_1": [
+                        0,
+                        17
+                    ],
+                    "BG_2": [
+                        3,
+                        19
+                    ],
+                    "BG_3": [
+                        3,
+                        23
+                    ],
+                    "BG_4": [
+                        1,
+                        21
+                    ]
+                }
+            },
+            {
+                "nid": "CinematiqueFin1",
+                "units": [
+                    "Volta",
+                    "Railoph",
+                    "Oliver",
+                    "Shumbus",
+                    "Zobral",
+                    "Ridril"
+                ],
+                "positions": {
+                    "Railoph": [
+                        15,
+                        4
+                    ],
+                    "Oliver": [
+                        13,
+                        5
+                    ],
+                    "Volta": [
+                        15,
+                        6
+                    ],
+                    "Ridril": [
+                        15,
+                        7
+                    ],
+                    "Shumbus": [
+                        16,
+                        6
                     ]
                 }
             }

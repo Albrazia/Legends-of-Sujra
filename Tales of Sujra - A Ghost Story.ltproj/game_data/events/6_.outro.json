@@ -1,0 +1,89 @@
+[
+    {
+        "name": ".outro",
+        "trigger": "level_end",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script_with_args",
+                [
+                    ".Dialogues",
+                    "10"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "music_clear",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "De quoi est ce que tu voulais me parler, Axel ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Vient voir, et reste discret."
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "base"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Cin\u00e9matique"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Cin\u00e9matique2"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "18,4",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "spawn_group",
+                [
+                    "CinematiqueFin1",
+                    "east",
+                    "CinematiqueFin1",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

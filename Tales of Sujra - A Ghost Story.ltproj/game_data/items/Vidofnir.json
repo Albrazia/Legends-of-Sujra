@@ -66,6 +66,10 @@
                 [
                     "Monster"
                 ]
+            ],
+            [
+                "effective_multiplier",
+                1
             ]
         ]
     }

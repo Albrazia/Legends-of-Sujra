@@ -70,6 +70,10 @@
                 [
                     "Sword"
                 ]
+            ],
+            [
+                "effective_multiplier",
+                1
             ]
         ]
     }
