@@ -66,12 +66,6 @@
                 ]
             ],
             [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
                 "spawn_group",
                 [
                     "CinematiqueFin1",
@@ -80,6 +74,149 @@
                     "normal",
                     "closest",
                     "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Merci beaucoup pour votre escorte, ces pirates auraient sign\u00e9 la fin de ma carri\u00e8re sans votre intervention !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Tout le plaisir \u00e9tait pour nous, sir Oliver."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Bien, si vous voulez bien m'excuser, j'ai quelques livraisons \u00e0 assurer ici avant de repartir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et concernant notre r\u00e9num\u00e9ration ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Je vous payerais, bien \u00e9videment.|Mais cette affaire est urgente, je dois vous demander de patienter encore un peu..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Si cette affaire est si urgente, nous pourrions vous aider."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Eh bien..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Railoph j'ai faim."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Cela nous \u00e9pargnerais beaucoup de douleur..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Oui, je comprends...|Dans ce cas, je vous demanderais de sortir les caisses \u00e9tiquet\u00e9 en rouge s'il vous plait."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "9,4",
+                    "",
+                    "",
+                    "500FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Axel",
+                    "7,4",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Axel",
+                    "8,4"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Oh ! Axel !|Que vous arrive t'il ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Encore un pas et je te troue la peau."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Je... Je ne comprends pas."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "10,4"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Axel",
+                    "9,4"
                 ]
             ]
         ],
