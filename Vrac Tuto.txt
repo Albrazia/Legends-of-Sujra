@@ -1,0 +1,28 @@
+Animal de compagnie
+Volta&Shumbus
+V: Dit moi Shumbus, je peux te poser une question un peu personnelle ?
+S: Ouais, qu'est ce qu'il y a ?
+V: On a entendu une rumeur qui disait que tu étais l'animale de compagnie de Zobral...
+S: ...
+V: Qu'est ce que ça veut dire exactement ?
+S: VOLTA DERRIERE TOI ! UN ARC EN CIEL
+	Shumbus s'enfuie
+Railoph&Shumbus
+R: Ah Shumbus, je te cherchais justement. Axel, Volta et moi nous posons une question à ton sujet.
+S: Oh non...
+R: Est il vrai que tu es l'animal de compagnie de Zobral ?
+S: RAILOPH DERRIERE TOI ! VOLTA SE FAIT ENLEVER PAR DES BRIGANDS
+	Shumbus s'enfuie
+Axel&Shumbus
+A: Ah Shumbus, je te cherchais justement
+S: Pas toi aussi...
+A: C'est quoi cette histoire d'animal de compagnie ?
+S: AXEL DERRIERE TOI ! UN ELEPHANT ROSE
+	Axel ne se retourne pas
+S: Hm. Ca marche a tout les coups pourtant...
+A: Shumbus, ne me prend pas pour un idiot s'il te plait.
+S: AXEL DERRIERE TOI ! Ridril veut te dire un truc
+A: Shumbus, je t'ai dis que---
+Ridril arrive
+R: Ah Axel, concernant la prochaine prime...
+	Shumbus s'enfuie

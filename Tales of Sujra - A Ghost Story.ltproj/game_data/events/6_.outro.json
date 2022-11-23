@@ -83,140 +83,369 @@
                 ]
             ],
             [
-                "speak",
+                "flicker_cursor",
                 [
-                    "Oliver",
-                    "Merci beaucoup pour votre escorte, ces pirates auraient sign\u00e9 la fin de ma carri\u00e8re sans votre intervention !"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Railoph",
-                    "Tout le plaisir \u00e9tait pour nous, sir Oliver."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oliver",
-                    "Bien, si vous voulez bien m'excuser, j'ai quelques livraisons \u00e0 assurer ici avant de repartir."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Railoph",
-                    "Et concernant notre r\u00e9num\u00e9ration ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oliver",
-                    "Je vous payerais, bien \u00e9videment.|Mais cette affaire est urgente, je dois vous demander de patienter encore un peu..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ridril",
-                    "Si cette affaire est si urgente, nous pourrions vous aider."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oliver",
-                    "Eh bien..."
+                    "Shumbus (Shumbus)"
                 ]
             ],
             [
                 "speak",
                 [
                     "Shumbus",
-                    "Railoph j'ai faim."
+                    "J'ai faim."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "Un peu de patience,|tu sais que ce qu'il va se passer est important, non ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Bah ouais, mais c'est tactique comme information.|Je vous informe que si y'a un truc \u00e0 manger,|\u00e7a sera un vrai danger pour notre formation !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Si tu fais \u00e7a je serais un vrai danger pour ton int\u00e9grit\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "*rigole en Zobral*"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "12,4",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Railoph",
+                    "12,5",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Villageois (Oliver)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Merci encore de m'avoir accompagn\u00e9 pour cette derni\u00e8re n\u00e9gociation, Railoph.|Comme promit nous allons proc\u00e9der au payement imm\u00e9diatement."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "14,4",
+                    "FLAG(no_follow)"
                 ]
             ],
             [
                 "speak",
                 [
                     "Railoph",
-                    "Cela nous \u00e9pargnerais beaucoup de douleur..."
+                    "Pour tout vous dire, nous aurions quelques questions \u00e0 vous poser."
                 ]
             ],
             [
                 "speak",
                 [
                     "Oliver",
-                    "Oui, je comprends...|Dans ce cas, je vous demanderais de sortir les caisses \u00e9tiquet\u00e9 en rouge s'il vous plait."
+                    "Que se passe t'il ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Pourriez vous nous indiquer la nature de ce que vous avez vendu \u00e0 l'instant ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Ce sont des produits de premi\u00e8re n\u00e9c\u00e9ssit\u00e9 pour la ville, voila tout.|Pourquoi me posez vous la question ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Nous parlons bien des casses marqu\u00e9 d'un \u00e9tiquetage rouge ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "..."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Volta",
+                    "18,4",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Ridril",
+                    "18,5",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Shumbus",
+                    "19,4",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Railoph",
+                    "13,5",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous... Vous avez fouin\u00e9..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et nous demandons des explications."
                 ]
             ],
             [
                 "move_unit",
                 [
                     "Oliver",
-                    "9,4",
-                    "",
-                    "",
-                    "500FLAG(no_block)",
+                    "14,3",
                     "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Belzir",
+                    "13,0",
+                    "swoosh"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Darsenn",
+                    "14,0",
+                    "swoosh"
                 ]
             ],
             [
                 "wait",
                 [
-                    "200"
+                    "300"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
+                    "14,5",
+                    "FLAG(no_follow)"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Axel",
+                    "12,7",
+                    "swoosh"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Alice",
+                    "13,7",
+                    "swoosh"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "300"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "C'est une rupture de contrat !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Absolument."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Cela signifie donc que nous n'avons plus aucune obligation de vous escorter."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous... ... ...|VOUS TOUS !|Vous regretterez ce jour !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "???",
+                    "Eh bien, vous avez vraiment r\u00e9ussi..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Qui est l\u00e0 ?!"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Zobral",
+                    "other"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Zobral",
+                    "11,5",
+                    "fade"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Allons allons, reste calme Railoph."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Zobral ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Zobral !!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Zobral Newian... J'aurais du m'en douter...|Vous aimez nous mettre des b\u00e2tons dans les roues."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Quoi, moi ?|Je n'ai rien fait.|Pur coincidence que je sois l\u00e0 pile au moment o\u00f9 tu es accost\u00e9 au port le plus vuln\u00e9rable."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Votre sarcasme m'orripile."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Zobral",
+                    "13,5",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Il est ronchon votre pote, qu'est ce qui lui arrive ?|Oh quoi que, attendez.|On va d'abord le mettre au chaud avec nos amis du Sanctuaire.|On pourra parler de \u00e7a apr\u00e8s."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Oliver",
                     "7,4",
-                    "immediate"
+                    "",
+                    "stack",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
                 ]
             ],
             [
                 "move_unit",
                 [
-                    "Axel",
-                    "8,4"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oliver",
-                    "Oh ! Axel !|Que vous arrive t'il ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Axel",
-                    "Encore un pas et je te troue la peau."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Oliver",
-                    "Je... Je ne comprends pas."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Oliver",
-                    "10,4"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Axel",
-                    "9,4"
+                    "Zobral",
+                    "7,4",
+                    "",
+                    "stack",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
                 ]
             ]
         ],
