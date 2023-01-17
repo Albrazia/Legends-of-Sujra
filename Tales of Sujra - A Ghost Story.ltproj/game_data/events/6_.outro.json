@@ -9,7 +9,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "10"
+                    "numero,10"
                 ]
             ],
             [
@@ -401,7 +401,7 @@
                 "speak",
                 [
                     "Zobral",
-                    "Quoi, moi ?|Je n'ai rien fait.|Pur coincidence que je sois l\u00e0 pile au moment o\u00f9 tu es accost\u00e9 au port le plus vuln\u00e9rable."
+                    "Quoi, moi ?|Je n'ai rien fait.|Pur coincidence que je sois l\u00e0 pile au moment o\u00f9 tu ais accost\u00e9 au port le plus vuln\u00e9rable."
                 ]
             ],
             [

@@ -83,7 +83,7 @@
             [
                 "if",
                 [
-                    "{eval:=='Aurora'}"
+                    "{eval:region.nid=='Aurora'}"
                 ]
             ],
             [

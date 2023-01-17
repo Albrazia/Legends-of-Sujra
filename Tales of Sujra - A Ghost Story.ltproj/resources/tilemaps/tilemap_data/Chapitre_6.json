@@ -6938,7 +6938,7 @@
             },
             {
                 "nid": "BateauHG",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "11,9": "7 (1)",
                     "10,9": "7 (1)",
@@ -7712,7 +7712,7 @@
             },
             {
                 "nid": "BateauHD",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "24,5": "7 (1)",
                     "25,5": "7 (1)",
@@ -8498,7 +8498,7 @@
             },
             {
                 "nid": "BateauBG",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "2,17": "Fence",
                     "3,17": "Fence",
@@ -8945,7 +8945,7 @@
             },
             {
                 "nid": "Cin\u00e9matique",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "7,3": "7",
                     "16,9": "7",
@@ -12601,7 +12601,7 @@
             },
             {
                 "nid": "Cin\u00e9matique2",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "7,3": "7",
                     "16,9": "7",

@@ -1,21 +1,22 @@
 from __future__ import annotations
 
-from app.data.components import Type
-from app.data.database import DB
-from app.data.item_components import ItemComponent, ItemTags
+from app.data.database.components import ComponentType
+from app.data.database.database import DB
+from app.data.database.item_components import ItemComponent, ItemTags
 from app.engine import (action, banner, combat_calcs, engine, equations,
                         image_mods, item_funcs, item_system, skill_system,
-                        static_random, target_system)
+                        target_system)
 from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
 from app.utilities import utils
+from app.utilities import static_random
 
 class CardinalRangeAOE(ItemComponent):
     nid = 'Cardinal_aoe'
     desc = "A line is drawn in every cardinal direction around the unit"
     tag = ItemTags.AOE
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 1
 
     def splash(self, unit, item, position) -> tuple:
@@ -240,7 +241,7 @@ class CardinalTilesRange(ItemComponent):
     desc = 'Item targets tile in the cardinal range exclusively'
     tag=ItemTags.CUSTOM
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 0
     def valid_target(self, unit, item) -> set:
         rng = item_funcs.get_range(unit, item)
@@ -264,7 +265,7 @@ class TrueDamage(ItemComponent):
     desc = "Item does irreductible damage on hit (no hit restrict)"
     tag = ItemTags.CUSTOM
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 0
 
     def damage(self, unit, item):
@@ -307,7 +308,7 @@ class StatusOnUse(ItemComponent):
     desc = "User gains the specified status on use."
     tag = ItemTags.CUSTOM
 
-    expose = Type.Skill  # Nid
+    expose = ComponentType.Skill  # Nid
 
     def on_hit(self, actions, playback, unit, item, target, target_pos, mode, attack_info):
         act = action.AddSkill(unit, self.value, unit)

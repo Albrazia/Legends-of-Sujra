@@ -1,21 +1,22 @@
 from __future__ import annotations
 
-from app.data.components import Type
-from app.data.database import DB
-from app.data.skill_components import SkillComponent, SkillTags
+from app.data.database.components import ComponentType
+from app.data.database.database import DB
+from app.data.database.skill_components import SkillComponent, SkillTags
 from app.engine import (action, banner, combat_calcs, engine, equations,
                         image_mods, item_funcs, item_system, skill_system,
-                        static_random, target_system)
+                        target_system)
 from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
 from app.utilities import utils
+from app.utilities import static_random
 
 class BackStep(SkillComponent):
     nid = 'backstep'
     desc = "Unit falls back after combat"
     tag = SkillTags.CUSTOM
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 1
 
     def _check_backstep(self, unit_to_move, anchor, magnitude):
@@ -72,7 +73,7 @@ class WarpHpTreshhold(SkillComponent):
     desc = 'Unit can warp to any ally who\'s hp is <=Value%'
     tag = SkillTags.CUSTOM
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 50
 
     def witch_warp(self, unit: UnitObject)->Set[Tuple[int,int]]:
@@ -97,7 +98,7 @@ class GetStatusAfterCombat(SkillComponent):
     desc = "Gets a status to target after combat"
     tag = SkillTags.CUSTOM
 
-    expose = Type.Skill
+    expose = ComponentType.Skill
 
     def end_combat(self, playback, unit, item, target, mode):
         from app.engine import skill_system
@@ -110,7 +111,7 @@ class CantoStatic(SkillComponent):
     desc = "Unit can move X tiles after attacking"
     tag = SkillTags.MOVEMENT
 
-    expose = Type.Int
+    expose = ComponentType.Int
     value = 0
 
     def has_canto(self, unit, unit2) -> bool:
@@ -122,7 +123,7 @@ class Specific2TileWitchWarp(SkillComponent):
     desc = "Allows unit to witch warp to the given unit 2 tiles around"
     tag = SkillTags.CUSTOM
 
-    expose = (Type.List, Type.Unit)
+    expose = (ComponentType.List, ComponentType.Unit)
 
     def witch_warp(self, unit) -> list:
         positions = set()

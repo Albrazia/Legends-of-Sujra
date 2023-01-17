@@ -20,7 +20,7 @@
             [
                 "comment",
                 [
-                    "trigger_script_with_args;Magasins1;{eval:game.get_unit('{1}')};{3}"
+                    "#trigger_script_with_args;Magasins1;{eval:game.get_unit('{1}')};{3}"
                 ]
             ],
             [

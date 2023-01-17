@@ -21,32 +21,19 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "5"
+                    "numero,5"
                 ]
             ],
             [
                 "center_cursor",
                 [
-                    "24,20",
-                    "FLAG(immediate)"
+                    "24,20"
                 ]
             ],
             [
                 "show_layer",
                 [
                     "BateauBD"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauBDH"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauBDB"
                 ]
             ],
             [
@@ -84,7 +71,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "6"
+                    "numero,6"
                 ]
             ],
             [
@@ -107,7 +94,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "7"
+                    "numero,7"
                 ]
             ],
             [
@@ -130,18 +117,6 @@
                 "show_layer",
                 [
                     "BateauHG"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauHGH"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauHGB"
                 ]
             ],
             [
@@ -173,7 +148,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "8"
+                    "numero,8"
                 ]
             ],
             [
@@ -196,18 +171,6 @@
                 "show_layer",
                 [
                     "BateauHD"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauHDH"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauHDB"
                 ]
             ],
             [
@@ -239,7 +202,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "9"
+                    "numero,9"
                 ]
             ],
             [
@@ -265,18 +228,6 @@
                 ]
             ],
             [
-                "show_layer",
-                [
-                    "BateauBGH"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "BateauBGB"
-                ]
-            ],
-            [
                 "add_group",
                 [
                     "BG",
@@ -291,6 +242,6 @@
             ]
         ],
         "only_once": false,
-        "priority": 21
+        "priority": 20
     }
 ]

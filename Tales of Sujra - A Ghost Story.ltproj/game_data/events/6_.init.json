@@ -1,7 +1,7 @@
 [
     {
         "name": ".init",
-        "trigger": "level_start",
+        "trigger": null,
         "level_nid": "6",
         "condition": "True",
         "commands": [
@@ -41,6 +41,6 @@
             ]
         ],
         "only_once": false,
-        "priority": 21
+        "priority": 20
     }
 ]

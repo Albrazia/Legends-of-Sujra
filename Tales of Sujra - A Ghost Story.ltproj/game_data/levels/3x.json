@@ -13,7 +13,8 @@
             "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": null,
+            "boss_battle": null
         },
         "objective": {
             "simple": "Retrouvez Ridril au Roamy",
@@ -910,7 +911,7 @@
                     6
                 ],
                 "size": [
-                    2,
+                    3,
                     3
                 ],
                 "sub_nid": "Magasin",
@@ -922,12 +923,12 @@
                 "nid": "Shizuka",
                 "region_type": "event",
                 "position": [
-                    16,
-                    7
+                    15,
+                    8
                 ],
                 "size": [
-                    1,
-                    2
+                    3,
+                    3
                 ],
                 "sub_nid": "Magasin",
                 "condition": "game.game_vars.get('Roamy')",

@@ -3,7 +3,7 @@
         "name": ".intro",
         "trigger": "level_start",
         "level_nid": "6",
-        "condition": "False",
+        "condition": "True",
         "commands": [
             [
                 "trigger_script",
@@ -34,7 +34,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "1"
+                    "numero,1"
                 ]
             ],
             [
@@ -80,8 +80,12 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "2"
+                    "numero,2"
                 ]
+            ],
+            [
+                "remove_all_units",
+                []
             ],
             [
                 "base",
@@ -93,7 +97,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "3"
+                    "numero,3"
                 ]
             ],
             [
@@ -107,14 +111,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "4"
-                ]
-            ],
-            [
-                "trigger_script_with_args",
-                [
-                    ".Dialogues",
-                    "5"
+                    "numero,4"
                 ]
             ]
         ],

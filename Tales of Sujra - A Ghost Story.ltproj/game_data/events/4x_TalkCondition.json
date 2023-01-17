@@ -68,7 +68,7 @@
                 "trigger_script_with_args",
                 [
                     "EntrainementHisky",
-                    "{eval:game.game_vars.get('_last_choice')}"
+                    "unit,{eval:game.game_vars.get('_last_choice')}"
                 ]
             ],
             [

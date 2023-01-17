@@ -272,41 +272,42 @@
     },
     {
         "nid": "MachiskySkillDesc",
-        "dtype": "kv",
+        "dtype": "list",
         "svalue": "",
-        "kvvalue": [
-            [
-                "PostureHisky",
-                "Conf\u00e8re +15 hit en attaque ou +15dodge en d\u00e9fense"
-            ],
-            [
-                "Agilit\u00e9Hisky",
-                "Conf\u00e8re +10 dodge"
-            ],
-            [
-                "CritHisky",
-                "Conf\u00e8re +10 Crit"
-            ],
-            [
-                "CantoHisky",
-                "L'unit\u00e9 se d\u00e9place de 2 cases apr\u00e8s n'importe quelle action"
-            ],
-            [
-                "Pr\u00e9cisionHisky",
-                "Conf\u00e8re +10 pr\u00e9cision"
-            ],
-            [
-                "GardeHisky",
-                "Subit 4 points de d\u00e9g\u00e2ts en moins chaque premier combat de chaque phase"
-            ],
-            [
-                "PlumeHisky",
-                "La cible se d\u00e9place d'une case en moins apr\u00e8s le combat"
-            ]
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "PostureHisky",
+                "description": "Conf\u00e8re +15 hit en attaque ou +15dodge en d\u00e9fense"
+            },
+            {
+                "nid": "Agilit\u00e9Hisky",
+                "description": "Conf\u00e8re +10 dodge"
+            },
+            {
+                "nid": "CritHisky",
+                "description": "Conf\u00e8re +10 Crit"
+            },
+            {
+                "nid": "CantoHisky",
+                "description": "L'unit\u00e9 se d\u00e9place de 2 cases apr\u00e8s n'importe quelle action"
+            },
+            {
+                "nid": "Pr\u00e9cisionHisky",
+                "description": "Conf\u00e8re +10 pr\u00e9cision"
+            },
+            {
+                "nid": "GardeHisky",
+                "description": "Subit 4 points de d\u00e9g\u00e2ts en moins chaque premier combat"
+            },
+            {
+                "nid": "PlumeHisky",
+                "description": "La cible se d\u00e9place d'une case en moins apr\u00e8s le combat"
+            }
         ],
-        "lovalue": [],
         "oattrs": [
-            "nid"
+            "nid",
+            "description"
         ]
     },
     {
