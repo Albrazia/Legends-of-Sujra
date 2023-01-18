@@ -401,7 +401,7 @@
                 "speak",
                 [
                     "Zobral",
-                    "Quoi, moi ?|Je n'ai rien fait.|Pur coincidence que je sois l\u00e0 pile au moment o\u00f9 tu ais accost\u00e9 au port le plus vuln\u00e9rable."
+                    "Quoi, moi ?|Je n'ai rien fait.|Pur coincidence que je sois l\u00e0 pile au moment o\u00f9 tu as accost\u00e9 au port le plus vuln\u00e9rable."
                 ]
             ],
             [
@@ -444,8 +444,144 @@
                     "7,4",
                     "",
                     "stack",
-                    "FLAG(no_follow)",
-                    "FLAG(no_block)"
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Et votre argent dans tout \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "D\u00e9j\u00e0 vol\u00e9."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "change_background",
+                [
+                    "Town"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Oliver",
+                    "FarLeft",
+                    "Zobral",
+                    "MidLeft",
+                    "Railoph",
+                    "MidRight",
+                    "Axel",
+                    "FarRight"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Zobral, nous avons besoin de r\u00e9ponses."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi est ce qu'il y avait des cadavres dans ces caisses ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est une bonne question \u00e7a.|Eh Oli', \u00e7a te dirait d'y r\u00e9pondre ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous n'aurez rien de moi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "On verra \u00e7a."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Les ghoules que vous avez affront\u00e9 dans la forteresse au Domaine Brazia,|c'est de ce genre de \"marchandise\" qu'elles viennent."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "P-Pardon ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Alors comme \u00e7a Oliver est affili\u00e9 \u00e0 cette organisation..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est \u00e7a.|Notre marchand ici pr\u00e9sent fournissait en viande nos illumin\u00e9s et empochait un bon pactole."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "J'ai m\u00eame cru comprendre qu'il avait quelques autres avantages, hm ?"
                 ]
             ]
         ],

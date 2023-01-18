@@ -17,9 +17,9 @@
             "boss_battle": null
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "D\u00e9fendre le bateau",
+            "win": "D\u00e9fendez le bateau sans vous faire d\u00e9cimer",
+            "loss": "Volta, Railoph, Axel ou Shumbus meurt"
         },
         "roam": false,
         "roam_unit": null,

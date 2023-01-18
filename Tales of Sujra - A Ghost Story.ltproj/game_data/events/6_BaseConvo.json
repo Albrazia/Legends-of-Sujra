@@ -591,7 +591,20 @@
                 "move_portrait",
                 [
                     "Volta",
-                    "OffscreenRight"
+                    "Right"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "FarRight"
                 ]
             ],
             [
@@ -599,6 +612,13 @@
                 [
                     "Ridril",
                     "V-Volta ?.."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "OffscreenRight"
                 ]
             ],
             [
