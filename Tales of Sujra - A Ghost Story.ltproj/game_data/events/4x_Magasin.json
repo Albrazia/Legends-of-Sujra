@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Magasin",
+        "trigger": "Magasin",
+        "level_nid": "4x",
+        "condition": "True",
+        "commands": [
+            [
+                "choice",
+                [
+                    "plop",
+                    "Magasin",
+                    "{eval:','.join([unit.nid+'|'+unit.name for unit in game.get_all_units_in_party()])}",
+                    "",
+                    "h",
+                    "",
+                    "",
+                    "",
+                    "type_unit",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{eval:\"{v:plop}\"!='BACK'}"
+                ]
+            ],
+            [
+                "shop",
+                [
+                    "{eval:game.get_unit('{v:plop}')}",
+                    "Vulnerary,VulneraryPS,Concoction",
+                    "vendor",
+                    "-1,-1,3"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

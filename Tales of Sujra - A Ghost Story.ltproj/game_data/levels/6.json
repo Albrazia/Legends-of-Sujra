@@ -634,7 +634,7 @@
             },
             {
                 "nid": "Zobral",
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,

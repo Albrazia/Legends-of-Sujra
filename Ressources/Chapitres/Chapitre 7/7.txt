@@ -1,0 +1,2 @@
+Base :
+Tuto : Quand et combien de fois on pourra choisir les skills (et la magie au passage)

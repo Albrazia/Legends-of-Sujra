@@ -40,7 +40,7 @@
                 "speak",
                 [
                     "Railoph",
-                    "Quelle imprudence...|Avancez avec prudence et nous avons toujours une chance !"
+                    "Quelle imprudence...|Avancez avec prudence, nous avons toujours une chance !"
                 ]
             ],
             [
@@ -53,7 +53,7 @@
                 "speak",
                 [
                     "Axel",
-                    "Comment est ce que j'ai pu laisser \u00e7a arrive.|Le reste sera sans moi."
+                    "Comment est ce que j'ai pu laisser \u00e7a arriver.|Le reste sera sans moi."
                 ]
             ],
             [
@@ -146,7 +146,7 @@
                 "trigger_script_with_args",
                 [
                     ".outro",
-                    "False"
+                    "resultat,False"
                 ]
             ],
             [
@@ -163,7 +163,7 @@
                 "trigger_script_with_args",
                 [
                     ".outro",
-                    "True"
+                    "resultat,True"
                 ]
             ],
             [

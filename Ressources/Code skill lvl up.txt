@@ -1,0 +1,7 @@
+if;{eval:unit.level==3}
+    choice;Plop;Choisir un Skill;{eval:','.join([Comp.nid for Comp in game.get_data('{eval:'{eval:unit.nid}'+'3'}') if not any([Comp.nid == skill.nid for skill in game.get_unit('{eval:unit.name}').skills])])};;v;center;;;type_skill;4,1;left;FLAG(scroll_bar)
+    give_skill;{unit};{v:Plop}
+elif;{eval:unit.level==5}
+    choice;Plop;Choisir un Skill;{eval:','.join([Comp.nid for Comp in game.get_data('{eval:'{eval:unit.nid}'+'5'}') if not any([Comp.nid == skill.nid for skill in game.get_unit('{eval:unit.name}').skills])])};;v;center;;;type_skill;4,1;left;FLAG(scroll_bar)
+    give_skill;{unit};{v:Plop}
+end

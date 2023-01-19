@@ -11,7 +11,7 @@
         "components": [
             [
                 "damage_multiplier",
-                2.0
+                3.000000000000001
             ],
             [
                 "hidden",

@@ -19,7 +19,7 @@
                 "trigger_script_with_args",
                 [
                     ".Dialogues",
-                    "1"
+                    "numero,1"
                 ]
             ],
             [

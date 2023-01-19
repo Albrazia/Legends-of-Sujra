@@ -156,7 +156,88 @@
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Rouge1",
+                "region_type": "event",
+                "position": [
+                    1,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge2",
+                "region_type": "event",
+                "position": [
+                    1,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge3",
+                "region_type": "event",
+                "position": [
+                    7,
+                    3
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Rouge4",
+                "region_type": "event",
+                "position": [
+                    10,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visiter",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Magasin",
+                "region_type": "event",
+                "position": [
+                    12,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Magasin",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": []
     }
 ]

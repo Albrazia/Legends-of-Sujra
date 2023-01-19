@@ -30,6 +30,10 @@
             [
                 "ability",
                 "Bonne Humeur"
+            ],
+            [
+                "cost_mana",
+                4
             ]
         ]
     }

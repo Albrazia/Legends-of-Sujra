@@ -2,7 +2,7 @@
     {
         "nid": "Charge du Vide",
         "name": "Charge du Vide",
-        "desc": "-Active Arc Co\u00fbt : 8-\nDoublez les d\u00e9g\u00e2ts de votre prochain coup (D\u00e9fense appliqu\u00e9 avant le calcul). Emp\u00eache la double attaque.",
+        "desc": "-Active Arc Co\u00fbt : 8-\nTriplez les d\u00e9g\u00e2ts de votre prochain coup (D\u00e9fense appliqu\u00e9 avant le calcul). Emp\u00eache la double attaque.",
         "icon_nid": "Skills",
         "icon_index": [
             4,

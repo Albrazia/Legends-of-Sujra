@@ -1,0 +1,29 @@
+Orthographe grammaire :
+Chap 0,1,2,3,3x,4,4x,5,6,6x
+Chap 1
+Chap 2
+Chap 3
+Chap 3x
+Chap 4
+Chap 4x
+Chap 5
+Chap 6
+
+Fonctionnement script
+Dialogues Chap 4,4x,5,6,6x
+Script findecombat chap4
+Script CombatDialogue chap5
+Cinématique intro-outro Chap 4,4x,5,6,6x
+
+Graphics :
+Volta combat animation
+Concoction place holder
+le Tome de Alice qui fait des trucs chelou
+Magie pour Alice
+
+Jeu :
+Gain skill :
+Volta, Axel, Railoph, Alice, Darsenn, Belzir, Shumbus, Ridril, Reymi
+
+Gain magie :
+Alice

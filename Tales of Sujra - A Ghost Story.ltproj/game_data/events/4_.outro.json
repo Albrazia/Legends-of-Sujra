@@ -47,7 +47,7 @@
             [
                 "if",
                 [
-                    "{1}"
+                    "{eval:resultat==True}"
                 ]
             ],
             [
@@ -407,7 +407,7 @@
                 "speak",
                 [
                     "Hardan",
-                    "Et en tant que professeur je sais ce qu'il faut rectifier chez chacun d'eux."
+                    "Et en tant que professeur je sais maintenant ce qu'il faut rectifier chez chacun d'eux."
                 ]
             ],
             [
@@ -484,7 +484,7 @@
                 "speak",
                 [
                     "Hardan",
-                    "Exactement.|Tant que la guerre ne change pas de rythme, nous ne gagnerons pas.|Les pertes sont fine pour chaque camp,|et c'est un probl\u00e8me pour essayer de briser cette guerilla.|Malheureusement, nous ne pouvons rien y faire de notre cot\u00e9.|Si je quitte le Domaine, il n'y aura plus personne pour le g\u00e9rer.|Et le Sanctuaire ne risque pas de lever le petit doigt."
+                    "Exactement.|Tant que la guerre ne change pas de rythme, nous ne gagnerons pas.|Les pertes sont fine pour chaque camp,|et c'est un probl\u00e8me pour essayer de briser cette guerilla.|Malheureusement, nous ne pouvons rien y faire de notre cot\u00e9.|Si je quitte le Domaine, il n'y aura plus personne pour le g\u00e9rer.|Et le Sanctuaire ne risque pas de lever le petit doigt pour faire pencher la balance de notre cot\u00e9 sur le front."
                 ]
             ],
             [

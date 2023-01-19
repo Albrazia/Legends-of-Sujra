@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Visite",
+        "trigger": "Visiter",
+        "level_nid": "4x",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "region.nid=='Rouge1'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man1",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man1",
+                    "Faites bien attention \u00e0 la mer...|Si vous tombez \u00e0 l'eau, vous \u00eates condamn\u00e9 \u00e0 vous noyez.|S'il existe un moyen de vous en sortir ?|Un ami sur une monture.|C'est la seule fa\u00e7on."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Rouge2'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Old Woman1",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Old Woman1",
+                    "Pauvre Sir Hardan, il a \u00e9t\u00e9 laiss\u00e9 seul par sa famille pour g\u00e9rer le festival...|Sans compter ses parents qui sont au front,|il a un fr\u00e8re et une soeur...|Jake, le premier succ\u00e9sseur est toujours en vradrouile,|mais je ne sais pas ce que fait sa soeur Julie.|J'ai cru comprendre qu'elle avait une bonne raison de s'en aller mais...|Cela reste vraiment dur pour sir Hardan, j'en suis certaine."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Rouge3'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man3",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man3",
+                    "Ce festival m'enerve, voudrait il se d\u00e9p\u00e9cher de se finir oui ?|Tout ce bruit, toute cette agitation.|Eugh."
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "region.nid=='Rouge3'"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Gamin",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Gamin",
+                    "Vous \u00eates venu pour vous battre au festival ?|D\u00e9sol\u00e9 mais vous avez vraiment pas l'apparence d'une guerri\u00e8re.|Vous avisez pas de voler les pommes de mon \u00e9tal !|Ou vous aurez \u00e0 faire \u00e0 mon p\u00e8re !"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

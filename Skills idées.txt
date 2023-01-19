@@ -1,0 +1,74 @@
+Volta :
+-Base : Tour de passe-passe
+- (active : Skill qui augmente sa mobilité et son esquive, au malus de plus pouvoir riposter pendant l'ennemy phase d'après)
+- (Combat proc : augmente l'esquive)
+Class up
+-Chrono Fracture
+-Hors du Temps
+
+Railoph :
+-Base : Coup de Bouclier
+-Reste derrière Railoph !
+-Coup Renversant
+- (active : provocation qui augmente la défense. Applique aux ennemis une IA qui force à cibler Railoph ?)
+- (Defense proc : Augmente la défense/resistance)
+class up
+-Coeur de Rubis
+- (Defense proc : ignore les dégats subit)
+
+Axel :
+-Base : Charge du Vide
+-Embuscade (need debug)
+- (attack proc : 
+class up
+-Fissure Abyssale
+- (Combat proc : ignore l'armure)
+
+Shumbus : 
+-Base : Joyeuse et Sucrée
+- (passive : Amélioration de l'aura pour donner plus de stats, une aura qui overlap ?)
+- (passive : une chance de pas user le baton)
+- (active : inflige des dégats et rend de la mana à Shumbus)
+-Miracle+
+
+Belzir :
+-Base :Lucky 7
+- (combat proc : frappe plus de dégat et plus de précision en fonction des hp manquant)
+- (active : Inflige faille en zone autour de lui, ennemis seulement)
+- (active : Frappe et fait passer un ennemis derrière lui, plus de précision)
+
+Alice :
+-Base : Voeux d'Alice
+- (proc : regen de la mana en échange d'un débuff de résistance)
+- (Combat proc : 
+
+Darsenn :
+-Base : Innébranlable
+- (proc : Augmente sa force et sa défense pendant un tour)
+- (proc : Frappe et passe derrière un ennemis, inflige plus de dégats)
+
+Reymi :
+-Base : Pharmacie ambulante
+- (proc : Confère un buff à distance à une unité pendant un tour)
+- (passive : augmente esquive et défense des unités adjacente quand elles subissent une attaque)
+
+
+Ridril :
+-Base : Perce défense
+-Supériorité aérienne (plus de précision et d'esquive contre les ennemis volants)
+-Agilité Aérienne
+- (proc : brave effect + canto -reste)
+
+Recon :
+-Base : Sang chaud
+-Arc de Siège
+-Grappin à Wyvern (need debug)
+- (passive : reduit l'armure de la cible)
+- (passive : canto -reste)
+
+Zobral :
+-Vient par là
+-Heroisme (passive : plus de skill proc quand <=50%hp)
+-Lunaire (combat proc : ignore défense)
+-Solaire (combat proc : soigne à la frappe)
+-Colère (passive : plus de chance de coup critique et d'esquive quand <=25%hp)

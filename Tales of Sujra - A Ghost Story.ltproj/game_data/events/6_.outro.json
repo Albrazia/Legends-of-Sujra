@@ -583,6 +583,199 @@
                     "Zobral",
                     "J'ai m\u00eame cru comprendre qu'il avait quelques autres avantages, hm ?"
                 ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Pourquoi me posez vous toute ces questions,|alors que vous avez l'air d'\u00eatre tr\u00e8s bien renseign\u00e9..."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Il est trop mignon \u00e0 \u00eatre b\u00eate comme \u00e7a, vous trouvez pas ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quels autres avantages ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Richesse, chance, femmes ? Non, trop simple pour un marchand \u00e7a.|Vie eternelle."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Cette organisation aurait donc autant de pouvoir ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est leur but en tout cas, ou au moins l'un d'entre eux."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Comment ces cr\u00e9atures pourraient \u00eatre li\u00e9 \u00e0 la vie eternelle ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "On enqu\u00eate toujours dessus, Wagnius est sur la question depuis qu'on a d\u00e9couvert \u00e7a.|Avec lui \u00e0 la t\u00eate des recherches, on le saura bientot."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tu as trait\u00e9 l'organisation d'illumin\u00e9, ce sont des religieux ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est \u00e7a, mais ils suivent pas le culte des Anc\u00eatres comme nous.|Pour les citers, \"ils voient plus haut\".|Des divinit\u00e9s, des \u00eatres fictifs qui auraient un pouvoir infinis."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Nos dieux ne sont pas fictifs,|ce sont vos Anc\u00eatres qui sont des mensonges !|Vous pensez vraiment que 5 humains pourraient gagner une guerre d'eux m\u00eame ?!|Contre des \u00e9l\u00e9mentaires ?|Une v\u00e9ritable fiction !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ta gueule, j't'ai pas sonn\u00e9."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Ouvre la encore une fois alors que je t'ai pas pos\u00e9 de questions|et tu vas commencer \u00e0 perdre quelques organes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "Vous...|Vous ne ferez rien, vous avez besoin de moi..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Tu veux parier ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Oliver",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Voila le Zobral dont j'ai entendu parler.|Cruel et brutal."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Un mercenaire qui est pr\u00eat \u00e0 tout pour arriver \u00e0 ses fins,|qui a d\u00e9j\u00e0 caus\u00e9 des pertes civil.|Qui n'a laiss\u00e9 destruction dans son sillage.|Tu me paraissais \u00e9mouss\u00e9 Zobral."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Oh, t'en fais pas.|Je n'ai absolument pas perdu de mon tranchant, je me contente de rengainer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Pourquoi nous avoir fait faire cette mission exactement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "J'avais besoin de renforts sur cette mission.|Essayer d'apr\u00e9hender Oliver par moi m\u00eame \u00e9tait trop dangereux.|Et cette prime me d\u00e9rangeait.|Si des mercenaires lambda venaient \u00e0 la choisir, je les aurais eu dans les pattes.|Alors j'ai fait d'une pierre deux coups."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Vous auriez pu nous pr\u00e9venir..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Vous en auriez parl\u00e9 \u00e0 Hardan, et \u00e7a devait pas arriver."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Votre ma\u00eetre a bien le droit de savoir ce qu'il se passe chez lui.|Et il est au courant pour cette organisation."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Il a d\u00e9j\u00e0 assez de probl\u00e8mes comme \u00e7a.|Bon, rentrons.|Nous pourrons discuter de tout \u00e7a en chemin si vous le souhaitez."
+                ]
             ]
         ],
         "only_once": false,
