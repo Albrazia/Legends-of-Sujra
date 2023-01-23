@@ -11,6 +11,13 @@
                     "Recon",
                     "GrappinWyvern"
                 ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    "New Event_1 (Plop New Event_1)",
+                    "argument,\"plop\""
+                ]
             ]
         ],
         "only_once": false,

@@ -1,0 +1,11 @@
+[
+    {
+        "name": ".Outro",
+        "trigger": null,
+        "level_nid": "6x",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20
+    }
+]

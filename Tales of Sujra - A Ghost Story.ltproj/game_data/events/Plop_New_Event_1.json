@@ -1,0 +1,24 @@
+[
+    {
+        "name": "New Event_1",
+        "trigger": null,
+        "level_nid": "Plop",
+        "condition": "True",
+        "commands": [
+            [
+                "alert",
+                [
+                    "{argument}"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "{eval:argument}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

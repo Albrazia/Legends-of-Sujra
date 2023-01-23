@@ -14,138 +14,7 @@
             [
                 "if",
                 [
-                    "{eval:{2}==1}"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Magasin Accessoire"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "ArmeDescription",
-                    "[\"{d:Accessoire1.{v:Accessoire_choice_hover}.description}\", \"Prix: {eval:DB.items.get('{v:Accessoire_choice_hover}').value.value}\"]",
-                    "",
-                    "(2, 1)",
-                    "150",
-                    "bottom_left",
-                    "menu_bg_parchment (menu_bg_parchment)",
-                    "FLAG(expression)"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "GoldDisplay",
-                    "[game.get_money()]",
-                    "",
-                    "",
-                    "60",
-                    "top_right",
-                    "funds_display (funds_display)",
-                    "FLAG(expression)"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "InventoryDisplay",
-                    "{eval:','.join([plop.nid for plop in game.get_unit('{1}').items])}",
-                    "{1}",
-                    "6,1",
-                    "",
-                    "bottom_right",
-                    "",
-                    "type_base_item",
-                    "left"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "Accessoire",
-                    "Acc. de l'Atelier",
-                    "{eval:','.join([item.nid+'|'+item.name for item in game.get_data('Accessoire1')])}",
-                    "",
-                    "v",
-                    "top_left",
-                    "",
-                    "",
-                    "type_base_item",
-                    "5,1",
-                    "",
-                    "FLAG(backable)"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "ArmeDescription"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "GoldDisplay"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "InventoryDisplay"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{eval:\"{v:Accessoire}\"!='BACK'}"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{eval:game.get_money()>=int({eval:DB.items.get('{v:Accessoire}').value.value})}"
-                ]
-            ],
-            [
-                "give_money",
-                [
-                    "{eval: -1 * int({eval:DB.items.get('{v:Accessoire}').value.value})}",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{1}",
-                    "{v:Accessoire}"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "alert",
-                [
-                    "Vous n'avez pas assez de fonds."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "elif",
-                [
-                    "{eval:{2}==2}"
+                    "{eval:\"{eval:type}\"==\"Arme\"}"
                 ]
             ],
             [
@@ -184,8 +53,8 @@
                 "table",
                 [
                     "InventoryDisplay",
-                    "{eval:','.join([plop.nid for plop in game.get_unit('{1}').items])}",
-                    "{1}",
+                    "{eval:','.join([plop.nid for plop in game.get_unit('{eval:unite}').items])}",
+                    "{eval:unite}",
                     "6,1",
                     "",
                     "bottom_right",
@@ -251,7 +120,7 @@
             [
                 "give_item",
                 [
-                    "{1}",
+                    "{eval:unite}",
                     "{v:Arme}"
                 ]
             ],
@@ -276,138 +145,7 @@
             [
                 "elif",
                 [
-                    "{eval:{2}==3}"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Magasin Armure"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "ArmureDescription",
-                    "[\"{d:Armure1.{v:Armure_choice_hover}.description}\", \"Prix: {eval:DB.items.get('{v:Armure_choice_hover}').value.value}\"]",
-                    "",
-                    "(2, 1)",
-                    "150",
-                    "bottom_left",
-                    "menu_bg_parchment (menu_bg_parchment)",
-                    "FLAG(expression)"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "GoldDisplay",
-                    "[game.get_money()]",
-                    "",
-                    "",
-                    "60",
-                    "top_right",
-                    "funds_display (funds_display)",
-                    "FLAG(expression)"
-                ]
-            ],
-            [
-                "table",
-                [
-                    "InventoryDisplay",
-                    "{eval:','.join([plop.nid for plop in game.get_unit('{1}').items])}",
-                    "{1}",
-                    "6,1",
-                    "",
-                    "bottom_right",
-                    "",
-                    "type_base_item",
-                    "left"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "Armure",
-                    "Armure de l'Atelier",
-                    "{eval:','.join([item.nid+'|'+item.name for item in game.get_data('Armure1')])}",
-                    "",
-                    "v",
-                    "top_left",
-                    "",
-                    "",
-                    "type_base_item",
-                    "5,1",
-                    "",
-                    "FLAG(backable)"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "ArmureDescription"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "GoldDisplay"
-                ]
-            ],
-            [
-                "remove_table",
-                [
-                    "InventoryDisplay"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{eval:\"{v:Armure}\"!='BACK'}"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{eval:game.get_money()>=int({eval:DB.items.get('{v:Armure}').value.value})}"
-                ]
-            ],
-            [
-                "give_money",
-                [
-                    "{eval: -1 * int({eval:DB.items.get('{v:Armure}').value.value})}",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{1}",
-                    "{v:Armure}"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "alert",
-                [
-                    "Vous n'avez pas assez de fonds."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "elif",
-                [
-                    "{eval:{2}==4}"
+                    "{eval:\"{eval:type}\"==\"Wyvern\"}"
                 ]
             ],
             [
@@ -447,7 +185,7 @@
                 [
                     "Wyvern",
                     "Equipement pour Wyvern",
-                    "{eval:','.join([skill.nid+'|'+skill.name for skill in game.get_data('WyvernSkill1')])}",
+                    "{eval:','.join([skill.nid+'|'+skill.name for skill in game.get_data('WyvernSkill1') if not any([skill.nid == deja.nid for deja in game.get_unit('Recon').skills])])}",
                     "",
                     "v",
                     "top_left",
@@ -494,7 +232,7 @@
             [
                 "give_skill",
                 [
-                    "{1}",
+                    "{eval:unite}",
                     "{eval:game.game_vars.get('_last_choice')}"
                 ]
             ],
@@ -509,7 +247,7 @@
             [
                 "elif",
                 [
-                    "{eval:{2}==5}"
+                    "{eval:\"{eval:type}\"==\"Shizuka\"}"
                 ]
             ],
             [
@@ -521,13 +259,13 @@
             [
                 "alert",
                 [
-                    "Shizuka"
+                    "WIP"
                 ]
             ],
             [
                 "elif",
                 [
-                    "{eval:{2}==6}"
+                    "{eval:\"{eval:type}\"==\"WyvernArme\"}"
                 ]
             ],
             [
@@ -566,8 +304,8 @@
                 "table",
                 [
                     "InventoryDisplay",
-                    "{eval:','.join([plop.nid for plop in game.get_unit('{1}').items])}",
-                    "{1}",
+                    "{eval:','.join([plop.nid for plop in game.get_unit(\"{eval:unite}\").items])}",
+                    "Recon",
                     "6,1",
                     "65",
                     "bottom_right",
@@ -633,7 +371,7 @@
             [
                 "give_item",
                 [
-                    "{1}",
+                    "{eval:unite}",
                     "{v:Wyvern}"
                 ]
             ],
@@ -658,7 +396,7 @@
             [
                 "elif",
                 [
-                    "{eval:{2}==7}"
+                    "{eval:\"{eval:type}\"==\"Wagnius\"}"
                 ]
             ],
             [
@@ -697,8 +435,8 @@
                 "table",
                 [
                     "InventoryDisplay",
-                    "{eval:','.join([plop.nid for plop in game.get_unit('{1}').items])}",
-                    "{1}",
+                    "{eval:','.join([plop.nid for plop in game.get_unit('{eval:unite}').items])}",
+                    "Shumbus",
                     "6,1",
                     "65",
                     "bottom_right",
@@ -764,7 +502,7 @@
             [
                 "give_item",
                 [
-                    "{1}",
+                    "{eval:unite}",
                     "{v:Wagnius}"
                 ]
             ],

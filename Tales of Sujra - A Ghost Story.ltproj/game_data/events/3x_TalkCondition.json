@@ -943,6 +943,24 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
                 "elif",
                 [
                     "unit2.nid=='Zobral'"
@@ -1150,6 +1168,13 @@
                 "elif",
                 [
                     "unit2.nid=='Ridril'"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Ridril"
                 ]
             ],
             [
@@ -1447,6 +1472,13 @@
                 ]
             ],
             [
+                "add_talk",
+                [
+                    "Volta",
+                    "Wagnius"
+                ]
+            ],
+            [
                 "choice",
                 [
                     "plop",
@@ -1576,9 +1608,10 @@
                 []
             ],
             [
-                "comment",
+                "trigger_script_with_args",
                 [
-                    "#trigger_script_with_args;Global Magasin;Shumbus;1;7"
+                    "Magasin (Global Magasin)",
+                    "numero,1,unite,Shumbus,type,Wagnius"
                 ]
             ],
             [
@@ -2024,7 +2057,7 @@
             [
                 "alert",
                 [
-                    "Plusieurs entr\u00e9es concernant l'\u00e9quipe Ghost on \u00e9t\u00e9 rajout\u00e9 au Codex."
+                    "Plusieurs entr\u00e9es rajout\u00e9es au Codex."
                 ]
             ],
             [

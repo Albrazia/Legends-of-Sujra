@@ -2,7 +2,7 @@
     {
         "name": "Changement",
         "trigger": "Changement",
-        "level_nid": "3x",
+        "level_nid": "6x",
         "condition": "True",
         "commands": [
             [
@@ -105,7 +105,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "11,29",
                     "immediate"
                 ]
@@ -113,7 +113,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -158,7 +158,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "24,5",
                     "immediate"
                 ]
@@ -166,7 +166,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -211,7 +211,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "12,33",
                     "immediate"
                 ]
@@ -219,7 +219,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -263,7 +263,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "12,14",
                     "immediate"
                 ]
@@ -271,7 +271,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -311,7 +311,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "22,5",
                     "immediate"
                 ]
@@ -319,7 +319,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -359,7 +359,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "0,3",
                     "immediate"
                 ]
@@ -367,7 +367,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -407,7 +407,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "8,25",
                     "immediate"
                 ]
@@ -415,7 +415,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],
@@ -455,7 +455,7 @@
             [
                 "add_unit",
                 [
-                    "Volta",
+                    "Axel",
                     "24,17",
                     "immediate"
                 ]
@@ -463,7 +463,7 @@
             [
                 "move_cursor",
                 [
-                    "Volta",
+                    "Axel",
                     "FLAG(immediate)"
                 ]
             ],

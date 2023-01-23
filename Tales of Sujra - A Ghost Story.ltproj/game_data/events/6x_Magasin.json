@@ -2,7 +2,7 @@
     {
         "name": "Magasin",
         "trigger": "Magasin",
-        "level_nid": "3x",
+        "level_nid": "6x",
         "condition": "True",
         "commands": [
             [
@@ -37,7 +37,7 @@
                 "trigger_script_with_args",
                 [
                     "Global Magasin",
-                    "numero,1,unite,{eval:game.game_vars.get('_last_choice')},type,Arme"
+                    "numero,2,unite,{eval:game.game_vars.get('_last_choice')},type,Arme"
                 ]
             ],
             [
@@ -74,7 +74,7 @@
                 "trigger_script_with_args",
                 [
                     "Global Magasin",
-                    "numero,1,unite,Recon,type,Wyvern"
+                    "numero,2,unite,Recon,type,Wyvern"
                 ]
             ],
             [
@@ -85,7 +85,7 @@
                 "trigger_script_with_args",
                 [
                     "Global Magasin",
-                    "numero,1,unite,Recon,type,WyvernArme"
+                    "numero,2,unite,Recon,type,WyvernArme"
                 ]
             ],
             [
@@ -132,7 +132,7 @@
             [
                 "add_portrait",
                 [
-                    "Volta",
+                    "Axel",
                     "Right"
                 ]
             ],
@@ -140,169 +140,259 @@
                 "speak",
                 [
                     "Shizuka",
-                    "Hey ! C'est donc toi Volta !"
+                    "De retour d'une mission de ce que je vois !|Et mouvement\u00e9 en plus !"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Volta",
-                    "Attendez... Je suis d\u00e9j\u00e0 connus ?.."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shizuka",
-                    "Ha ha ha, ne r\u00e8ve pas trop. C'est Ridril qui m'a parl\u00e9 de toi et tes amis."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Volta",
-                    "Ooh.|Un peu d\u00e9cevant mais pas innatendu.|On est o\u00f9 ici ?"
+                    "Axel",
+                    "En effet, oui.|Les nouvelles vont vite."
                 ]
             ],
             [
                 "speak",
                 [
                     "Shizuka",
-                    "Tu es dans le Roaming Mercenary, la taverne la plus populaire aupr\u00e8s des Chasseurs.|C'est le meilleur endroit pour rencontrer des Chasseurs de tout les grades|et entendre les derni\u00e8res rumeurs !|Et se rafraichir, \u00e9videment."
+                    "Alors, on a des p'tits d\u00e9tails croustillant \u00e0 me proposer ?"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Volta",
-                    "Int\u00e9ressant.|Tu es serveuse ici ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shizuka",
-                    "C'est \u00e7a !|Une simple serveuse pr\u00eate \u00e0 \u00e9couter tout tes soucis en te rafflant quelques pi\u00e8ces!|Je suis Shizuka, enchant\u00e9e !"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Volta",
-                    "Sacr\u00e9 mentalit\u00e9..."
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Shizuka",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Ridril",
-                    "FarLeft",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ridril",
-                    "N'\u00e9coute pas ce qu'elle te dis.|Elle \u00e9tait Chasseur de Rang A avant de rendre les armes.|Elle est capable de botter les fesses de 70% de l'\u00e9tablissement sans aucun mal."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Volta",
-                    "Et les 30% restant alors ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ridril",
-                    "Ils sont calme parce qu'ils ont peur de faire partie des 70%."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Volta",
-                    "Trop fort !"
+                    "Axel",
+                    "Le plus croustillant est scell\u00e9, malheureusement pour toi."
                 ]
             ],
             [
                 "speak",
                 [
                     "Shizuka",
-                    "Mais ces 30% sont souvent des Chasseurs de rang A ou sup\u00e9rieur,|ils savent se tenir tranquille."
+                    "Oh non, me dis pas que..."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Volta",
-                    "Je vois ouais.|Vous vous entendez bien toute les deux ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ridril",
-                    "Shizuka est celle qui m'a aid\u00e9 \u00e0 m'installer ici quand je suis arriv\u00e9."
+                    "Axel",
+                    "Eh si, Zobral est pass\u00e9 par l\u00e0."
                 ]
             ],
             [
                 "speak",
                 [
                     "Shizuka",
-                    "Et Ridril a toujours beaucoup \u00e0 raconter, c'est gagnant-gagnant comme relation !|M\u00eame si elle refuse cat\u00e9goriquement de me parler de sa derni\u00e8re mission..."
+                    "Roh mais c'est pas possible !|J'ai jamais vu des classes C autant int\u00e9ragir avec le double S !|Mais qu'est ce qu'il se passe \u00e0 la fin ?!"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Volta",
-                    "Ouais, j'la comprends.|On a Zobral sur le dos."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Shizuka",
-                    "Qu'est ce qu'il vous veut ?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ridril",
-                    "C'est en rapport avec la derni\u00e8re mission,|il nous a demand\u00e9 un silence complet sur toute l'histoire."
+                    "Axel",
+                    "D\u00e9sol\u00e9, je ne peux rien te dire.|J'ai des nouvelles du Domaine Hisky si tu veux, peut \u00eatre du pass\u00e9 de Zobral.|Mais je tiens \u00e0 les \u00e9changer."
                 ]
             ],
             [
                 "speak",
                 [
                     "Shizuka",
-                    "Ouais, bon...|J'ai pas non plus envie de me faire botter les fesses par Zobral,|donc j'vais vous laisser tranquille l\u00e0 dessus."
+                    "Ma foi, c'est \u00e0 \u00e7a que je sert, je t'en pris commence !"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Volta",
-                    "Les fameux 30%."
+                    "Axel",
+                    "Le probl\u00e8me de piraterie l\u00e0 bas est toujours le m\u00eame, mais en pire.|Les pirates commencent \u00e0 avoir de v\u00e9ritables flottes \u00e0 leur dispositions.|On a affront\u00e9 6 navires des Wako, et ils en ont certainement encore beaucoup plus en stock."
                 ]
             ],
             [
                 "speak",
                 [
                     "Shizuka",
-                    "Eh. Je t'aime bien Volta.|H\u00e9site pas \u00e0 passer quand tu veux,|j'ai toujours une table de libre pour les amis de Ridril !"
+                    "Oui, j'ai entendu qu'ils se faisaient financer recement.|J'attends toujours que tu m'apprennes quelque chose."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Zobral a re\u00e7u une \u00e9ducation martial de la part de Hardan Hisky."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Eh, \u00e7a serait presque une info int\u00e9ressant si c'\u00e9tait vrai.|T'as vu comme il se bat ?|On dirait une b\u00eate sauvage, pas un art."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Et pourtant c'est bel et bien vrai, je le tiens du ma\u00eetre lui m\u00eame.|D'ailleurs Hisky a vaincu son \u00e9l\u00e8ves lors du dernier festival."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "S\u00e9rieusement ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il \u00e9tait surpris de ne plus retrouver l'\u00e9ducation qu'il lui avait donn\u00e9.|Il semblerait que Zobral ait chang\u00e9 apr\u00e8s s'\u00eatre sentis enferm\u00e9 dans la discipline."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Hm. Ca lui ressemble bien.|Mais comment Hisky a fait pour le battre exactement ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je n'ai pas les d\u00e9tails, mais pour le citer :|Zobral a \u00e9t\u00e9 surpris de rencontrer un d\u00e9tenteur des Arts qui a connus de vrais combats."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Le ma\u00eetre a montr\u00e9 \u00e0 l'\u00e9l\u00e8vres qu'il avait raison tout du long...|C'est excellent !|Bon, qu'est ce qu'il te faut en \u00e9change ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Tu as des informations sur tout le bordel de la famille Brazia ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "C'est pas une question facile, mais je comprends pourquoi tu viens me voir pour \u00e7a.|T'as pas envie de faire le tri entre les rumeurs hein ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Exactement."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Ca remonte \u00e0 loin maintenant, l'histoire commence il y a 6 ans.|Le premier Succ\u00e9sseur s'est fait la malle sans crier gare."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Olwenn Brazia, la grande d\u00e9ception de la famille parce qu'il ne ma\u00eetrise pas le feu."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Personne ne sait ce qu'il est devenu, c'est le silence depuis qu'il a disparut.|Et depuis ce moment c'est de pire en pire l\u00e0 bas.|AvecAm\u00e9lie Brazia qui se retrouve toute seule avec une fille de 14 ans puis la r\u00e9cente guerre,|le Domaine a couru \u00e0 sa perte.|Sans vouloir insulter dame Brazia, elle est visiblement moins dou\u00e9 que son marie pour la gestion."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "L'influence de bandits et leurs attaques.|Oui, je les ai moi m\u00eame subit. Mais on raconte qu'il y a autre chose."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Oui, d'apr\u00e8s certains ce sont trop de coincidence.|En tout cas, il y a six mois un grand incendie s'est d\u00e9clar\u00e9 dans le manoir Brazia.|Et cette fois c'est la deuxi\u00e8me successeure qui a disparut.|Zobral y aurait fourr\u00e9 son nez apparament."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Mais en quoi \u00e7a le concernait ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Politique.|Zobral soup\u00e7onne un complot et creuse depuis maintenant un an pour essayer de le d\u00e9couvrir.|\u00c0 peu pr\u00e8s autour de la d\u00e9claration de la 3e Guerre Naine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il a le droit de faire \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "En tant que Chasseur double S, son travail est compl\u00e9tement diff\u00e9rent que ce que tu penses.|Il a beaucoup plus d'autorit\u00e9 que ce que tu sembles croire.|Et comme tout ce qui le concerne en ce moment, on sait rien des resultats."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je vois...|Et concernant la situation actuelle au domaine ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "L'incendie aurait liquid\u00e9 la plupart du bataille du Coeur de Rubis.|Ca avec la disparition de la successeure, c'est de pire en pire.|Dame Brazia est en d\u00e9tresse totale d'apr\u00e8s ce que je comprends."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Elle se retrouve seule pour faire face \u00e0 tout \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "Les succ\u00e9sseurs Hisky lui rendraient visite de temps en temps, les Hyler aussi.|Mais ils ont leur propre Domaine \u00e0 g\u00e9rer, avec les H\u00e9ritiers au front ce n'est pas simple."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je vois.|Merci beaucoup pour toute ces informations Shizuka.|Pour la peine, sert moi un verre histoire que je te laisse un pourboir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shizuka",
+                    "T'es trop mignon Axel."
                 ]
             ],
             [
@@ -335,7 +425,7 @@
                 "trigger_script_with_args",
                 [
                     "Global Magasin",
-                    "numero,1,unite,{eval:game.game_vars.get('_last_choice')},type,Shizuka"
+                    "numero,2,unite,{eval:game.game_vars.get('_last_choice')},type,Shizuka"
                 ]
             ],
             [

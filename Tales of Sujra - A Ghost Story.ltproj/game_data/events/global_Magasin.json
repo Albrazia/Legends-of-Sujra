@@ -14,13 +14,14 @@
             [
                 "if",
                 [
-                    "{eval:{2}==1}"
+                    "{eval:{eval:numero}==1}"
                 ]
             ],
             [
-                "comment",
+                "trigger_script_with_args",
                 [
-                    "#trigger_script_with_args;Magasins1;{eval:game.get_unit('{1}')};{3}"
+                    "Magasins1",
+                    "unite,{eval:unite},type,{eval:type}"
                 ]
             ],
             [

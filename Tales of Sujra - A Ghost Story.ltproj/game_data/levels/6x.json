@@ -1,6 +1,6 @@
 [
     {
-        "nid": "3x",
+        "nid": "6x",
         "name": "Le Sanctuaire",
         "tilemap": "Sanctuaire",
         "bg_tilemap": null,
@@ -22,7 +22,7 @@
             "loss": ""
         },
         "roam": true,
-        "roam_unit": "Volta",
+        "roam_unit": "Axel",
         "go_to_overworld": false,
         "units": [
             {
@@ -31,10 +31,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    8,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -64,7 +61,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -895,13 +895,6 @@
             {
                 "nid": "Sanctuaire",
                 "units": [
-                    "Darsenn",
-                    "Alice",
-                    "Belzir",
-                    "Reymi",
-                    "Zobral",
-                    "AnneVillageois",
-                    "Railoph",
                     "11",
                     "12",
                     "13",
@@ -909,10 +902,7 @@
                     "15",
                     "16",
                     "17",
-                    "18",
-                    "AllerWyvern",
-                    "AllerRoamy",
-                    "AllerAurora"
+                    "18"
                 ],
                 "positions": {
                     "Alice": [
@@ -1012,10 +1002,7 @@
             {
                 "nid": "Aurora",
                 "units": [
-                    "Wagnius",
-                    "Shumbus",
-                    "Alchimiste",
-                    "32"
+                    "Wagnius"
                 ],
                 "positions": {
                     "Wagnius": [
@@ -1039,12 +1026,6 @@
             {
                 "nid": "Wyvern",
                 "units": [
-                    "Axel",
-                    "22",
-                    "23",
-                    "24",
-                    "25",
-                    "Recon",
                     "26",
                     "27",
                     "28"

@@ -10,8 +10,10 @@ Dans le Sanctuaire :
 
 Sanctuaire
 	Zobral&Shumbus : discutent de leur distance et que Shumbus ose utiliser sa magie
+	Shumbus : Les élans c'est super vieux en fait
 Atelier
 	Anne&Railoph : Railoph reçoit ses premiers charge de canon alchimique
+	Railoph : discute de l'instinct d'Axel et s'excuse de l'avoir traité de paranoiaque.
 	Reymi : informe le joueur qu'il recupérera tout les achats qu'il fera, que tout sera dans le convoie ou chez qui tout doit être
 Roamy
 	Shizuka : Veut des infos sur la dernière prime, encore censuré. Propose ses jus de fruit
@@ -33,3 +35,6 @@ Aurora
 1-5 rouges
 
 deux nouveau personnages de Ray et Volca
+
+magasin;numero,x,unite,x,type,x
+type : Arme, Wyvern,Wagnius,Shizuka,WyvernArme
