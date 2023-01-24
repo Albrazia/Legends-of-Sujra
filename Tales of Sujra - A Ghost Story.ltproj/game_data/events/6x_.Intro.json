@@ -1,0 +1,220 @@
+[
+    {
+        "name": ".Intro",
+        "trigger": "level_start",
+        "level_nid": "6x",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    ".init"
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "change_background",
+                [
+                    "VillageGate"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Zobral",
+                    "MidRight",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Dites moi Zobral, je me pose une question..."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Non, vous aurez pas d'augmentation pour le risque."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Ce... N'est pas \u00e0 ce propos...|Qu'est ce qui vous a fait penser \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Volta a d\u00e9j\u00e0 essay\u00e9, je me suis dit qu'elle passerait peut \u00eatre par toi ensuite."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Non, \u00e7a n'a rien \u00e0 voir.|Pourquoi est ce que le navire d'Oliver \u00e9tait attaqu\u00e9 par les pirates ?|Sa marchandise, en dehors des fameuses caisse, n'\u00e9tait pas si pr\u00e9cieuse.|Pourquoi des pirates voudraient il de \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Les navires marchand sont vachement fliqu\u00e9.|Toute la marchandise est repertori\u00e9 dans son enti\u00e8ret\u00e9.|Et nos fameuse caisses \u00e9taient marqu\u00e9 comme \"marchandise secr\u00eate\"."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Quel droit \u00e0 t'il de faire \u00e7a ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Oliver \u00e9tait un marchand officiel.|Il transportait parfois des fonds, des imp\u00f4ts, des dons, en liquide.|Cette cargaison n'est jamais explicit\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Il a abus\u00e9 de son statut pour faire de la contrebande..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est tr\u00e8s courant, c'est un accord tacite.|Ils s'occupent des t\u00e2ches ingrate en \u00e9chance d'un petit droit \u00e0 l'\u00e9cart."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Je vois..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "Les pirates ont eu vent de ce registre.|Et l'or et les pierres pr\u00e9cieuse, \u00e7a coule.|Il vaut mieux essayer d'avoir le navire en un seul morceau."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Mais comment ont ils eu vent de ces informations ?|Et comment \u00eates vous au courant de tout \u00e7a ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est une bonne question \u00e7a.|Si tu veux mon avis, ils ont certainement eu l'info d'un petit oiseau.|C'est mon cas !|Allez, on arr\u00eate de tra\u00eener maintenant, on est plus loin."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Zobral"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Zobral",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "Qu'est ce que \u00e7a veut dire..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Axel",
+                    "Zobral"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Sanctuaire",
+                    "Sanctuaire",
+                    "immediate",
+                    "closest"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Axel",
+                    "8,10"
+                ]
+            ],
+            [
+                "change_roaming_unit",
+                [
+                    "Axel"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "true"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

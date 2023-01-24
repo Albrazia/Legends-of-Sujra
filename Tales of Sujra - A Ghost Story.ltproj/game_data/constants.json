@@ -9,7 +9,7 @@
     ],
     [
         "turnwheel",
-        false
+        true
     ],
     [
         "initiative",
@@ -57,7 +57,7 @@
     ],
     [
         "support",
-        true
+        false
     ],
     [
         "overworld",
@@ -97,7 +97,7 @@
     ],
     [
         "line_of_sight",
-        true
+        false
     ],
     [
         "aura_los",
@@ -189,7 +189,7 @@
     ],
     [
         "sound_room_in_codex",
-        true
+        false
     ],
     [
         "give_and_take",
@@ -197,7 +197,7 @@
     ],
     [
         "combat_art_category",
-        false
+        true
     ],
     [
         "reset_mana",
@@ -265,7 +265,7 @@
     ],
     [
         "double_wexp",
-        true
+        false
     ],
     [
         "miss_wexp",

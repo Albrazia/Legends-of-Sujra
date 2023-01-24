@@ -13,10 +13,10 @@
                 ]
             ],
             [
-                "trigger_script_with_args",
+                "give_skill",
                 [
-                    "New Event_1 (Plop New Event_1)",
-                    "argument,\"plop\""
+                    "Railoph",
+                    "Dur comme l'Acier (AcierRailoph)"
                 ]
             ]
         ],

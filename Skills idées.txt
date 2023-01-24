@@ -1,7 +1,7 @@
 Volta :
 -Base : Tour de passe-passe
-- (active : Skill qui augmente sa mobilité et son esquive, au malus de plus pouvoir riposter pendant l'ennemy phase d'après)
-- (Combat proc : augmente l'esquive)
+-Flash dans la nuit : (active : Skill qui augmente sa mobilité et son esquive, au malus de plus pouvoir riposter pendant l'ennemy phase d'après)
+-Insaisissable (Combat proc : augmente l'esquive)
 Class up
 -Chrono Fracture
 -Hors du Temps
@@ -11,7 +11,7 @@ Railoph :
 -Reste derrière Railoph !
 -Coup Renversant
 - (active : provocation qui augmente la défense. Applique aux ennemis une IA qui force à cibler Railoph ?)
-- (Defense proc : Augmente la défense/resistance)
+-Dur comme l'Acier(Defense proc : Augmente la défense/resistance)
 class up
 -Coeur de Rubis
 - (Defense proc : ignore les dégats subit)

@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Insaisissable_child",
+        "name": "Insaisissable",
+        "desc": "-Skill de Combat-\nVit% d'augmenter l'esquive de Vit de l'unit\u00e9 au d\u00e9but du combat.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "T",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ],
+                    [
+                        "LostOnAlly (T/F)",
+                        "T",
+                        "Lost after combat with an ally"
+                    ],
+                    [
+                        "LostOnEnemy (T/F)",
+                        "T",
+                        "Lost after combat with an enemy"
+                    ],
+                    [
+                        "LostOnSplash (T/F)",
+                        "T",
+                        "Lost after combat if using an AOE item"
+                    ]
+                ]
+            ],
+            [
+                "dynamic_avoid",
+                "ATTACK_SPEED"
+            ]
+        ]
+    }
+]

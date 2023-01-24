@@ -12,6 +12,10 @@
             [
                 "ability",
                 "Protection"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

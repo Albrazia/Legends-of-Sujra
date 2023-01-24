@@ -20,6 +20,10 @@
             [
                 "allowed_weapons",
                 "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

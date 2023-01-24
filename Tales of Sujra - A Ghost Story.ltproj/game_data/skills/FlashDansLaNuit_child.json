@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "FlashDansLaNuit_child",
+        "name": "Flash dans la nuit",
+        "desc": "Mov+2, Esq+20\nL'unit\u00e9 ne peut plus riposter",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "avoid",
+                20
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

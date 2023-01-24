@@ -16,6 +16,10 @@
             [
                 "Get_status_after_combat",
                 "GardeHiskyChild"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

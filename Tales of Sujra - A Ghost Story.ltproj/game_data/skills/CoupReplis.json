@@ -12,6 +12,10 @@
             [
                 "combat_art",
                 "CoupReplisArt"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

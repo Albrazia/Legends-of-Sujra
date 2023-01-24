@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "AcierRailoph",
+        "name": "Dur comme l'Acier",
+        "desc": "-Skill de D\u00e9fense-\nDEF% de conf\u00e9rer +5 Def/Res quand l'unit\u00e9 se d\u00e9fend. ",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "defense_pre_proc",
+                "AcierRailoph_child"
+            ],
+            [
+                "proc_rate",
+                "DEFENSE"
+            ]
+        ]
+    }
+]

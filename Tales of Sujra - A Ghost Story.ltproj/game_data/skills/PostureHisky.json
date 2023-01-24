@@ -28,6 +28,10 @@
             [
                 "attack_pre_proc",
                 "Hit"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

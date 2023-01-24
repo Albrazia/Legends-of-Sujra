@@ -16,6 +16,10 @@
             [
                 "give_status_after_combat",
                 "Faille"
+            ],
+            [
+                "backstep",
+                1
             ]
         ]
     }

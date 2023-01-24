@@ -12,6 +12,10 @@
             [
                 "combat_art",
                 "PassePasseArt"
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

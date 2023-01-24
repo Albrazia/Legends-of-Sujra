@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Insaisissable",
+        "name": "Insaisissable",
+        "desc": "-Skill de Combat-\nSPD% de conf\u00e9rer +SPD esquive au d\u00e9but du combat.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "attack_pre_proc",
+                "Insaisissable_child"
+            ],
+            [
+                "defense_pre_proc",
+                "Insaisissable_child"
+            ],
+            [
+                "proc_rate",
+                "ATTACK_SPEED"
+            ]
+        ]
+    }
+]

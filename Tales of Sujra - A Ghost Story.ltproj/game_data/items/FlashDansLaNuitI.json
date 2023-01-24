@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "FlashDansLaNuitI",
+        "name": "Flash dans la Nuit",
+        "desc": "Volta tord le temps pour se d\u00e9placer instantan\u00e9ment o\u00f9 elle veut.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_after_use",
+                "Global RefreshUnit"
+            ],
+            [
+                "status_on_hit",
+                "FlashDansLaNuit_child"
+            ],
+            [
+                "mana_cost",
+                2
+            ]
+        ]
+    }
+]

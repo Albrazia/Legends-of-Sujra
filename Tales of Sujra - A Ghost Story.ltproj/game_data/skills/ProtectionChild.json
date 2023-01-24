@@ -1,8 +1,8 @@
 [
     {
         "nid": "ProtectionChild",
-        "name": "ProtectionChild",
-        "desc": "",
+        "name": "Endurance",
+        "desc": "L'unit\u00e9 subit deux d\u00e9g\u00e2ts de moins.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             8,

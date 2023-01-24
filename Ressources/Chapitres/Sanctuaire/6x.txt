@@ -27,10 +27,9 @@ Aurora
 	Chercheur : Axel demande des informations sur la mythologie Sujarienne, et le chercheur lui recommande des ouvrages (lore Guerre des Races)
 	Alice : Revoie les différentes magie pour comprendre ce que fait le conglomérat. Elle conclue qu'il doit être formé de puissant et rare mages, mais difficile de savoir qui. L'Empire ne tient pas de liste des mages.
 1-9 jaunes
-	1 : Plus d'info sur la disparition du premier Succésseur Brazia. Incapable utiliser feu et disparut ensuite. Sa famille n'a fait aucune recherche ce qui est bizarre
-	2 : Rumeur combat contre Hardan. Admirration d'un autre Chasseur
-	3 : Un marin félicite Axel pour leur combat marin. L'informe qu'ils ont eu de la chance que les pirates voulaient la marchandise intact.
-	4 : Explique qu'à la différence de quelqu'un qui se déplace à pieds, un cavalier aura plus de mal à se déplacer à travers les forêts.
+	1 : Rumeur combat contre Hardan. Admirration d'un autre Chasseur
+	2 : Un marin félicite Axel pour leur combat marin. L'informe qu'ils ont eu de la chance que les pirates voulaient la marchandise intact.
+	3 : Explique qu'à la différence de quelqu'un qui se déplace à pieds, un cavalier aura plus de mal à se déplacer à travers les forêts.
 	
 1-5 rouges
 

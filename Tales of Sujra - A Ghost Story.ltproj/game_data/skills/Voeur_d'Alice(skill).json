@@ -16,6 +16,10 @@
             [
                 "cost_mana",
                 4
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

@@ -492,10 +492,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    16,
-                    27
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -566,7 +563,7 @@
                     1
                 ],
                 "sub_nid": "Changement",
-                "condition": "game.game_vars.get('Sanct') and game.game_vars.get('ParlerAurora')",
+                "condition": "game.game_vars.get('Sanct')",
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -902,7 +899,9 @@
                     "15",
                     "16",
                     "17",
-                    "18"
+                    "18",
+                    "Zobral",
+                    "Shumbus"
                 ],
                 "positions": {
                     "Alice": [
@@ -918,8 +917,8 @@
                         24
                     ],
                     "Zobral": [
-                        6,
-                        29
+                        15,
+                        6
                     ],
                     "AnneVillageois": [
                         8,
@@ -996,13 +995,19 @@
                     "Alchimiste": [
                         9,
                         32
+                    ],
+                    "Shumbus": [
+                        15,
+                        7
                     ]
                 }
             },
             {
                 "nid": "Aurora",
                 "units": [
-                    "Wagnius"
+                    "Wagnius",
+                    "Alchimiste",
+                    "Alice"
                 ],
                 "positions": {
                     "Wagnius": [
@@ -1014,12 +1019,16 @@
                         6
                     ],
                     "Alchimiste": [
-                        0,
-                        7
+                        16,
+                        13
                     ],
                     "32": [
                         5,
                         6
+                    ],
+                    "Alice": [
+                        6,
+                        19
                     ]
                 }
             },
@@ -1028,7 +1037,9 @@
                 "units": [
                     "26",
                     "27",
-                    "28"
+                    "28",
+                    "Recon",
+                    "Volta"
                 ],
                 "positions": {
                     "Axel": [
@@ -1053,7 +1064,7 @@
                     ],
                     "Recon": [
                         2,
-                        4
+                        6
                     ],
                     "26": [
                         21,
@@ -1064,8 +1075,12 @@
                         6
                     ],
                     "28": [
-                        16,
-                        6
+                        11,
+                        7
+                    ],
+                    "Volta": [
+                        17,
+                        8
                     ]
                 }
             },
@@ -1073,7 +1088,9 @@
                 "nid": "Roamy",
                 "units": [
                     "Shizuka",
-                    "Ridril"
+                    "Ridril",
+                    "Belzir",
+                    "Darsenn"
                 ],
                 "positions": {
                     "Shizuka": [
@@ -1083,18 +1100,41 @@
                     "Ridril": [
                         13,
                         29
+                    ],
+                    "Belzir": [
+                        3,
+                        24
+                    ],
+                    "Darsenn": [
+                        4,
+                        24
                     ]
                 }
             },
             {
                 "nid": "Atelier",
                 "units": [
-                    "30"
+                    "30",
+                    "Railoph",
+                    "AnneVillageois",
+                    "Reymi"
                 ],
                 "positions": {
                     "30": [
                         16,
                         7
+                    ],
+                    "Railoph": [
+                        5,
+                        10
+                    ],
+                    "AnneVillageois": [
+                        6,
+                        10
+                    ],
+                    "Reymi": [
+                        16,
+                        13
                     ]
                 }
             }

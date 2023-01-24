@@ -39,15 +39,12 @@
                 "generic": false
             },
             {
-                "nid": "Volta",
+                "nid": "Axel",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    4,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -57,12 +54,33 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
                 "starting_position": [
-                    5,
+                    4,
                     6
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
         "regions": [],

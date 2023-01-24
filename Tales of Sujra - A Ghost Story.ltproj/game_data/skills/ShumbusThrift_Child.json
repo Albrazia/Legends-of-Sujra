@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ShumbusThrift_Child",
+        "name": "Ranger ses affaires",
+        "desc": "-Skill de Combat-\nLCK% de ne pas consommer d'utilisation lors de l'utilisation d'un baton.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            9,
+            8
+        ],
+        "components": [
+            [
+                "armsthrift",
+                1
+            ]
+        ]
+    }
+]

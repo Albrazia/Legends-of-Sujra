@@ -1,12 +1,12 @@
 [
     {
-        "nid": "SummonEdgat",
-        "name": "SummonEdgat",
-        "desc": "",
-        "icon_nid": "Neutral",
+        "nid": "GrappinWyvern_2",
+        "name": "Grappin \u00e0 Wyvern",
+        "desc": "Warps an ally.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
-            0,
-            2
+            9,
+            3
         ],
         "components": [
             [
@@ -15,10 +15,10 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
-                "target_tile",
+                "unload_unit",
                 null
             ],
             [
@@ -26,12 +26,12 @@
                 null
             ],
             [
-                "empty_tile_target_restrict",
+                "target_tile",
                 null
             ],
             [
-                "event_on_hit",
-                "Global SummonEdgat"
+                "map_cast_anim",
+                "Swoosh"
             ]
         ]
     }

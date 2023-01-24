@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Grappin \u00e0 Wyvern",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "give_skill",
+                [
+                    "{eval:unit2}",
+                    "Grappin \u00e0 Wyvern (GrappinWyvernChild)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

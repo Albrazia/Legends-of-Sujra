@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FlashDansLaNuit",
+        "name": "Flash dans la nuit",
+        "desc": "-Active Co\u00fbt : 3-\nConf\u00e8re Mov+2 et Esq+20 pendant un tour.\nL'unit\u00e9 ne peut plus riposter durant cette p\u00e9riode.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "ability",
+                "FlashDansLaNuitI"
+            ],
+            [
+                "cost_mana",
+                2
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

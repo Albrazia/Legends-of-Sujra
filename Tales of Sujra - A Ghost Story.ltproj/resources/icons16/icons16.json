@@ -81,7 +81,20 @@
     },
     {
         "nid": "{J-Treecko} {Lex Talionis} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{J-Treecko} {Lex Talionis} All Icons 9, 3": [
+                9,
+                3
+            ],
+            "{J-Treecko} {Lex Talionis} All Icons 0, 16": [
+                0,
+                16
+            ],
+            "{J-Treecko} {Lex Talionis} All Icons 0, 7": [
+                0,
+                7
+            ]
+        }
     },
     {
         "nid": "{ZessDynamite, Rainlash} All Icons",
@@ -89,7 +102,12 @@
     },
     {
         "nid": "{ZessDynamite, Rainlash} All Icons (1)",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{ZessDynamite, Rainlash} All Icons (1) 0, 36": [
+                0,
+                36
+            ]
+        }
     },
     {
         "nid": "{Artist Unknown} Wind Magic (4)",

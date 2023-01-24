@@ -106,5 +106,9 @@
     {
         "nid": "ALWAYS",
         "expression": "100"
+    },
+    {
+        "nid": "TWO",
+        "expression": "2"
     }
 ]

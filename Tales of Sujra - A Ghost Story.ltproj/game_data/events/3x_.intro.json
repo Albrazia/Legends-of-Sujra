@@ -498,7 +498,21 @@
                 "speak",
                 [
                     "Railoph",
-                    "C'est... Peu rassurant...|Mais je me demande,|qu'est ce qui vous fait penser que nous pouvons vous aider dans votre enqu\u00eate ?"
+                    "C'est... Peu rassurant...|Avons nous v\u00e9ritablement le droit de recruter qui nous voulons dans les circonstances o\u00f9 nous sommes ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Zobral",
+                    "C'est pas comme si vous alliez enqu\u00eater tout de suite.|On aura le temps d'enqu\u00eater sur vos recrus et on ecartera celles qui ne sont pas s\u00fbre.|Ne vous en faites pas pour \u00e7a."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et je me demande,|qu'est ce qui vous fait penser que nous pouvons vous aider dans votre enqu\u00eate ?"
                 ]
             ],
             [

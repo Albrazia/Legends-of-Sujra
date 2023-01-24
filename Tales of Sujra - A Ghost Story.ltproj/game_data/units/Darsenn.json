@@ -18,7 +18,7 @@
             "RES": 4,
             "CON": 7,
             "MOV": 5,
-            "MaxM": 0
+            "MaxM": 6
         },
         "growths": {
             "HP": 85,
@@ -31,7 +31,7 @@
             "RES": 15,
             "CON": 0,
             "MOV": 0,
-            "MaxM": 0
+            "MaxM": 15
         },
         "starting_items": [
             [

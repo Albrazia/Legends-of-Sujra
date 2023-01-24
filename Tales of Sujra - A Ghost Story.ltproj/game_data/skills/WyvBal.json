@@ -16,6 +16,10 @@
             [
                 "drain_charge",
                 3
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }
