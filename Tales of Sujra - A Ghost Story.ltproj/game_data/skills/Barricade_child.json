@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Barricade_child",
+        "name": "Barricad\u00e9",
+        "desc": "L'unit\u00e9 subit 2 d\u00e9gats de moins",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            15
+        ],
+        "components": [
+            [
+                "resist",
+                2
+            ]
+        ]
+    }
+]

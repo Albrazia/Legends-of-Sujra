@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SuperioriteAerienne",
+        "name": "Superiorit\u00e9 A\u00e9rienne",
+        "desc": "-Passive-\n+20hit +20esq quand l'unit\u00e9 affronte un adversaire volant.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            47
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "'Flying' in target.tags"
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "avoid",
+                20
+            ]
+        ]
+    }
+]

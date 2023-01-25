@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Brutalite_child",
+        "name": "Brutalit\u00e9",
+        "desc": "-Skill de Combat-\nSTR% d'infliger une fois et demi les d\u00e9gats normaux de la frappe.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "damage_multiplier",
+                1.5
+            ]
+        ]
+    }
+]

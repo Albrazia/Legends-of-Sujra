@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BruleMana2",
+        "name": "Br\u00fblure de Mana(2)",
+        "desc": "L'unit\u00e9 s'est faite extirp\u00e9 de la mana. Les effets devraient bient\u00f4t se faire sentir.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "upkeep_damage",
+                2
+            ]
+        ]
+    }
+]

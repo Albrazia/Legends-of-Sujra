@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Filet",
+        "name": "Filet",
+        "desc": "-Active 3 charges-\nL'ennemis cibl\u00e9 se d\u00e9placera de 4 cases en moins pendant un tour.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            6,
+            29
+        ],
+        "components": [
+            [
+                "ability",
+                "Filet"
+            ],
+            [
+                "drain_charge",
+                3
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

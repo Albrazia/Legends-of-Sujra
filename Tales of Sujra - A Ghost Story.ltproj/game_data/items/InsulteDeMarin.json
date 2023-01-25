@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "InsulteDeMarin",
+        "name": "Insulte de marin",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            2,
+            37
+        ],
+        "components": [
+            [
+                "enemy_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "Faille"
+            ],
+            [
+                "mana_cost",
+                2
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Crochets",
+        "name": "Crochets",
+        "desc": "-Passive-\nSi l'ennemis chevauche une monture, inflige 5 points de d\u00e9gats suppl\u00e9mentaire.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "'Mounted' not in target.tags"
+            ],
+            [
+                "damage",
+                5
+            ]
+        ]
+    }
+]

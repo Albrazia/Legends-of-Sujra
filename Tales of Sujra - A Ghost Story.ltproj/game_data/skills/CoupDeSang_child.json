@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "CoupDeSang_child",
+        "name": "Coup de sang",
+        "desc": "Le sang bout.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            43
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "SPD",
+                        "-1*unit.stats['SPD']/2"
+                    ],
+                    [
+                        "STR",
+                        "unit.stats['SPD']/2"
+                    ],
+                    [
+                        "RES",
+                        "-1*unit.stats['RES']/2"
+                    ],
+                    [
+                        "DEF",
+                        "unit.stats['RES']/2"
+                    ]
+                ]
+            ],
+            [
+                "end_time",
+                3
+            ]
+        ]
+    }
+]

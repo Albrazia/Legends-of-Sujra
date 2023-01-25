@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RedirectionDeFlux_child",
+        "name": "Redirection de flux",
+        "desc": "-Skill de Combat-\nMAG% r\u00e9g\u00e9n\u00e9rer 3 de mana et de r\u00e9cup\u00e9rer MAG hp.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            4,
+            47
+        ],
+        "components": [
+            [
+                "healonhit",
+                "unit.stats['MAG']"
+            ],
+            [
+                "mana_on_hit",
+                3
+            ]
+        ]
+    }
+]

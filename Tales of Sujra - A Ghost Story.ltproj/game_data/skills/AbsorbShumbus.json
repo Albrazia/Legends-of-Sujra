@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "AbsorbShumbus",
+        "name": "Absorbtion de Mana",
+        "desc": "-Active cd:2-\nInflige 3 points de d\u00e9gats brutes \u00e0 la cible et r\u00e9cup\u00e8re 3 points de mana.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "build_charge",
+                2
+            ],
+            [
+                "ability",
+                "AbsorbShumbus_Child"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "upkeep_charge_increase",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Zephir_1",
+        "name": "Zephir",
+        "desc": "L'unit\u00e9 conf\u00e8re la b\u00e9n\u00e9diction du vent autour d'elle. (MOV+1, Esq+10)",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            4,
+            48
+        ],
+        "components": [
+            [
+                "aura",
+                "Zephir_child_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally,unit"
+            ],
+            [
+                "show_aura",
+                [
+                    2,
+                    218,
+                    2
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

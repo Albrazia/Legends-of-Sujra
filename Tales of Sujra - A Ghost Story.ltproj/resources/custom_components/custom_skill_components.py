@@ -10,6 +10,7 @@ from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
 from app.utilities import utils
 from app.utilities import static_random
+from app.engine.combat import playback as pb
 
 class BackStep(SkillComponent):
     nid = 'backstep'
@@ -159,3 +160,24 @@ class Specific2TileWitchWarp(SkillComponent):
                 if game.board.check_bounds((partner_pos[0], partner_pos[1]+2)):
                     positions.add((partner_pos[0], partner_pos[1]+2))  
         return positions
+
+class HealOnHit(SkillComponent):
+    nid = 'healonhit'
+    desc = "Heals user the specified amount on hit"
+    tag = SkillTags.COMBAT2
+
+    expose = ComponentType.String
+    value = 1
+
+    def after_hit(self, actions, playback, unit, item, target, mode, attack_info):
+        from app.engine import evaluate
+        try:
+            heal = int(evaluate.evaluate(self.value, unit, local_args={'item': item}))
+        except:
+            logging.error("Couldn't evaluate %s conditional" % self.value)
+
+        actions.append(action.ChangeHP(unit, heal))
+
+        playback.append(pb.HealHit(unit, item, unit, heal, heal))
+
+        actions.append(action.TriggerCharge(unit, self.skill))

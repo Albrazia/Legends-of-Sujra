@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CarquoisAxel",
+        "name": "Tour de poignet",
+        "desc": "-Skill d'attaque-\nSKL/2% de frapper une fois de plus \u00e0 chaque attaque.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "attack_proc",
+                "CarquoisAxel_child"
+            ],
+            [
+                "proc_rate",
+                "CRIT_HIT"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

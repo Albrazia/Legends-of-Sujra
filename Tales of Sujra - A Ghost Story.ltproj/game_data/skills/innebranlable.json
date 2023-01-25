@@ -24,6 +24,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "grey_if_inactive",
+                null
             ]
         ]
     }

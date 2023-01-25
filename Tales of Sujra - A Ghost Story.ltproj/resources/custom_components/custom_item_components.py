@@ -277,10 +277,8 @@ class TrueDamage(ItemComponent):
             damage = self.value
         else:
             damage = self.value
-
         true_damage = min(damage, target.get_hp())
         actions.append(action.ChangeHP(target, -damage))
-
         # For animation
         playback.append(('damage_hit', unit, item, target, damage, true_damage))
         if damage == 0:

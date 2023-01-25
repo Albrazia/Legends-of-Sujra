@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CoupDeSang",
+        "name": "Coup de sang",
+        "desc": "-Active Co\u00fbt : 3-\nL'unit\u00e9 sacrifie la moiti\u00e9 de sa VIT et RES pour gagner respectivement autant de STR et DEF, pendant 3 tours.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            43
+        ],
+        "components": [
+            [
+                "ability",
+                "CoupDeSang"
+            ],
+            [
+                "cost_mana",
+                3
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

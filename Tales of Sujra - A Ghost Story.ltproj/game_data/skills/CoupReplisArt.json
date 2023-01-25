@@ -10,16 +10,16 @@
         ],
         "components": [
             [
-                "cost_mana",
-                2
-            ],
-            [
                 "give_status_after_combat",
                 "Faille"
             ],
             [
                 "backstep",
                 1
+            ],
+            [
+                "damage_multiplier",
+                0.5
             ]
         ]
     }

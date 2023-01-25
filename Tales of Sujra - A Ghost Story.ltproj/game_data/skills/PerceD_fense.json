@@ -2,7 +2,7 @@
     {
         "nid": "PerceD_fense",
         "name": "Perce D\u00e9fense",
-        "desc": "-Active Co\u00fbt : 2-\nMoiti\u00e9 moins de d\u00e9g\u00e2ts subit et +25hit. Inflige Faille au touch\u00e9.\n-Faille-\nL'unit\u00e9 subit 4 d\u00e9g\u00e2ts brute de plus de n'importe quel source pendant un tour.",
+        "desc": "-Active Lance Co\u00fbt : 2-\nMoiti\u00e9 moins de d\u00e9g\u00e2ts subit et +25hit. Inflige Faille au touch\u00e9.\n-Faille-\nL'unit\u00e9 subit 2 d\u00e9g\u00e2ts de plus de n'importe quelle source.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             4,

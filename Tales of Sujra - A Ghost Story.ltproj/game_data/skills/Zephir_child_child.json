@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Zephir_child_child",
+        "name": "Zephir",
+        "desc": "L'unit\u00e9 est accompagn\u00e9 par le vent.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            4,
+            48
+        ],
+        "components": [
+            [
+                "avoid",
+                10
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

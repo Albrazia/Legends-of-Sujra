@@ -64,6 +64,38 @@
                 "level": 1,
                 "klass": "Mercenary",
                 "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Shumbus",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Pegasus_Knight",
+                "faction": "Soldier",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -72,11 +104,11 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    4,
+                    3,
                     6
                 ],
                 "starting_traveler": null,

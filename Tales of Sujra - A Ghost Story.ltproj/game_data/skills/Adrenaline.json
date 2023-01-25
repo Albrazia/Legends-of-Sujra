@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Adrenaline",
+        "name": "Adr\u00e9naline",
+        "desc": "-Passive-\nL'unit\u00e9 gagne 2 STR \u00e0 chaque fois qu'elle donne le dernier coup \u00e0 un ennemis jusqu'\u00e0 la fin du chapitre.\n5 max.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

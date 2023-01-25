@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "InsulteDeMarin",
+        "name": "Insultes de marin",
+        "desc": "-Active co\u00fbt 2-\nInflige Faille \u00e0 l'unit\u00e9 et \u00e0 tout les ennemis \u00e0 deux cases ou moins.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            37
+        ],
+        "components": [
+            [
+                "ability",
+                "InsulteDeMarin"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "cost_mana",
+                2
+            ]
+        ]
+    }
+]

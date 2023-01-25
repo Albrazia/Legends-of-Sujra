@@ -8,15 +8,8 @@
             [
                 "give_skill",
                 [
-                    "Recon",
-                    "GrappinWyvern"
-                ]
-            ],
-            [
-                "give_skill",
-                [
                     "Railoph",
-                    "Dur comme l'Acier (AcierRailoph)"
+                    "Superiorit\u00e9 A\u00e9rienne (SuperioriteAerienne)"
                 ]
             ]
         ],

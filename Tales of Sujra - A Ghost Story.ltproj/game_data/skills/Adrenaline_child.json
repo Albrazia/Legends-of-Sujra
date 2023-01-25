@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Adrenaline_child",
+        "name": "Adr\u00e9naline",
+        "desc": "-Passive-\nL'unit\u00e9 a +2STR par stack.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

@@ -2,55 +2,54 @@ Volta :
 -Base : Tour de passe-passe
 -Flash dans la nuit : (active : Skill qui augmente sa mobilité et son esquive, au malus de plus pouvoir riposter pendant l'ennemy phase d'après)
 -Insaisissable (Combat proc : augmente l'esquive)
-Class up
--Chrono Fracture
+Class up : Chrono Fracture
 -Hors du Temps
 
 Railoph :
 -Base : Coup de Bouclier
 -Reste derrière Railoph !
 -Coup Renversant
-- (active : provocation qui augmente la défense. Applique aux ennemis une IA qui force à cibler Railoph ?)
--Dur comme l'Acier(Defense proc : Augmente la défense/resistance)
-class up
--Coeur de Rubis
+-Dur comme l'Acier (Defense proc : Augmente la défense/resistance)
+class up : Coeur de Rubis
 - (Defense proc : ignore les dégats subit)
 
 Axel :
 -Base : Charge du Vide
 -Embuscade (need debug)
-- (attack proc : 
-class up
+-CarquoisAxel
+class up : Monster Bane
 -Fissure Abyssale
 - (Combat proc : ignore l'armure)
 
 Shumbus : 
 -Base : Joyeuse et Sucrée
-- (passive : Amélioration de l'aura pour donner plus de stats, une aura qui overlap ?)
-- (passive : une chance de pas user le baton)
-- (active : inflige des dégats et rend de la mana à Shumbus)
--Miracle+
+-AbsorbShumbus (active : inflige des dégats et rend de la mana à Shumbus)
+
 
 Belzir :
 -Base :Lucky 7
+- (active : cleave)
 - (combat proc : frappe plus de dégat et plus de précision en fonction des hp manquant)
-- (active : Inflige faille en zone autour de lui, ennemis seulement)
+-Insulte de marin (active : Inflige faille en zone autour de lui, ennemis seulement)
 - (active : Frappe et fait passer un ennemis derrière lui, plus de précision)
 
 Alice :
 -Base : Voeux d'Alice
 - (proc : regen de la mana en échange d'un débuff de résistance)
-- (Combat proc : 
+-Redirection de flux (Combat proc : se soigne hp et mana)
+-Zephir (active : confère +mov +esq autour d'elle)
 
 Darsenn :
 -Base : Innébranlable
-- (proc : Augmente sa force et sa défense pendant un tour)
+-Coup de Sang (proc : Augmente sa force et sa défense pendant un tour en échange de vitesse et resistance, pendant 3 tours)
 - (proc : Frappe et passe derrière un ennemis, inflige plus de dégats)
+Class up : Adrenaline
 
 Reymi :
 -Base : Pharmacie ambulante
 - (proc : Confère un buff à distance à une unité pendant un tour)
-- (passive : augmente esquive et défense des unités adjacente quand elles subissent une attaque)
+-Filet (active : ralentis un ennemis)
+-Barricade (passive : augmente esquive et défense des unités adjacente quand elles subissent une attaque)
 
 
 Ridril :
@@ -63,7 +62,7 @@ Recon :
 -Base : Sang chaud
 -Arc de Siège
 -Grappin à Wyvern (need debug)
-- (passive : reduit l'armure de la cible)
+- (Inflige plus de dégâts aux unités aux sol)
 - (passive : canto -reste)
 
 Zobral :

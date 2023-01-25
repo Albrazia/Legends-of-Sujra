@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "AbsorbShumbus_Child",
+        "name": "Absorbtion de Mana",
+        "desc": "-Active cd:2-\nInflige 3 points de d\u00e9g\u00e2ts brute et r\u00e9cup\u00e8re 3 points de mana.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "mana_cost",
+                -3
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "BruleMana3"
+            ]
+        ]
+    }
+]

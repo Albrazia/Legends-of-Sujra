@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Barricade",
+        "name": "Barricade",
+        "desc": "-Passive-\nLes alli\u00e9s adjacente subissent 2 d\u00e9g\u00e2ts de moins.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            15
+        ],
+        "components": [
+            [
+                "aura",
+                "Barricade_child"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

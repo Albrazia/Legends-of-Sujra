@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "CoupDeSang",
+        "name": "Coup De Sang",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            43
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "status_on_hit",
+                "CoupDeSang_child"
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "mana_cost",
+                3
+            ]
+        ]
+    }
+]
