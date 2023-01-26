@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TripleCoup",
+        "name": "Triple Coup",
+        "desc": "-Active Co\u00fbt : 8-\nL'unit\u00e9 attaque trois fois \u00e0 75% de sa force.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            0,
+            27
+        ],
+        "components": [
+            [
+                "combat_art",
+                "TripleCoup_child"
+            ],
+            [
+                "cost_mana",
+                4
+            ]
+        ]
+    }
+]

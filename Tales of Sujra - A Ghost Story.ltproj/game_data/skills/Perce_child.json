@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Perce_child",
+        "name": "Perc\u00e9",
+        "desc": "-Active Co\u00fbt : 2-\nFrappe une fois en ignorant 5 DEF puis se d\u00e9place derri\u00e8re la cible.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            36
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "5 if unit2.stats['DEF']>=5 else -1*(unit2.stats['DEF']-5)"
+            ],
+            [
+                "GoThrough",
+                null
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

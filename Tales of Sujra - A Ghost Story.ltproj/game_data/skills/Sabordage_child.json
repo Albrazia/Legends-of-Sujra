@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Sabordage_child",
+        "name": "Sabordage",
+        "desc": "-Active Co\u00fbt : 3-\nL'unit\u00e9 frappe tout les ennemis autour de lui.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "Cleave",
+                null
+            ]
+        ]
+    }
+]

@@ -4,6 +4,7 @@ Volta :
 -Insaisissable (Combat proc : augmente l'esquive)
 Class up : Chrono Fracture
 -Hors du Temps
+-Lethalité
 
 Railoph :
 -Base : Coup de Bouclier
@@ -15,11 +16,11 @@ class up : Coeur de Rubis
 
 Axel :
 -Base : Charge du Vide
--Embuscade (need debug)
+-Embuscade
 -CarquoisAxel
 class up : Monster Bane
 -Fissure Abyssale
-- (Combat proc : ignore l'armure)
+-Triple Coup 
 
 Shumbus : 
 -Base : Joyeuse et Sucrée
@@ -28,7 +29,8 @@ Shumbus :
 
 Belzir :
 -Base :Lucky 7
-- (active : cleave)
+-Remoue : (attaque proc : stun)
+-Sabordage : (active : cleave)
 - (combat proc : frappe plus de dégat et plus de précision en fonction des hp manquant)
 -Insulte de marin (active : Inflige faille en zone autour de lui, ennemis seulement)
 - (active : Frappe et fait passer un ennemis derrière lui, plus de précision)
@@ -42,7 +44,7 @@ Alice :
 Darsenn :
 -Base : Innébranlable
 -Coup de Sang (proc : Augmente sa force et sa défense pendant un tour en échange de vitesse et resistance, pendant 3 tours)
-- (proc : Frappe et passe derrière un ennemis, inflige plus de dégats)
+-Percé (proc : Frappe et passe derrière un ennemis, inflige plus de dégats)
 Class up : Adrenaline
 
 Reymi :

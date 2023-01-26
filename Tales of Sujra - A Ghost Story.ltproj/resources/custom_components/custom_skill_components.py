@@ -23,9 +23,10 @@ class BackStep(SkillComponent):
     def _check_backstep(self, unit_to_move, anchor, magnitude):
         offset_x = utils.clamp(unit_to_move.position[0] - anchor.position[0], -1, 1)
         offset_y = utils.clamp(unit_to_move.position[1] - anchor.position[1], -1, 1)
-        new_position = (unit_to_move.position[0] + offset_x * magnitude,
-                        unit_to_move.position[1] + offset_y * magnitude)
-
+        new_position = (unit_to_move.position[0] + offset_x * self.value,
+                        unit_to_move.position[1] + offset_y * self.value)
+        if offset_x==0 ^ offset_y==0 :
+            return False
         if game.board.check_bounds(new_position) and \
                 not game.board.get_unit(new_position):
             return new_position
@@ -34,6 +35,31 @@ class BackStep(SkillComponent):
     def end_combat(self, playback, unit, item, target, mode):
         if not skill_system.ignore_forced_movement(target) and mode:
             new_position = self._check_backstep(unit, target, self.value)
+            if new_position:
+                print(unit.name)
+                print(unit.position)
+                print(new_position)
+                action.do(action.ForcedMovement(unit, new_position))
+
+class GoThrough(SkillComponent):
+    nid = 'GoThrough'
+    desc = "Unit goes through target after combat"
+    tag = SkillTags.CUSTOM
+
+    def _check_GoThrough(self, unit_to_move, anchor):
+        offset_x = utils.clamp(anchor.position[0] - unit_to_move.position[0], -1, 1)
+        offset_y = utils.clamp(anchor.position[1] - unit_to_move.position[1], -1, 1)
+        new_position = (anchor.position[0] + offset_x,
+                        anchor.position[1] + offset_y)
+
+        if game.board.check_bounds(new_position) and \
+                not game.board.get_unit(new_position):
+            return new_position
+        return False
+
+    def end_combat(self, playback, unit, item, target, mode):
+        if not skill_system.ignore_forced_movement(target) and mode:
+            new_position = self._check_GoThrough(unit, target)
             if new_position:
                 print(unit.name)
                 print(unit.position)

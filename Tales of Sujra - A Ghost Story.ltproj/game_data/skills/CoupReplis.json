@@ -2,7 +2,7 @@
     {
         "nid": "CoupReplis",
         "name": "Embuscade",
-        "desc": "-Active Arc Co\u00fbt : 2-\nL'unit\u00e9 frappe moiti\u00e9 moins fort et applique Faille \u00e0 chaque coup avant de reculer d'une case.",
+        "desc": "-Active Arc Co\u00fbt : 4-\nL'unit\u00e9 frappe moiti\u00e9 moins fort et applique Faille \u00e0 chaque coup avant de reculer d'une case.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             3,

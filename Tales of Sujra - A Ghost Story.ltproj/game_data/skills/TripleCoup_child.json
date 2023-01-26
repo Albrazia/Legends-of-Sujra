@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "TripleCoup_child",
+        "name": "Triple Coup",
+        "desc": "-Active Co\u00fbt : 4-\nL'unit\u00e9 attaque trois fois \u00e0 75% de sa force.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            0,
+            27
+        ],
+        "components": [
+            [
+                "dynamic_multiattacks",
+                "2"
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "-1*(item_system.damage(unit, unit.get_weapon())+unit.stats['STR'])*0.25"
+            ]
+        ]
+    }
+]

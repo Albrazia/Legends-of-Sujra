@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "damage_multiplier",
-                3.000000000000001
-            ],
-            [
                 "hidden",
                 null
             ],
@@ -22,8 +18,8 @@
                 null
             ],
             [
-                "alternate_battle_anim",
-                "Critical"
+                "dynamic_damage",
+                "(item_system.damage(unit, unit.get_weapon())+unit.stats['STR'])*2"
             ]
         ]
     }

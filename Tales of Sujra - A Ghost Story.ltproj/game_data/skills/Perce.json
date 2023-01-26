@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Perce",
+        "name": "Perc\u00e9",
+        "desc": "-Active Co\u00fbt : 2-\nFrappe en ignorant 5 DEF puis se d\u00e9place derri\u00e8re la cible.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            36
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Perce_child"
+            ]
+        ]
+    }
+]

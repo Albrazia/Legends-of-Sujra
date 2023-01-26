@@ -1,22 +1,20 @@
 [
     {
-        "name": "New Event",
-        "trigger": "level_start",
+        "name": "New Event_1",
+        "trigger": "unit_select",
         "level_nid": "Plop",
         "condition": "True",
         "commands": [
             [
-                "give_skill",
+                "alert",
                 [
-                    "Axel",
-                    "Embuscade (CoupReplis)"
+                    "{eval:item_system.damage(unit, unit.get_weapon())}"
                 ]
             ],
             [
-                "give_skill",
+                "alert",
                 [
-                    "Axel",
-                    "Triple Coup (TripleCoup)"
+                    "{eval:unit.get_weapon()}"
                 ]
             ]
         ],
