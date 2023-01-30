@@ -10,16 +10,16 @@
         ],
         "components": [
             [
-                "build_charge",
-                2
-            ],
-            [
                 "ability",
                 "AbsorbShumbus_Child"
             ],
             [
                 "class_skill",
                 null
+            ],
+            [
+                "build_charge",
+                2
             ],
             [
                 "upkeep_charge_increase",

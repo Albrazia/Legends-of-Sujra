@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "SurchargeMana",
+        "name": "Surchage de Mana",
+        "desc": "",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "mana_cost",
+                4
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                4
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_hit",
+                "BruleMana3"
+            ]
+        ]
+    }
+]

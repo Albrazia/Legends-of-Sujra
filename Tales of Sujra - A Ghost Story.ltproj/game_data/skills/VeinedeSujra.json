@@ -8,6 +8,15 @@
             0,
             16
         ],
-        "components": []
+        "components": [
+            [
+                "mana_regeneration",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
     }
 ]

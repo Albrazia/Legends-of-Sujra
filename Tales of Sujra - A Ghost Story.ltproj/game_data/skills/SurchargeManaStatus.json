@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "SurchargeManaStatus",
+        "name": "Surcharge de Mana",
+        "desc": "L'unit\u00e9 a re\u00e7u une trop grosse quantit\u00e9 de Mana. Son organisme ne le supportera pas.",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "upkeep_damage",
+                3
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -5
+                    ],
+                    [
+                        "MAG",
+                        -5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

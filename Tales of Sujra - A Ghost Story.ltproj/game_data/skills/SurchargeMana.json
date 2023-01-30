@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SurchargeMana",
+        "name": "Surcharge de Mana",
+        "desc": "-Active co\u00fbt : 4-\nInflige 3 points de d\u00e9g\u00e2ts et r\u00e9duit la STR/MAG de 5 \u00e0 la cible.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "ability",
+                "AbsorbShumbus_Child"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "cost_mana",
+                4
+            ]
+        ]
+    }
+]
