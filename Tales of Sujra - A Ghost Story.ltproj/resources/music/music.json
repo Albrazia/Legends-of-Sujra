@@ -120,16 +120,6 @@
         false
     ],
     [
-        "The Ability that I want to Obtain",
-        false,
-        false
-    ],
-    [
-        "Hey, sister",
-        false,
-        false
-    ],
-    [
         "Astera Day Theme",
         false,
         false
@@ -147,6 +137,16 @@
     [
         "Give Blessings to Us on the Road Loop",
         false,
+        false
+    ],
+    [
+        "Hey, sister",
+        true,
+        false
+    ],
+    [
+        "The Ability that I want to Obtain",
+        true,
         false
     ]
 ]
