@@ -148,5 +148,20 @@
         "The Ability that I want to Obtain",
         true,
         false
+    ],
+    [
+        "What will be waiting Tomorrow",
+        true,
+        false
+    ],
+    [
+        "Facing the Kraken",
+        true,
+        false
+    ],
+    [
+        "Duty",
+        false,
+        true
     ]
 ]

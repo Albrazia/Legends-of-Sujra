@@ -6,12 +6,12 @@
         "bg_tilemap": null,
         "party": "Ghost",
         "music": {
-            "player_phase": "Distant Roads",
-            "enemy_phase": "Shadow of the Enemy",
-            "other_phase": "Distant Roads",
+            "player_phase": "Duty",
+            "enemy_phase": "Duty",
+            "other_phase": "Duty",
             "enemy2_phase": null,
-            "player_battle": "Attack",
-            "enemy_battle": "Defense",
+            "player_battle": null,
+            "enemy_battle": null,
             "other_battle": null,
             "enemy2_battle": null,
             "boss_battle": null

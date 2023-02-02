@@ -146,14 +146,14 @@
                 "speak",
                 [
                     "Axel",
-                    "On les a distanc\u00e9, mais pas sem\u00e9.{br}Il faut continuer \u00e0 avancer."
+                    "On les a sem\u00e9."
                 ]
             ],
             [
                 "speak",
                 [
                     "Railoph",
-                    "Vous pouvez continuer. Je reste ici pour les retenir."
+                    "Vous devriez continuer. Je reste en arri\u00e8re au cas o\u00f9 ils nous poursuivent."
                 ]
             ],
             [
@@ -337,7 +337,7 @@
                 "speak",
                 [
                     "Axel",
-                    "Nous sommes encercl\u00e9."
+                    "Nul part o\u00f9 aller."
                 ]
             ],
             [
@@ -358,7 +358,7 @@
                 "speak",
                 [
                     "Railoph",
-                    "Mais une chose est s\u00fbre : elle va avoir besoin d'un coup de main."
+                    "Une chose est s\u00fbre : elle va avoir besoin d'un coup de main."
                 ]
             ],
             [

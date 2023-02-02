@@ -6,7 +6,7 @@
         "bg_tilemap": null,
         "party": "Ghost",
         "music": {
-            "player_phase": null,
+            "player_phase": "What will be waiting Tomorrow",
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,

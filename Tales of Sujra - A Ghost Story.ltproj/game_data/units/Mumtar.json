@@ -14,7 +14,7 @@
             "SKL": 1,
             "SPD": 5,
             "LCK": 0,
-            "DEF": 3,
+            "DEF": 5,
             "RES": 0,
             "CON": 12,
             "MOV": 5,
@@ -52,7 +52,7 @@
             ],
             "Axe": [
                 false,
-                1
+                31
             ],
             "Bow": [
                 false,

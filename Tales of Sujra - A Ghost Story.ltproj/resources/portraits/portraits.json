@@ -144,18 +144,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Olwenn",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Ridril",
         "blinking_offset": [
             24,
@@ -483,6 +471,18 @@
         "nid": "PirateBis",
         "blinking_offset": [
             16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Olwenn",
+        "blinking_offset": [
+            24,
             24
         ],
         "smiling_offset": [
