@@ -4559,6 +4559,41 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "PorteOuverte",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "14,6": [
+                        "SacredStonesVillage",
+                        [
+                            15,
+                            17
+                        ]
+                    ],
+                    "14,5": [
+                        "SacredStonesVillage",
+                        [
+                            14,
+                            17
+                        ]
+                    ],
+                    "15,5": [
+                        "SacredStonesVillage",
+                        [
+                            14,
+                            17
+                        ]
+                    ],
+                    "15,6": [
+                        "SacredStonesVillage",
+                        [
+                            14,
+                            17
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

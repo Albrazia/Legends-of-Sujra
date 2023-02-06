@@ -561,6 +561,27 @@
                 ]
             ],
             [
+                "speak",
+                [
+                    "Shumbus",
+                    "Oh j'm'en laisserais jamais !|J'ai d\u00e9couvert ce truc la derni\u00e8re fois qu'on \u00e9tait l\u00e0 et j'en suis tomb\u00e9 amoureuse."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Il y a deux ans ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Nan, c'\u00e9tait y'a un mois \u00e0 tout casser."
+                ]
+            ],
+            [
                 "comment",
                 [
                     "#"

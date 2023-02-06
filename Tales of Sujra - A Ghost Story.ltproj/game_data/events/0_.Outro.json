@@ -6,12 +6,6 @@
         "condition": "True",
         "commands": [
             [
-                "music",
-                [
-                    "Grasp at Victory"
-                ]
-            ],
-            [
                 "change_background",
                 [
                     "Forest"
@@ -96,15 +90,9 @@
                 ]
             ],
             [
-                "music_clear",
-                [
-                    "0"
-                ]
-            ],
-            [
                 "music",
                 [
-                    "Reunion"
+                    "\u00cele de lAurore"
                 ]
             ],
             [
@@ -455,13 +443,6 @@
                 [
                     "Railoph",
                     "Je n'ai jamais entendu parl\u00e9 d'elle, alors oui, je lui ferais confiance !"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Volta",
-                    "...|Merci"
                 ]
             ],
             [

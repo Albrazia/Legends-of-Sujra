@@ -163,5 +163,15 @@
         "Duty",
         false,
         true
+    ],
+    [
+        "\u00cele de lAurore",
+        true,
+        false
+    ],
+    [
+        "Assault_1",
+        false,
+        false
     ]
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "EncoreTempsCourir",
+        "name": "Il est encore temps de courir.",
+        "desc": "-Passive-\nsi PV<100%, l'unit\u00e9 re\u00e7oit +Crit +Hit \u00e9quivalent aux PV perdu.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "unit.get_max_hp()-unit.get_hp()"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "unit.get_max_hp()-unit.get_hp()"
+            ]
+        ]
+    }
+]
