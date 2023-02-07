@@ -269,30 +269,6 @@
                 "generic": true
             },
             {
-                "nid": "108",
-                "variant": null,
-                "level": 1,
-                "klass": "Wyvern",
-                "faction": "Sauvage",
-                "starting_items": [
-                    [
-                        "Rotten Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    0,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "109",
                 "variant": null,
                 "level": 1,
@@ -505,17 +481,12 @@
                 "nid": "WyvernRein",
                 "units": [
                     "107",
-                    "108",
                     "109"
                 ],
                 "positions": {
                     "107": [
                         0,
                         12
-                    ],
-                    "108": [
-                        0,
-                        13
                     ],
                     "109": [
                         0,

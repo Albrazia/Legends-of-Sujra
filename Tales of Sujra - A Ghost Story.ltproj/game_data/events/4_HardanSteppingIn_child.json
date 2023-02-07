@@ -1,0 +1,39 @@
+[
+    {
+        "name": "HardanSteppingIn_child",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Hardan",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Hardan",
+                    "Bien, c'est donc \u00e0 moi de jouer \u00e0 ce que je vois."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Hardan"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "Hardan",
+                    "Pursue"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

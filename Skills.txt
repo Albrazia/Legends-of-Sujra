@@ -1,0 +1,64 @@
+Volta : PassePasse
+-FlashDansLaNuit
+-Insaisissable
+Class up : ChronoRupture
+-HorsDuTempsSkill
+-(Lethalité)
+
+Railoph : CoupDeBouclier
+-Protection
+-CoupRenversant
+-AcierRailoph
+class up : CoeurDeRubis
+-(Defense proc : ignore les dégats subit)
+
+Axel : ChargeDuVide
+-CoupReplis
+-CarquoisAxel
+class up : (Monster Bane)
+-FissureAbyssaleSkill
+-TripleCoup
+
+Ridril : PerceDefense
+-SuperioriteAerienne
+-RescueM
+- (proc : brave effect + canto -reste)
+
+Shumbus : PersoShumbus
+-AbsorbShumbus
+-SurchargeShumbus
+
+Recon : SangChaud
+-WyvBal
+-GrappinWyvern
+-Crochet
+-(passive canto reste)
+
+Alice : VoeuxAlice
+-Ouverture
+-RedirectionDeFlux
+-Zephir
+
+Belzir : Lucky 7
+-Remoue : (attaque proc : stun)
+-Sabordage
+-Retour
+-BonneFortune
+-Provoc
+- (active : Frappe et fait passer un ennemis derrière lui, plus de précision) (coder pivot)
+
+Darsenn : innebranlable
+-CoupDeSang
+-Perce
+Class up : Adrenaline
+
+Reymi :
+-Base : Pharmacie
+- (proc : Confère un buff à distance à une unité pendant un tour)
+-Filet
+-Barricade
+
+Zobral :
+-Vient par là
+-EncoreTempsCourir
+

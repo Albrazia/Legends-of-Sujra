@@ -104,7 +104,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -132,7 +132,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "AvantGarde",
                 "faction": "Hisky",
                 "starting_items": [
@@ -160,7 +160,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "AvantGarde",
                 "faction": "Hisky",
                 "starting_items": [
@@ -184,7 +184,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -208,7 +208,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -232,7 +232,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -256,7 +256,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -280,7 +280,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pr\u00e9torienR",
                 "faction": "Hisky",
                 "starting_items": [
@@ -304,7 +304,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "ArcherH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -328,7 +328,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "ArcherH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -352,7 +352,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Cleric",
                 "faction": "Hisky",
                 "starting_items": [
@@ -380,7 +380,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Cleric",
                 "faction": "Hisky",
                 "starting_items": [
@@ -408,7 +408,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pegasus_KnightH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -432,7 +432,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pegasus_KnightH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -456,7 +456,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pegasus_KnightH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -484,7 +484,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pegasus_KnightH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -512,7 +512,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Pegasus_KnightH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -536,7 +536,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "MyrmidonH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -560,7 +560,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "MyrmidonH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -584,7 +584,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "MageFeuH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -608,7 +608,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "MageFeu",
                 "faction": "Hisky",
                 "starting_items": [
@@ -632,7 +632,7 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "MageFoudreH",
                 "faction": "Hisky",
                 "starting_items": [
@@ -883,6 +883,19 @@
                     1
                 ],
                 "sub_nid": "",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "HardanSteppingIn",
+                "region_type": "normal",
+                "position": null,
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false

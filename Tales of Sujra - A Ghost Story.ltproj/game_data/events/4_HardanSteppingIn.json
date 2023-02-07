@@ -1,20 +1,20 @@
 [
     {
-        "name": "Faire couler le bateau",
+        "name": "HardanSteppingIn",
         "trigger": "unit_wait",
-        "level_nid": "5",
+        "level_nid": "4",
         "condition": "True",
         "commands": [
             [
                 "if",
                 [
-                    "{eval:game.get_region('FaireCoulerLeBateau').contains({eval:unit.position}) and unit.nid=='Shumbus'}"
+                    "{eval:game.get_region('FaireCoulerLeBateau').contains({eval:unit.position}) and unit.team=='player'}"
                 ]
             ],
             [
                 "trigger_script_with_args",
                 [
-                    "Faire couler le bateau_child"
+                    "HardanSteppingIn_child"
                 ]
             ],
             [

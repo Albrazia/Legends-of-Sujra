@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Faire couler le bateau_child",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right",
+                    "left",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Pfoua, sacr\u00e9 bateau.|Mais j'ai d\u00e9j\u00e0 vu plus grand."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh les gars, \u00e7a vous dit on le br\u00fble ?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "MidLeft",
+                    "left",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Notre client est enferm\u00e9 l\u00e0 dedans Shumbus"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Et il semblerait, \u00e0 en juger l'oriflamme, que ce n'est pas un navire pirate..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "...|Et ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Shumbus arr\u00eates tes b\u00e9tises."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Pff."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

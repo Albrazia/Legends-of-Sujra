@@ -770,7 +770,7 @@
                 "speak",
                 [
                     "Shumbus",
-                    "C'est la premi\u00e8re fois que j'suis \u00e0 court d'id\u00e9e.|Pourquoi ?|C'est comme si il manquait juste un truc.|Un tout petit truc et \u00e7a repartirait, mais il est pas l\u00e0...|Et plus j'y r\u00e9fl\u00e9chis, plus j'suis triste."
+                    "J'sais pas, d'un coup y'a ce sentiment d\u00e9sagr\u00e9able qui est arriv\u00e9.|J'ai envie d'un truc mais je sais pas ce que c'est."
                 ]
             ],
             [
@@ -784,7 +784,7 @@
                 "speak",
                 [
                     "Shumbus",
-                    "Ouais, mais j'sais pas c'que c'est.|Bon, \u00e7a m'\u00e9nerve.|Volta a l'air d\u00e9prim\u00e9 donc j'vais l'emb\u00e9ter un peu."
+                    "Hm.|Bon, \u00e7a m'\u00e9nerve.|Volta a l'air d\u00e9prim\u00e9 donc j'vais l'emb\u00e9ter un peu."
                 ]
             ],
             [
@@ -798,7 +798,57 @@
                 "speak",
                 [
                     "Railoph",
-                    "Quelque chose qui lui manque, mais impossible \u00e0 identifier ?|C'est vraiment une jeune fille sensible."
+                    "Se sentirait elle seule ?"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Barrage"
+                ]
+            ],
+            [
+                "add_base_convo",
+                [
+                    "Tutoriel : Battle Quote"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{eval:'{eval:unit}'=='Tutoriel : Battle Quote'}"
+                ]
+            ],
+            [
+                "music",
+                [
+                    "Hey, sister"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "Tuto battle quote"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Eh bien, eh bien, prenez place pour encore un autre tutoriel !|Aujourd'hui on va parler des battle quote !|Vous l'aurez certainement remarqu\u00e9 lors des 6 chapitres pr\u00e9c\u00e9dent,|notre \u00e9quipe est plut\u00f4t bavarde en combat.|Particuli\u00e8rement pendant le premier combat de chaque carte et contre les boss.|Volta, Axel et Railoph en ont toujours.|Ce sont les personnages principaux donc ils ont ce droit.|Mais ce ne sont pas les seuls !|Les autre personnage du groupe peuvent aussi en avoir, et plus particuli\u00e8rement...|Moi !|Et moi c'est beaucoup plus respectable.|Pas de privil\u00e8ges indue de personnages principaux, mais bel et bien un privil\u00e8ge Orange !|Sauf que eux ce sont des guerriers, c'est pratique pour eux.|Moi, \u00e0 leur diff\u00e9rence, j'EXPLOSE quand on m'attaque.|Et \u00e7a sera de pire en pire \u00e0 mesure du temps qui passe.|Mais du coup pour lire mes provocations, c'est pas facile !|Et c'est pour \u00e7a, mes copains, que je dois vous pr\u00e9senter quelque chose...|Une arme tellement puissante que le monde lui m\u00eame l'a cach\u00e9,|tel une aiguille dans une botte de foin,|et qui me rendra invincible l'espace de quelques combats.|Une arme si puissante qu'elle briserait presque la balance de ce jeu...|Alors faites de la place dans mon inventaire et attendez vous au pire !"
+                ]
+            ],
+            [
+                "remove_base_convo",
+                [
+                    "Tutoriel : Battle Quote"
                 ]
             ],
             [

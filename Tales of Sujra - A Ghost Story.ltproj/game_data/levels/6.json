@@ -236,7 +236,7 @@
             {
                 "nid": "BD_1",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Marin",
                 "faction": "Pirate",
                 "starting_items": [
@@ -257,7 +257,7 @@
             {
                 "nid": "BD_2",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Marin",
                 "faction": "Pirate",
                 "starting_items": [
@@ -278,7 +278,7 @@
             {
                 "nid": "BD_3",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Pirate",
                 "starting_items": [
@@ -299,7 +299,7 @@
             {
                 "nid": "BD_4",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Pirate",
                 "starting_items": [
@@ -320,7 +320,7 @@
             {
                 "nid": "BD_5",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Brigand",
                 "faction": "Pirate",
                 "starting_items": [
@@ -341,7 +341,7 @@
             {
                 "nid": "HG_1",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "Pirate",
                 "starting_items": [
@@ -362,7 +362,7 @@
             {
                 "nid": "HG_2",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "Pirate",
                 "starting_items": [
@@ -383,7 +383,7 @@
             {
                 "nid": "HG_3",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer",
                 "faction": "Pirate",
                 "starting_items": [
@@ -404,7 +404,7 @@
             {
                 "nid": "HG_4",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Archer",
                 "faction": "Pirate",
                 "starting_items": [
@@ -425,7 +425,7 @@
             {
                 "nid": "HG_5",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Lancier",
                 "faction": "Pirate",
                 "starting_items": [
@@ -446,7 +446,7 @@
             {
                 "nid": "HD_1",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Cavalier",
                 "faction": "Pirate",
                 "starting_items": [
@@ -467,7 +467,7 @@
             {
                 "nid": "HD_2",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Cavalier",
                 "faction": "Pirate",
                 "starting_items": [
@@ -488,7 +488,7 @@
             {
                 "nid": "HD_3",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Marin",
                 "faction": "Pirate",
                 "starting_items": [
@@ -509,7 +509,7 @@
             {
                 "nid": "HD_4",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Marin",
                 "faction": "Pirate",
                 "starting_items": [
@@ -530,7 +530,7 @@
             {
                 "nid": "HD_5",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Pirate",
                 "starting_items": [
@@ -551,7 +551,7 @@
             {
                 "nid": "BG_1",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Bandit",
                 "starting_items": [
@@ -572,7 +572,7 @@
             {
                 "nid": "BG_2",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern_Rider_Axe",
                 "faction": "Pirate",
                 "starting_items": [
@@ -593,7 +593,7 @@
             {
                 "nid": "BG_3",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern Rider",
                 "faction": "Bandit",
                 "starting_items": [
@@ -614,7 +614,7 @@
             {
                 "nid": "BG_4",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Wyvern_Rider_Axe",
                 "faction": "Pirate",
                 "starting_items": [
