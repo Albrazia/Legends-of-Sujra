@@ -77,7 +77,7 @@ class Swap(SkillComponent):
 
 class ComeOverHere(SkillComponent):
     nid = 'Come Over Here'
-    desc= "Unit pulls an ennemys in front of him"
+    desc= "Unit pulls a unit in front of him"
     tag = SkillTags.CUSTOM
 
     def _check_come(self, unit_to_move, anchor):
@@ -207,3 +207,23 @@ class HealOnHit(SkillComponent):
         playback.append(pb.HealHit(unit, item, unit, heal, heal))
 
         actions.append(action.TriggerCharge(unit, self.skill))
+
+class Pivot(SkillComponent):
+    nid = 'CombatPivot'
+    desc= "Unit moves target behing it"
+    tag = SkillTags.CUSTOM
+
+    def _check_pivot(self, unit_to_move, anchor):
+        offset_x = unit_to_move.position[0] - anchor.position[0]
+        offset_y = unit_to_move.position[1] - anchor.position[1]
+        new_position = (anchor.position[0] - offset_x, anchor.position[1] - offset_y)
+
+        if not game.board.get_unit(new_position):
+            return new_position
+        return False
+
+    def end_combat(self, playback, unit, item, target, mode):
+        if not skill_system.ignore_forced_movement(target) and mode:
+            new_position = self._check_pivot(target, unit)
+            if new_position:
+                action.do(action.ForcedMovement(target, new_position))

@@ -1421,6 +1421,25 @@
                 ]
             ],
             [
+                "add_talk",
+                [
+                    "Volta",
+                    "Lenh"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
                 "elif",
                 [
                     "unit2.nid=='Recon'"
@@ -1991,7 +2010,17 @@
                     "La voix est libre.|Eh eh eh, explorons un peu ce qu'il se passe par l\u00e0.",
                     "",
                     "",
-                    "thought_bubble"
+                    "thought_bubble",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
                 ]
             ],
             [
@@ -2027,7 +2056,17 @@
                     "Son bureau hein ?|J'ai vol\u00e9 une copie de ses derni\u00e8res notes. Ca lui apprendra \u00e0 pas m'expliquer pourquoi il m'a retenu deux jours tiens !",
                     "",
                     "",
-                    "thought_bubble"
+                    "thought_bubble",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "0"
                 ]
             ],
             [
@@ -2065,6 +2104,503 @@
                 [
                     "32",
                     "FLAG(immediate)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid=='Lenh'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lenh",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Oh bonjour."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Hey !|Qu'est ce que vous faites dans votre coin ?|De loin vous avez l'air de vous ennuyer."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Nous venons d'arriver, alors nous enregistrons la monture de notre ami.|Malheureusement nous ne savons pas vraiment comment faire..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh vous venez d'arriver ?|Moi aussi !|Si vous voulez j'ai un ami qui a enregistr\u00e9 un animal, il pourrait vous montrer comment faire."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Ce serait une sacr\u00e9 \u00e9pine que tu nous retirerais !|Je suis Lenh, chef en poste de l'\u00e9quipe Flint's Arrow."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Moi c'est Volta ! Membre de l'\u00e9quipe Ghost !|Mais je vois aucun archer dans votre groupe, pourquoi ce nom ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "C'est une longue histoire, je serais partant pour te la raconter un jour."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Mais vous avez un truc \u00e0 faire, j'comprends ouais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Et je te retourne la question, le nom de votre \u00e9quipe ne te correspond pas non plus."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Je sais pas d'o\u00f9 \u00e7a vient, va falloir que je demande \u00e0 la fautive."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Ha ha, \u00e7a a l'air d'\u00eatre une sacr\u00e9 histoire aussi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Bon j'vais vous montrer Axel.|Il est un peu sec mais faites pas trop gaffe, c'est sa fa\u00e7on de dire bonjour."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lenh",
+                    "Je ne lui en tiendrais donc pas rigueur.|Merci !"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lenh",
+                    "Axel",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Sophia"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "Caleb"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Volta",
+                    "William"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid=='Caleb'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Caleb",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oh, c'est donc \u00e0 toi qu'il faut faire enregistrer son animal !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caleb",
+                    "C'est exact. Merci encore pour l'assistance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Y'a pas de probl\u00e8me mon grand, \u00e7a me fait plaisir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caleb",
+                    "Je suis Caleb, des Flint's Arrow. Enchant\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Volta ! Alors, comment \u00e7a se passe au Sanctuaire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caleb",
+                    "Nous venons tout juste d'arriver, tout para\u00eet extr\u00eamement grand..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ouais je te comprends.|Ce monolithe noir au centre est tellement grand qu'il me donne le vertige..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caleb",
+                    "Tout le monde autour de nous semble s'y \u00eatre pr\u00e9par\u00e9.|Ca ne saurait tard\u00e9 pour nous je suppose."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ouais, j'esp\u00e8re.|\u00c0 une prochaine !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caleb",
+                    "Au plaisir."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid=='Sophia'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Sophia",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Yahou !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "Y-Yahou ?.."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Ouais ! Coucou, quoi."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "O-oh..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Moi c'est Volta, de l'\u00e9quipe Ghost. Et toi ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "Je suis Sophia des Flint's Arrow."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "On t'a d\u00e9j\u00e0 dit que t'avais de beaux yeux ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "Qu-Qu'est ce que tu racontes soudainement ?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Uh... C'est comme \u00e7a qu'il faut r\u00e9agir en faite..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "Qu'est ce que tu veux dire ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Y'a un dragueur qui m'a abord\u00e9 plus t\u00f4t, avec cette phrase.|Il \u00e9tait d\u00e9\u00e7u parce que je l'ai envoy\u00e9 balader tout de suite.|Du coup je me demandais ce qu'il attendait \u00e0 la place."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "Je vois..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Fait gaffe \u00e0 toi hein.|Ca a l'air d'\u00eatre un idiot de premi\u00e8re classe.|Si jamais il t'emb\u00eate et que tu me vois h\u00e9site pas \u00e0 crier mon nom !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sophia",
+                    "J'y penserais..."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid=='William'"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "William",
+                    "Right"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "William",
+                    "En voila une avec le contact facile !|Ca fait plaisir j'ai rencontr\u00e9 qu'des timides depuis que je suis arriv\u00e9."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Oooh, un compatriote.|Moi c'est Volta !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "William",
+                    "William, un plaisir de te rencontrer.|Alors, qu'est ce qui t'as fait voler \u00e0 notre secours ?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Lenh fron\u00e7ait des sourcils tellement fort que j'arrivais \u00e0 le sentir de l\u00e0 bas.|J'me suis dit que j'allais venir voir ce qu'il se passait !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "William",
+                    "Je me permet de te remercier aussi, je te le revaudrais."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Pas de soucis William, contente d'avoir pu aider.|Entre nouveaux faut se serrer les coudes !"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "William",
+                    "Compte sur moi !"
                 ]
             ],
             [

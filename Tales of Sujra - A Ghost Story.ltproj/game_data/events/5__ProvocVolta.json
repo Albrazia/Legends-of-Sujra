@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocVolta",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Volta",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Volta",
+                    "Eh, c'est pas si diff\u00e9rent que se battre contre des bandits en fait.|...|Tu me diras, les pirates c'est juste des bandits amphibie en fait."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

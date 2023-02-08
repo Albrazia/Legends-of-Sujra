@@ -2,7 +2,7 @@
     {
         "nid": "HorsDuTempsSkill",
         "name": "Hors du Temps",
-        "desc": "-Active Co\u00fbt : 2-\nVolta plie le temps pour se d\u00e9placer\ninstantan\u00e9ment o\u00f9 elle veut sur le champ de bataille.",
+        "desc": "<green>-Active Co\u00fbt : 2-</>\nVolta plie le temps pour se d\u00e9placer\ninstantan\u00e9ment o\u00f9 elle veut sur le champ de bataille.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             6,

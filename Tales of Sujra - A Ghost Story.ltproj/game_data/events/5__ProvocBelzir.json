@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocBelzir",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Belzir",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Belzir",
+                    "J'vous laisserais pas faire bande d'enfoir\u00e9.|Vous aurez ni Oliver ni sa cargaison, parole de Belzir !"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

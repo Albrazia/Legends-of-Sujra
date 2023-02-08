@@ -1,17 +1,17 @@
 [
     {
-        "nid": "InsulteDeMarin",
-        "name": "Insultes de marin",
-        "desc": "-Active co\u00fbt 2-\nInflige Faille \u00e0 l'unit\u00e9 et \u00e0 tout les ennemis \u00e0 deux cases ou moins.",
+        "nid": "SurchargeShumbus",
+        "name": "Surcharge de Mana",
+        "desc": "<purple>-Active co\u00fbt : 4-</>\nInflige 3 points de d\u00e9g\u00e2ts et r\u00e9duit la STR/MAG de 5 \u00e0 la cible.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            2,
-            37
+            0,
+            8
         ],
         "components": [
             [
                 "ability",
-                "InsulteDeMarin"
+                "AbsorbShumbus_Child"
             ],
             [
                 "class_skill",
@@ -19,7 +19,7 @@
             ],
             [
                 "cost_mana",
-                2
+                4
             ]
         ]
     }

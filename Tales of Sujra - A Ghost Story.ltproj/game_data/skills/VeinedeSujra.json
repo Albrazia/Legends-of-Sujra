@@ -2,7 +2,7 @@
     {
         "nid": "VeinedeSujra",
         "name": "Veine de Sujra",
-        "desc": "-Passive-\nL'unit\u00e9 r\u00e9g\u00e9n\u00e8re 1 Mana par tour.",
+        "desc": "<pink>-Passive-</>\nL'unit\u00e9 r\u00e9g\u00e9n\u00e8re 1 Mana par tour.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             0,

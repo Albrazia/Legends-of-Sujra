@@ -1,0 +1,32 @@
+[
+    {
+        "name": "_ProvocRailoph",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Railoph",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Railoph",
+                    "Vous avez encore une chance de faire demi tour.|Si vous tenez \u00e0 la vie, fuyez !"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Axel'"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

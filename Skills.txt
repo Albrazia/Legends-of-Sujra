@@ -39,13 +39,13 @@ Alice : VoeuxAlice
 -RedirectionDeFlux
 -Zephir
 
-Belzir : Lucky 7
+Belzir : Lucky7
 -Remoue : (attaque proc : stun)
 -Sabordage
 -Retour
 -BonneFortune
 -Provoc
-- (active : Frappe et fait passer un ennemis derrière lui, plus de précision) (coder pivot)
+-VireBord
 
 Darsenn : innebranlable
 -CoupDeSang
@@ -59,6 +59,6 @@ Reymi :
 -Barricade
 
 Zobral :
--Vient par là
+-VientParLa
 -EncoreTempsCourir
 

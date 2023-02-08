@@ -1,17 +1,17 @@
 [
     {
-        "nid": "SurchargeMana",
-        "name": "Surcharge de Mana",
-        "desc": "-Active co\u00fbt : 4-\nInflige 3 points de d\u00e9g\u00e2ts et r\u00e9duit la STR/MAG de 5 \u00e0 la cible.",
+        "nid": "Provoc",
+        "name": "Insultes de marin",
+        "desc": "-Active co\u00fbt 2-\nInflige Faille \u00e0 l'unit\u00e9 et \u00e0 tout les ennemis \u00e0 deux cases ou moins.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
-            8
+            41
         ],
         "components": [
             [
                 "ability",
-                "AbsorbShumbus_Child"
+                "InsulteDeMarin"
             ],
             [
                 "class_skill",
@@ -19,7 +19,7 @@
             ],
             [
                 "cost_mana",
-                4
+                2
             ]
         ]
     }

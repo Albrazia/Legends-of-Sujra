@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Ouverture",
+        "name": "Ouverture des flux",
+        "desc": "<green>-active-</>\nL'unit\u00e9 sacrifie 3 points de r\u00e9sistance pour 3 tour et r\u00e9cup\u00e8re imm\u00e9diatement 3 mana.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons (1)",
+        "icon_index": [
+            3,
+            48
+        ],
+        "components": [
+            [
+                "ability",
+                "OuvertureFlux"
+            ]
+        ]
+    }
+]

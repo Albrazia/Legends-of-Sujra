@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocShumbus",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Shumbus",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Shumbus",
+                    "Maintenant que t'es proche, j'en suis certaine.|Vous avez besoin de prendre une douche les gars.|Vous puez le poisson !|Comment vous voulez \u00eatre mena\u00e7ant en sentant le fruit de mer ?!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

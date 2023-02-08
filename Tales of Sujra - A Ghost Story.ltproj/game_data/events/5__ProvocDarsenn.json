@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocDarsenn",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Darsenn",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Darsenn",
+                    "Nous revenons d'un dur entrainement.|\u00c0 moi de prouver que j'en \u00e9tais digne !"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

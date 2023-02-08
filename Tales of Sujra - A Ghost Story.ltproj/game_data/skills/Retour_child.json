@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Retour_child",
+        "name": "Retour de bonne fortune",
+        "desc": "<red>-Skill d'attaque-</>\n%LCK d'inflige des d\u00e9g\u00e2ts suppl\u00e9mentaire \u00e9quivalent \u00e0 30%hp perdu.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "(unit.get_max_hp()-unit.get_hp())*0.3"
+            ]
+        ]
+    }
+]

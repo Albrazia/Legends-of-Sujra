@@ -1,0 +1,100 @@
+[
+    {
+        "name": "_Provoc",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit1.nid=='Belzir'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocBelzir"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Ridril'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocRidril"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Volta'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocVolta"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Railoph'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocRailoph"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Axel'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocAxel"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit1.nid=='Darsenn'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocDarsenn"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid=='Shumbus'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "_ProvocShumbus"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -2,7 +2,7 @@
     {
         "nid": "PersoShumbus",
         "name": "Joyeuse et Sucr\u00e9e",
-        "desc": "<red>-Passive-</>\nConf\u00e8re +1 atq/vit/def/res aux alli\u00e9s \u00e0 3 cases ou moins.\n-Active Co\u00fbt 4-\nAjouter +2 stat suppl\u00e9mentaire pour ce tour.",
+        "desc": "<pink>-Passive-</>\nConf\u00e8re +1 atq/vit/def/res aux alli\u00e9s \u00e0 3 cases ou moins.\n<green>-Active Co\u00fbt 4-</>\nAjouter +2 stat suppl\u00e9mentaire pour ce tour.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             2,

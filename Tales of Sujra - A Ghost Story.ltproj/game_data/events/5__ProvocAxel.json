@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocAxel",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Axel",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Axel",
+                    "\u00c9coutez pas Railoph.|Aucun d'entre vous ne s'\u00e9chappera."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

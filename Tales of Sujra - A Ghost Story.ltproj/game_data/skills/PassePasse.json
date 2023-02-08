@@ -2,7 +2,7 @@
     {
         "nid": "PassePasse",
         "name": "Tour de passe passe",
-        "desc": "-Active Epee Co\u00fbt : 2-\nL'unit\u00e9 inflige Faille \u00e0 chaque coup et \u00e9change de place avec la cible apr\u00e8s le combat.",
+        "desc": "<red>-Active Epee Co\u00fbt : 2-</>\nL'unit\u00e9 inflige Faille \u00e0 chaque coup et \u00e9change de place avec la cible apr\u00e8s le combat.",
         "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
         "icon_index": [
             10,

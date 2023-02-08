@@ -3,7 +3,7 @@
         "nid": "Recon",
         "name": "Recon",
         "desc": "Un jeune Wyvern qui refuse d'\u00eatre mont\u00e9.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Wyvern",
         "tags": [],

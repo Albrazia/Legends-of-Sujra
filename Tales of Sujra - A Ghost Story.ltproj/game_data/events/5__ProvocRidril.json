@@ -1,0 +1,26 @@
+[
+    {
+        "name": "_ProvocRidril",
+        "trigger": null,
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Ridril",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ridril",
+                    "J'aurais vraiment mieux fait de me taire...|Mais une Chasseuse s'adapte !|\u00c0 l'attaque !"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

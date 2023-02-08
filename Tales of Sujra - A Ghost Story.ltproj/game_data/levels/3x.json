@@ -551,6 +551,46 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Lenh",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "William",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caleb",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Sophia",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -912,7 +952,8 @@
                     "18",
                     "AllerWyvern",
                     "AllerRoamy",
-                    "AllerAurora"
+                    "AllerAurora",
+                    "Sophia"
                 ],
                 "positions": {
                     "Alice": [
@@ -1047,7 +1088,11 @@
                     "Recon",
                     "26",
                     "27",
-                    "28"
+                    "28",
+                    "Lenh",
+                    "William",
+                    "Caleb",
+                    "Sophia"
                 ],
                 "positions": {
                     "Axel": [
@@ -1083,8 +1128,24 @@
                         6
                     ],
                     "28": [
+                        10,
+                        0
+                    ],
+                    "Lenh": [
+                        18,
+                        9
+                    ],
+                    "William": [
+                        19,
+                        8
+                    ],
+                    "Caleb": [
                         16,
-                        6
+                        9
+                    ],
+                    "Sophia": [
+                        16,
+                        8
                     ]
                 }
             },

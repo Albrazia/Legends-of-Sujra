@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Retour",
+        "name": "Retour de bonne fortune",
+        "desc": "<red>-Skill d'attaque-</>\n%LCK d'inflige des d\u00e9g\u00e2ts suppl\u00e9mentaire \u00e9quivalent \u00e0 30%hp perdu.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            3
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "CRIT_AVOID"
+            ],
+            [
+                "attack_proc",
+                "Canto"
+            ]
+        ]
+    }
+]

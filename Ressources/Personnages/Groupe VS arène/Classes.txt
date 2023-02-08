@@ -1,4 +1,4 @@
-Cavalier Wyvern
+Cavalier
 Chevalier fléau
 Mage Foudre
-chef : Hero
+chef : Mercenaire

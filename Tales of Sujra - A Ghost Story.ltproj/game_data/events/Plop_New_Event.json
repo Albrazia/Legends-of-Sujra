@@ -4,22 +4,7 @@
         "trigger": "level_start",
         "level_nid": "Plop",
         "condition": "True",
-        "commands": [
-            [
-                "give_skill",
-                [
-                    "Axel",
-                    "Embuscade (CoupReplis)"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "Axel",
-                    "Triple Coup (TripleCoup)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
         "priority": 20
     }

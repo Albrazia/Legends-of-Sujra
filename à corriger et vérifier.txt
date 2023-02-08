@@ -17,7 +17,6 @@ Dialogues Chap 4,4x,5,6,6x
 Script findecombat chap4
 Script CombatDialogue chap5
 Cinématique intro-outro Chap 4,4x,5,6,6x
-unicité du proc "Faire couler le bateau"
 unicité des provocations dans le chapitre 5
 
 Graphics :

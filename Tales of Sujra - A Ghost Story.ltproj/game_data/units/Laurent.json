@@ -1,45 +1,40 @@
 [
     {
-        "nid": "Edgat",
-        "name": "Edgat",
-        "desc": "Une invocation, j'veux voir si \u00e7a foncitonne ce que je fais",
-        "variant": "",
-        "level": 5,
-        "klass": "Soldier",
+        "nid": "Laurent",
+        "name": "Laurent",
+        "desc": "Chef de l'\u00e9quipe PlainWalker.\nDragueur et d\u00e9contract\u00e9 \u00e0 l'exc\u00e8s.",
+        "variant": null,
+        "level": 1,
+        "klass": "Ranger",
         "tags": [],
         "bases": {
-            "HP": 15,
-            "STR": 7,
-            "MAG": 4,
-            "SKL": 8,
-            "SPD": 8,
-            "LCK": 3,
-            "DEF": 4,
-            "RES": 4,
-            "MaxM": 2,
-            "CON": 7,
-            "MOV": 6
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MaxM": 0,
+            "CON": 0,
+            "MOV": 0
         },
         "growths": {
-            "HP": 50,
-            "STR": 50,
-            "MAG": 50,
-            "SKL": 50,
-            "SPD": 50,
-            "LCK": 50,
-            "DEF": 50,
-            "RES": 50,
-            "MaxM": 50,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MaxM": 0,
             "CON": 0,
             "MOV": 0
         },
         "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "CoeurDeRubis"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -48,7 +43,7 @@
             ],
             "Lance": [
                 false,
-                1
+                0
             ],
             "Axe": [
                 false,
@@ -104,7 +99,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man2",
+        "portrait_nid": "Laurent",
         "affinity": "None",
         "fields": []
     }

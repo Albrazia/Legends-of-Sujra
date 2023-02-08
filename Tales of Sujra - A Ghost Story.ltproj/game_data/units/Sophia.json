@@ -1,45 +1,40 @@
 [
     {
-        "nid": "Philipe",
-        "name": "Philipe",
-        "desc": "Un invocateur qui doit pouvoir invoquer Edgat",
-        "variant": null,
+        "nid": "Sophia",
+        "name": "Sophia",
+        "desc": "Membre du Flint's Arrow.\nTimide et discr\u00e8te, elle ne sait pas communiquer ses \u00e9motions.",
+        "variant": "",
         "level": 1,
-        "klass": "Wyvern Rider",
+        "klass": "Mage",
         "tags": [],
         "bases": {
-            "HP": 10,
-            "STR": 10,
-            "MAG": 10,
-            "SKL": 10,
-            "SPD": 1,
-            "LCK": 1,
-            "DEF": 1,
-            "RES": 1,
-            "MaxM": 10,
-            "CON": 10,
-            "MOV": 10
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MaxM": 0,
+            "CON": 0,
+            "MOV": 0
         },
         "growths": {
-            "HP": 40,
-            "STR": 40,
-            "MAG": 40,
-            "SKL": 40,
-            "SPD": 40,
-            "LCK": 40,
-            "DEF": 40,
-            "RES": 40,
-            "MaxM": 40,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "MaxM": 0,
             "CON": 0,
             "MOV": 0
         },
         "starting_items": [],
-        "learned_skills": [
-            [
-                1,
-                "SummonEdgat"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -104,7 +99,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Man1",
+        "portrait_nid": "Ella",
         "affinity": "None",
         "fields": []
     }
